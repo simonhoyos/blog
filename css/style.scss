@@ -1,0 +1,227 @@
+---
+---
+
+@import "base";
+
+.home {
+  background-color: #213338;
+  background-image: url('../images/home.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height: 400px;
+
+  .navbar-default {
+    background-color: transparent;
+    border: none;
+  }
+
+  .navbar-default .navbar-brand {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 28px;
+    padding: 25px 30px;
+  }
+
+  .navbar-nav.navbar-right:last-child { margin-right: 10px; }
+
+  .navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 25px;
+  }
+
+  .main {
+    color: white;
+    font-size: 48px;
+    line-height: 1.2;
+    padding: 250px 100px 0;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  .action {
+    text-align: center;
+    padding-bottom: 200px;
+  }
+
+  .primary {
+    transition: background-color 0.5s ease;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 4px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .primary:hover {
+    background-color: #213338;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.what-is-it {
+  padding-bottom: 80px;
+
+  .tag-line {
+    color: #213338;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+}
+
+.info {
+  background-color: #213338;
+  color: white;
+
+  padding-top: 60px;
+  padding-bottom: 80px;
+
+  .title { 
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .technology {
+    margin-top: 40px;
+
+    .icon { float: left; font-size: 42px; padding-top: 5px; }
+    .alt { line-height: 1; font-size: 48px; }
+    > div {
+      padding-left: 70px;
+    }
+
+    header {
+      font-size: 21px;
+      font-weight: 300;
+      margin-bottom: 14px;
+    }
+
+    p { 
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  }
+}
+
+.details {
+  background-color: rgb(45,169,171);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .title { 
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .box {
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    height: 225px;
+    margin: 40px 10px;
+    header { font-size: 24px; color: #213338; font-family: 'Open Sans Condensed', sans-serif; margin-bottom: 15px;}
+  }
+
+  .duration {
+    .value {
+      display: block;
+      color: rgb(45,169,171);
+      font-size: 62px;
+      font-weight: bold;
+      line-height: 1;
+    }
+    .unit {
+      display: block;
+      color: rgb(45,169,171);
+      font-size: 28px;
+      line-height: 1;
+    }
+  }
+
+  .city { color: rgb(45,169,171); font-size: 28px; font-weight: bold; margin-top: 40px; }
+  .tuition { color: rgb(45,169,171); font-size: 28px; margin-top: 40px; }
+
+  .when {
+    .value {
+      display: block;
+      color: rgb(45,169,171);
+      font-size: 62px;
+      font-weight: bold;
+      line-height: 1.1;
+    }
+    .unit {
+      display: block;
+      color: rgb(45,169,171);
+      font-size: 28px;
+      line-height: 1;
+    }
+  }
+}
+
+.method {
+  background-color: #213338;
+  color: white;
+  padding-bottom: 80px;
+
+  .title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  header {
+    font-size: 21px;
+    margin-bottom: 14px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.6em;
+  }
+}
+
+.faq {
+  padding-bottom: 80px;
+
+  .q { margin-top: 40px; }
+
+  .title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }  
+
+  header {
+    color: rgb(45,169,171);
+    font-size: 21px;
+    margin-bottom: 14px;
+  }
+  p {
+    color: #213338;
+    font-size: 16px;
+    line-height: 1.6em;
+  }
+}
