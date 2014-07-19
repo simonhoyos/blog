@@ -1,14 +1,11 @@
+@import "theme";
 @import "bootstrap";
 
-body { font-family: 'Open Sans', sans-serif; }
-
-a { color: #4b8952; }
+a:hover { text-decoration: none; }
 
 .title {
-  color: #213338;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 21px;
-  font-weight: bold;
+  color: $primary-color;
+  font: 21px bold $font-family-condensed; 
   margin-bottom: 20px;
 
   @media (min-width: $screen-md-min) {
@@ -16,15 +13,7 @@ a { color: #4b8952; }
   }
 }
 
-
-p {
-  color: #213338; 
-  font-size: 16px; 
-  line-height: 1.6;
-}
-
 .inverted {
   color: white;
-  p { color: white; }
-  .title { color: white; }
+  p, .title { color: white; }
 }
