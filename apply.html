@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Make it real!</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+  <script src='https://cdn.firebase.com/js/client/1.0.17/firebase.js'></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+</head>
+<body>
+
+  <div class="apply">
+    <header class="main-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <a class="brand" href="/">makeit<strong>real</strong></a>
+          </div>
+          <div class="col-xs-6 text-right clearfix">
+            <ul class="nav"><li><a href="#">Blog</a></li></ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="title text-center">Formulario de Aplicación</div>
+    <div class="subtitle">¿Estás preparado para 12 intensas semanas?</div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <form class="application-form" style="margin-top: 60px;">
+            <div class="hr">
+              <span>DATOS PERSONALES</span>
+              <hr>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="first-name" class="control-label">Nombres:</label>
+                  <input type="text" id="first-name" class="form-control">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="last-name" class="control-label">Apellidos:</label>
+                  <input type="text" id="last-name" class="form-control">
+                </div>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="control-label">Email:</label>
+              <input type="email" id="email" class="form-control">
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="birth" class="control-label">Fecha de Nacimiento:</label>
+                  <input type="text" id="birth" class="form-control" placeholder="dd / mm / aaaa">
+                </div>              
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                <label for="mobile" class="control-label">Teléfono Móvil:</label>
+                <input type="text" id="mobile" class="form-control">
+              </div>
+              </div>
+            </div>
+
+            <div class="hr">
+              <span>PREGUNTAS</span>
+              <hr>
+            </div>
+
+            <div class="form-group">
+              <label for="why" class="control-label">¿Por qué quieres aplicar a Make it Real?</label>
+              <textarea id="why" rows="5" class="form-control" placeholder="¿Cuál es tu motivación? ¿Tienes algún proyecto que quisieras construir? ¿Qué esperas del bootcamp?"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="experience" class="control-label">¿Cuál es tu nivel de experiencia?</label>
+              <textarea id="experience" rows="5" class="form-control" placeholder="¿Has intentado aprender a programar antes? ¿Estudiaste alguna carrera relacionada (Sistemas, Electrónica, Telecomunicaciones, etc)?"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="about-you" class="control-label">¿Algo más que nos quieras contar de ti?</label>
+              <textarea id="about-you" rows="5" class="form-control" placeholder="Puede ser algún hobby, un link a tu portafolio personal, y/o alguna historia que te ejemplifique."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="found-us" class="control-label">¿Cómo te enteraste de nosotros?</label>
+              <input type="text" id="found-us" class="form-control">
+            </div>
+
+            <div class="hr"><hr></div>
+            <button type="submit" class="btn btn-lg btn-primary btn-block">Enviar Aplicación</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var applicationsRef = new Firebase('https://glaring-fire-2299.firebaseio.com/applications');
+
+    $('#birth').mask('99 / 99 / 9999');
+    $('#first-name').focus();
+
+    $('form').submit(function(e) {
+      e.preventDefault();
+
+      var firstName = $('#first-name').val();
+      var lastName = $('#last-name').val();
+      var email = $('#email').val();
+      var birth = $('#birth').val();
+      var mobile = $('#mobile').val();
+
+      var why = $('#why').val();
+      var experience = $('#experience').val();
+      var about = $('#about-you').val();
+      var foundUs = $('#found-us').val();
+
+      var errors = false;
+      if (!about) {
+        $('#about-you').focus().closest('.form-group').addClass("has-error");
+        errors = true;
+      }
+      if (!experience) {
+        $('#experience').focus().closest('.form-group').addClass("has-error");
+        errors = true;
+      }
+      if (!why) {
+        $('#why').focus().closest('.form-group').addClass("has-error");
+        errors = true;
+      }
+      if (!mobile) {
+        $('#mobile').focus().closest('.form-group').addClass("has-error");
+        errors = true;
+      }
+      if (!birth) {
+        $('#birth').focus().closest('.form-group').addClass("has-error");
+        errors = true;
+      }
+      if (!email) {
+        $('#email').focus().closest('.form-group').addClass("has-error");
+        errors = true;
+      }
+      if (!lastName) {
+        $('#last-name').focus().closest('.form-group').addClass("has-error");
+        errors = true;
+      }
+      if (!firstName) { 
+        $('#first-name').focus().closest('.form-group').addClass("has-error");
+        errors = true;
+      }
+      
+      if (!errors) {
+        applicationsRef.push({
+          first_name: firstName,
+          last_name: lastName,
+          birth: birth,
+          mobile: mobile,
+          why: why,
+          experience: experience,
+          about: about,
+          found_us: foundUs
+        }, function(error) {
+          if (!error) {
+            window.location = '/thankyou.html';
+          } else {
+            alert("Ha ocurrido un error inesperado. Por favor inténtalo nuevamente.")
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
