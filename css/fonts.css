@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?o2yyxq');
-	src:url('fonts/icomoon.eot?#iefixo2yyxq') format('embedded-opentype'),
-		url('fonts/icomoon.woff?o2yyxq') format('woff'),
-		url('fonts/icomoon.ttf?o2yyxq') format('truetype'),
-		url('fonts/icomoon.svg?o2yyxq#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?d8ezym');
+	src:url('fonts/icomoon.eot?#iefixd8ezym') format('embedded-opentype'),
+		url('fonts/icomoon.woff?d8ezym') format('woff'),
+		url('fonts/icomoon.ttf?d8ezym') format('truetype'),
+		url('fonts/icomoon.svg?d8ezym#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -29,8 +29,38 @@
 .icon-uniF148:before {
 	content: "\f148";
 }
+.icon-uniF14F:before {
+	content: "\f14f";
+}
+.icon-gears:before {
+	content: "\f085";
+}
+.icon-twitter:before {
+	content: "\f099";
+}
+.icon-github:before {
+	content: "\f09b";
+}
+.icon-envelope:before {
+	content: "\f0e0";
+}
+.icon-send:before {
+	content: "\f1d8";
+}
 .icon-uniE603:before {
 	content: "\e603";
+}
+.icon-cog:before {
+	content: "\e605";
+}
+.icon-cogs:before {
+	content: "\e606";
+}
+.icon-tree:before {
+	content: "\e607";
+}
+.icon-insert-template:before {
+	content: "\e608";
 }
 .icon-code:before {
 	content: "\e600";
@@ -38,7 +68,7 @@
 .icon-console:before {
 	content: "\e604";
 }
-.icon-github:before {
+.icon-github2:before {
 	content: "\e601";
 }
 .icon-html5:before {

@@ -307,3 +307,48 @@
     }
   } 
 }
+
+.team {
+  margin-bottom: 80px;
+
+  .box {
+    margin-top: 40px;
+
+    img { 
+      width: 150px; height: 150px;
+    }
+
+    header {
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 14px;
+
+      @media (min-width: $screen-md-min) {
+        font-size: 21px;
+      }
+    }
+
+    p {
+      margin-bottom: 0;
+      a { 
+       color: #A5CCAA; 
+       &:hover, &:active { color: lighten(#A5CCAA, 5%); text-decoration: underline; }
+      }
+    }
+
+    ul {
+      display: inline-block;
+      font-size: 21px;
+      padding: 0;
+      margin: 0;
+
+      li { 
+        float: left; 
+        list-style-type: none; 
+        padding: 15px;
+
+        a { color: white; }
+      }
+    }
+  }
+}
