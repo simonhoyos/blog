@@ -1,0 +1,29 @@
+---
+layout: blog
+---
+
+<div class="blog">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="posts">
+          {% for post in site.posts %}
+            <div class="post-info">
+              <header>
+                <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <div class="post-details">
+                  {% if post.author %}Por <span class="post-author">{{ post.author }}</span> • {% endif %} 
+                  <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                </div>
+              </header>
+              {{ post.excerpt}} 
+              <a class="post-link continue" href="{{ post.url | prepend: site.baseurl }}">Sigue leyendo</a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

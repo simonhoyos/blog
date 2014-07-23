@@ -352,3 +352,55 @@
     }
   }
 }
+
+.blog {
+  .main-nav {
+    background-color: $secondary-color;
+  }
+}
+
+.post-details {
+  color: #999;
+  font-size: 14px;
+  margin-top: -5px;
+  .post-author { color: $secondary-color; }
+}
+
+.posts {
+  margin-top: 80px;
+  .post-info {
+    margin-bottom: 60px;
+
+    header { margin-bottom: 18px; }
+    .post-title {
+      color: $primary-color;
+      font-family: $font-family-condensed;
+      font-size: 38px; 
+    }
+
+    .continue { 
+      display: block;
+      font-size: 14px; 
+      margin-top: -5px; 
+    }
+  }
+}
+
+.post {
+  .header { margin-top: 60px; }
+  header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    h1 { font-family: $font-family-condensed; }
+  }
+  p { margin-bottom: 18px; }
+  h2 { 
+    font-family: $font-family-condensed; 
+    margin-bottom: 21px;
+  }
+
+  .footer {
+    margin-top: 40px; 
+    margin-bottom: 100px;
+  }
+}
