@@ -138,6 +138,7 @@ class:  apply
     
     if (!errors) {
       applicationsRef.push({
+        email: email,
         first_name: firstName,
         last_name: lastName,
         birth: birth,
@@ -145,7 +146,8 @@ class:  apply
         why: why,
         experience: experience,
         about: about,
-        found_us: foundUs
+        found_us: foundUs,
+        created_at: Firebase.ServerValue.TIMESTAMP
       }, function(error) {
         if (!error) {
           window.location = '/thankyou';
