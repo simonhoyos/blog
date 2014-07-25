@@ -37,7 +37,7 @@ Hay algunos cursos gratis como [Try Git](https://try.github.io), [Try Ruby](http
 **Costo**: gratis!<br>
 **Idioma**: Inglés y Español
 
-A pesar de ser gratis, la calidad de Codeacademy es muy buena. Puedes aprender Front-end Web Development (HTML, CSS, Javascript), Python, y Ruby. Personalmente, creo que la debilidad más grande es la falta de videos que introduzcan los conceptos (la mayoría de personas están acostumbrados a la clase presencial y los videos son un buen sustituto), pero definitivamente es un recurso que no vale la pena ignorar.
+La calidad de Codeacademy es muy buena para ser gratis. Puedes aprender Front-end Web Development (HTML, CSS, Javascript), Python, y Ruby. Personalmente creo que la mayor debilidad es la falta de videos que introduzcan los conceptos (la mayoría de personas están acostumbrados a la clase presencial y los videos son un buen sustituto), pero definitivamente es un recurso que no vale la pena ignorar.
 
 ## Udemy
 
@@ -50,7 +50,7 @@ Udemy tiene una librería gigante de cursos de todo tipo, muchos de programació
 <br>
 Además de estos 4 recursos, en Internet encontrarás miles de tutoriales y posts que te ayudarán en tu aprendizaje. Recuerda que lo más importante para aprender desarrollo Web es tener un proyecto en el que puedas aplicar todos tus conocimientos. También utiliza las comunidades como [StackOverflow](http://stackoverflow.com) en donde puedes resolver dudas específicas (aunque verifica primero antes de preguntar porque es muy probable que tu pregunta ya haya sido respondida).
 
-En **Make it Real** utilizamos todos estos recursos para que los alumnos los consuman preferiblemente fuera de clase. El objetivo es en el día solucionen los Make it Challenges (prácticas) y trabajen de la mano de los mentores aclarando dudas, recibiendo alguna introducción a algún tema, o avanzando en el proyecto.
+En **Make it Real** utilizamos todos estos recursos para que los alumnos los consuman en la clase o afuera . El objetivo es que en el día solucionen los Make it Challenges (las prácticas) y trabajen de la mano de los mentores aclarando dudas, recibiendo alguna introducción a algún tema, o avanzando en el proyecto.
 
 ***
 
