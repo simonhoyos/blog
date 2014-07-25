@@ -9,7 +9,7 @@ Desafortunadamente, la mayoría de cursos de programación -presenciales y onlin
 
 Durante el proceso de aplicación, uno de los pasos más importantes es el assesment, en el que identificamos los conocimientos de cada estudiante para diseñarle un programa personalizado que puede seguir a su propio ritmo.
 
-En **Make it Real** no hay clases tradicionales. La programación no es algo que se pueda enseñar, es algo que se aprende. Es posible hacer todos los cursos online y leer todos los libros de programación, y aún así, no saber qué hacer ante un editor en blanco o una consola parpadeante. Es por eso que en la primera mitado de **Make it Real** tendrás que intentar los retos diarios; ahí es donde el verdadero aprendizaje ocurre.
+En **Make it Real** no hay clases tradicionales. La programación no es algo que se pueda enseñar, es algo que se aprende. Es posible hacer todos los cursos online y leer todos los libros de programación, y aún así, no saber qué hacer ante un editor en blanco o una consola parpadeante. Es por eso que en la primera mitad de **Make it Real** tendrás que intentar los retos diarios; ahí es donde el verdadero aprendizaje ocurre.
 
 Los mentores te guiarán, ampliarán los temas que más se te dificulten, trabajarán contigo diariamente para que avances lo más rápido posible, pero el aprendizaje lo realizas tu, a tu ritmo.
 
