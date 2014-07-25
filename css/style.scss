@@ -309,8 +309,6 @@
 }
 
 .team {
-  margin-bottom: 80px;
-
   .box {
     margin-top: 40px;
 
@@ -353,6 +351,17 @@
   }
 }
 
+.support { 
+  background-color: whiteSmoke;
+  margin-bottom: 80px;
+
+  .box { 
+    margin-top: 40px;
+
+    img { margin: auto; }
+  }
+}
+
 .blog {
   .main-nav {
     background-color: $secondary-color;
@@ -373,15 +382,17 @@
 
     header { margin-bottom: 18px; }
     .post-title {
+      display: inline-block;
       color: $primary-color;
       font-family: $font-family-condensed;
       font-size: 38px; 
+      line-height: 1.1;
+      margin-bottom: 10px;
     }
 
     .continue { 
       display: block;
       font-size: 14px; 
-      margin-top: -5px; 
     }
   }
 }

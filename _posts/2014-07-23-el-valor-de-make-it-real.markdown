@@ -5,7 +5,7 @@ date:   2014-07-23 17:40:58
 author: Germán Escobar
 ---
 
-Hoy la información cuesta muy poco y es relativamente fácil de acceder. Y aunque no es fácil descubrir y evaluar la enorme cantidad de recursos que existen en Internet, tampoco es imposible. De hecho, en un futuro post vamos a publicar los mejores recursos online para aprender a programar. Pero en este post quiero contarles cuál es el verdadero valor de Make it Real.
+Hoy la información cuesta muy poco y es relativamente fácil de acceder. Y aunque no es fácil descubrir y evaluar la enorme cantidad de recursos que existen en Internet, tampoco es imposible. <del>De hecho, en un futuro post vamos a publicar los mejores recursos online para aprender a programar</del> Ya lo [publicamos](http://www.google.com). Pero en este post quiero contarles cuál es el verdadero valor de Make it Real.
 
 ## Los mentores
 
