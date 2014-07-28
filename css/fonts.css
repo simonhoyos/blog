@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?d8ezym');
-	src:url('fonts/icomoon.eot?#iefixd8ezym') format('embedded-opentype'),
-		url('fonts/icomoon.woff?d8ezym') format('woff'),
-		url('fonts/icomoon.ttf?d8ezym') format('truetype'),
-		url('fonts/icomoon.svg?d8ezym#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-vn25d9');
+	src:url('fonts/icomoon.eot?#iefix-vn25d9') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-vn25d9') format('woff'),
+		url('fonts/icomoon.ttf?-vn25d9') format('truetype'),
+		url('fonts/icomoon.svg?-vn25d9#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,15 +23,6 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-uniF13B:before {
-	content: "\f13b";
-}
-.icon-uniF148:before {
-	content: "\f148";
-}
-.icon-uniF14F:before {
-	content: "\f14f";
-}
 .icon-gears:before {
 	content: "\f085";
 }
@@ -41,11 +32,29 @@
 .icon-github:before {
 	content: "\f09b";
 }
+.icon-flask:before {
+	content: "\f0c3";
+}
 .icon-envelope:before {
 	content: "\f0e0";
 }
+.icon-quote-left:before {
+	content: "\f10d";
+}
+.icon-quote-right:before {
+	content: "\f10e";
+}
 .icon-send:before {
 	content: "\f1d8";
+}
+.icon-uniF13B:before {
+	content: "\f13b";
+}
+.icon-uniF148:before {
+	content: "\f148";
+}
+.icon-uniF14F:before {
+	content: "\f14f";
 }
 .icon-uniE603:before {
 	content: "\e603";
