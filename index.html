@@ -27,6 +27,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -296,7 +299,7 @@
         <div class="col-sm-4 col-sm-offset-2 box text-center">
           <img src="/images/camilo.jpeg" class="img-circle img-thumbnail">
           <header>Camilo Aguilar</header>
-          <p>Fundador de Cloudescape. Organizador de <a href="http://jsconf.co/">JSConf Colombia</a>. Advisor de <a href="http://coderise.org/">Coderise</a>.</p>
+          <p>Fundador de Cloudescape. Organizador de <a href="http://jsconf.co/" target="_blank">JSConf Colombia</a>. Advisor de <a href="http://coderise.org/" target="_blank">Coderise</a>.</p>
           <div class="text-center">
             <ul class="clearfix">
               <li><a href="mailto:camilo.aguilar@makeitreal.camp" target="_blank"><span class="icon-envelope"></span></a></li>
@@ -333,7 +336,50 @@
         </div> -->
       </div>
     </div>
-  </section>  
+  </section>
+
+  <!-- Team -->
+  <section class="section social-proof inverted">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <!-- <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="quote">
+                  <div class="text"><span class="icon-quote-left"></span> Por fin un programa que enseña conocimientos relevantes y que expone a estudiantes las realidades de la industria <span class="icon-quote-right"></span></div>
+                  <div class="source">
+                    <div>
+                      <img src="/images/juanpablo.jpg" class="img-circle img-thumbnail">
+                      <div class="credentials">
+                        <h4>Juan Pablo Buriticá</h4>
+                        <p>VP de Ingenería en <a href="http://ride.com/" target="_blank">Ride</a>. Organizador de <a href="http://jsconf.co/" target="_blank">JSConf Colombia</a>.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <div class="action" style="margin-top: 80px;"><a href="/apply" class="primary inverted">Aplica Ahora</a></div>
 </body>
