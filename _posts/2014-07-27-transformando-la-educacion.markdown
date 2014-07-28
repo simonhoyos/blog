@@ -5,7 +5,7 @@ date:   2014-07-27 17:40:58
 author: Germán Escobar
 ---
 
-El sistema educativo actual es muy efectivo generando trabajadores reemplazables, obedientes y productivos, pero ineficiente y anticuado para las necesidades del mundo actual. **Make it Real** es el inicio del cambio.
+El sistema educativo actual es muy efectivo generando trabajadores reemplazables, obedientes y productivos, pero ineficiente y anticuado para las necesidades del mundo actual. En **Make it Real** queremos ser el inicio del cambio.
 
 Desde que tenía 13 años sabía lo que quería hacer por el resto de mi vida: emprender y programar. Pero mi única opción cuando salí del colegio era entrar a la universidad. Aún recuerdo esos años oscuros que amenazaron mi interés por la programación con complicados procesos de ingeniería de software que hoy ya nadie utiliza y que reducen la programación a pegar ladrillos con cemento.
 
