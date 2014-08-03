@@ -5,11 +5,11 @@ date:   2014-08-03 17:40:58
 author: Germán Escobar
 ---
 
-El mundo de hoy está cambiando muy rápido y el sistema de educación formal no ha logrado adpatarse al ritmo. Los Bootcamps inmersivos de programación nacen como una alternativa educativa para aquellos que quieren aprender a programar, ya sea para encontrar un mejor empleo o para desarrollar un producto con el objetivo de crear empresa. Tienen una duración promedio de entre 9 y 12 semanas, con una intensidad horaria de tiempo completo, generalmente de lunes a viernes.
+El mundo de hoy está cambiando muy rápido y el sistema de educación formal no ha logrado adpatarse al ritmo. Los Bootcamps inmersivos de programación nacen como una alternativa educativa para aquellos que quieren aprender a programar, ya sea para encontrar un mejor empleo o para desarrollar un producto con el objetivo de crear empresa. Tienen una duración promedio de 9 a 12 semanas, con una intensidad horaria de tiempo completo, generalmente de lunes a viernes.
 
 Los Bootcamps inmersivos surgieron hace relativamente poco -aproximádamente 3 o 4 años- en Silicon Valley para suplir la creciente demanda por programadores Web calificados, y como una alternativa/complemento al sistema de educación formal (pregrado, posgrado, diplomados, etc.).
 
-Según [un estudio](https://www.coursereport.com/resources/course-report-bootcamp-market-size-study) sobre el tamaño del mercado de los Bootcamps inmersivos, se estima en Estados Unidos se graduarán aproximadamente 6,000 estudiantes en 2014, una cifra bastante alta si tenemos en cuenta que en 2013, 48,000 estudiantes se graduaron de Ingenería de Sistemas en ese país. La duración promedio de estos programas es de 10.4 semanas con un precio promedio de 9,900 dólares. 
+Según [un estudio](https://www.coursereport.com/resources/course-report-bootcamp-market-size-study) sobre el tamaño del mercado de los Bootcamps inmersivos, se estima que en 2014 se graduarán aproximadamente 6,000 estudiantes en Estados Unidos, una cifra bastante alta si tenemos en cuenta que en 2013, 48,000 estudiantes se graduaron de Ingenería de Sistemas en ese país. La duración promedio de estos programas es de 10.4 semanas con un precio promedio de 9,900 dólares. 
 
 Algunos de los Bootcamps más reconocidos en Estados Unidos son [The Starter League](http://www.starterleague.com/), [HackReactor](http://www.hackreactor.com/), y [Dev Bootcamp](http://devbootcamp.com/). En [HackReactor](http://www.hackreactor.com/), por ejemplo, el 99% de los estudiantes consiguen empleo en los primeros meses después de haber terminado el Bootcamp, con un salario promedio anual de 105,000 dólares al año!
 
