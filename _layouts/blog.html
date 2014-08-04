@@ -5,10 +5,13 @@
   <title>{% if page.title %}Make it Real Blog - {{ page.title }} {% else %}Make it Real - El primer Bootcamp inmersivo de Colombia{% endif %}</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="article" />
 
   <link rel="stylesheet" href="{{ "/css/fonts.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
 
   <script src='https://cdn.firebase.com/js/client/1.0.17/firebase.js'></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
