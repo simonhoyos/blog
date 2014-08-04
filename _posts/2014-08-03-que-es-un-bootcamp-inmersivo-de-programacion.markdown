@@ -5,7 +5,7 @@ date:   2014-08-03 17:40:58
 author: Germán Escobar
 ---
 
-El mundo de hoy está cambiando muy rápido y el sistema de educación formal no ha logrado adpatarse al ritmo. Los Bootcamps inmersivos de programación nacen como una alternativa educativa para aquellos que quieren aprender a programar, ya sea para encontrar un mejor empleo o para desarrollar un producto con el objetivo de crear empresa.
+El mundo está cambiando a una velocidad increíble y el sistema de educación formal no ha logrado mantener el ritmo. Los Bootcamps inmersivos de programación nacen como una alternativa educativa para aquellos que quieren aprender a programar, ya sea para encontrar un mejor empleo o para desarrollar un producto con el objetivo de crear empresa.
 
 Los Bootcamps inmersivos surgieron hace relativamente poco -aproximádamente 3 o 4 años- en Silicon Valley para suplir la creciente demanda de programadores Web calificados, y como una alternativa/complemento al sistema de educación formal (pregrado, posgrado, diplomados, etc.). **Tienen una duración promedio de 9 a 12 semanas, con una intensidad de tiempo completo (lunes a viernes de 8:00 a.m. a 6:00 p.m. generalmente)**.
 
