@@ -93,6 +93,8 @@ layout: admin
                 <select id="status" class="form-control">
                   <option value="created" <% if (status == 'created') { %>selected<% } %>>Created</option>
                   <option value="declined" <% if (status == 'declined') { %>selected<% } %>>Declined</option>
+                  <option value="pending" <% if (status == 'pending') { %>selected<% } %>>Pending</option>
+                  <option value="accepted" <% if (status == 'accepted') { %>selected<% } %>>Accepted</option>
                 </select>
               </div>
             </div>
