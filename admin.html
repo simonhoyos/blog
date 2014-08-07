@@ -13,6 +13,7 @@ layout: admin
   </div>
 </div>
 
+<!-- Table Row Template -->
 <script id="row-template" type="text/x-underscore-template">
   <tr id="<%= id %>">
     <td><a href="#" class="name"><%= first_name %> <%= last_name %></a> <span class="email"><%= email %></span><span class="birth"><%= moment().diff(moment(birth.replace(/ /g,''), 'DD/MM/YYYY'), 'years') %> years</span><span class="created-at">Created at <%= moment(created_at).format('DD MMM YYYY') %></span></td>
@@ -22,6 +23,7 @@ layout: admin
   </tr>
 </script>
 
+<!-- Application Detail Modal Template -->
 <script id="detail-template" type="text/x-underscore-template">
   <div class="modal fade">
     <div class="modal-dialog">
@@ -116,107 +118,4 @@ layout: admin
   </div>
 </script>
 
-<script>
-  var applicationsRef = new Firebase('https://glaring-fire-2299.firebaseio.com/applications');
-  var auth = new FirebaseSimpleLogin(applicationsRef, function(error, user) {
-    if (error) {
-      // an error occurred while attempting login
-      console.log(error);
-      window.location = '/login';
-    } else if (user) {
-      // user authenticated with Firebase
-      console.log("User ID: " + user.uid + ", Provider: " + user.provider);
-      $('.logout').show();
-    }
-  });
-
-  $('.logout a').click(function(e) {
-    e.preventDefault();
-    auth.logout();
-  });
-
-  var Application = Backbone.Model.extend({
-    defaults: {
-      email: "",
-      status: "created",
-      status_reason: "",
-      created_at: new Date().getTime()
-    }
-  });
-
-  var Applications = Backbone.Firebase.Collection.extend({
-    model: Application,
-
-    firebase: applicationsRef,
-  });
-
-  var ApplicationDetail = Backbone.View.extend({
-    template: _.template($('#detail-template').html()),
-
-    initialize: function() {
-      this.render();
-    },
-
-    render: function() {
-      this.setElement(this.template(this.model.toJSON()));
-      this.$el.modal();
-    },
-
-    events: {
-      "submit": "submit"
-    },
-
-    submit: function(e) {
-      e.preventDefault();
-      this.model.set({
-        email: this.$('#email').val(),
-        first_name: this.$('#first_name').val(),
-        last_name: this.$('#last_name').val(),
-        birth: this.$('#birth').val(),
-        mobile: this.$('#mobile').val(),
-        found_us: this.$('#found-us').val(),
-        status: this.$('#status').val(),
-        status_reason: this.$('#status-reason').val()
-      });  
-    }
-  });
-
-  var ApplicationRow = Backbone.View.extend({
-    template: _.template($('#row-template').html()),
-
-    render: function() {
-      this.setElement(this.template(this.model.toJSON()));
-      return this;
-    },
-
-    events: {
-      "click .name": "showModal"
-    },
-
-    showModal: function() {
-      new ApplicationDetail({ model: this.model });
-    }
-  });
-
-  var ApplicationsTable = Backbone.View.extend({
-    el: "#applications",
-
-    initialize: function() {
-      this.listenTo(this.collection, 'error', this.handleError);
-      this.listenTo(this.collection, 'add', this.addOne);
-    },
-
-    addOne: function(application) {
-      var view = new ApplicationRow({ model: application });
-      this.$el.append(view.render().el);
-    },
-
-    handleError: function(col, errorObject) {
-      console.log('The read failed: ' + errorObject.code);
-      window.location = '/login';
-    }
-  });
-
-  var applications = new Applications();
-  var table = new ApplicationsTable({ collection: applications });
-</script>
+<script src="{{ "/js/admin.js" | prepend: site.baseurl }}"></script>

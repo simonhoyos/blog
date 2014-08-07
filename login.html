@@ -22,16 +22,17 @@ layout: admin
 
 <script>
   var applicationsRef = new Firebase('https://glaring-fire-2299.firebaseio.com/applications');
+
+  // Firebase authentication
   var auth = new FirebaseSimpleLogin(applicationsRef, function(error, user) {
     if (error) {
       $('.alert').show();
     } else if (user) {
-      // user authenticated with Firebase
-      console.log("User ID: " + user.uid + ", Provider: " + user.provider);
       window.location = '/admin';
     }
   });
 
+  // TODO: encapsulate in a view
   $('form').submit(function(e) {
     e.preventDefault();
     $('.alert').hide();
