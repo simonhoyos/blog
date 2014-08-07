@@ -1,0 +1,220 @@
+---
+layout: admin
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <table id="applications" class="table" style="margin-top: 40px;">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script id="row-template" type="text/x-underscore-template">
+  <tr id="<%= id %>">
+    <td><a href="#" class="name"><%= first_name %> <%= last_name %></a> <span class="email"><%= email %></span><span class="birth"><%= moment().diff(moment(birth.replace(/ /g,''), 'DD/MM/YYYY'), 'years') %> years</span><span class="created-at">Created at <%= moment(created_at).format('DD MMM YYYY') %></span></td>
+    <td class="why"><%= why %></td>
+    <td><span class="status"><%= status %></span> <span class="status-reason"><%= status_reason %></span></td>
+    <td class="found-us"><%= found_us %></td>
+  </tr>
+</script>
+
+<script id="detail-template" type="text/x-underscore-template">
+  <div class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form class="form-horizontal" role="form">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title"><%= first_name %> <%= last_name %></h4>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email" value="<%= email %>">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="first_name" class="col-sm-2 control-label">Name:</label>
+              <div class="col-sm-5">
+                <input type="text" class="form-control" id="first_name"  value="<%= first_name %>">
+              </div>
+              <div class="col-sm-5">
+                <input type="text" class="form-control" id="last_name"  value="<%= last_name %>">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="birth" class="col-sm-2 control-label">Birth:</label>
+              <div class="col-sm-5">
+                <input type="text" class="form-control" id="birth"  value="<%= birth %>">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="mobile" class="col-sm-2 control-label">Mobile:</label>
+              <div class="col-sm-5">
+                <input type="text" class="form-control" id="mobile"  value="<%= mobile %>">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="why" class="col-sm-2 control-label">Why:</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" id="why" rows="4" disabled><%= why %></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="experience" class="col-sm-2 control-label">Experience:</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" id="experience" rows="4" disabled><%= experience %></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="about" class="col-sm-2 control-label">About:</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" id="about" rows="4" disabled><%= about %></textarea>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="found-us" class="col-sm-2 control-label">FoundUs:</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="found-us"  value="<%= found_us %>">
+              </div>
+            </div> 
+
+            <div class="form-group">
+              <label for="status" class="col-sm-2 control-label">Status:</label>
+              <div class="col-sm-10">
+                <select id="status" class="form-control">
+                  <option value="created" <% if (status == 'created') { %>selected<% } %>>Created</option>
+                  <option value="declined" <% if (status == 'declined') { %>selected<% } %>>Declined</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="status-reason" class="col-sm-2 control-label">Reason:</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" id="status-reason" rows="4"><%= status_reason %></textarea>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Save changes</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</script>
+
+<script>
+  var applicationsRef = new Firebase('https://glaring-fire-2299.firebaseio.com/applications');
+  var auth = new FirebaseSimpleLogin(applicationsRef, function(error, user) {
+    if (error) {
+      // an error occurred while attempting login
+      console.log(error);
+      window.location = '/login';
+    } else if (user) {
+      // user authenticated with Firebase
+      console.log("User ID: " + user.uid + ", Provider: " + user.provider);
+      $('.logout').show();
+    }
+  });
+
+  $('.logout a').click(function(e) {
+    e.preventDefault();
+    auth.logout();
+  });
+
+  var Application = Backbone.Model.extend({
+    defaults: {
+      email: "",
+      status: "created",
+      status_reason: "",
+      created_at: new Date().getTime()
+    }
+  });
+
+  var Applications = Backbone.Firebase.Collection.extend({
+    model: Application,
+
+    firebase: applicationsRef,
+  });
+
+  var ApplicationDetail = Backbone.View.extend({
+    template: _.template($('#detail-template').html()),
+
+    initialize: function() {
+      this.render();
+    },
+
+    render: function() {
+      this.setElement(this.template(this.model.toJSON()));
+      this.$el.modal();
+    },
+
+    events: {
+      "submit": "submit"
+    },
+
+    submit: function(e) {
+      e.preventDefault();
+      this.model.set({
+        email: this.$('#email').val(),
+        first_name: this.$('#first_name').val(),
+        last_name: this.$('#last_name').val(),
+        birth: this.$('#birth').val(),
+        mobile: this.$('#mobile').val(),
+        found_us: this.$('#found-us').val(),
+        status: this.$('#status').val(),
+        status_reason: this.$('#status-reason').val()
+      });  
+    }
+  });
+
+  var ApplicationRow = Backbone.View.extend({
+    template: _.template($('#row-template').html()),
+
+    render: function() {
+      this.setElement(this.template(this.model.toJSON()));
+      return this;
+    },
+
+    events: {
+      "click .name": "showModal"
+    },
+
+    showModal: function() {
+      new ApplicationDetail({ model: this.model });
+    }
+  });
+
+  var ApplicationsTable = Backbone.View.extend({
+    el: "#applications",
+
+    initialize: function() {
+      this.listenTo(this.collection, 'error', this.handleError);
+      this.listenTo(this.collection, 'add', this.addOne);
+    },
+
+    addOne: function(application) {
+      var view = new ApplicationRow({ model: application });
+      this.$el.append(view.render().el);
+    },
+
+    handleError: function(col, errorObject) {
+      console.log('The read failed: ' + errorObject.code);
+      window.location = '/login';
+    }
+  });
+
+  var applications = new Applications();
+  var table = new ApplicationsTable({ collection: applications });
+</script>
