@@ -5,7 +5,7 @@ date:   2014-08-12 17:40:58
 author: Germán Escobar
 ---
 
-Tuvimos la oportunidad de hacerle algunas preguntas a Sebastián Sogamoso para que nos contara un poco sobre su experiencia como desarrollador trabajando remotamente para una empresa en Silicon Valley:
+Tuvimos la oportunidad de hacerle algunas preguntas a Sebastián Sogamoso para que nos contara un poco sobre su experiencia como desarrollador trabajando remotamente para una empresa en Estados Unidos:
 
 <div style="text-align: center; margin: 30px 0;">
 	<img src="/images/sebastian-sogamoso.jpg" alt="Sebastián Sogamoso" class="img-circle">
