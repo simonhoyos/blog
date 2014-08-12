@@ -75,15 +75,37 @@
     color: white;
     font: 24px/1.1 $font-family-condensed;
     text-align: center;
-    padding: 90px 20px 0;
-    margin-bottom: 50px;
+    padding: 80px 20px 0;
+    margin-bottom: 20px;
 
     @media (min-width: $screen-md-min) {
       font-size: 48px;
       line-height: 1.2;
-      padding: 300px 100px 0;
-      margin-bottom: 60px;
+      padding: 280px 100px 0;
+      margin-bottom: 40px;
     }
+  }
+
+  .sub-leading {
+    color: white;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300;
+    text-align: center;
+
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+
+    @media (min-width: $screen-md-min) { 
+      font-size: 24px;
+      line-height: 1.6;
+      padding-top: 30px;
+    }
+
+    padding-bottom: 100px;
+    @media (min-width: $screen-md-min) { padding-bottom: 200px; }
+
+    a { color: white; }
   }
 }
 
@@ -375,7 +397,6 @@
 }
 
 .social-proof {
-  background-color: $secondary-color;
 
   .carousel-control {
     background-image: none;
