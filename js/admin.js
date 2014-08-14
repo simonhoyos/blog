@@ -81,7 +81,8 @@ var ApplicationRow = Backbone.View.extend({
     "click .name": "showModal"
   },
 
-  showModal: function() {
+  showModal: function(e) {
+    e.preventDefault();
     new ApplicationDetail({ model: this.model });
   }
 });
