@@ -81,7 +81,7 @@
     @media (min-width: $screen-md-min) {
       font-size: 48px;
       line-height: 1.2;
-      padding: 280px 100px 0;
+      padding: 200px 100px 0;
       margin-bottom: 40px;
     }
   }
@@ -95,6 +95,7 @@
 
     border-top: 1px solid #ccc;
     padding-top: 20px;
+    padding-bottom: 40px;
 
     @media (min-width: $screen-md-min) { 
       font-size: 24px;
@@ -102,10 +103,32 @@
       padding-top: 30px;
     }
 
-    padding-bottom: 100px;
-    @media (min-width: $screen-md-min) { padding-bottom: 200px; }
 
     a { color: white; }
+  }
+
+  .sn {
+    text-align: center;
+    padding-bottom: 80px;
+
+    @media (min-width: $screen-md-min) { padding-bottom: 200px; }
+
+    span {
+      color: white;
+      font-size: 16px;
+      margin: 0 10px;
+      opacity: 0.8;
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 7px;
+
+      @media (min-width: $screen-md-min) { 
+        font-size: 21px; 
+        border: 3px solid white;
+      }
+
+      &:hover { opacity: 1; }
+    }
   }
 }
 
