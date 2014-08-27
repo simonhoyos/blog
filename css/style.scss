@@ -65,7 +65,7 @@
 }
 
 .main {
-  background: $primary-color url('../images/home.jpg') no-repeat center top;
+  background: $primary-color url('../images/home.jpg') no-repeat center -20px;
   background-size: cover;
   min-height: 400px;
 
@@ -81,7 +81,7 @@
     @media (min-width: $screen-md-min) {
       font-size: 48px;
       line-height: 1.2;
-      padding: 200px 100px 0;
+      padding: 150px 100px 0;
       margin-bottom: 40px;
     }
   }
@@ -109,9 +109,9 @@
 
   .sn {
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 
-    @media (min-width: $screen-md-min) { padding-bottom: 200px; }
+    @media (min-width: $screen-md-min) { padding-bottom: 150px; }
 
     span {
       color: white;
@@ -148,6 +148,24 @@
   .p {
     margin-top: 30px;
     @media (min-width: $screen-md-min) { font-size: 18px; }
+  }
+}
+
+.press { 
+  background-color: rgba(33, 51, 56, 0.66);
+  // background-color: ;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .box { 
+    text-align: center;
+
+    img { 
+      width: 100px;
+      margin: auto;
+
+      @media (min-width: $screen-sm-min) { width: 200px; }
+    }
   }
 }
 
