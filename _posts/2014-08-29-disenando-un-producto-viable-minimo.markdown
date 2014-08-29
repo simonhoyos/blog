@@ -13,11 +13,11 @@ En los últimos días hemos estado trabajando sin descanso en **Challenges**, un
 
 ## El primer paso
 
-Podríamos durar meses haciendo una especificación detallada de todas las funcionalidades que queremos implementar antes de escribir nuestra primera línea de código; es un error que comenten muchas empresas cuando están diseñando sus aplicaciones.
+Podríamos durar meses haciendo una especificación detallada de todas las funcionalidades que queremos implementar antes de escribir nuestra primera línea de código; es un error que cometen muchas empresas cuando están diseñando sus aplicaciones.
 
 Una mejor estrategia es concentrarnos únicamente en la **esencia de la aplicación**, en aquellas funcionalidades críticas sin las que no existiría aplicación, en el producto viable mínimo. Después podemos agregar más funcionalidades y mejorar la implementación actual. Lo importante es entender que **una aplicación Web es un sistema en constante evolución que nunca va a estar terminado**.
 
-Pero eso no quiere decir que debamos empezar a escribir nuestro código inmediatamente. Necesitamos al menos identificar quienes van a utilizar nuestro producto (actores), qué puede hacer cada actor en nuestra aplicación (casos de uso), qué información necesitamos almacenar (diagrama de base de datos), y cómo se va a ver nuestra aplicación (wireframes).
+Pero eso no quiere decir que debamos empezar a escribir nuestro código inmediatamente. Necesitamos al menos identificar quiénes van a utilizar nuestro producto (actores), qué puede hacer cada actor en nuestra aplicación (casos de uso), qué información necesitamos almacenar (diagrama de base de datos), y cómo se va a ver nuestra aplicación (wireframes).
 
 ## Actores y casos de uso
 
@@ -25,9 +25,9 @@ Para **Challenges** identificamos dos actores: alumnos y administradores. La sig
 
 ![Actores y Casos de Uso](/images/makeitchallenges-use-cases.jpg)
 
-*Sí, existen herramientas para hacer estos diagramas, pero a veces lo único que se tiene a la mano es una servilleta y un boligrafo.*
+*Sí, existen herramientas para hacer estos diagramas, pero a veces lo único que se tiene a la mano es una servilleta y un bolígrafo.*
 
-Estos ocho casos de uso son los más importantes. Podríamos agregar más si quisieramos pero con estos ocho podemos crear un producto viable mínimo. Los casos de uso más críticos son: **crear reto** y **solucionar reto**. Fueron los primeros que implementamos y en los que más nos enfocamos!
+Estos ocho casos de uso son los más importantes. Podríamos agregar más si quisiéramos pero con estos ocho podemos crear un producto viable mínimo. Los casos de uso más críticos son: **crear reto** y **solucionar reto**. Fueron los primeros que implementamos y en los que más nos enfocamos!
 
 Hay varias estrategias para detallar los casos de uso. Lo mínimo es una descripción de los pasos que debe seguir el usuario para completar la acción, los datos que debe ingresar, y/o la información que va a recibir/visualizar.
 
@@ -51,6 +51,6 @@ Cada caja representa una tabla y sus columnas. Las líneas representan relacione
 
 ***
 
-El proceso de diseño de una aplicación Web puede ser tan básico e informal como lo hicimos acá, o tan sofisticado y formal como cada empresa lo considere necesario. Lo importante es concentrarse en la escencia de la aplicación y especificar lo mínimo necesario para la implementación, independientemente de quién vaya a escribir el código.
+El proceso de diseño de una aplicación Web puede ser tan básico e informal como lo hicimos acá, o tan sofisticado y formal como cada empresa lo considere necesario. Lo importante es concentrarse en la esencia de la aplicación y especificar lo mínimo necesario para la implementación, independientemente de quién vaya a escribir el código.
 
 Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!
