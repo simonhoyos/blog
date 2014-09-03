@@ -9,8 +9,10 @@
   @media (min-width: $screen-md-min) { padding: 15px 0; }
 
   .brand {
+    display: inline-block;
     color: white;
     font: 21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: -5px;
     @media (min-width: $screen-md-min) { font-size: 28px; }
   }
 
@@ -56,8 +58,8 @@
 
 .action {
   text-align: center;
-  padding-bottom: 100px;
-  @media (min-width: $screen-md-min) { padding-bottom: 200px; }
+  padding-bottom: 50px;
+  @media (min-width: $screen-md-min) { padding-bottom: 100px; }
 }
 
 .primary {
@@ -532,6 +534,43 @@
       }
     }
   }
+}
+
+.newsletter {
+  border-bottom: 1px solid black;
+
+  input[type=email] {
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: #555;
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+
+  input[type=submit] {
+    background: #359EAB;
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid #1B7985;
+  }
+
+  .tag-line {
+    font-size: 21px;
+    margin-bottom: 30px;
+
+    label { font-weight: normal; }
+  }
+}
+
+.footer {
+  border-top: 1px solid #2F5059;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #A4B7BD;
+  font-size: 14px;
+
+  a { color: #A4B7BD; font-weight: bold; }
 }
 
 .blog {
