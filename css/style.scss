@@ -14,6 +14,13 @@
     font: 21px "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top: -5px;
     @media (min-width: $screen-md-min) { font-size: 28px; }
+
+    span {
+      display:block; 
+      font-size: 16px;
+      line-height: 0.5;
+      text-align: right;
+    }
   }
 
   .nav {
