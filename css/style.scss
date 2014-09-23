@@ -2,6 +2,9 @@
 ---
 
 @import "base";
+//Colors//
+
+$tertiary-color: #384d56;
 
 .main-nav {
   background-color: #5B888C;
@@ -232,10 +235,62 @@
 }
 
 .details {
-  background-color: $secondary-color;
+  background-color:  white;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
 
+  .title {
+   margin: 30px 0 !important;
+ } 
+ .line-through{ text-decoration: line-through;}
+ .clear{clear: left;}
+ .where{
+  cursor:pointer;
+  width: 100%;
+  margin-top: 1em;
+  color: $tertiary-color;
+  text-align: center;
+  display: inline-block;
+  white-space: pre-line;
+  border-radius: 3px;
+    // padding: 5px 15px;
+    border: 3px solid $tertiary-color;
+    padding: 1.5em 1em;
+  }
+  .places{
+    padding: 1em 0;
+  }
+  @media (max-width: $screen-xs-min) {
+    .places{
+      padding-bottom:3em;
+      clear:left;
+    }
+    .where{
+      // width: 33%; float: left; margin-left:30px;
+    }
+  } 
+  .where.active{
+    background: $tertiary-color;
+    color: white;
+  }
+  p{
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    color: #282504;
+    line-height: 44px;
+  }
+  .dynamic-text-availability{
+    font-size: 1em;
+  }
+  .primary{
+    margin: 20px auto;
+    display: inline-block;
+    text-align: center;
+    // width: 200px;
+  }
   .box {
     background-color: white;
     border-radius: 5px;
@@ -252,7 +307,7 @@
     header {
       color: $primary-color;
       font-family: $font-family-condensed;
-      margin-bottom: 15px;
+      // margin-bottom: 15px;
 
       @media (min-width: $screen-md-min) { font-size: 24px; }
     }
@@ -440,24 +495,24 @@
       a { 
        color: #A5CCAA; 
        &:hover, &:active { color: lighten(#A5CCAA, 5%); text-decoration: underline; }
-      }
-    }
+     }
+   }
 
-    ul {
-      display: inline-block;
-      font-size: 21px;
-      padding: 0;
-      margin: 0;
+   ul {
+    display: inline-block;
+    font-size: 21px;
+    padding: 0;
+    margin: 0;
 
-      li { 
-        float: left; 
-        list-style-type: none; 
-        padding: 15px;
+    li { 
+      float: left; 
+      list-style-type: none; 
+      padding: 15px;
 
-        a { color: white; }
-      }
+      a { color: white; }
     }
   }
+}
 }
 
 .support { 
