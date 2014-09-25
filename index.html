@@ -134,29 +134,32 @@ layout: home
     </div>
   </div>
   <div class="row">
-    <div class="places col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1  col-lg-offset-1">
-      <div class="col-sm-4 col-md-4 col-lg-4">
+    <div class="places col-sm-10  col-xs-12 col-sm-offset-1 col-md-offset-1  col-lg-offset-1">
+      <div class="col-sm-4 col-xs-6">
         <span class="where active"><strong>Medellín</strong>
           <span>OCTUBRE - 2014</span>
         </span>
       </div>
-      <div class="col-sm-4 col-md-4 col-lg-4">
+      <div class="col-sm-4 col-xs-6">
         <span  class="where"><strong>Bogotá</strong>
           <span>ENERO - 2015</span>
         </span>
       </div>
-      <div class="col-sm-4 col-md-4 col-lg-4">
+      <div class="col-sm-4 col-xs-6">
         <span  class="where"><strong>Medellín</strong>
           <span>ENERO - 2015</span>
         </span>
       </div>
     </div>
-    <div class="col-sm-10 col-sm-offset-1 clear">
-      <p><span class="dynamic-text-where">Bogotá 2014 </span><br><strong class="dynamic-text-date">OCT 10 - DIC 19</strong><br><span class="dynamic-text-availability">Cupos disponibles</span><br><strong>$4'900.000</strong></p>
+    <div id="dynamic-text-container" class="col-sm-10 col-sm-offset-1 clear">
+      <p><span class="dynamic-text-where">Bogotá 2014 </span><br> <span class="glyphicon glyphicon-calendar"></span>&nbsp;<strong class="dynamic-text-date">OCT 10 - DIC 19</strong><br><span class="dynamic-text-availability">Cupos disponibles <hr/> </span></p>
+      <p class="time-price">12 semanas <strong>$4'900.000</strong></p>
     </div>
-    <div class="col-sm-2 col-xs-2 col-xs-offset-5 col-sm-offset-5">
+    <div class="col-lg-5 col-xs-3"></div>
+    <div class="col-lg-2 col-xs-6">
       <a href="/apply" class="primary inverted centered apply-btn">Aplica Ahora</a>
     </div>
+     <div class="col-lg-5 col-xs-3"></div>
   </div>
 </div>
 </section>
@@ -497,5 +500,6 @@ $(" .where ").click(function(){
   }
 
   $(this).addClass( "active" );
+  $('html, body').animate({ scrollTop: $("#dynamic-text-container").offset().top}, 1000);
 });
 </script>
