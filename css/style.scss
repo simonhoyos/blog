@@ -235,167 +235,89 @@ $tertiary-color: #384d56;
 }
 
 .details {
-  background-color:  white;
+  width:100%;
+  padding-bottom:2em;
+  background: url("../images/bg_ciudades.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  background-color:  #1c2a2d;
   padding-top: 30px;
-  padding-bottom: 45px;
+  padding-bottom: 80px;
+
+  p.p{
+    color: #FFF;
+    margin-bottom: 45px;
+  }
+
   @media (min-width: $screen-xs-min) {
-    .title {
-     margin: 30px 0 !important;
-   }
-   #dynamic-text-container{
-    margin-top: 4em;
+    .title {  margin: 30px 0 50px 0 !important; }
+    #dynamic-text-container{ margin-top: 4em;  }
+  }
+  .whiteBox.unavailable{ opacity: 0.5; }
+  @media (max-width: 991px) {
+    .whiteBox.unavailable{ display: none; }
   }
   
-  }
-  @media (min-width: $screen-sm-min) {
-    #dynamic-text-container{
-      margin-top: 0em;
-    }
-  }
-
-  .apply-btn{
-    // width: 8em;
-    margin: 0 auto !important;
-    display: block !important;
-    // background: #F00;
-  }
-  .time-price{
-    margin-bottom: 1em;
-  }
-  .line-through{ text-decoration: line-through; color: #D5D5D5;}
-  .clear{clear: left;}
-  .where{
-    strong{font-size: 1.2em;}
-    cursor:pointer;
-    width: 100%;
-    margin-top: 1.8em;
-    color: $tertiary-color;
+  .whiteBox {
+    border-radius: 10px;
     text-align: center;
-    display: inline-block;
-    white-space: pre-line;
-    border-radius: 3px;
-    // padding: 5px 15px;
-    border: 3px solid $tertiary-color;
-    padding: 1.5em 1em;
-  }
-  
-  @media (max-width: $screen-sm-min) {
-    .places{
-      padding-bottom:3em;
-      clear:left;
+    background: #FFF;
+    border: 5px solid #16182a;
+    // border: 5px solid #1c2a2d;
+    // border: 5px solid rgba(0, 0, 0, 0);
+    padding: 25px 0 0 0;
+
+    .background-btn-signup {
+      background:#359EAB;
+      width:100%; 
+      margin-top:20px;
+      padding: 15px;
     }
-    .where{
-      height: 140px;
+    p {margin: 0;  padding: 0 0 0 0;}
+
+    .disabled {  border: 3px solid #7cbfc4; color: #7cbfc4 !important; }
+    
+    .title-case {
+      padding: 0;
+      margin: 0;
+      font-size: 40px !important;
+      color:#252525;
       text-align: center;
-      // width: 33%; float: left; margin-left:30px;
-    }
-  } 
-  .where.active{
-    background: $tertiary-color;
-    color: white;
-  }
-  p{
-    text-align: center;
-    margin-top: 1em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 34px;
-    // color: #282504;
-    line-height: 44px;
-  }
-  .dynamic-text-availability{
-    font-size: 0.9em;
-  }
-  .primary{
-    margin: 20px auto;
-    display: inline-block;
-    text-align: center;
-    // width: 200px;
-  }
-  .box {
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    height: 140px;
-    margin: 20px 0px;
-
-    @media (min-width: $screen-md-min) {
-      padding: 20px 10px;
-      margin: 40px 10px;
-      height: 200px;
-    }
-
-    header {
-      color: $primary-color;
       font-family: $font-family-condensed;
-      // margin-bottom: 15px;
-
-      @media (min-width: $screen-md-min) { font-size: 24px; }
     }
-  }
-
-  .duration {
-    .value {
-      display: block;
-      color: $secondary-color;
-      font-size: 38px;
-      font-weight: bold;
-      line-height: 1;
-
-      @media (min-width: $screen-md-min) {
-        font-size: 62px;
-      }
-    }
-    .unit {
-      display: block;
-      color: $secondary-color;
-      font-size: 21px;
-      line-height: 1;
-
-      @media (min-width: $screen-md-min) { font-size: 28px; }
-    }
-  }
-
-  .city {
-    color: $secondary-color;
-    font-size: 21px;
-    font-weight: bold;
-    margin-top: 30px;
-
-    @media (min-width: $screen-md-min) { font-size: 28px; }
-  }
-
-  .tuition {
-    .value {
-      color: $secondary-color;
-      font-size: 18px;
-      margin-top: 20px;
-      @media (min-width: $screen-md-min) { font-size: 28px; }
-    }
-    p {
-      font-size: 12px;
-      @media (min-width: $screen-md-min) { font-size: 14px; }
-    }
-  }
-
-  .when {
-    .value {
-      display: block;
-      color: $secondary-color;
+    
+    .price {
+      line-height: 38px;
+      font-weight: 200; 
       font-size: 34px;
-      font-weight: bold;
-      line-height: 1.1;
-
-      @media (min-width: $screen-md-min) { font-size: 62px; }
+      color: #adadad;
     }
-    .unit {
-      display: block;
-      color: $secondary-color;
-      font-size: 16px;
-      line-height: 1;
-
-      @media (min-width: $screen-md-min) { font-size: 21px; }
+    
+    .dynamic-text-date { 
+      line-height: 20px;
+      font-weight: 500; font-size: 20px;
+      text-align: center;
     }
+
+  }
+
+  @media (min-width: $screen-sm-min) {
+    #dynamic-text-container{ margin-top: 0em; }
+  }
+
+  .line-through{ text-decoration: line-through; color: #D5D5D5;}
+  
+  .clear{clear: left;}
+
+  .dynamic-text-availability{ font-size:20px; }
+
+  .primary.btn{ border:solid 3px #FFF; }
+  .primary{ margin: 20px auto; }
+  @media (max-width: $screen-md-min) {
+    .primary{ padding: 15px 30px;}
   }
 }
 
