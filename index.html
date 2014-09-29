@@ -127,50 +127,55 @@ layout: home
 </section>
 
 <!-- Details -->
-<section class="section details">
+<section class="section details inverted ">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <div class="row">
-          <div class="col-xs-6 text-center">
-            <div class="box">
-              <header>Ubicación</header>
-              <div class="city">Medellín</div>
-            </div>
-          </div>
-          <div class="col-xs-6 text-center">
-            <div class="box when">
-              <header>Próxima Fecha</header>
-              <div>
-                <span class="unit">octubre</span>
-                <span class="value">10</span>
-                <span class="unit" style="font-size: 21px;">2014</span>
-              </div>
-            </div>
+      <div class="col-sm-12">
+        <header class="text-center title">¿Dónde y cuándo se realizará?</header>
+        <p class="intro">Todos los bootcamps tienen una duración de <strong>12 semanas</strong> de aprendizaje inmersivo con mentores líderes en el sector tecnológico que contribuyen no solo su conocimiento práctico/teórico, sino la experiencia que han adquirido a través de los años.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-md-4 unavailable">
+        <div class="whiteBox">
+          <p class="city">Medellín</p>
+          <p class="price">&nbsp;</p>
+          <p class="date">Oct 10 2014 - Ene 16 2015</p>
+          <p class="time">12 semanas</p>
+          <p class="availability line-through">Cupos disponibles</p>
+          <div class="background-btn-signup">
+            <a href="/apply" class="primary btn disabled">
+              Aplica Ahora
+            </a>
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
-        <div class="row">
-          <div class="col-xs-6 text-center">
-            <div class="box duration">
-              <header>Duración</header>
-              <div>
-                <span class="value">12</span><span class="unit">semanas</span>
-              </div>
-            </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="whiteBox">
+          <p class="city">Bogotá</p>
+          <p class="price">$4'900.000</p>
+          <p class="date">Feb 06 - May 08 2015</p>
+          <p class="time">12 semanas</p>
+          <p class="availability hidden-xs">Cupos disponibles</p>
+          <div class="background-btn-signup">
+            <a href="/apply" class="primary btn">Aplica Ahora</a>
           </div>
-          <div class="col-xs-6 text-center">
-            <div class="box tuition">
-              <header>Precio</header>
-              <div class="value">$4'900.000</div>
-              <p>* Precio de inauguración</p>
-            </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="whiteBox">
+          <p class="city">Medellín</p>
+          <p class="price">$4'900.000</p>
+          <p class="date">Feb 06 - May 08 2015</p>
+          <p class="time">12 semanas</p>
+          <p class="availability hidden-xs">Cupos disponibles</p>
+          <div class="background-btn-signup">
+            <a href="/apply" class="primary btn">Aplica Ahora</a>
           </div>
         </div>
       </div>
     </div>
-  </div>  
+  </div>
 </section>
 
 <!-- Methodology -->
@@ -431,16 +436,16 @@ layout: home
       <div class="col-sm-12">
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
-        <form action="//camp.us9.list-manage.com/subscribe/post?u=7ceeee60942d89164146c9ddf&amp;id=7c101d0fe8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div class="text-center tag-line"><label for="mce-EMAIL">Suscríbete y mantente informado con contenido especial, lanzamientos, eventos y más!</label></div>
-          <div class="text-center">
-            <input type="email" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
-            <input type="submit" value="Suscribirse" name="subscribe" id="mc-embedded-subscribe" class="button">
-          </div>
+          <form action="//camp.us9.list-manage.com/subscribe/post?u=7ceeee60942d89164146c9ddf&amp;id=7c101d0fe8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="text-center tag-line"><label for="mce-EMAIL">Suscríbete y mantente informado con contenido especial, lanzamientos, eventos y más!</label></div>
+            <div class="text-center">
+              <input type="email" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
+              <input type="submit" value="Suscribirse" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;"><input type="text" name="b_7ceeee60942d89164146c9ddf_7c101d0fe8" tabindex="-1" value=""></div>
             <div class="clear"></div>
-        </form>
+          </form>
         </div>
 
         <!--End mc_embed_signup-->
@@ -459,3 +464,56 @@ layout: home
     </div>
   </div>
 </section>
+<script type="text/javascript">
+
+$('.details .apply-btn').addClass("disabled");
+
+
+
+$(" .where ").click(function(){
+
+
+ var where, date = 0;
+ var index = 0;
+ index = $( " .where " ).index( this );
+
+ $( ".details .dynamic-text-availability" ).removeClass( "line-through" );
+ $( ".details .active" ).removeClass( "active" );
+ $( ".details .apply-btn" ).removeClass( "disabled" );
+
+ switch(index) {
+  case 0:
+
+  where = "Medellín 2014 ";
+  date = "OCTUBRE 10 - DICIEMBRE 19";
+  $('.details .dynamic-text-where').text(where);
+  $('.details .dynamic-text-date').text(date);
+  $('.details .dynamic-text-availability').addClass("line-through");
+  $('.details .apply-btn').addClass("disabled");
+
+    // console.log(mytext);
+    
+    break;
+    case 1:
+    where = "Bogotá 2015 ";
+    date = "ENERO 10 - MARZO 19";
+    $('.details .dynamic-text-where').text(where);
+    $('.details .dynamic-text-date').text(date);
+    // $('.details .dynamic-text-availability').addClass("line-through");
+    // console.log(mytext);
+    break;
+    case 2:
+    where = "Medellín 2015 ";
+    date = "ENERO 10 - MARZO 19";
+    $('.details .dynamic-text-where').text(where);
+    $('.details .dynamic-text-date').text(date);
+    // $('.details .dynamic-text-availability').addClass("line-through");
+    // console.log(mytext);
+    break;
+
+  }
+
+  $(this).addClass( "active" );
+  $('html, body').animate({ scrollTop: $("#dynamic-text-container").offset().top}, 1000);
+});
+</script>

@@ -2,6 +2,9 @@
 ---
 
 @import "base";
+//Colors//
+
+$tertiary-color: #384d56;
 
 .main-nav {
   background-color: #5B888C;
@@ -186,7 +189,6 @@
 
 .press { 
   background-color: rgba(33, 51, 56, 0.66);
-  // background-color: ;
   padding-top: 15px;
   padding-bottom: 15px;
 
@@ -232,95 +234,146 @@
 }
 
 .details {
-  background-color: $secondary-color;
+  width:100%;
+  padding-bottom:2em;
+  background: url("../images/bg_ciudades.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  background-color:  #1c2a2d;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 
-  .box {
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    height: 140px;
-    margin: 20px 0px;
-
-    @media (min-width: $screen-md-min) {
-      padding: 20px 10px;
-      margin: 40px 10px;
-      height: 200px;
-    }
-
-    header {
-      color: $primary-color;
-      font-family: $font-family-condensed;
-      margin-bottom: 15px;
-
-      @media (min-width: $screen-md-min) { font-size: 24px; }
-    }
+  @media (min-width: $screen-xs-min) {
+    .title {  margin: 30px 0 50px 0 !important; }
+    #dynamic-text-container{ margin-top: 4em;  }
+  }
+  .unavailable .whiteBox {
+    opacity: 0.9; 
+    .background-btn-signup{  background: #f2f2f2;}
+    .primary.btn{ border:solid 3px #c2c2c2 !important; color: #c2c2c2 !important; }
+    
+  }
+  @media (max-width: 991px) {
+    .unavailable { display: none; }
+    .whiteBox{ margin-top: 20px; }
   }
 
-  .duration {
-    .value {
-      display: block;
-      color: $secondary-color;
-      font-size: 38px;
-      font-weight: bold;
-      line-height: 1;
+  .intro {
+    font-size: 14px;
+    margin-bottom: 45px;
 
-      @media (min-width: $screen-md-min) {
-        font-size: 62px;
+    @media (min-width: $screen-md-min) { font-size: 18px; }
+  }
+  
+  .whiteBox {
+    border-radius: 6px;
+    text-align: center;
+    background: #FFF;
+    padding: 10px 0 0 0;
+    max-width: 300px;
+    margin: 0 auto;
+
+    @media (min-width: $screen-md-min) { padding: 15px 0 0 0; }
+
+    .background-btn-signup {
+      background: #359EAB;
+      width: 100%; 
+      margin-top: 20px;
+      padding: 5px;
+      border-radius: 0px 0px 6px 6px;
+      -moz-border-radius: 0px 0px 6px 6px;
+      -webkit-border-radius: 0px 0px 6px 6px;
+      border: 0px solid #000000;
+      
+      @media (min-width: $screen-md-min) { 
+        padding: 15px;
+      }
+
+      .primary.btn { 
+        font-size: 12px;
+        border: solid 2px #fff;
+
+        @media (min-width: $screen-md-min) {
+          font-size: 16px;
+          border: solid 3px #fff; 
+        }
+      }
+      .primary {
+        margin: 5px auto;
+        padding: 3px 10px; 
+        
+        @media (min-width: $screen-md-min) { 
+          padding: 7px 30px; 
+        }
       }
     }
-    .unit {
-      display: block;
-      color: $secondary-color;
-      font-size: 21px;
-      line-height: 1;
 
-      @media (min-width: $screen-md-min) { font-size: 28px; }
+    .disabled { 
+      border: 3px solid #7cbfc4; 
+      color: #7cbfc4 !important;
     }
-  }
-
-  .city {
-    color: $secondary-color;
-    font-size: 21px;
-    font-weight: bold;
-    margin-top: 30px;
-
-    @media (min-width: $screen-md-min) { font-size: 28px; }
-  }
-
-  .tuition {
-    .value {
-      color: $secondary-color;
-      font-size: 18px;
-      margin-top: 20px;
-      @media (min-width: $screen-md-min) { font-size: 28px; }
-    }
+    
     p {
-      font-size: 12px;
-      @media (min-width: $screen-md-min) { font-size: 14px; }
+      color: $primary-color;
+      font-size: 16px; 
+      line-height: 1.4;
+      margin-bottom: 0;
     }
-  }
+    
+    .city {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      font-family: $font-family-condensed;
 
-  .when {
-    .value {
-      display: block;
-      color: $secondary-color;
-      font-size: 34px;
-      font-weight: bold;
-      line-height: 1.1;
-
-      @media (min-width: $screen-md-min) { font-size: 62px; }
+      @media (min-width: $screen-md-min) { 
+        margin: 15px 0 10px 0;
+        font-size: 32px; 
+      }
     }
-    .unit {
-      display: block;
-      color: $secondary-color;
+    
+    .price {
+      color: #959595;
       font-size: 16px;
-      line-height: 1;
+      font-weight: 300;
 
-      @media (min-width: $screen-md-min) { font-size: 21px; }
+      @media (min-width: $screen-md-min) { font-size: 28px; }
+    }
+    
+    .date {
+      font-size: 11px;
+      font-weight: bold;
+      text-align: center;
+
+      @media (min-width: $screen-md-min) { font-size: 18px; }
+    }
+
+    .time{
+      text-transform: uppercase;
+      margin-top: 10px;
+
+      @media (min-width: $screen-md-min) { 
+        font-size: 26px; 
+        margin-top: 20px;
+      }
+    }
+
+    .availability { 
+      font-size: 12px;
+      font-weight: 200;
+      margin-bottom: 10px;
+  
+      @media (min-width: $screen-md-min) { 
+        margin-bottom: 30px;
+        font-size: 18px; 
+      }
     }
   }
+
+  .line-through { text-decoration: line-through; color: #D5D5D5; }
+
 }
 
 .method {
@@ -440,24 +493,24 @@
       a { 
        color: #A5CCAA; 
        &:hover, &:active { color: lighten(#A5CCAA, 5%); text-decoration: underline; }
-      }
-    }
+     }
+   }
 
-    ul {
-      display: inline-block;
-      font-size: 21px;
-      padding: 0;
-      margin: 0;
+   ul {
+    display: inline-block;
+    font-size: 21px;
+    padding: 0;
+    margin: 0;
 
-      li { 
-        float: left; 
-        list-style-type: none; 
-        padding: 15px;
+    li { 
+      float: left; 
+      list-style-type: none; 
+      padding: 15px;
 
-        a { color: white; }
-      }
+      a { color: white; }
     }
   }
+}
 }
 
 .support { 
@@ -547,27 +600,32 @@
   border-bottom: 1px solid black;
 
   input[type=email] {
-    padding: 6px 12px;
+    padding: 8px 16px;
     border-radius: 5px;
     color: #555;
     border: 1px solid #ccc;
-    width: 300px;
+    width: 290px;
+    font-size: 20px;
   }
-
-  input[type=submit] {
-    background: #359EAB;
-    font-size: 16px;
-    padding: 6px 12px;
-    border-radius: 5px;
-    border: 1px solid #1B7985;
+  @media (max-width: $screen-md-min) {
+   input[type=submit] {
+    margin-top: 1em;
   }
+}
+input[type=submit] {
+  background: #359EAB;
+  font-size: 20px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid #1B7985;
+}
 
-  .tag-line {
-    font-size: 21px;
-    margin-bottom: 30px;
+.tag-line {
+  font-size: 21px;
+  margin-bottom: 30px;
 
-    label { font-weight: normal; }
-  }
+  label { font-weight: normal; }
+}
 }
 
 .footer {
