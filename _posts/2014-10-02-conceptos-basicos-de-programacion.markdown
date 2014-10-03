@@ -5,7 +5,7 @@ date:   2014-10-02 17:40:58
 author: Germán Escobar
 ---
 
-Todos los lenguajes de programación comparten algunos conceptos y elementos básicos, que funcionan y se usan de forma diferente en cada lenguaje, pero que cumplen el mismo objetivo:
+Todos los lenguajes de programación comparten algunos elementos básicos que funcionan y se usan de forma diferente en cada lenguaje, pero que cumplen el mismo objetivo. Esos elementos son:
 
 * Tipos de datos
 * Variables
@@ -18,7 +18,7 @@ Acepto que entender cómo funcionan estos elementos no es diversión pura, pero 
 
 ## Tipos de datos
 
-Algunos lenguajes de programación tienen más tipos de datos que otros, pero en general todos incluyen al menos los siguientes: **caracteres** (char), **cadenas de caracteres** (string), **enteros** (integer), **decimales** (decimal, float), y **booleanos** (true y false). Por ejemplo:
+Algunos lenguajes de programación tienen más tipos de datos que otros, pero, en general, todos incluyen al menos los siguientes: **caracteres** (char), **cadenas de caracteres** (string), **enteros** (integer), **decimales** (decimal, float), y **booleanos** (true y false). Por ejemplo:
 
 **En JavaScript:**
 
