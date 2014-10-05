@@ -5,7 +5,7 @@ date:   2014-10-02 17:40:58
 author: Germán Escobar
 ---
 
-¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder esa preguntas.
+¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder esas preguntas.
 
 Parece magia cuando abrimos un navegador e ingresamos a algún sitio como [http://www.makeitreal.camp/](http://www.makeitreal.camp/). El navegador realiza cuatro pasos principales que son invisibles para nosotros y que vamos a describir a continuación:
 
