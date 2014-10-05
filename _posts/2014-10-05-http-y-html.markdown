@@ -81,7 +81,7 @@ El navegador interpreta la respuesta, identifica que en el cuerpo del mensaje vi
 <div class="well">
   <h3>Developer Tools</h3>
 
-  Puedes ver las peticiones y respuestas HTTP que envía y recibe el navegador a través del Developer Tools de tu navegador. Mira el primer link más abajo en la sección <strong>Más Recursos</strong> para aprender cómo hacerlo.
+  Puedes ver las peticiones y respuestas HTTP que envía y recibe el navegador a través del Developer Tools de tu navegador. Mira <a href="https://www.youtube.com/watch?v=z1TkfcC53G0" target="_blank">este video</a> para aprender cómo hacerlo.
 </div>
 
 ## HTML
@@ -115,6 +115,7 @@ Generalmente, el código **HTML (Hyper Text Markup Language)** viaja a través d
 * <a href="http://www.codecademy.com/tracks/web" target="_blank">HTML - Codecademy</a>
 * <a href="http://www.w3schools.com/html/default.asp" target="_blank">HTML Tutorial - W3Schools</a>
 * <a href="http://eloquentjavascript.net/17_http.html" target="_blank">HTTP - Eloquent Javascript</a>
+* Aprende a usar el Developer Tools de tu navegador en <a href="https://www.youtube.com/watch?v=z1TkfcC53G0" target="_blank">este video de 10 minutos</a>
 
 ***
 
