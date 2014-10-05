@@ -1,18 +1,18 @@
 ---
 layout: post
 title:  "HTTP y HTML"
-date:   2014-10-02 17:40:58
+date:   2014-10-05 17:40:58
 author: Germán Escobar
 ---
 
-¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder esas preguntas.
+¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder estas preguntas.
 
 Parece magia cuando abrimos un navegador e ingresamos a algún sitio como [http://www.makeitreal.camp/](http://www.makeitreal.camp/). El navegador realiza cuatro pasos principales que son invisibles para nosotros y que vamos a describir a continuación:
 
 1. Traducir el dominio a la dirección IP del servidor.
 2. Abrir una conexión con el servidor.
 3. Enviar un mensaje HTTP solicitando el recurso.
-4. Interpretar el mensaje mensaje HTTP de respuesta.
+4. Interpretar el mensaje HTTP de respuesta.
 
 ## Traducción del dominio
 
