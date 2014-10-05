@@ -18,11 +18,11 @@ Parece magia cuando abrimos un navegador e ingresamos a algún sitio como [http:
 
 Todo dispositivo conectado a Internet (computador, tablet, smarphone, etc.) está identificado por una **dirección IP** única (p.e. 31.13.69.160). **Los dominios** (p.e. www.google.com, www.facebook.com) no son más que un nombre de fácil recordación para los humanos.
 
-Cuando ingresamos el nombre de un dominio en el navegador, se hace un llamado a un **DNS (Domain Name Server)** que hace la traducción del dominio a la **dirección IP**. Un DNS es un servicio con una gran base de datos que contiene la dirección IP a la que está asociada cada dominio en Internet. Cuando alguien registra un nuevo dominio, el registrador debe avisar a todos los DNS's (públicos y privados) que actualicen sus bases de datos. El DNS público más conocido es <a href="https://developers.google.com/speed/public-dns/" target="_blank">el de Google</a>.
+Cuando ingresamos el nombre de un dominio en el navegador, se hace un llamado a un **DNS (Domain Name Server)** que hace la traducción del dominio a la **dirección IP**. Un **DNS** es un servicio con una gran base de datos que contiene la **dirección IP** a la que está asociada cada **dominio** en Internet. Cuando alguien registra un nuevo **dominio**, el registrador debe avisar a todos los **DNS's** (públicos y privados) que actualicen sus bases de datos. Puedes configurar el **DNS** en las propiedades de red de tu computador. Muchas personas cambian la configuración para usar el <a href="https://developers.google.com/speed/public-dns/" target="_blank">DNS público de Google</a>, por ejemplo.
 
 ## Abrir la conexión
 
-Una vez que el navegador tiene **la dirección IP del dominio**, el siguiente paso es abrir una conexión a **un puerto** específico en el servidor. Generalmente omitimos **el puerto** cuando escribimos una dirección en el navegador; en ese caso se asume **el puerto 80**. Es posible especificar explícitamente **el puerto** de la siguiente forma: [http://www.google.com:80/](http://www.google.com:80/).
+Una vez que el navegador tiene **la dirección IP** del servidor, el siguiente paso es abrir una conexión a **un puerto** específico en el servidor. Generalmente omitimos **el puerto** cuando escribimos una dirección en el navegador; en ese caso se asume **el puerto 80**. Es posible especificar explícitamente **el puerto** de la siguiente forma: [http://www.google.com:80/](http://www.google.com:80/).
 
 <div class="well">
 <h3>¿Qué es un puerto?</h3>
