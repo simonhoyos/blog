@@ -427,8 +427,12 @@ layout: home
     </div>
   </div>
 </section>
-
-<div class="action" style="margin-top: 80px;"><a href="/apply" class="primary inverted">Aplica Ahora</a></div>
+    
+<div class="action button-stand-alone">
+  <div class="arrow-down"></div>
+  <h5>Estás solo a un paso:</h5>
+  <a href="/apply" class="primary">Aplica Ahora</a>
+</div>
 
 <section class="section newsletter inverted">
   <div class="container">
@@ -464,56 +468,3 @@ layout: home
     </div>
   </div>
 </section>
-<script type="text/javascript">
-
-$('.details .apply-btn').addClass("disabled");
-
-
-
-$(" .where ").click(function(){
-
-
- var where, date = 0;
- var index = 0;
- index = $( " .where " ).index( this );
-
- $( ".details .dynamic-text-availability" ).removeClass( "line-through" );
- $( ".details .active" ).removeClass( "active" );
- $( ".details .apply-btn" ).removeClass( "disabled" );
-
- switch(index) {
-  case 0:
-
-  where = "Medellín 2014 ";
-  date = "OCTUBRE 10 - DICIEMBRE 19";
-  $('.details .dynamic-text-where').text(where);
-  $('.details .dynamic-text-date').text(date);
-  $('.details .dynamic-text-availability').addClass("line-through");
-  $('.details .apply-btn').addClass("disabled");
-
-    // console.log(mytext);
-    
-    break;
-    case 1:
-    where = "Bogotá 2015 ";
-    date = "ENERO 10 - MARZO 19";
-    $('.details .dynamic-text-where').text(where);
-    $('.details .dynamic-text-date').text(date);
-    // $('.details .dynamic-text-availability').addClass("line-through");
-    // console.log(mytext);
-    break;
-    case 2:
-    where = "Medellín 2015 ";
-    date = "ENERO 10 - MARZO 19";
-    $('.details .dynamic-text-where').text(where);
-    $('.details .dynamic-text-date').text(date);
-    // $('.details .dynamic-text-availability').addClass("line-through");
-    // console.log(mytext);
-    break;
-
-  }
-
-  $(this).addClass( "active" );
-  $('html, body').animate({ scrollTop: $("#dynamic-text-container").offset().top}, 1000);
-});
-</script>
