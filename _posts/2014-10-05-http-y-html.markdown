@@ -5,9 +5,16 @@ date:   2014-10-05 17:40:58
 author: Germán Escobar
 ---
 
-¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder estas preguntas.
+¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder estas preguntas. Pero antes un poco de historia.
 
-Parece magia cuando abrimos un navegador e ingresamos a algún sitio como [http://www.makeitreal.camp/](http://www.makeitreal.camp/). El navegador realiza cuatro pasos principales que son invisibles para nosotros y que vamos a describir a continuación:
+
+Aunque Internet fue desarrollado a finales de los 60's y principios de los 70's, no fue sino hasta 1989 que <a href="http://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners-Lee</a> propuso el proyecto World Wide Web (WWW) trabajando para <a href="http://en.wikipedia.org/wiki/CERN" target="_blank">CERN</a>, que era en su momento el nodo de Internet más grande en Europa.
+
+<blockquote>“Solo tuve que tomar la idea del HyperText y conectarla con TCP y DNS, y ta-da! Surgió el World Wide Web …" -- Tim Berners Lee</blockquote>
+
+En ese momento empezó el desarrollo de **HTML (Hyper Text Markup Language)** para definir la estructura de documentos con vínculos a otros documentos, y **HTTP (Hyper Text Transfer Protocolo)** como el protocolo por el que se transmitiría HTML.
+
+Y es que parece magia cuando abrimos un navegador e ingresamos a algún sitio como [http://www.makeitreal.camp/](http://www.makeitreal.camp/). ¿Qué ocurre por debajo? El navegador realiza varios pasos que son invisibles para nosotros y que vamos a describir a continuación:
 
 1. Traducir el dominio a la dirección IP del servidor.
 2. Abrir una conexión con el servidor.
@@ -37,7 +44,7 @@ Una vez que la conexión con el servidor está abierta, el navegador envía un m
 <div class="well">
 <h3>¿Qué es un protocolo?</h3>
 
-<p>Es un conjunto de  reglas de conversación que se establecen para que las máquinas entiendan un intercambio de mensajes. La especificación del protocolo HTTP versión 1.1 se puede encontrar <a href="http://tools.ietf.org/html/rfc2616" target="_blank">acá</a>. Las especificaciones las leen los que escriben los navegadores y los servidores Web, que deben implementar el protocolo correctamente para que Internet funcione como esperamos!</p>
+<p>Es un conjunto de reglas de conversación que se establecen para que las máquinas entiendan un intercambio de mensajes. La especificación del protocolo HTTP versión 1.1 se puede encontrar <a href="http://tools.ietf.org/html/rfc2616" target="_blank">acá</a>. Si tienes un tiempo libre no dudes en ojearla, aprender sobre el protocolo HTTP es una muy buena inversión de tiempo.</p>
 
 <p><strong>HTTP (Hyper Text Transfer Protocol) es un protocolo de petición/respuesta</strong>. Un cliente, por ejemplo un navegador, envía un mensaje al servidor en el que especifíca <a href="http://www.w3schools.com/tags/ref_httpmethods.asp" target="_blank">el método</a>, URI (la ruta del recurso que estamos solicitando), la versión del protocolo, y, opcionalmente, el cuerpo con el contenido del mensaje. El servidor responde con otro mensaje que incluye <a href="http://www.w3schools.com/tags/ref_httpmessages.asp" target="_blank">el código de estado de la respuesta</a>, algunos encabezados, y el cuerpo con el contenido de la respuesta.</p>
 </div>
