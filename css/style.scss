@@ -111,7 +111,7 @@ $tertiary-color: #384d56;
     color: white;
     font: 24px/1.1 $font-family-condensed;
     text-align: center;
-    padding: 80px 20px 0;
+    padding: 60px 20px 0;
     margin-bottom: 20px;
 
     @media (min-width: $screen-md-min) {
@@ -147,7 +147,7 @@ $tertiary-color: #384d56;
     text-align: center;
     padding-bottom: 60px;
 
-    @media (min-width: $screen-md-min) { padding-bottom: 150px; }
+    @media (min-width: $screen-md-min) { padding-bottom: 100px; }
 
     span {
       color: white;
@@ -189,8 +189,8 @@ $tertiary-color: #384d56;
 
 .press { 
   background-color: rgba(33, 51, 56, 0.66);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   .box { 
     text-align: center;
