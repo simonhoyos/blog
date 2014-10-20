@@ -5,7 +5,7 @@ date:   2014-10-18 17:40:58
 author: Germán Escobar
 ---
 
-Git es un **sistema de control de versiones distribuido**, diseñado y desarrollado inicialmente por <a href="http://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Trovald</a> en el 2005 cuando <a href="http://en.wikipedia.org/wiki/BitKeeper" target="_blank">BitKeeper</a>, el sistema de control de versiones que utilizaban para el desarrollo de Linux, cambiara su licencia y no permitiera su uso libre. En este post vamos a explicar qué es **Git** y cómo se relaciona con **<a href="http://github.com/" target="_blank">Github</a>**.
+Git es un **sistema de control de versiones distribuido**, diseñado y desarrollado inicialmente por <a href="http://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Torvalds</a> en el 2005 cuando <a href="http://en.wikipedia.org/wiki/BitKeeper" target="_blank">BitKeeper</a>, el sistema de control de versiones que utilizaban para el desarrollo de Linux, cambiara su licencia y no permitiera su uso libre. En este post vamos a explicar qué es **Git** y cómo se relaciona con **<a href="http://github.com/" target="_blank">Github</a>**.
 
 **Git**, y en general un sistema de control de versiones, tiene dos objetivos principales:
 
@@ -104,7 +104,7 @@ Hay varias formas de utilizar branches para el trabajo en equipo y cada empresa 
 
 ## Más recursos
 
-* Linus Trovald explica Git <a href="https://www.youtube.com/watch?v=4XpnKHJAok8" target="_blank">en este video del 2007</a>, es largo pero vale la pena verlo.
+* Linus Torvalds explica Git <a href="https://www.youtube.com/watch?v=4XpnKHJAok8" target="_blank">en este video del 2007</a>, es largo pero vale la pena verlo.
 * Un <a href="https://try.github.io/" target="_blank">tutorial interactivo</a> de Git.
 * <a href="http://git-scm.com/book" target="_blank">El libro "oficial" de Git</a> escrito por Scott Chacon.
 
