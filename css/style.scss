@@ -112,7 +112,7 @@ $tertiary-color: #384d56;
     font: 24px/1.1 $font-family-condensed;
     text-align: center;
     padding: 30px 20px 0;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
     @media (min-width: $screen-md-min) {
       font-size: 48px;
@@ -122,13 +122,21 @@ $tertiary-color: #384d56;
     }
   }
 
+  #main-video img {
+    width: 50px; 
+    opacity: 0.8;
+    @media (min-width: $screen-md-min) { width: 100px; }
+
+    &:hover { opacity: 1; }
+  }
+
   .sub-leading {
     color: white;
     font-size: 16px;
     line-height: 1.4;
     font-weight: 300;
     text-align: center;
-
+    padding-top: 10px;
     padding-bottom: 40px;
 
     @media (min-width: $screen-md-min) { 
