@@ -111,14 +111,14 @@ $tertiary-color: #384d56;
     color: white;
     font: 24px/1.1 $font-family-condensed;
     text-align: center;
-    padding: 60px 20px 0;
-    margin-bottom: 20px;
+    padding: 30px 20px 0;
+    margin-bottom: 5px;
 
     @media (min-width: $screen-md-min) {
       font-size: 48px;
       line-height: 1.2;
-      padding: 150px 100px 0;
-      margin-bottom: 40px;
+      padding: 80px 100px 0;
+      margin-bottom: 15px;
     }
   }
 
@@ -129,14 +129,12 @@ $tertiary-color: #384d56;
     font-weight: 300;
     text-align: center;
 
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
     padding-bottom: 40px;
 
     @media (min-width: $screen-md-min) { 
       font-size: 24px;
       line-height: 1.6;
-      padding-top: 30px;
+      padding-top: 15px;
     }
 
 
