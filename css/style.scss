@@ -795,3 +795,8 @@ input[type=submit] {
     .found-us { font-size: 14px; }
   }
 }
+
+code.overflow {
+  word-wrap: normal;
+  white-space: pre;
+}

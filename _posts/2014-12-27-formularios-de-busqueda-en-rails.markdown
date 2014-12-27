@@ -5,7 +5,7 @@ date:   2014-12-27 17:40:58
 author: Germán Escobar
 ---
 
-En Ruby on Rails, los formularios generalmente se utilizan para crear o editar modelos. Sin embargo, un caso de uso muy frecuente es buscar o filtrar información de uno o varios modelos a través de un formulario. Por ejemplo, imaginemos una aplicación que tiene una lista de gastos que queremos filtrar por dos criterios:
+En Ruby on Rails, los formularios generalmente se usan para crear o editar modelos. Sin embargo, un caso de uso muy frecuente es el de buscar o filtrar información usando un formulario. Por ejemplo, imaginemos una aplicación que tiene una lista de gastos que se puede filtrar por los siguientes criterios:
 
 * El concepto del gasto.
 * La categoría a la que pertenece el gasto.
@@ -20,7 +20,7 @@ También es importante tener en cuenta que, **en vez de un llamado `POST`, quere
 
 Teniendo en cuenta los dos puntos anteriores, el markup del formulario sería el siguiente:
 
-<pre><code class="erb">&lt;%= form_tag expenses_path, method: :get do %&gt;
+<pre><code class="overflow erb">&lt;%= form_tag expenses_path, method: :get do %&gt;
   &lt;div class=&quot;form-group&quot;&gt;
     &lt;%= text_field_tag :concept, params[:concept], class: &quot;form-control&quot;, placeholder: &quot;Concepto&quot; %&gt;
   &lt;/div&gt;
@@ -38,7 +38,7 @@ La primera línea (el `form_tag`) genera el siguiente HTML:
 
 Fíjate que estamos enviando el formulario a la misma acción que utilizamos para listar los gastos (`/expenses`). Veamos la implementación de esa acción en el controlador:
 
-<pre><code class="ruby">class ExpensesController &lt; ApplicationController
+<pre><code class="overflow ruby">class ExpensesController &lt; ApplicationController
   def index
     @expenses = Expense.order("date DESC")
     if params[:concept].present?
