@@ -52,7 +52,9 @@ end</code></pre>
 
 El hash `params` recibe los datos del formulario que vienen en el URL. Si no recibimos alguno de los parámetros, simplemente no se tiene en cuenta ese criterio de búsqueda.
 
-Crear un formulario de búsqueda es muy fácil. Solo debes tener en cuenta algunos detalles:
+***
+
+Crear un formulario de búsqueda en Ruby on Rails es muy fácil. Solo debes tener en cuenta algunos detalles:
 
 * Utilizar `form_tag` en vez de `form_for`.
 * Los tags de los campos también son diferentes a los que se utilizan en `form_for`. La documentación de estos campos se encuentra en [las guías de Rails](http://guides.rubyonrails.org/form_helpers.html).
