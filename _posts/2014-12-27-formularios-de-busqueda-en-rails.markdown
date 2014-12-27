@@ -50,7 +50,9 @@ Fíjate que estamos enviando el formulario a la misma acción que utilizamos par
   end
 end</code></pre>
 
-El hash `params` recibe los datos del formulario que vienen en el URL. Si no recibimos alguno de los parámetros, simplemente no se tiene en cuenta ese criterio de búsqueda.
+**Nota:** En este trozo de código estoy utilizando `ILIKE` que es una funcionalidad exclusiva de PostgreSQL para ignorar mayúsculas o minúsculas al hacer la comparación.
+
+El hash `params` recibe los datos del formulario que vienen en el URL. Si no recibimos alguno de los parámetros (`concept` o `category_id`), simplemente no tenemos en cuenta ese criterio de búsqueda.
 
 ***
 
