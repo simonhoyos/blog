@@ -14,7 +14,7 @@ La siguiente imagen muestra la lista de gastos y el formulario de búsqueda que 
 
 ![Mis Finanzas](/images/mis-finanzas.png)
 
-Cuando creamos un formulario para crear o editar un modelo, generalmente utilizamos el tag `form_for`. Sin embargo, <strong>existe otro tag llamado `form_tag` que se utiliza para crear formularios que no están asociados a ningún modelo</strong> y es el que vamos a utilizar para nuestro formulario de búsqueda.
+Cuando creamos un formulario para crear o editar un modelo, generalmente utilizamos el tag `form_for`. Sin embargo, <strong>existe otro tag llamado `form_tag` que se utiliza para crear formularios con otros fines</strong> y es el que vamos a utilizar para nuestro formulario de búsqueda.
 
 También es importante tener en cuenta que, **en vez de un llamado `POST`, queremos hacer un llamado `GET`. De esta forma podemos compartir la URL con los criterios de búsqueda** por correo o por cualquier otro medio. Por ejemplo, la URL `http://midominio.com/expenses?concept=corral&category=4` listaría los gastos que contengan la cadena “corral” en el concepto, y que pertenezcan a la categoría 4 (a esto se le conoce como Bookmarkable URL’s o RESTful URL's).
 
