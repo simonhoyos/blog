@@ -8,7 +8,7 @@ excerpt: Es indescriptible la alegría y el orgullo que sentía mientras present
 
 <img src="/images/screenshots.jpg" alt="Screenshots" class="photo">
 
-<p class="photo-description">Los landings de los 11 proyectos personales que presentaron en el Demo Day.</p>
+<p class="photo-description">Los landings de los proyectos personales que presentaron en el Demo Day.</p>
 
 Es indescriptible la alegría y el orgullo que sentía mientras presentaban sus proyectos personales el pasado viernes 23 de Enero durante el Demo Day. El tiempo fue corto y no todas las presentaciones salieron perfectas, pero conocía todos los proyectos y el increíble esfuerzo que pusieron para hacerlos realidad. Además de Ruby on Rails, PostgreSQL, HTML5, CSS3, y jQuery, utilizaron tecnologías muy interesantes como Redis, Web Sockets, los API de Google Maps y Google Drive, Web-RTC, S3, HStore, etc. Fue el resultado de 12 semanas de intenso aprendizaje y trabajo.
 
@@ -20,9 +20,9 @@ El 10 de Octubre del 2014 llegué a Atom House faltando 5 minutos para las 9:00 
 
 El bootcamp fue intenso. Hubo momentos de frustración. Aprender a programar no es imposible pero requiere mucha dedicación, una gran concentración y una actitud optimista para enfrentar temas que al principio parecen imposibles. Cada reto es diferente y tiene su propia dosis de aprendizaje y frustración. Gran parte del programa es aprender a lidiar con esa sensación.
 
-También hubo muchos momentos de alegría. Cuando se logra superar algún reto de programación, el cerebro libera dopamina, también llamada la “hormona de la felicidad”. Lo más gratificante era escucharlos gritar “¡sí!”, o levantarse con una enorme sonrisa, cuando algo les funcionaba.
+Pero también hubo incontables momentos de alegría. Cuando se logra superar algún reto de programación, el cerebro libera dopamina, también llamada la “hormona de la felicidad”. Lo más gratificante era escucharlos gritar “¡sí!”, o levantarse con una enorme sonrisa, cuando algo les funcionaba.
 
-El contenido y las charlas diarias les dio las bases del conocimiento. Los retos los enfrentaban a problemas no guiados similares a los del mundo real. Los talleres reforzaron el contenido y afianzaban el conocimiento. El hackathon les dio la seguridad que necesitaban para enfrentarse al mundo real, y los proyectos pusieron en práctica todos los conocimientos adquiridos, especialmente la capacidad de aprender y poner en práctica nuevas tecnologías.
+El contenido y las charlas diarias les dieron las bases del conocimiento. Los retos los enfrentaron a problemas no guiados similares a los del mundo real. Los talleres reforzaron el contenido y afianzaron el conocimiento. El hackathon les dio la seguridad que necesitaban para enfrentarse a problemas más complejos, y los proyectos pusieron en práctica todos los conocimientos adquiridos, especialmente la capacidad de aprender e implementar nuevas tecnologías.
 
 <img src="/images/first-hackathon.jpg" alt="First Hackathon" class="photo">
 
