@@ -708,6 +708,10 @@ input[type=submit] {
   .post-info {
     margin-bottom: 60px;
 
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7;
+
     header { margin-bottom: 18px; }
     .post-title {
       display: inline-block;
@@ -737,7 +741,13 @@ input[type=submit] {
     margin-bottom: 40px;
     h1 { font-family: $font-family-condensed; }
   }
-  p { margin-bottom: 18px; }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 18px; 
+    strong { font-weight: 600; }
+  }
   h2 { 
     font-family: $font-family-condensed; 
     margin-bottom: 21px;
