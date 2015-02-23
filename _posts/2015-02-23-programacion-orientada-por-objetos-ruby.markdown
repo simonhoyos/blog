@@ -120,7 +120,7 @@ puts 1.class # Fixnum</code></pre>
 
 ## Encapsulamiento
 
-Uno de los mayores problemas de la Programación Procedimental (el paradigma previo a OOP) es que no existía una forma de ocultar información y procedimientos del resto de la aplicación. A medida que la aplicación cambiaba, se empezaban a crear dependencias a partes del código que podían ser muy inestables, y que no estaba diseñadas para que el resto de la aplicación las usara directamente. Esas dependencias hacían muy difícil mantener el código, cualquier cambio dispara varios errores en cadena.
+Uno de los mayores problemas de la Programación Procedimental (el paradigma previo a OOP) es que no existía una forma de ocultar información y procedimientos del resto de la aplicación. A medida que la aplicación cambiaba, se empezaban a crear dependencias a partes del código que podían ser muy inestables, y que no estaban diseñadas para que el resto de la aplicación las usara directamente. Esas dependencias hacían muy difícil mantener el código, cualquier cambio dispara varios errores en cadena.
 
 **La Programación Orientada por Objetos no soluciona el problema automáticamente, pero nos da herramientas para solucionarlo.** Veamos un ejemplo:
 
@@ -152,9 +152,9 @@ La clase `CustomerStore` se encarga de almacenar los clientes (customers) y tien
 
 * Dos atributos privados llamados `customers` y `next_id`.
 * Tres métodos públicos llamados `all`, `create` y `delete`.
-* Un método privado llamado `next_customer_sequence`.
+* Un método privado llamado `next_customer_id`.
 
-En este momento la clase está almacenando los clientes en un hash, pero es posible que en un futuro usemos una base de datos como MySQL o PostgreSQL. **Si la aplicación usara directamente al hash para crear y eliminar los clientes, el cambio sería mucho más difícil**. Lo que estamos haciendo es encapsulando la información y permitiendo que los clientes se creen y se eliminen solo a través de los métodos `create` y `delete`. De esta forma es más fácil cambiar la forma en que se almacenan los clientes de ser necesario.
+En este momento la clase está almacenando los clientes en un hash, pero es posible que en un futuro usemos una base de datos como MySQL o PostgreSQL. **Si la aplicación usara directamente al hash para crear y eliminar los clientes, el cambio sería mucho más difícil**. Lo que estamos haciendo es encapsulando la información y permitiendo que los clientes se creen y se eliminen solo a través de los métodos `create` y `delete`. De esta forma será más fácil cambiar el tipo de almacenamiento en un futuro.
 
 **Por defecto, los atributos de un objeto en Ruby son privados**, es decir, solo pueden ser accedidos por métodos de la misma clase. Para darles visibilidad desde otras partes de la aplicación se usa `attr_accessor` (lectura y escritura), `attr_reader` (lectura), y `attr_writer` (escritura).
 
@@ -170,11 +170,11 @@ Los métodos pueden ser `públicos`, `privados`, o `protegidos`, y se definen de
     # acá van los métodos privados
 end</code></pre>
 
-**Los métodos públicos pueden ser accedidos desde cualquier parte de la aplicación. Los métodos privados pueden ser accedidos únicamente desde la misma clase. Y los métodos protegidos pueden ser accedidos desde la misma clase o desde alguna de sus subclases**. Las subclases son el tema de la siguiente sección. 
+Los métodos **públicos** pueden ser accedidos desde cualquier parte de la aplicación. Los métodos **privados** y **protegidos** pueden ser accedidos desde la misma clase o desde alguna de sus subclases (la diferencia exacta es sutil y no muy relevante para nuestra discusión). Las subclases son el tema de la siguiente sección. 
 
 ## Herencia
 
-La herencia es un mecanismo de reutilización de código en la Programación Orientada por Objetos. **Una clase puede heredar de otra sus métodos públicos y protegidos**. Técnicamente, los atributos no son heredados, se heredan los métodos que permiten leerlos o escribirlos (que se crean usando `attr_accessor`, `attr_reader`, y `attr_writer`).
+La herencia es un mecanismo de reutilización de código en la Programación Orientada por Objetos. A través de la herencia, **una clase hereda de otra sus atributos y métodos**. Técnicamente, los atributos no son heredados, se heredan los métodos que permiten leerlos o escribirlos (que se crean usando `attr_accessor`, `attr_reader`, y `attr_writer`).
 
 Supongamos que estamos diseñando un sistema que permite a las empresas llevar un control de sus facturas, ingresos y gastos. Podríamos crear tres clases independientes que representen una factura, un ingreso, y un gasto respectivamente. Pero hay información que se duplicaría en las tres clases: el usuario, la fecha, el concepto, y el valor.
 
@@ -257,7 +257,7 @@ class Manager &lt; Employee
   end
 end</code></pre>
 
-¿Puedes encontrar la diferencia con el código anterior? Definimos un método protegido `base_salary` (para que las subclases lo puedan llamar) y lo usamos en las dos clases para solucionar la duplicación de código. Si, son más líneas de código, pero si más adelante cambia la forma en que se calcula el salario base, solo tenemos que hacer el cambio en un único lugar.
+¿Puedes encontrar la diferencia con el código anterior? Definimos un método protegido `base_salary` (para que solo sea visible en la clase y sus subclases) y lo usamos en las dos clases para solucionar la duplicación de código. Si, son más líneas de código, pero si más adelante cambia la forma en que se calcula el salario base, solo tenemos que hacer el cambio en un único lugar.
 
 ## Polimorfismo
 
