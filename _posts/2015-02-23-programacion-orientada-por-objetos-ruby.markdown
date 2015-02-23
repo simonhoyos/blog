@@ -22,13 +22,13 @@ Es importante entender que la Programación Orientada por Objetos no reemplaza l
 
 Pero explicar y entender la Programación Orientada por Objetos no es fácil. Por un lado, los beneficios no son evidentes en aplicaciones simples, hechas por una única persona, que no cambian en el tiempo. Por otro lado, no hay una forma “correcta” de usar OOP, solo “mejores prácticas”, sugerencias sobre cómo diseñar las aplicaciones. **Es el tiempo el que decide si una aplicación está bien diseñada o no. Y es la experiencia creando y manteniendo varias aplicaciones la que desarrolla esa intuición en el programador**.
 
-Por ejemplo, en Ruby on Rails es posible hacer una aplicación Web simple sin saber \-prácticamente nada\- de Programación Orientada por Objetos. Eso es una ventaja si el objetivo es hacer un prototipo de una aplicación Web lo más rápido posible, pero una desventaja a la hora de trabajar en aplicaciones más complejas, escritas por múltiples personas, y que deben ser mantenidas por varios años.
+Por ejemplo, en Ruby on Rails es posible hacer una aplicación Web relativamente compleja sin saber \-prácticamente nada\- de Programación Orientada por Objetos. Eso es una ventaja si el objetivo es hacer un prototipo de una aplicación Web lo más rápido posible, pero una desventaja a la hora de trabajar en aplicaciones más complejas, escritas por múltiples personas, y que deben ser mantenidas por varios años.
 
 **Conocer y aplicar correctamente la Programación Orientada por Objetos es uno de los tres aspectos fundamentales que separan a los desarrolladores Junior de los Senior. Los otros dos siendo el código limpio y las pruebas automatizadas.**
 
 ## Clases y Objetos
 
-Las clases y los objetos son los conceptos más importantes de la Programación Orientada por Objetos, y están fuertemente relacionados. **Los objetos se crean a partir de clases, y las clases definen los atributos y el comportamiento que tendrán los objetos**.
+Las clases y los objetos son los conceptos más importantes de la Programación Orientada por Objetos, y están fuertemente relacionados. **Los objetos se crean a partir de clases, y las clases definen los atributos y el comportamiento que tendrán los objetos**. A los objetos también se les llama *instancias de clase*.
 
 Veamos cómo definir una clase y crear objetos en Ruby:
 
@@ -39,7 +39,7 @@ juan = Humano.new
 pedro = Humano.new
 ana = Humano.new</code></pre>
 
-En este ejemplo, hemos definido una clase llamada `Humano` y creamos tres objetos usando `Humano.new`, que almacenamos en las variables `juan`, `pedro`, y `ana`. Fíjate que la clase aún no tiene atributos ni comportamiento.
+En este ejemplo, hemos definido una clase llamada `Humano` y creamos tres objetos usando `Humano.new`, que almacenamos en las variables `juan`, `pedro`, y `ana`. La clase aún no tiene atributos ni comportamiento.
 
 Ahora modifiquemos la clase **Humano** para definir algunos atributos (nombre, edad y género), y un comportamiento (saludar):
 
