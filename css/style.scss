@@ -707,10 +707,12 @@ input[type=submit] {
   margin-top: 80px;
   .post-info {
     margin-bottom: 60px;
-
-    font-size: 18px;
     font-weight: 300;
-    line-height: 1.7;
+
+    @media (min-width: $screen-md-min) { 
+      font-size: 18px;
+      line-height: 1.7;
+    }
 
     header { margin-bottom: 18px; }
     .post-title {
@@ -742,11 +744,14 @@ input[type=submit] {
     h1 { font-family: $font-family-condensed; }
   }
   p {
-    font-size: 18px;
     font-weight: 300;
-    line-height: 1.7;
     margin-bottom: 18px; 
     strong { font-weight: 600; }
+
+    @media (min-width: $screen-md-min) { 
+      font-size: 18px;
+      line-height: 1.7;
+    }
   }
   h2 { 
     font-family: $font-family-condensed; 
@@ -781,11 +786,25 @@ input[type=submit] {
   blockquote {
     color: #666;
     font-size: 16px;
+
+    @media (min-width: $screen-md-min) { 
+      font-size: 18px;
+      line-height: 1.7;
+    }
   }
 
   .well h3 {
     margin-top: 0;
     font-size: 16px;
+  }
+
+  ul {
+    font-weight: 300;
+
+    @media (min-width: $screen-md-min) { 
+      font-size: 18px;
+      line-height: 1.7;
+    }
   }
 }
 
