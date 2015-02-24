@@ -66,7 +66,7 @@ puts juan.name # imprime Juan Perez
 puts juan.age # imprime 12
 puts juan.genre # imprime M
 
-puts juan.saludar # imprime Hola, me llamo Juan Perez</code></pre>
+puts juan.greet # imprime Hola, me llamo Juan Perez</code></pre>
 
 ## Inicializando un objeto
 
