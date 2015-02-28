@@ -5,7 +5,7 @@ date:   2015-02-17 17:40:58
 author: Germán Escobar
 ---
 
-A principios de los años 60’s, en Estados Unidos, varias universidades tenían computadores de tiempo compartido: enormes máquinas, con una fracción de la capacidad de tu teléfono móvil actual, que se accedían a través de terminales sin pantalla, permitiendo a varios compartir los recursos de la enorme máquina.
+A principios de los años 60’s, en Estados Unidos, varias universidades tenían computadores de tiempo compartido: enormes máquinas, con una fracción de la capacidad de tu teléfono móvil actual, que se accedían a través de terminales sin pantalla, permitiendo a varios compartir los recursos del computador de forma simultánea.
 
 <img src="/images/mainframe3.jpg" alt="Screenshots" class="photo">
 
