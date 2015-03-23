@@ -66,7 +66,7 @@ En los **controladores**, las **acciones** usan el método `render` para renderi
   end
 end</code></pre>
 
-En este caso se renderizaría la **vista** ubicada en `app/views/products/index.html.erb`. Fíjate que no fue necesario especificar la carpeta `app/views/` ni la extensión `.html.erb`, **Rails** se encarga de eso automáticamente. Ahora, lo que confunde a muchos principiantes es que **si se hubiesemos omitido la línea** `render 'products/index'` del código anterior (es decir, si el método `index` estuviera vacío), **igual se renderizaría la misma vista**. La razón es que **Rails** asume que, por defecto, quieres renderizar una vista y usa el nombre del controlador y de la acción para construir la ruta.
+En este caso se renderizaría la **vista** ubicada en `app/views/products/index.html.erb`. Fíjate que no fue necesario especificar la carpeta `app/views/` ni la extensión `.html.erb`, **Rails** se encarga de eso automáticamente. Ahora, lo que confunde a muchos principiantes es que **si hubiésemos omitido la línea** `render 'products/index'` del código anterior (es decir, si el método `index` estuviera vacío), **igual se renderizaría la misma vista**. La razón es que **Rails** asume que, por defecto, quieres renderizar una vista y usa el nombre del controlador y de la acción para construir la ruta.
 
 La regla es no llamar <code>render</code> explícitamente a menos de que necesites renderizar algo diferente a la vista que se renderiza por defecto (es decir, hubiese sido mejor dejar el método `index` vacío en el código anterior).
 
@@ -167,7 +167,7 @@ Que generaría la siguiente migración:
   end
 end</code></pre>
 
-**Nota:** Al generar una migración, solo estás creando un archivo con instrucciones para modificar la base de datos. Para ejecutar esos cambios en la base de datos debes corre el comando: 
+**Nota:** Al generar una migración, solo estás creando un archivo con instrucciones para modificar la base de datos. Para ejecutar esos cambios en la base de datos debes correr el comando: 
 
 <pre><code class="overflow bash">$ rake db:migrate</code></pre>
 
