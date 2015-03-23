@@ -26,7 +26,7 @@ Los 5 componentes más importantes del framework son los siguientes:
 
 ## El enrutador
 
-El objetivo de todos los frameworks de desarrollo Web, incluido **Rails**, es el de **mapear (o relacionar) URL’s** (p.e. `http://localhost:3000/productos`) **al código que genera la respuesta dinámica**. 
+El objetivo de todos los frameworks de desarrollo Web, incluido **Rails**, es el de **mapear (o relacionar) URL’s** (p.e. `http://localhost:3000/productos`) **al código que va a procesar esas peticiones**. 
 
 
 Por ejemplo, supongamos que queremos crear una ruta para que cuando un usuario ingrese a `http://localhost:3000/productos` desde su navegador (p.e. Chrome, Firefox, Internet Explorer, etc.), vea la lista de productos que existen en ese momento en la base de datos. En **Rails**, las rutas se definen en el archivo `config/routes.rb` como se muestra en el siguiente ejemplo:
@@ -37,7 +37,7 @@ end</code></pre>
 
 La segunda línea le dice a **Rails** que las peticiones que lleguen a `/products` van a ser procesadas por el método `index` de la clase `ProductsController`. 
 
-(A los métodos que procesan las peticiones se les llama **acciones**, y a las clases que contienen esos métodos se les llama **controladores**).
+<div class="well">A los métodos que procesan las peticiones se les llaman <strong>acciones</strong>, y a las clases que contienen esos métodos se les llaman <strong>controladores</strong>. Los <strong>controladores</strong> se encuentran en la carpeta <code>app/controllers</code>).</div>
 
 Generalmente las **acciones** interactuan con la base de datos y renderizan una vista, pero para este ejemplo simplemente vamos a devolver `<h1>Hola Mundo</h1>`:
 
