@@ -242,7 +242,6 @@ $tertiary-color: #384d56;
 .details {
   width:100%;
   padding-bottom:2em;
-  background: url("../images/bg_ciudades.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -383,13 +382,11 @@ $tertiary-color: #384d56;
 }
 
 .method {
-  background-color: #213338;
-  color: white;
-
   .box {
     margin-top: 40px;
 
     header {
+      color: $secondary-color;
       font-size: 18px;
       margin-bottom: 14px;
 
@@ -481,13 +478,13 @@ $tertiary-color: #384d56;
     margin-top: 40px;
 
     img { 
-      width: 150px; height: 150px;
+      width: 130px; height: 130px;
     }
 
     header {
       font-size: 18px;
       margin-top: 10px;
-      margin-bottom: 14px;
+      margin-bottom: 3px;
 
       @media (min-width: $screen-md-min) {
         font-size: 21px;
@@ -529,9 +526,12 @@ $tertiary-color: #384d56;
   }
 }
 
-.social-proof {
+.section.social-proof {
+
+  @media (min-width: $screen-md-min) { padding-bottom: 40px; }
 
   .carousel-control {
+    color: $primary-color;
     background-image: none;
   }
 
@@ -623,7 +623,7 @@ $tertiary-color: #384d56;
       margin: 0 auto;
       border-left: 400px solid transparent;
       border-right: 400px solid transparent;
-      border-top: 20px solid #213338;
+      border-top: 20px solid white;
       -moz-transform: scale(.9999);
   } 
   @media (max-width: $screen-md-min) {
