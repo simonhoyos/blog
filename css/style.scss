@@ -6,6 +6,18 @@
 
 $tertiary-color: #384d56;
 
+.start {
+  background: #000;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+
+  @media (min-width: $screen-md-min) { font-size: 16px; }
+
+  a { color: #26A7F0; }
+}
+
 .main-nav {
   background-color: #5B888C;
   padding: 10px 0;
