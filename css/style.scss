@@ -10,12 +10,17 @@ $tertiary-color: #384d56;
   background: #000;
   color: white;
   font-size: 14px;
+  font-weight: 300;
   padding: 10px;
   text-align: center;
 
   @media (min-width: $screen-md-min) { font-size: 16px; }
 
-  a { color: #26A7F0; }
+  span { font-weight: bold; }
+  a {
+    color: #26A7F0;
+    font-weight: normal;
+  }
 }
 
 .main-nav {
@@ -31,7 +36,7 @@ $tertiary-color: #384d56;
     @media (min-width: $screen-md-min) { font-size: 28px; }
 
     span {
-      display:block; 
+      display:block;
       font-size: 16px;
       line-height: 0.5;
       text-align: right;
@@ -54,8 +59,8 @@ $tertiary-color: #384d56;
         margin: 0 5px;
         padding: 5px;
 
-        @media (min-width: $screen-md-min) { 
-          font-size: 18px; 
+        @media (min-width: $screen-md-min) {
+          font-size: 18px;
           margin: 0 10px;
         }
 
@@ -65,8 +70,8 @@ $tertiary-color: #384d56;
           border: 2px solid white;
           transition: background-color 0.5s ease;
 
-          @media (min-width: $screen-md-min) { 
-            border-radius: 3px; 
+          @media (min-width: $screen-md-min) {
+            border-radius: 3px;
             padding: 5px 15px;
             border: 3px solid white;
           }
@@ -135,7 +140,7 @@ $tertiary-color: #384d56;
   }
 
   #main-video img {
-    width: 50px; 
+    width: 50px;
     opacity: 0.8;
     @media (min-width: $screen-md-min) { width: 100px; }
 
@@ -151,7 +156,7 @@ $tertiary-color: #384d56;
     padding-top: 10px;
     padding-bottom: 40px;
 
-    @media (min-width: $screen-md-min) { 
+    @media (min-width: $screen-md-min) {
       font-size: 24px;
       line-height: 1.6;
       padding-top: 15px;
@@ -176,8 +181,8 @@ $tertiary-color: #384d56;
       border-radius: 10px;
       padding: 7px;
 
-      @media (min-width: $screen-md-min) { 
-        font-size: 21px; 
+      @media (min-width: $screen-md-min) {
+        font-size: 21px;
         border: 3px solid white;
       }
 
@@ -205,15 +210,15 @@ $tertiary-color: #384d56;
   }
 }
 
-.press { 
+.press {
   background-color: rgba(33, 51, 56, 0.66);
   padding-top: 10px;
   padding-bottom: 10px;
 
-  .box { 
+  .box {
     text-align: center;
 
-    img { 
+    img {
       width: 100px;
       margin: auto;
 
@@ -268,10 +273,10 @@ $tertiary-color: #384d56;
     #dynamic-text-container{ margin-top: 4em;  }
   }
   .unavailable .whiteBox {
-    opacity: 0.9; 
+    opacity: 0.9;
     .background-btn-signup{  background: #f2f2f2;}
     .primary.btn{ border:solid 3px #c2c2c2 !important; color: #c2c2c2 !important; }
-    
+
   }
   @media (max-width: 991px) {
     .unavailable { display: none; }
@@ -284,7 +289,7 @@ $tertiary-color: #384d56;
 
     @media (min-width: $screen-md-min) { font-size: 18px; }
   }
-  
+
   .whiteBox {
     border-radius: 6px;
     text-align: center;
@@ -297,60 +302,60 @@ $tertiary-color: #384d56;
 
     .background-btn-signup {
       background: #359EAB;
-      width: 100%; 
+      width: 100%;
       margin-top: 20px;
       padding: 5px;
       border-radius: 0px 0px 6px 6px;
       -moz-border-radius: 0px 0px 6px 6px;
       -webkit-border-radius: 0px 0px 6px 6px;
       border: 0px solid #000000;
-      
-      @media (min-width: $screen-md-min) { 
+
+      @media (min-width: $screen-md-min) {
         padding: 15px;
       }
 
-      .primary.btn { 
+      .primary.btn {
         font-size: 12px;
         border: solid 2px #fff;
 
         @media (min-width: $screen-md-min) {
           font-size: 16px;
-          border: solid 3px #fff; 
+          border: solid 3px #fff;
         }
       }
       .primary {
         margin: 5px auto;
-        padding: 3px 10px; 
-        
-        @media (min-width: $screen-md-min) { 
-          padding: 7px 30px; 
+        padding: 3px 10px;
+
+        @media (min-width: $screen-md-min) {
+          padding: 7px 30px;
         }
       }
     }
 
-    .disabled { 
-      border: 3px solid #7cbfc4; 
+    .disabled {
+      border: 3px solid #7cbfc4;
       color: #7cbfc4 !important;
     }
-    
+
     p {
       color: $primary-color;
-      font-size: 16px; 
+      font-size: 16px;
       line-height: 1.4;
       margin-bottom: 0;
     }
-    
+
     .city {
       margin: 0 0 10px 0;
       font-size: 18px;
       font-family: $font-family-condensed;
 
-      @media (min-width: $screen-md-min) { 
+      @media (min-width: $screen-md-min) {
         margin: 15px 0 10px 0;
-        font-size: 32px; 
+        font-size: 32px;
       }
     }
-    
+
     .price {
       color: #959595;
       font-size: 16px;
@@ -358,7 +363,7 @@ $tertiary-color: #384d56;
 
       @media (min-width: $screen-md-min) { font-size: 28px; }
     }
-    
+
     .date {
       font-size: 11px;
       font-weight: bold;
@@ -371,20 +376,20 @@ $tertiary-color: #384d56;
       text-transform: uppercase;
       margin-top: 10px;
 
-      @media (min-width: $screen-md-min) { 
-        font-size: 26px; 
+      @media (min-width: $screen-md-min) {
+        font-size: 26px;
         margin-top: 20px;
       }
     }
 
-    .availability { 
+    .availability {
       font-size: 12px;
       font-weight: 200;
       margin-bottom: 10px;
-  
-      @media (min-width: $screen-md-min) { 
+
+      @media (min-width: $screen-md-min) {
         margin-bottom: 30px;
-        font-size: 18px; 
+        font-size: 18px;
       }
     }
   }
@@ -437,23 +442,23 @@ $tertiary-color: #384d56;
   }
 
   .title {
-    font-size: 24px; 
+    font-size: 24px;
     margin-top: 40px;
 
-    @media (min-width: $screen-md-min) { 
-      font-size: 32px; 
+    @media (min-width: $screen-md-min) {
+      font-size: 32px;
       margin-top: 60px;
     }
   }
 
   .subtitle {
-    font-size: 16px; 
-    text-align: center; 
+    font-size: 16px;
+    text-align: center;
     margin-top: -20px;
   }
 
-  .hr { 
-    margin: 40px -15px 35px; 
+  .hr {
+    margin: 40px -15px 35px;
     span {
       background: white;
       color: $secondary-color;
@@ -473,23 +478,23 @@ $tertiary-color: #384d56;
 
 .thankyou {
   .title {
-    font-size: 28px; 
+    font-size: 28px;
     margin-top: 50px;
     margin-bottom: 40px;
 
-    @media (min-width: $screen-md-min) { 
-      font-size: 38px; 
+    @media (min-width: $screen-md-min) {
+      font-size: 38px;
       margin-top: 80px;
       margin-bottom: 40px;
     }
-  } 
+  }
 }
 
 .team {
   .box {
     margin-top: 40px;
 
-    img { 
+    img {
       width: 130px; height: 130px;
     }
 
@@ -505,8 +510,8 @@ $tertiary-color: #384d56;
 
     p {
       margin-bottom: 0;
-      a { 
-       color: #A5CCAA; 
+      a {
+       color: #A5CCAA;
        &:hover, &:active { color: lighten(#A5CCAA, 5%); text-decoration: underline; }
      }
    }
@@ -517,9 +522,9 @@ $tertiary-color: #384d56;
     padding: 0;
     margin: 0;
 
-    li { 
-      float: left; 
-      list-style-type: none; 
+    li {
+      float: left;
+      list-style-type: none;
       padding: 15px;
 
       a { color: white; }
@@ -528,10 +533,10 @@ $tertiary-color: #384d56;
 }
 }
 
-.support { 
+.support {
   background-color: whiteSmoke;
 
-  .box { 
+  .box {
     margin-top: 40px;
 
     img { margin: auto; }
@@ -556,19 +561,19 @@ $tertiary-color: #384d56;
     @media (min-width: $screen-md-min) { padding: 20px 160px 100px; }
 
     .text {
-      font-size: 18px; 
-      line-height: 1.4; 
-      font-weight: 300; 
-      margin-bottom: 20px; 
+      font-size: 18px;
+      line-height: 1.4;
+      font-weight: 300;
+      margin-bottom: 20px;
       text-align: center;
 
       @media (min-width: $screen-md-min) {
         font-size: 24px;
-        margin-bottom: 60px; 
+        margin-bottom: 60px;
       }
 
-      span { 
-        font-size: 16px; 
+      span {
+        font-size: 16px;
         margin: 0 5px;
         @media (min-width: $screen-md-min) { font-size: 21px; }
       }
@@ -581,23 +586,23 @@ $tertiary-color: #384d56;
       @media (min-width: $screen-md-min) { padding: 0; }
 
       > div {
-        display: inline-block;   
+        display: inline-block;
         max-width: 400px;
       }
-      img { 
-        width: 80px; 
+      img {
+        width: 80px;
         height: 80px;
 
-        @media (min-width: $screen-md-min) { 
-          float: left; 
-          width: 120px; 
-          height: 120px;          
+        @media (min-width: $screen-md-min) {
+          float: left;
+          width: 120px;
+          height: 120px;
         }
       }
       .credentials {
-        @media (min-width: $screen-md-min) { 
+        @media (min-width: $screen-md-min) {
           text-align: left;
-          padding-left: 150px; 
+          padding-left: 150px;
         }
 
         h4 {
@@ -605,8 +610,8 @@ $tertiary-color: #384d56;
           @media (min-width: $screen-md-min) { font-size: 21px; }
         }
 
-        p { 
-          font-size: 14px; 
+        p {
+          font-size: 14px;
           @media (min-width: $screen-md-min) { font-size: 16px; }
         }
       }
@@ -630,14 +635,14 @@ $tertiary-color: #384d56;
     width: 100%;
   }
   .arrow-down{
-      width: 0; 
-      height: 0; 
+      width: 0;
+      height: 0;
       margin: 0 auto;
       border-left: 400px solid transparent;
       border-right: 400px solid transparent;
       border-top: 20px solid white;
       -moz-transform: scale(.9999);
-  } 
+  }
   @media (max-width: $screen-md-min) {
     .arrow-down{
       border-left: 200px solid transparent;
@@ -679,7 +684,7 @@ input[type=submit] {
 
 .tag-line {
 
-  
+
   font-size: 21px;
   margin: 0 auto 30px auto;
 
@@ -721,7 +726,7 @@ input[type=submit] {
     margin-bottom: 60px;
     font-weight: 300;
 
-    @media (min-width: $screen-md-min) { 
+    @media (min-width: $screen-md-min) {
       font-size: 18px;
       line-height: 1.7;
     }
@@ -731,14 +736,14 @@ input[type=submit] {
       display: inline-block;
       color: $primary-color;
       font-family: $font-family-condensed;
-      font-size: 38px; 
+      font-size: 38px;
       line-height: 1.1;
       margin-bottom: 10px;
     }
 
-    .continue { 
+    .continue {
       display: block;
-      font-size: 14px; 
+      font-size: 14px;
     }
 
     blockquote {
@@ -757,16 +762,16 @@ input[type=submit] {
   }
   p {
     font-weight: 300;
-    margin-bottom: 18px; 
+    margin-bottom: 18px;
     strong { font-weight: 600; }
 
-    @media (min-width: $screen-md-min) { 
+    @media (min-width: $screen-md-min) {
       font-size: 18px;
       line-height: 1.7;
     }
   }
-  h2 { 
-    font-family: $font-family-condensed; 
+  h2 {
+    font-family: $font-family-condensed;
     margin-bottom: 21px;
   }
   h3 {
@@ -775,7 +780,7 @@ input[type=submit] {
   }
 
   .footer {
-    margin-top: 40px; 
+    margin-top: 40px;
     margin-bottom: 100px;
   }
 
@@ -789,9 +794,9 @@ input[type=submit] {
   }
 
   .photo-description {
-    color: #999; 
-    text-align: center; 
-    font-size: 14px; 
+    color: #999;
+    text-align: center;
+    font-size: 14px;
     margin-top: -5px;
   }
 
@@ -799,7 +804,7 @@ input[type=submit] {
     color: #666;
     font-size: 16px;
 
-    @media (min-width: $screen-md-min) { 
+    @media (min-width: $screen-md-min) {
       font-size: 18px;
       line-height: 1.7;
     }
@@ -813,7 +818,7 @@ input[type=submit] {
   ul {
     font-weight: 300;
 
-    @media (min-width: $screen-md-min) { 
+    @media (min-width: $screen-md-min) {
       font-size: 18px;
       line-height: 1.7;
     }
@@ -832,11 +837,11 @@ input[type=submit] {
       line-height: 1.3;
     }
     .email, .birth, .created-at { display: block; }
-    .birth { 
+    .birth {
       color: #999;
       font-size: 14px;
     }
-    .created-at { 
+    .created-at {
       color: #999;
       font-size: 14px;
     }
