@@ -41,6 +41,17 @@ $tertiary-color: #384d56;
       line-height: 0.5;
       text-align: right;
     }
+
+    span.now {
+      display: inline-block;
+      position: absolute;
+      font: 28px/1 "Open Sans Condensed", sans-serif;
+      opacity: 0.8;
+      border-left: 2px solid white;
+      padding: 7px 12px;
+      top: 2px;
+      left: 166px;
+    }
   }
 
   .nav {
@@ -191,6 +202,18 @@ $tertiary-color: #384d56;
   }
 }
 
+.main.remote {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/laptop-2-opt.jpg') no-repeat center top;
+  background-size: cover;
+
+  .sub-leading {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .more { margin-top: 150px; }
+}
+
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -201,6 +224,7 @@ $tertiary-color: #384d56;
   }
 
   &.inverted { background-color: $primary-color; }
+  &.inverted-remote { background-color: #303030; }
 }
 
 .what-is-it {
@@ -425,7 +449,14 @@ $tertiary-color: #384d56;
 
       @media (min-width: $screen-md-min) { font-size: 21px; }
     }
+
+    p { 
+      font-weight: 300;
+      @media (min-width: $screen-md-min) { font-size: 18px; } 
+    }
   }
+
+
 }
 
 .apply {
@@ -862,4 +893,60 @@ input[type=submit] {
 code.overflow {
   word-wrap: normal;
   white-space: pre;
+}
+
+.screenshots {
+  margin-top: -100px;
+
+  .box {
+    margin-top: 80px; 
+    header {
+      color: #303030;
+      font-size: 18px;
+      margin-top: 14px;
+      margin-bottom: 14px;
+
+      @media (min-width: $screen-md-min) { font-size: 24px; }
+    }
+
+    p {
+      @media (min-width: $screen-md-min) { font-size: 18px; }
+    }
+  }
+
+}
+
+.how-much {
+  .price {
+    color: #303030;
+    font-size: 38px;
+    text-align: center;
+
+    &.inactive {
+      color: #ccc;
+      line-height: 1.2;
+      text-decoration: line-through;
+    }
+
+    &:first-child { margin-top: 90px;}
+  }
+
+  .price-exp {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  h4 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  ul li {
+    margin-bottom: 20px;
+    @media (min-width: $screen-md-min) { font-size: 18px; }
+  }
 }
