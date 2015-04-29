@@ -7,7 +7,7 @@
 $tertiary-color: #384d56;
 
 .start {
-  background: #000;
+  background: #303030;
   color: white;
   font-size: 14px;
   font-weight: 300;
@@ -18,7 +18,7 @@ $tertiary-color: #384d56;
 
   span { font-weight: bold; }
   a {
-    color: #26A7F0;
+    color: #f8da4a;
     font-weight: normal;
   }
 }
@@ -35,10 +35,11 @@ $tertiary-color: #384d56;
     margin-top: -5px;
     @media (min-width: $screen-md-min) { font-size: 28px; }
 
-    span {
+
+    span.camp {
       display:block;
-      font-size: 16px;
-      line-height: 0.5;
+      font-size: 21px;
+      line-height: 1;
       text-align: right;
     }
 
@@ -240,7 +241,7 @@ $tertiary-color: #384d56;
 }
 
 .press {
-  background-color: rgba(33, 51, 56, 0.66);
+  background-color: rgba(48, 48, 48, 0.66);
   padding-top: 10px;
   padding-bottom: 10px;
 
@@ -734,13 +735,13 @@ input[type=submit] {
 }
 
 .footer {
-  border-top: 1px solid #2F5059;
+  border-top: 1px solid #575757;
   padding-top: 20px;
   padding-bottom: 30px;
-  color: #A4B7BD;
+  color: #B5B5B5;
   font-size: 14px;
 
-  a { color: #A4B7BD; font-weight: bold; }
+  a { color: #B5B5B5; font-weight: bold; }
 }
 
 .blog {
