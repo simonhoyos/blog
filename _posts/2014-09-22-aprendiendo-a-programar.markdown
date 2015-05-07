@@ -43,12 +43,8 @@ Es por eso que en [Make it Real](http://makeitreal.camp) no medimos a los estudi
 
 ## Bienvenidos a esta nueva experiencia
 
-En [Make it Real](http://makeitrea.camp) no solo queremos enseñarles a programar. Queremos ayudarles a superar [el síndrome del impostor](https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5) que la mayoría de programadores hemos sufrido en algún momento de nuestras vidas. Queremos crearles esa mentalidad de crecimiento para que sigan aprendiendo nuevas habilidades por el resto de sus vidas.
+En [Make it Real](http://makeitrea.camp) no solo queremos que aprendas a programar. Queremos ayudarte a superar [el síndrome del impostor](https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5) que la mayoría de programadores hemos sufrido en algún momento de nuestras vidas. Queremos crearte esa mentalidad de crecimiento para que sigas aprendiendo nuevas habilidades por el resto de sus vidas.
 
-Hemos diseñado todo el programa para hacer practica deliberada varias horas al día. Se van a sentir frustrados. Va a ser desgastante. Pero les aseguro que si logran superar esa frustración, el resultado valdrá la pena.
+Hemos diseñado todo el programa para hacer practica deliberada varias horas al día. Te vas a sentir frustrado(a). Va a ser desgastante. Pero te aseguro que si logras superar esa frustración, el resultado valdrá la pena.
 
 ¡Hagamos esto realidad!
-
-***
-
-Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!

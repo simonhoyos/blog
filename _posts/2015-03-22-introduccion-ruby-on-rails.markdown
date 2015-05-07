@@ -205,7 +205,3 @@ El siguiente paso sería crear rutas y vistas que necesitemos para listar, crear
 * [Las guías oficiales de Rails](http://guides.rubyonrails.org/) - un excelente recurso para aprender de Rails (en Inglés).
 * [Codecademy](http://www.codecademy.com/en/learn/make-a-rails-app) - un tutorial interactivo para crear una aplicación en Rails.
 * [Ruby on Rails Tutorial Book](https://www.railstutorial.org/book) - un libro gratis para que sigas aprendiendo.
-
-***
-
-Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!

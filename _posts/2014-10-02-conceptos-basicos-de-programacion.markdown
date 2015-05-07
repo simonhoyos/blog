@@ -171,7 +171,3 @@ Existen muchos más elementos de cada lenguaje de programación, pero con estos 
 * Nuestros amigos de <a href="http://mejorando.la/" target="_blank">mejorando.la</a> han creado un <a href="https://cursos.mejorando.la/programacion-basica/" target="_blank">curso gratis</a> para aprender programación básica.
 * En Codecademy existe un curso de <a href="http://www.codecademy.com/en/tracks/javascript" target="_blank">JavaScript</a> y otro de <a href="http://www.codecademy.com/tracks/ruby" target="_blank">Ruby</a>.
 * Treehouse también tiene cursos básicos de programación. Uno de <a href="http://teamtreehouse.com/library/introduction-to-programming" target="_blank">JavaScript</a> y el otro de <a href="http://teamtreehouse.com/library/ruby-foundations" target="_blank">Ruby</a>.
-
-***
-
-Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!

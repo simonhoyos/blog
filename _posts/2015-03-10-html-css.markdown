@@ -128,7 +128,3 @@ Los selectores se pueden encadenar. Por ejemplo, la siguiente regla le cambia el
 * <a href="http://www.w3schools.com/html/default.asp" target="_blank">HTML Tutorial - W3Schools</a>
 * <a href="http://www.w3schools.com/css/default.asp" target="_blank">CSS Tutorial - W3Schools</a>
 * <a href="http://flukeout.github.io/" target="_blank">CSS Dinner - Para que practiques los selectores!</a>
-
-***
-
-Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!

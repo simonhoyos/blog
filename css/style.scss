@@ -746,25 +746,30 @@ input[type=submit] {
 
 .blog {
   .main-nav {
-    background-color: $secondary-color;
+    background-color: #303030;
   }
+
+  a { color: #F04500; }
 }
 
 .post-details {
   color: #999;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: -5px;
-  .post-author { color: $secondary-color; }
+  .post-author { color: #427A9E; }
 }
 
 .posts {
   margin-top: 80px;
   .post-info {
-    margin-bottom: 60px;
+    font-size: 18px;
     font-weight: 300;
+    margin-bottom: 80px;
+
+    strong { font-weight: 600; }
 
     @media (min-width: $screen-md-min) {
-      font-size: 18px;
+      font-size: 21px;
       line-height: 1.7;
     }
 
@@ -785,7 +790,7 @@ input[type=submit] {
 
     blockquote {
       color: #666;
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 }

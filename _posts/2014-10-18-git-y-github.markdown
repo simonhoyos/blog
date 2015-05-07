@@ -107,7 +107,3 @@ Hay varias formas de utilizar branches para el trabajo en equipo y cada empresa 
 * Linus Torvalds explica Git <a href="https://www.youtube.com/watch?v=4XpnKHJAok8" target="_blank">en este video del 2007</a>, es largo pero vale la pena verlo.
 * Un <a href="https://try.github.io/" target="_blank">tutorial interactivo</a> de Git.
 * <a href="http://git-scm.com/book" target="_blank">El libro "oficial" de Git</a> escrito por Scott Chacon.
-
-***
-
-Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!

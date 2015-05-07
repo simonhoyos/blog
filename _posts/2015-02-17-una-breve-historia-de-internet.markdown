@@ -75,7 +75,3 @@ A mediados de los años 80's nuevas redes proliferaban en todo el mundo. **Se ha
 En 1989 <a href="http://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners-Lee</a> propuso el proyecto World Wide Web (WWW) trabajando para <a href="http://en.wikipedia.org/wiki/CERN" target="_blank">CERN</a>, que era en su momento el nodo de Internet más grande en Europa ... fue el inicio de una nueva revolución que hoy seguimos viviendo.
 
 *La historia en detalle la encuentras en el libro <a href="http://www.amazon.com/Where-Wizards-Stay-Up-Late-ebook/dp/B000FC0WP6/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1424226000&sr=1-1&keywords=where+wizards+stay+up+late" target="_blank">Where Wizards Stay Up Late: The Origins of the Internet</a>.*
-
-***
-
-Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!

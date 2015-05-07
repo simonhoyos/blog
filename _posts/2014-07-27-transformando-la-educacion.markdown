@@ -38,7 +38,3 @@ Para transformar la educación solo necesitamos una premisa: aprender algo nuevo
 Desde el punto de vista metodológico, el error más grande que comete el sistema de educación tradicional es asumir que todos saben lo mismo y aprenden al mismo ritmo. Es por eso que hemos diseñado un [bootcamp completamente personalizado](/2014/07/25/un-bootcamp-personalizado/) en donde identificamos los conocimientos de cada estudiante y diseñamos un programa que el estudiante puede seguir a su propio ritmo.
 
 Y es que la mayoría de profesores creen que su su rol más importante es "dictar clase". Pero eso no es cierto. Por eso en **Make it Real** no los llamamos profesores, los llamamos mentores. Los mentores guían el aprendizaje de cada estudiante, solucionan dudas y amplían los temas que más se les dificulten. El aprendizaje lo realiza cada uno, a su propio ritmo.
-
-***
-
-Si tienes un verdadero interés por la programación y estás dispuesto a trabajar muy duro por 12 semanas para convertirte en un desarrollador Web no dudes en [aplicar a **Make it Real**](/apply).

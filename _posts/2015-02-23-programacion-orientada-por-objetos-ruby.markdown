@@ -344,7 +344,3 @@ user.email = "change@gmail.com"
 user.save('/users/user-1.xml')</code></pre>
 
 Si necesitamos cambiar la forma en que los objetos son almacenados, el único lugar que necesitamos modificar es el módulo `Persistable`.
-
-***
-
-Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!

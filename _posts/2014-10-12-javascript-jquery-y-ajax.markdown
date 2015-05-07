@@ -101,9 +101,6 @@ Otra ventaja de <a href="http://www.json.org/" target="_blank">JSON</a> es que e
 * [http://javascript.info/tutorial/dom-nodes](http://javascript.info/tutorial/dom-nodes)
 * [http://teamtreehouse.com/library/ajax-basics](http://teamtreehouse.com/library/ajax-basics)
 
-***
-
-Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!
 
 <script>
 	jQuery('.square').click(function() {

@@ -123,7 +123,3 @@ Generalmente, el código **HTML (Hyper Text Markup Language)** viaja a través d
 * <a href="http://www.w3schools.com/html/default.asp" target="_blank">HTML Tutorial - W3Schools</a>
 * <a href="http://eloquentjavascript.net/17_http.html" target="_blank">HTTP - Eloquent Javascript</a>
 * Aprende a usar el Developer Tools de tu navegador en <a href="https://www.youtube.com/watch?v=z1TkfcC53G0" target="_blank">este video de 10 minutos</a>
-
-***
-
-Si tienes un verdadero interés por la programación y quieres aprender a diseñar e implementar tus propias aplicaciones Web no dudes en [aplicar a Make it Real](/apply)!
