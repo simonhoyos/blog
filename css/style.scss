@@ -202,12 +202,23 @@ $tertiary-color: #384d56;
     }
   }
 
-  .btn-main { 
-    font-size: 24px;
-    padding: 15px 30px;
-    background: #F04500; 
-    border-color: #F04500; 
+  .btn-main {
+    font-size: 21px;
+    padding: 7px 30px;
+    background: #F04500;
+    border-color: #F04500;
     border-radius: 3px;
+
+    @media (min-width: $screen-md-min) { 
+      font-size: 24px;
+      padding: 7px 30px; 
+    }
+
+    small {
+      display: block;
+      font-size: 14px;
+      @media (min-width: $screen-md-min) { font-size: 16px; }
+    }
   }
 }
 
@@ -459,9 +470,9 @@ $tertiary-color: #384d56;
       @media (min-width: $screen-md-min) { font-size: 21px; }
     }
 
-    p { 
+    p {
       font-weight: 300;
-      @media (min-width: $screen-md-min) { font-size: 18px; } 
+      @media (min-width: $screen-md-min) { font-size: 18px; }
     }
   }
 
@@ -869,7 +880,7 @@ input[type=submit] {
     }
   }
 
-  pre { 
+  pre {
     margin-top: 10px;
     margin-bottom: 25px;
   }
@@ -913,7 +924,7 @@ code.overflow {
   margin-top: -100px;
 
   .box {
-    margin-top: 80px; 
+    margin-top: 80px;
     header {
       color: #303030;
       font-size: 18px;
