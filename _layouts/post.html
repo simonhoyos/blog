@@ -10,7 +10,7 @@ layout: blog
         <header class="post-header">
           <h1>{{ page.title }}</h1>
           <div class="post-details">
-            {% if page.author %}Por <span class="post-author">{{ page.author }}</span> • {% endif %} 
+            {% if page.author %}Por <span class="post-author">{{ page.author }}</span> • {% endif %}
             <span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
           </div>
         </header>
@@ -46,3 +46,12 @@ layout: blog
   </div>
 
 </div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1450478321902925";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
