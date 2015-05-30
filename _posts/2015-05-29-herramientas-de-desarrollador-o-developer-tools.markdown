@@ -74,7 +74,7 @@ $("#super-mega-secret-modal").modal("show");
     <div class="modal-content">
       <div class="modal-header text-center">
         <button type="button" class="close" data-dismiss="modal" ><span>×</span></button>
-        <h2 class="modal-title" id="super-mega-secret-modal-title">¡Haz descubierto un modal secreto!</h2>
+        <h2 class="modal-title" id="super-mega-secret-modal-title">¡Has descubierto un modal secreto!</h2>
       </div>
       <div class="modal-body">
         ¡Eres genial!
