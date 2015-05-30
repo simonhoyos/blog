@@ -24,6 +24,7 @@ Debes ver un panel blanco en la parte inferior de la pantalla así:
 
 
 Aunque hay varias pestañas, en este artículo vamos a hablar de 3 en particular:
+
 - **Elementos o *Elements*:** En esta pestaña vas a poder inspeccionar el [DOM](http://html.conclase.net/w3c/dom1-es/introduction.html) y cada uno de los elementos. Puedes utilizar `Cmd + F` o `Ctrl + F` para buscar y puedes editar el contenido de la página haciendo doble click en cualquier elemento.
 
 - **Consola o *Console*:** En esta pestaña vas a poder ejecutar código Javascript utilizando las librerías y scripts que hayan disponibles en la página.
@@ -62,7 +63,7 @@ Las herramientas de desarrollador te van a permitir experimentar con la estructu
 
 Una de las herramientas más poderosas es la Consola de Javascript. En ella tienes acceso al Javascript de la página que estás inspeccionando y por ende puedes ejecutar las funciones y usar las librerías que estén disponibles.
 
-Por ejemplo, sobre la página de Make it Real abre las herramientas de desarrollador y en la consola ejecuta la siguiente línea de código:
+Por ejemplo, abre las herramientas de desarrollador en esta página y en la consola ejecuta la siguiente línea de código:
 
 ```
 $("#super-mega-secret-modal").modal("show");
