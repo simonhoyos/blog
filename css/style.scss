@@ -817,18 +817,18 @@ input[type=submit] {
     h1 { font-family: $font-family-condensed; }
   }
   p {
-    font-weight: 300;
+    color: #353535;
     margin-bottom: 18px;
-    strong { font-weight: 600; }
 
-    @media (min-width: $screen-md-min) {
+    @media (min-width: $screen-sm-min) {
       font-size: 18px;
       line-height: 1.7;
     }
   }
   h2 {
     font-family: $font-family-condensed;
-    margin-bottom: 21px;
+    margin-top: 40px;
+    margin-bottom: 28px;
   }
   h3 {
     font-size: 21px;
@@ -871,8 +871,9 @@ input[type=submit] {
     font-size: 16px;
   }
 
-  ul {
-    font-weight: 300;
+  ul, ol {
+    color: #353535;
+    margin-bottom: 18px;
 
     @media (min-width: $screen-md-min) {
       font-size: 18px;
