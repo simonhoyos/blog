@@ -180,9 +180,11 @@ $tertiary-color: #384d56;
 
   .sn {
     text-align: center;
-    padding-bottom: 60px;
+    margin-top: 30px;
 
-    @media (min-width: $screen-md-min) { padding-bottom: 100px; }
+    @media (min-width: $screen-md-min) { 
+      margin-top: 60px;
+    }
 
     span {
       color: white;
@@ -227,11 +229,11 @@ $tertiary-color: #384d56;
   background-size: cover;
 
   .sub-leading {
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 
-  .more { margin-top: 150px; }
+  .more { margin-top: 80px; }
 }
 
 .section {
