@@ -938,6 +938,11 @@ code.overflow {
     p {
       @media (min-width: $screen-md-min) { font-size: 18px; }
     }
+
+    img {
+      width: 100%; 
+      border: 1px solid #ccc;
+    }
   }
 
 }
