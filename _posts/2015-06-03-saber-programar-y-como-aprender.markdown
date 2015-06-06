@@ -9,11 +9,11 @@ Estamos acostumbrados a dividir el mundo en dos: los buenos de los malos, los ri
 
 Definitivamente no es un título. Muchas personas se gradúan de carreras relacionadas con construcción de software y no vuelven a escribir una sola línea de código en sus vidas. Tampoco es hacer un curso intensivo de 3 meses. Hay algo más, algo que nadie nos está contando.
 
-Algunos de los que han terminado Make it Real me han dicho que no sienten que sepan programar. Sí, pueden crear aplicaciones haciendo copy-paste de lo que ya han hecho antes y buscando en Internet, pero no se sienten “programadores”. Eso me da gran tranquilidad porque precisamente ¡eso es programar!.
+Algunos de los que han terminado Make it Real me han dicho que pueden crear aplicaciones haciendo copy-paste de lo que ya han hecho antes y buscando en Internet, pero no se sienten “programadores”. Eso me da gran tranquilidad porque precisamente ¡eso es programar!.
 
-Desafortunadamente Hollywood nos ha vendido la idea del programador que no necesita buscar Internet y que todo lo tiene en la cabeza. La realidad es que la mayoría de "programadores" no podemos hacerlo sin Internet. Y eso está bien. La programación no es de memorizar y saberlo absolutamente todo (eso es imposible). 
+Desafortunadamente Hollywood nos ha vendido la idea del programador que no necesita buscar Internet y que todo lo tiene en la cabeza. La realidad es que la mayoría de "programadores" no podemos hacerlo sin Internet. Y eso está bien. 
 
-**La programación es una herramienta para resolver problemas** (p.e. mejorar la comunicación, automatizar tareas, o incrementar la productividad). Pero cada problema es diferente de los demás, cada problema requiere su propio aprendizaje y tiene su propia dificultad. Muchos esperan aprender a programar y poder solucionar cualquier problema. Pero así no funciona. Solucionar un problema no significa que puedas solucionar automáticamente los demás.
+La programación no es de memorizar y saberlo absolutamente todo (eso es imposible). **La programación es una herramienta para resolver problemas** (p.e. mejorar la comunicación, automatizar tareas, o incrementar la productividad). Pero cada problema es diferente de los demás, cada problema requiere su propio aprendizaje y tiene su propia dificultad. Muchos esperan aprender a programar y poder solucionar cualquier problema. Pero así no funciona. Solucionar un problema no significa que puedas solucionar automáticamente los demás.
 
 Entonces, saber programar realmente es:
 
@@ -43,4 +43,4 @@ Por último, no esperes que alguien te “enseñe” a programar. Aprópiate de 
 
 ---
 
-En [Make it Real](http://makeitreal.camp/) hemos creado un programa para que desarrolles las habilidades que necesitas para crear tus propias apliaciones Web, con retos que se autoevalúan, mentores en línea, y una comunidad para que conozcas y programes con otros alumnos.
+En [Make it Real](http://makeitreal.camp/) hemos creado un programa para que desarrolles las habilidades que necesitas para crear tus propias aplicaciones Web, con retos que se autoevalúan, mentores en línea, y una comunidad para que conozcas y programes con otros alumnos.
