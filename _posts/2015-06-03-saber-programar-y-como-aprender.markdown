@@ -9,7 +9,7 @@ Estamos acostumbrados a dividir el mundo en dos: los buenos de los malos, los ri
 
 Definitivamente no es un título. Muchas personas se gradúan de carreras relacionadas con construcción de software y no vuelven a escribir una sola línea de código en sus vidas. Tampoco es hacer un curso intensivo de 3 meses. Hay algo más, algo que nadie nos está contando.
 
-Algunos de los que han terminado Make it Real me han dicho que pueden crear aplicaciones haciendo copy-paste de lo que ya han hecho antes y buscando en Internet, pero no se sienten “programadores”. Eso me da gran tranquilidad porque precisamente ¡eso es programar!.
+El otro día uno de los exalumnos de Make it Real me decía: "Aún no me siento un programador. Es decir, puedo crear una aplicación haciendo copy-paste de lo que ya he hecho, y buscando en Internet, pero no siento que eso sea programar."
 
 Desafortunadamente Hollywood nos ha vendido la idea del programador que no necesita buscar Internet y que todo lo tiene en la cabeza. La realidad es que la mayoría de "programadores" no podemos hacerlo sin Internet. Y eso está bien. 
 
