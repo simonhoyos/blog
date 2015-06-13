@@ -26,7 +26,7 @@ Cuando ingresas a **Make it Real**, nuestra primera sugerencia es que encuentres
 
 ## ¿En qué se diferencia de otras plataformas online?
 
-Un problema que hemos enfrentado con un programa virtual es que la referencia de muchos son plataformas virtuales como Codecademy, Treehouse, o Platzi, que cuentan con mucho contenido, pero muy poco estructurado. Son plataformas masivas de aprendizaje que buscan atraer a la mayor cantidad de personas.
+Desafortunadamente la referencia de muchos cuando nombramos el programa virtual son plataformas como Codecademy, Treehouse o Platzi, que cuentan con mucho contenido, pero muy poco estructurado. Estas plataformas masivas de aprendizaje buscan atraer a la mayor cantidad de personas.
 
 **Make it Real**, por el contrario, es un programa **muy estructurado**, personalizado (al ingresar te asignamos un mentor que hace seguimiento de tu avance), en el que te vamos a guiar para que aprendas a crear tus propias aplicaciones Web, ya sea para que encuentres un empleo como Desarrollador(a) Web Junior, o para que puedas crear tu propia startup.
 
