@@ -24,19 +24,17 @@ $tertiary-color: #384d56;
 }
 
 .main-nav {
-  padding: 10px 0;
+  padding: 5px 0 3px;
   @media (min-width: $screen-md-min) { padding: 10px 0 5px; }
 
   .brand {
     width: 140px; 
-    margin-top: -4px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
 
     @media (min-width: $screen-md-min) { 
-      width: 210px; 
-      margin-top: -6px;
+      width: 200px; 
     }
   }
 
@@ -76,7 +74,7 @@ $tertiary-color: #384d56;
         @media (min-width: $screen-md-min) {
           border-radius: 3px;
           padding: 5px 15px;
-          border-size: 3px;
+          border-radius: 3px;
         }
 
         &:hover { background: darken(#F04500, 5%); }
@@ -133,9 +131,11 @@ $tertiary-color: #384d56;
       background-color: rgba(28, 28, 28, 0.8);
 
       .brand {
-        width: 130px;
+        width: 120px;
 
-        @media (min-width: $screen-md-min) { width: 200px; }
+        @media (min-width: $screen-md-min) { 
+          width: 160px; 
+        }
       }
       
     }
@@ -152,8 +152,7 @@ $tertiary-color: #384d56;
     @media (min-width: $screen-sm-min) {
       font-size: 48px;
       line-height: 1.1;
-      padding: 140px 100px 0;
-      margin-bottom: 15px;
+      padding: 160px 100px 0;
     }
 
     @media (min-width: $screen-md-min) { font-size: 58px; }
@@ -185,9 +184,7 @@ $tertiary-color: #384d56;
       font-size: 24px;
       font-weight: 300;
       line-height: 1.6;
-      padding-top: 15px;
     }
-
 
     a { color: white; }
   }
@@ -248,7 +245,7 @@ $tertiary-color: #384d56;
   background-size: cover;
 
   .sub-leading {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 40px;
   }
 
