@@ -24,34 +24,19 @@ $tertiary-color: #384d56;
 }
 
 .main-nav {
-  background-color: #5B888C;
   padding: 10px 0;
-  @media (min-width: $screen-md-min) { padding: 15px 0; }
+  @media (min-width: $screen-md-min) { padding: 10px 0 5px; }
 
   .brand {
-    display: inline-block;
-    color: white;
-    font: 21px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-top: -5px;
-    @media (min-width: $screen-md-min) { font-size: 28px; }
+    width: 140px; 
+    margin-top: -4px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 
-
-    span.camp {
-      display:block;
-      font-size: 21px;
-      line-height: 1;
-      text-align: right;
-    }
-
-    span.now {
-      display: inline-block;
-      position: absolute;
-      font: 28px/1 "Open Sans Condensed", sans-serif;
-      opacity: 0.8;
-      border-left: 2px solid white;
-      padding: 7px 12px;
-      top: 2px;
-      left: 166px;
+    @media (min-width: $screen-md-min) { 
+      width: 210px; 
+      margin-top: -6px;
     }
   }
 
@@ -70,26 +55,31 @@ $tertiary-color: #384d56;
         font-size: 14px;
         margin: 0 5px;
         padding: 5px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
 
         @media (min-width: $screen-md-min) {
           font-size: 18px;
           margin: 0 10px;
         }
+      }
 
-        &.act {
-          border-radius: 2px;
-          padding: 3px 8px;
-          border: 2px solid white;
-          transition: background-color 0.5s ease;
+      &.act a {
+        display: none;
+        background: #F04500;
+        color: white;
+        border-radius: 2px;
+        padding: 3px 8px;
+        transition: background-color 0.5s ease;
 
-          @media (min-width: $screen-md-min) {
-            border-radius: 3px;
-            padding: 5px 15px;
-            border: 3px solid white;
-          }
-
-          &:hover { background: $primary-color; }
+        @media (min-width: $screen-md-min) {
+          border-radius: 3px;
+          padding: 5px 15px;
+          border-size: 3px;
         }
+
+        &:hover { background: darken(#F04500, 5%); }
       }
     }
   }
@@ -134,21 +124,41 @@ $tertiary-color: #384d56;
   background-size: cover;
   min-height: 400px;
 
-  .main-nav { background-color: transparent; }
+  .main-nav { 
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    &.navbar-shrink { 
+      background-color: rgba(28, 28, 28, 0.8);
+
+      .brand {
+        width: 130px;
+
+        @media (min-width: $screen-md-min) { width: 200px; }
+      }
+      
+    }
+  }
 
   .leading {
     color: white;
-    font: 24px/1.1 $font-family-condensed;
+    font: 32px/1.1 $font-family-condensed;
     text-align: center;
-    padding: 30px 20px 0;
+    padding: 80px 20px 0;
     margin-bottom: 10px;
+    opacity: 0.9;
 
-    @media (min-width: $screen-md-min) {
+    @media (min-width: $screen-sm-min) {
       font-size: 48px;
-      line-height: 1.2;
-      padding: 80px 100px 0;
+      line-height: 1.1;
+      padding: 140px 100px 0;
       margin-bottom: 15px;
     }
+
+    @media (min-width: $screen-md-min) { font-size: 58px; }
+
+    @media (min-width: $screen-lg-min) { font-size: 68px; }
   }
 
   #main-video img {
@@ -163,13 +173,17 @@ $tertiary-color: #384d56;
     color: white;
     font-size: 16px;
     line-height: 1.3;
-    font-weight: 300;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 40px;
 
+    @media (min-width: $screen-sm-min) {
+      font-size: 21px;
+    }
+
     @media (min-width: $screen-md-min) {
       font-size: 24px;
+      font-weight: 300;
       line-height: 1.6;
       padding-top: 15px;
     }
@@ -188,16 +202,21 @@ $tertiary-color: #384d56;
 
     span {
       color: white;
-      font-size: 16px;
-      margin: 0 10px;
+      font-size: 14px;
+      margin: 0 5px;
       opacity: 0.8;
       border: 2px solid white;
       border-radius: 10px;
       padding: 7px;
 
+      @media (min-width: $screen-sm-min) {
+        font-size: 18px;
+        border: 3px solid white;
+        margin: 0 10px;
+      }
+
       @media (min-width: $screen-md-min) {
         font-size: 21px;
-        border: 3px solid white;
       }
 
       &:hover { opacity: 1; }
@@ -205,21 +224,21 @@ $tertiary-color: #384d56;
   }
 
   .btn-main {
-    font-size: 21px;
+    font-size: 16px;
     padding: 7px 30px;
     background: #F04500;
     border-color: #F04500;
     border-radius: 3px;
 
-    @media (min-width: $screen-md-min) { 
+    @media (min-width: $screen-sm-min) { 
       font-size: 24px;
       padding: 7px 30px; 
     }
 
     small {
       display: block;
-      font-size: 14px;
-      @media (min-width: $screen-md-min) { font-size: 16px; }
+      font-size: 11px;
+      @media (min-width: $screen-sm-min) { font-size: 16px; }
     }
   }
 }
@@ -924,13 +943,12 @@ code.overflow {
 }
 
 .screenshots {
-  margin-top: -100px;
 
   .box {
     margin-top: 80px;
     header {
       color: #303030;
-      font-size: 18px;
+      font-size: 21px;
       margin-top: 14px;
       margin-bottom: 14px;
 
