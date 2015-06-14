@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>Make it Real - Blog</title>
-  <link href="http://makeitreal.camp/blog/"/>
-  <link type="application/atom+xml" rel="self" href="http://makeitreal.camp/atom.xml"/>
+  <link href="http://blog.makeitreal.camp/"/>
+  <link type="application/atom+xml" rel="self" href="http://blog.makeitreal.camp/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://makeitreal.camp/blog/</id>
+  <id>http://blog.makeitreal.camp/</id>
   <author>
     <name>Make it Real</name>
     <email>info@makeitreal.camp</email>
@@ -16,8 +16,8 @@ layout: nil
 
   {% for post in site.posts %}
   <entry>
-    <id>http://makeitreal.camp/blog{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://makeitreal.camp/blog{{ post.url }}"/>
+    <id>http://blog.makeitreal.camp/{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://blog.makeitreal.camp/{{ post.url }}"/>
     <title>{{ post.title | xml_escape }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
