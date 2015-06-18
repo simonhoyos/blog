@@ -81,7 +81,7 @@ $("#super-mega-secret-modal").modal("show");
         Comparte con tus amigos este post para que también aprendan a utilizar las herramientas de desarrollador.
         <div class="text-center">
 
-          <div class="fb-share-button" data-href="http://makeitreal.camp/2015/05/29/herramientas-de-desarrollador-o-developer-tools" data-layout="button"></div>
+          <div class="fb-share-button" data-href="http://blog.makeitreal.camp/2015/05/29/herramientas-de-desarrollador-o-developer-tools" data-layout="button"></div>
         </div>
 
       </div>
@@ -92,7 +92,7 @@ $("#super-mega-secret-modal").modal("show");
 
 ### Análisis de peticiones HTTP
 
-Como explicamos en el artículo [HTTP y HTML](http://makeitreal.camp/2014/10/05/http-y-html/), las aplicaciones web, y en general todo internet, funcionan con el protocolo HTTP que consiste de peticiones y respuestas. Algunas veces debemos detenernos a analizar si estamos enviando los datos correctos en un formulario o si estamos recibiendo la respuesta esperada por parte del servidor; Para ello, dentro de las herramientas de desarrollador se encuentra una pestaña llamada red o *network* en la que vamos a poder analizar cada una de las peticiones que salen de la página que estamos inspeccionando y así mismo las respuestas que esas peticiones reciben.
+Como explicamos en el artículo [HTTP y HTML](http://blog.makeitreal.camp/2014/10/05/http-y-html/), las aplicaciones web, y en general todo internet, funcionan con el protocolo HTTP que consiste de peticiones y respuestas. Algunas veces debemos detenernos a analizar si estamos enviando los datos correctos en un formulario o si estamos recibiendo la respuesta esperada por parte del servidor; Para ello, dentro de las herramientas de desarrollador se encuentra una pestaña llamada red o *network* en la que vamos a poder analizar cada una de las peticiones que salen de la página que estamos inspeccionando y así mismo las respuestas que esas peticiones reciben.
 
 En las herramientas de desarrollador selecciona la pestaña red o *network*.
 Vas a ver una tabla parecida a la siguiente:
