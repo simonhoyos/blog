@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Tiempo y dedicación"
+date:   2015-07-27 15:30:58
+author: Germán Escobar
+---
+
+¿Cuánto tiempo necesitas invertir para poder hacer tus propias aplicaciones Web y/o conseguir un empleo como programador(a) Junior?
+
+Las cifras varían ampliamente entre persona y persona, pero queremos arriesgarnos a darte algunas cifras para que te des una idea.
+
+Supongamos que le dedicas **20 horas** a la semana a tu aprendizaje. En aproximadamente 2 meses (140 a 180 horas) lograrías conocer los fundamentos básicos de la programación. En 5 a 6 meses (400 a 480 horas) lograrías hacer tus primeras aplicaciones básicas.  **En aproximadamente un año (900 a 1000 horas) podrías buscar un empleo como programador(a) Junior**. Esa es la referencia.
+
+Pero más importante que tu dedicación semanal, es **que le dediques algo todos los días**. Ese es el secreto de las personas que finalmente aprenden a programar.
