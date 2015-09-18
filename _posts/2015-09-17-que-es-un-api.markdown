@@ -25,7 +25,7 @@ Eso significa que aprender a programar no es solo aprender a crear variables, co
 
 Todos los lenguajes de programación traen un **API** que nos permite manipular archivos, crear aplicaciones concurrentes, utilizar la red y trabajar con colecciones (arreglos, mapas, conjuntos, etc.), entre otros. Busca el API de <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=ruby%20api" target="_blank">Ruby</a> o el de <a href="https://www.google.com/search?q=java+api&oq=java+api&aqs=chrome.0.69i59j69i60l4j0.1575j0j9&sourceid=chrome&es_sm=119&ie=UTF-8" target="">Java</a> para que te des una idea.
 
-Los navegadores también tienen su propio **API** para <a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> que nos permite manipular el código <a href="https://es.wikipedia.org/wiki/HTML" target="_blank">HTML</a>, mostrar alertas, escuchar eventos (del mouse, tecladoe, etc.) y hacer llamados <a href="https://es.wikipedia.org/wiki/AJAX" target="_blank">AJAX</a>, entre otros. Hoy el API de los navegadores está casi estandarizado pero antes existían muchas diferencias entre navegadores, y por eso surgió <a href="https://es.wikipedia.org/wiki/JQuery" target="_blank">jQuery</a>, una librería con un **API** unificado y simple que "normaliza" esas diferencias.
+Los navegadores también tienen su propio **API** para <a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> que nos permite <a href="#" id="manipulate">manipular el código HTML/CSS</a>, <a href="#" id="show-alerts">mostrar alertas</a>, escuchar eventos (del mouse, teclado, etc.) y hacer llamados <a href="https://es.wikipedia.org/wiki/AJAX" target="_blank">AJAX</a>, entre otros. Hoy el API de los navegadores está casi estandarizado pero antes existían muchas diferencias entre navegadores, y por eso surgió <a href="https://es.wikipedia.org/wiki/JQuery" target="_blank">jQuery</a>, una librería con un **API** unificado y simple que "normaliza" esas diferencias.
 
 ## Web API’s
 
@@ -93,7 +93,7 @@ Actualmente existe mucha confusión entre estos tres términos. Este es mi inten
 
 Si este es tu primer acercamiento con este tema, mi recomendación es que te detengas en este punto porque ahora nos volvemos muy técnicos ;)
 
-El nombre <a href="https://es.wikipedia.org/wiki/Servicio_web" target="_blank">Web Services</a> es muy desafortunado porque crea confusión. La realidad es que <a href="https://es.wikipedia.org/wiki/Servicio_web" target="_blank">Web Services</a> es un grupo de tecnologías muy específicas para integrar aplicaciones utilizando <a href="https://es.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank">XML</a> y <a href="https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol" target="_blank">SOAP</a> (Simple Object Access Protocol).
+El nombre <a href="https://es.wikipedia.org/wiki/Servicio_web" target="_blank">Web Services</a> es muy desafortunado porque es muy genérico y crea confusión. La realidad es que <a href="https://es.wikipedia.org/wiki/Servicio_web" target="_blank">Web Services</a> es un grupo de tecnologías muy específicas para integrar aplicaciones utilizando <a href="https://es.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank">XML</a> y <a href="https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol" target="_blank">SOAP</a> (Simple Object Access Protocol).
 
 El siguente ejemplo muestra un llamado <a href="https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol" target="_blank">SOAP</a> utilizando <a href="https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank">HTTP</a> como transporte:
 
@@ -138,3 +138,20 @@ Actualmente <a href="https://es.wikipedia.org/wiki/Representational_State_Transf
 
 [^1]: Seguramente la forma de empezar sería seguir algunos tutoriales y después consultar el API para crear aplicaciones diferentes.
 
+
+<script>
+  $('#manipulate').on('click', function(e) {
+    e.preventDefault();
+
+    $(this).parent().css('color', 'blue');
+    setTimeout(function() {
+      $('#manipulate').parent().css('color', '#303030')
+    }, 3000);
+  });
+
+  $('#show-alerts').on('click', function(e) {
+    e.preventDefault();
+
+    alert('Si, esto es una alerta');
+  });
+</script>
