@@ -47,7 +47,7 @@ Mi teoría es que gran parte del éxito de <a href="https://slack.com/" target="
 
 Cuando ingresas a una dirección Web (URL) desde un navegador, el navegador envía una petición <a href="https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank">HTTP</a> al servidor, que responde con código <a href="https://es.wikipedia.org/wiki/HTML" target="_blank">HTML</a> como se muestra en la siguiente ilustración:
 
-<img src="/images/web-apis-1.png" alt="Una petición HTTP" class="photo" style="width: 90%">
+<img src="/images/web-apis-1.png" alt="Una petición HTTP" class="photo">
 
 <p class="photo-description">Una petición HTTP que retorna HTML.</p>
 
@@ -87,7 +87,7 @@ Es la misma información, pero el formato <a href="https://es.wikipedia.org/wiki
 
 ## ¿Web API's, REST API's o Web Services?
 
-Actualmente existe mucha confusión entre estos tres terminos. Este es mi intento de explicar la diferencia.
+Actualmente existe mucha confusión entre estos tres términos. Este es mi intento de explicar la diferencia.
 
 <a href="https://es.wikipedia.org/wiki/Representational_State_Transfer" target="_blank">REST API's</a> y <a href="https://es.wikipedia.org/wiki/Servicio_web" target="_blank">Web Services</a> son dos formas específicas de **Web API's**.
 
