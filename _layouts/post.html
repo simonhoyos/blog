@@ -9,8 +9,8 @@ layout: blog
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="33" height="33" viewBox="0 0 33 33"><image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAMAAABgOjJdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAk1BMVEUAAAD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/mo3/p5z/9fT/////blj/v7j/jH3/1tH/4N3/6+n/fWv/s6oAAADSuMW2AAAAI3RSTlMANoC23fAJa9rbbE/hUAeZDr4GvTd9td7x8prCw1Ft3IE4AaacctgAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAA/klEQVQ4y42UWRaCMAxFo0VERRAncB4iqAi6/91pUGxDi/K+St4lJ02bAki12sLqYMcS7RYYZHcdlOr17SowcJHLHTLf81GX70lgFKBJwagExhM0azL+ED7WyX8DQ6xXUa7t/iBc2nQXf6n/Ihw9fJJLB2Cq+XFyVr6mMOP25Xp+SQnMYK766Y38LFZCAkIlfU7+9c6ShhB9/yc7j7GiBXyXVMDDsF8lR0YlpHoOpY6CyU+cCCt7ISZhtYhqPwqG90PrKTGsp4ZzSTN2Lg3O9v/9+H/HAJa1wLK866saYO01npcGM0flanO70WZ/u1P83Vab/fL9iDCyxP5wlNEnXGp0lq7i52UAAAAASUVORK5CYII=" width="33" height="33"/></svg>
       </a>
     </div>
-    {% if post.thumbnail %}
-      <img class="img-responsive" src="{{ post.thumbnail }}"/>
+    {% if page.thumbnail %}
+      <img class="img-responsive" src="{{ page.thumbnail }}"/>
     {% else %}
       <img class="img-responsive" src="/images/no-thumbnail.png"/>
     {% endif %}
@@ -33,8 +33,12 @@ layout: blog
             <footer class="post-info">
             <div class="col-xs-5 col-sm-5 col-md-5">
               <div class="post-author">
-                <img src="/images/post-author.png" alt="">
-                {% if post.author %}<span class="author">{{ post.author }}</span>{% endif %} 
+                {% if page.gravatar %}
+                  <img class="img-responsive" src="{{ page.gravatar }}"/>
+                      {% else %}
+                  <img class="img-responsive" src="/images/no-gravatar.png"/>
+                {% endif %}
+                {% if page.author %}<span class="author">{{ page.author }}</span>{% endif %} 
               </div>
             </div>
             

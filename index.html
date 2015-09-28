@@ -20,12 +20,16 @@ layout: blog
                       <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
                       <time>{{ post.date | date: "%b %-d, %Y" }}</time>
                     </header>
-                    {{ post.excerpt}}
+                    {{ post.excerpt | truncatewords: 35 }}
                   </div>
                 </div><!--/.post-content -->
                 <footer class="post-info">
                     <div class="post-author">
-                      <img src="images/post-author.png" alt="">
+                      {% if post.gravatar %}
+                        <img class="img-responsive" src="{{ post.gravatar }}"/>
+                      {% else %}
+                        <img class="img-responsive" src="/images/no-gravatar.png"/>
+                      {% endif %}
                       {% if post.author %}<span class="author">{{ post.author }}</span>{% endif %}
                     </div>
                     <a href="{{ post.url | prepend: site.baseurl }}" class="fade fade read-more">
@@ -48,11 +52,15 @@ layout: blog
                   <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
                   <time>{{ post.date | date: "%b %-d, %Y" }}</time>
                 </header>
-                {{ post.excerpt}}
+                {{ post.excerpt | truncatewords: 22 }}
               </div>
               <footer class="post-info">
                 <div class="post-author">
-                  <img src="images/post-author.png" alt="">
+                  {% if post.gravatar %}
+                <img class="img-responsive" src="{{ post.gravatar }}"/>
+              {% else %}
+                <img class="img-responsive" src="/images/no-gravatar.png"/>
+              {% endif %}
                   {% if post.author %}<span class="author">{{ post.author }}</span>{% endif %}
                 </div>
                 <a href="{{ post.url | prepend: site.baseurl }}" class="fade read-more">
