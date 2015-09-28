@@ -1,32 +1,58 @@
 ---
 layout: blog
 ---
-<div class="post">
+<div class="interna-post">
 
-  <div class="container">
-    <div class="row header"><div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2"><a href="/blog">&#8592; Ver todos los posts</a></div></div>
+  <div class="interna-post-title">
+    <div class="btn-back">
+      <a class="fade" href="/blog">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="33" height="33" viewBox="0 0 33 33"><image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAMAAABgOjJdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAk1BMVEUAAAD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/mo3/p5z/9fT/////blj/v7j/jH3/1tH/4N3/6+n/fWv/s6oAAADSuMW2AAAAI3RSTlMANoC23fAJa9rbbE/hUAeZDr4GvTd9td7x8prCw1Ft3IE4AaacctgAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAA/klEQVQ4y42UWRaCMAxFo0VERRAncB4iqAi6/91pUGxDi/K+St4lJ02bAki12sLqYMcS7RYYZHcdlOr17SowcJHLHTLf81GX70lgFKBJwagExhM0azL+ED7WyX8DQ6xXUa7t/iBc2nQXf6n/Ihw9fJJLB2Cq+XFyVr6mMOP25Xp+SQnMYK766Y38LFZCAkIlfU7+9c6ShhB9/yc7j7GiBXyXVMDDsF8lR0YlpHoOpY6CyU+cCCt7ISZhtYhqPwqG90PrKTGsp4ZzSTN2Lg3O9v/9+H/HAJa1wLK866saYO01npcGM0flanO70WZ/u1P83Vab/fL9iDCyxP5wlNEnXGp0lq7i52UAAAAASUVORK5CYII=" width="33" height="33"/></svg>
+      </a>
+    </div>
+    {% if post.thumbnail %}
+      <img class="img-responsive" src="{{ post.thumbnail }}"/>
+    {% else %}
+      <img class="img-responsive" src="/images/no-thumbnail.png"/>
+    {% endif %}
+    <header>
+      <h1>{{ page.title }}</h1>
+      <time>{{ page.date | date: "%b %-d, %Y" }}</time>
+    </header>
+  </div><!--/.interna-post-title -->
+
+
+
+
+
+  <div class="container interna-content-post">
     <div class="row">
-      <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-        <header class="post-header">
-          <h1>{{ page.title }}</h1>
-          <div class="post-details">
-            {% if page.author %}Por <span class="post-author">{{ page.author }}</span> • {% endif %}
-            <span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
+      <div class="col-md-8 col-md-offset-2">
+        {{ content }}
+        <div class="col-md-12">
+          <div class="row">
+            <footer class="post-info">
+            <div class="col-xs-5 col-sm-5 col-md-5">
+              <div class="post-author">
+                <img src="/images/post-author.png" alt="">
+                {% if post.author %}<span class="author">{{ post.author }}</span>{% endif %} 
+              </div>
+            </div>
+            
+            <div class="col-xs-7 col-sm-7 col-md-7">
+              <div class="all-posts">
+                <a href="/blog">Ver todos los posts</a>
+              </div>
+            </div>
+            </footer>
           </div>
-        </header>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-        <article class="post-content">
-          {{ content }}
-        </article>
-      </div>
-    </div>
-    <div class="row" style="margin-top: 20px;"><div class="col-sm-8 col-sm-offset-2"><a href="/blog">&#8592; Ver todos los posts</a></div></div>
+    
+  
 
     <div class="row footer">
-      <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+      <div class="col-md-8 col-md-offset-2">
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

@@ -3,6 +3,7 @@ layout: post
 title:  "¿Qué es un API?"
 date:   2015-09-17 15:29:58
 author: Germán Escobar
+thumbnail: /images/02.png
 ---
 
 Un **API** (Application Programming Interface) **es la interfaz que un software utiliza para interactuar con otro software**. Empecemos con una analogía. Observa la siguiente lavadora:

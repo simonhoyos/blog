@@ -3,16 +3,14 @@ layout: post
 title:  "¡Felicitaciones, lo hicieron realidad!"
 date:   2015-01-25 17:40:58
 author: Germán Escobar
-excerpt: Es indescriptible la alegría y el orgullo que sentía mientras presentaban sus proyectos personales el pasado viernes 23 de Enero durante el Demo Day. El tiempo fue corto y no todas las presentaciones salieron perfectas, pero conocía todos los proyectos y el increíble esfuerzo que pusieron para hacerlos realidad.
 ---
+Es indescriptible la alegría y el orgullo que sentía mientras presentaban sus proyectos personales el pasado viernes 23 de Enero durante el Demo Day. El tiempo fue corto y no todas las presentaciones salieron perfectas, pero conocía todos los proyectos y el increíble esfuerzo que pusieron para hacerlos realidad. Además de Ruby on Rails, PostgreSQL, HTML5, CSS3, y jQuery, utilizaron tecnologías muy interesantes como Redis, Web Sockets, los API de Google Maps y Google Drive, Web-RTC, S3, HStore, etc. Fue el resultado de 12 semanas de intenso aprendizaje y trabajo.
+
+El 10 de Octubre del 2014 llegué a Atom House faltando 5 minutos para las 9:00 a.m. Ya todos habían llegado y estaban esperando en el corredor principal de la casa. A la mayoría solo los había visto por Skype. Fue muy emocionante conocer a las 11 personas aceptadas para la primera versión del programa.
 
 <img src="/images/screenshots.jpg" alt="Screenshots" class="photo">
 
 <p class="photo-description">Los landings de los proyectos personales que presentaron en el Demo Day.</p>
-
-Es indescriptible la alegría y el orgullo que sentía mientras presentaban sus proyectos personales el pasado viernes 23 de Enero durante el Demo Day. El tiempo fue corto y no todas las presentaciones salieron perfectas, pero conocía todos los proyectos y el increíble esfuerzo que pusieron para hacerlos realidad. Además de Ruby on Rails, PostgreSQL, HTML5, CSS3, y jQuery, utilizaron tecnologías muy interesantes como Redis, Web Sockets, los API de Google Maps y Google Drive, Web-RTC, S3, HStore, etc. Fue el resultado de 12 semanas de intenso aprendizaje y trabajo.
-
-El 10 de Octubre del 2014 llegué a Atom House faltando 5 minutos para las 9:00 a.m. Ya todos habían llegado y estaban esperando en el corredor principal de la casa. A la mayoría solo los había visto por Skype. Fue muy emocionante conocer a las 11 personas aceptadas para la primera versión del programa.
 
 <img src="/images/workshop-first-day.jpg" alt="First Workshop" class="photo">
 

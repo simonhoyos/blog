@@ -3,13 +3,11 @@ layout: post
 title:  "Programación Orientada por Objetos en Ruby"
 date:   2015-02-23 17:40:58
 author: Germán Escobar
-excerpt: La Programación Orientada por Objetos, también conocida por las siglas OOP (Object Oriented Programming), surgió a principios de los años 80’s como respuesta a la dificultad que estaban experimentando los programadores manteniendo aplicaciones de tamaño y complejidad considerables. Un pequeño cambio disparaba una serie de errores debido a las dependencias que existían en la aplicación.
 ---
 
+La Programación Orientada por Objetos, también conocida por las siglas **OOP (Object Oriented Programming)**, surgió a principios de los años 80’s como respuesta a la dificultad que estaban experimentando los programadores manteniendo aplicaciones de tamaño y complejidad considerables. Cualquier cambio desencadenaba una reacción en cadena de errores ocasionados por las dependencias que existían en la aplicación. Hasta ese entonces se usaba un paradigma llamado <a href="http://es.wikipedia.org/wiki/Programaci%C3%B3n_por_procedimientos" target="_blank">Programación Procedimental</a>.
 
 <blockquote>Las aplicaciones evolucionan. Los requerimientos y la tecnología cambian. Pero una aplicación bien diseñada es fácil de mantener y actualizar en el tiempo.</blockquote>
-
-La Programación Orientada por Objetos, también conocida por las siglas **OOP (Object Oriented Programming)**, surgió a principios de los años 80’s como respuesta a la dificultad que estaban experimentando los programadores manteniendo aplicaciones de tamaño y complejidad considerables. Cualquier cambio desencadenaba una reacción en cadena de errores ocasionados por las dependencias que existían en la aplicación. Hasta ese entonces se usaba un paradigma llamado <a href="http://es.wikipedia.org/wiki/Programaci%C3%B3n_por_procedimientos" target="_blank">Programación Procedimental</a>.
 
 La <a href="http://es.wikipedia.org/wiki/Programaci%C3%B3n_por_procedimientos" target="_blank">Programación Procedimental</a> hace uso de ciclos, condicionales, y procedimientos para crear aplicaciones. **La Programación Orientada por Objetos introduce varios conceptos que permiten mejorar la organización y la reutilización del código, haciendo más fácil el mantenimiento de la aplicación a mediano y largo plazo**. Entre esos conceptos se encuentran: objetos, clases, encapsulamiento, polimorfismo, herencia, y mixins (o módulos), entre otros.
 

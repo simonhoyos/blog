@@ -3,6 +3,7 @@ layout: post
 title:  "¿Qué es un stack overflow (no el sitio)?"
 date:   2015-09-21 15:29:58
 author: Germán Escobar
+thumbnail: /images/01.png
 ---
 
 Sí, el sitio más popular de preguntas y respuestas de programación es, por mucho, <a href="http://stackoverflow.com/" target="_blank">StackOverflow</a>. Pero ¿qué es realmente un stack overflow (en español desbordamiento de pila)? En este post te lo explicamos en detalle.
