@@ -3,6 +3,9 @@ layout: post
 title:  "Los niveles en Make it Real"
 date:   2015-09-15 15:17:22
 author: Hey Joe
+thumbnail: /images/03.png
+gravatar: http://s.gravatar.com/avatar/fd6b127ea49aa9a59198eaa23bb6165c?s=80.jpg
+
 ---
 
 Conoce el sistema de niveles y puntos con el que Make it Real cuenta, para poder ver los avances de nuestros alumnos y a la vez hacer más divertido el aprendizaje en nuestra plataforma. 
