@@ -39,9 +39,9 @@ layout: blog
       <div class="col-md-4">
             <article class="secondary-post">
               {% if post.thumbnail %}
-                <img class="img-responsive" src="{{ post.thumbnail }}"/>
+                <div class="secondary-post-image" style="background-image: url({{ post.thumbnail }})"></div>
               {% else %}
-                <img class="img-responsive" src="/images/no-thumbnail.png"/>
+                <div class="secondary-post-image" style="background-image: url(/images/no-thumbnail.png)"></div>
               {% endif %}
               <div class="post-content">
                 <header>
