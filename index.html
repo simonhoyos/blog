@@ -7,12 +7,8 @@ layout: blog
       {% for post in site.posts limit:1 %}
       <div class="col-md-12">
         <article class="main-post">
-          <div class="col-md-6 post-image">
-                {% if post.thumbnail %}
-                  <img class="img-responsive" src="{{ post.thumbnail }}"/>
-                {% else %}
-                  <img class="img-responsive" src="/images/no-thumbnail.png"/>
-                {% endif %}
+          <div class="col-md-6 post-image" style="background-image: url({{ post.thumbnail }})"> 
+                
                 </div><!--/.post-image -->
                 <div class="col-md-6 post-content-container">
                   <div class="post-content">

@@ -185,6 +185,9 @@ code.overflow {
 }
 .new-blog .main-post .post-image {
   padding: 0;
+  height: 345px;
+  background-size: cover;
+  background-position: center;
 }
 .new-blog .main-post .post-content {
   padding: 0 40px 0 30px;
