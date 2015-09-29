@@ -420,7 +420,7 @@ code.overflow {
     left: 50%;
     margin-left: -25%;
     position: absolute;
-    top: 70%;
+    top: 60%;
     width: 50%;
     z-index: 2;
     text-align: center;
@@ -436,7 +436,7 @@ code.overflow {
   .new-blog .interna-post-title header {
     width: 80%;
     margin-left: -40%;
-    top: 50%;
+    top: 30%;
   }
 }
 @media only screen and (max-width: 767px)  {
@@ -616,4 +616,9 @@ background: -o-linear-gradient(top, rgba(76,76,76,0) 0%, rgba(15,15,15,0.81) 81%
 background: -ms-linear-gradient(top, rgba(76,76,76,0) 0%, rgba(15,15,15,0.81) 81%, rgba(15,15,15,1) 100%);
 background: linear-gradient(to bottom, rgba(76,76,76,0) 0%, rgba(15,15,15,0.81) 81%, rgba(15,15,15,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#0f0f0f', GradientType=0 );
+}
+@media only screen and (max-width: 767px)  {
+  .new-blog .interna-post .overlay {
+    display: none;
+  }
 }
