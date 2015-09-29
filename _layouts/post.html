@@ -11,9 +11,9 @@ layout: blog
     </div>
     <div class="overlay"></div>
     {% if page.thumbnail %}
-      <img class="img-responsive" src="{{ page.thumbnail }}"/>
+      <div class="interna-post-image" style="background-image: url({{ page.thumbnail }})"></div>
     {% else %}
-      <img class="img-responsive" src="/images/no-thumbnail.png"/>
+      <div class="interna-post-image" style="background-image: url(/images/no-thumbnail.png)"></div>
     {% endif %}
     <header>
       <h1>{{ page.title }}</h1>
