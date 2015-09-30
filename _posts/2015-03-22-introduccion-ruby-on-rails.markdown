@@ -3,6 +3,9 @@ layout: post
 title:  "Introducción a Ruby on Rails"
 date:   2015-03-22 17:40:58
 author: Germán Escobar
+thumbnail: /images/bg-images/ruby-on-rails.jpg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2015/03/22/introduccion-ruby-on-rails/"
 ---
 
 **Ruby on Rails** es un framework para crear aplicaciones Web, escrito en el lenguaje de programación **Ruby**, y diseñado para que el desarrollo de aplicaciones Web sea fácil y divertido.

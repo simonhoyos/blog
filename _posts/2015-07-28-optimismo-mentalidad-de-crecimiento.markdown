@@ -3,6 +3,9 @@ layout: post
 title:  "Optimismo y mentalidad de crecimiento"
 date:   2015-07-27 15:35:58
 author: Germán Escobar
+thumbnail: /images/bg-images/road-dawn-mountains-sky.jpeg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2015/07/27/optimismo-mentalidad-de-crecimiento/"
 ---
 
 Aprender a programar es difícil. **La mayoría de la programación no requiere ser bueno en matemáticas, ni tener un cerebro especial; requiere mucha práctica**. Aprender un nuevo lenguaje de programación es parecido a aprender un nuevo instrumento, o un nuevo idioma. Existen diferentes niveles de destreza. Pero así como no es necesario estudiar literatura para aprender un idioma, ni música para aprender un instrumento, no es necesario estudiar ingeniería de sistemas o ciencias de la computación para aprender a programar.

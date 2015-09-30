@@ -3,6 +3,9 @@ layout: post
 title:  "¿Por qué un programa virtual?"
 date:   2015-06-12 17:40:58
 author: Germán Escobar
+thumbnail: /images/bg-images/virtual.jpg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2015/06/12/por-que-programa-virtual/"
 ---
 
 **Make it Real** empezó en el 2014 con Bootcamps presenciales, de 12 semanas tiempo completo. El modelo estuvo fuertemente inspirado en iniciativas similares en Estados Unidos como [Dev Bootcamp](http://devbootcamp.com/) y [Hack Reactor](http://www.hackreactor.com/) que cuestan entre $10,000 y $20,000 dólares.

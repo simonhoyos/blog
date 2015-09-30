@@ -3,6 +3,9 @@ layout: post
 title:  "Programación Orientada por Objetos en Ruby"
 date:   2015-02-23 17:40:58
 author: Germán Escobar
+thumbnail: /images/bg-images/object-oriented-programming.jpg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2015/02/23/programacion-orientada-por-objetos-ruby/"
 ---
 
 La Programación Orientada por Objetos, también conocida por las siglas **OOP (Object Oriented Programming)**, surgió a principios de los años 80’s como respuesta a la dificultad que estaban experimentando los programadores manteniendo aplicaciones de tamaño y complejidad considerables. Cualquier cambio desencadenaba una reacción en cadena de errores ocasionados por las dependencias que existían en la aplicación. Hasta ese entonces se usaba un paradigma llamado <a href="http://es.wikipedia.org/wiki/Programaci%C3%B3n_por_procedimientos" target="_blank">Programación Procedimental</a>.

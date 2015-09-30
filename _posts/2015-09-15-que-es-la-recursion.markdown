@@ -5,6 +5,7 @@ date:   2015-09-15 15:29:58
 author: Germán Escobar
 thumbnail: /images/bg-images/recursion.jpg
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2015/09/15/que-es-la-recursion/"
 ---
 
 Uno de los conceptos más poderosos de la programación es la **recursión**. Es un concepto simple pero confuso al mismo tiempo porque no es la forma en que estamos acostumbrados a pensar.

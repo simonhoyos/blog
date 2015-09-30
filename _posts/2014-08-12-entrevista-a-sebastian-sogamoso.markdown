@@ -3,17 +3,18 @@ layout: post
 title:  "Entrevista a Sebastián Sogamoso"
 date:   2014-08-12 17:40:58
 author: Germán Escobar
+thumbnail: /images/bg-images/night-skyline-usa-manhattan.jpg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2014/08/12/entrevista-a-sebastian-sogamoso/"
 ---
 
 Tuvimos la oportunidad de hacerle algunas preguntas a Sebastián Sogamoso para que nos contara un poco sobre su experiencia como desarrollador trabajando remotamente para una empresa en Estados Unidos:
 
-<div style="text-align: center; margin: 30px 0;">
-	<img src="/images/sebastian-sogamoso.jpg" alt="Sebastián Sogamoso" class="img-circle">
-</div>
+<img src="/images/sebastian-sogamoso.jpg" alt="Sebastián Sogamoso" class="img-circle photo">
 
 ### ¿Cuéntanos un poco quién eres y a qué te dedicas?
 
-Me llamo Sebastián Sogamoso, soy ingeniero de software y trabajo de manera remota para [Wobo Inc](http://woboinc.com/) una empresa con base en San Francisco, California.
+Me llamo Sebastián Sogamoso, soy ingeniero de software y trabajo de manera remota para <span style="text-decoration: line-through"><a href="http://woboinc.com/" target="_blank">Wobo Inc</a> una empresa con base en San Francisco, California</span> (Sebastían ahora trabaja para <a href="http://ride.com/" target="_blank">Ride</a>, una empresa con base en New York).
 
 ### ¿Cuándo y cómo aprendiste a programar?
 

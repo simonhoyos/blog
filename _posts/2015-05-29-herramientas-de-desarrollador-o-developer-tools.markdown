@@ -3,6 +3,9 @@ layout: post
 title:  Herramientas de desarrollador o developer tools
 date:   2015-05-29 15:12:00
 author: Simón Soriano
+thumbnail: /images/bg-images/developer-tools.png
+gravatar: http://www.gravatar.com/avatar/0a5c5ad25ae54bd2be9c5091cf5eb1d1.jpg?s=80
+redirect_from: "/2015/05/29/herramientas-de-desarrollador-o-developer-tools/"
 ---
 
 
