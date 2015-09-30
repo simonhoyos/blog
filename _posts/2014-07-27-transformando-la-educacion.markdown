@@ -3,6 +3,9 @@ layout: post
 title:  "Transformando la educación"
 date:   2014-07-27 17:40:58
 author: Germán Escobar
+thumbnail: /images/bg-images/laptop-blackboard.jpg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2014/07/27/transformando-la-educacion/"
 ---
 
 El sistema educativo actual es muy efectivo generando trabajadores reemplazables, obedientes y productivos, pero ineficiente y anticuado para las necesidades del mundo actual. En **Make it Real** queremos ser el inicio del cambio.
@@ -35,6 +38,6 @@ Para transformar la educación solo necesitamos una premisa: aprender algo nuevo
 
 ## No todos somos iguales
 
-Desde el punto de vista metodológico, el error más grande que comete el sistema de educación tradicional es asumir que todos saben lo mismo y aprenden al mismo ritmo. Es por eso que hemos diseñado un [bootcamp completamente personalizado](/2014/07/25/un-bootcamp-personalizado/) en donde identificamos los conocimientos de cada estudiante y diseñamos un programa que el estudiante puede seguir a su propio ritmo.
+Desde el punto de vista metodológico, el error más grande que comete el sistema de educación tradicional es asumir que todos saben lo mismo y aprenden al mismo ritmo. Es por eso que hemos diseñado un programa completamente personalizado que el estudiante puede seguir a su propio ritmo.
 
 Y es que la mayoría de profesores creen que su su rol más importante es "dictar clase". Pero eso no es cierto. Por eso en **Make it Real** no los llamamos profesores, los llamamos mentores. Los mentores guían el aprendizaje de cada estudiante, solucionan dudas y amplían los temas que más se les dificulten. El aprendizaje lo realiza cada uno, a su propio ritmo.

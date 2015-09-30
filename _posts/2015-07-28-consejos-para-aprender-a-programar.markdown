@@ -3,6 +3,9 @@ layout: post
 title:  "3 consejos para aprender a programar"
 date:   2015-07-27 15:30:58
 author: Germán Escobar
+thumbnail: /images/bg-images/start-wars.jpg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2015/07/27/consejos-para-aprender-a-programar/"
 ---
 
 Si quieres aprender, o estás aprendiendo a programar, estos tres consejos te ayudarán:

@@ -3,6 +3,9 @@ layout: post
 title:  "Tiempo y dedicación"
 date:   2015-07-27 15:30:58
 author: Germán Escobar
+thumbnail: /images/bg-images/fashion-wristwatch-time-watch.jpg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2015/07/27/tiempo-y-dedicacion/"
 ---
 
 ¿Cuánto tiempo necesitas invertir para poder hacer tus propias aplicaciones Web y/o conseguir un empleo como programador(a) Junior?

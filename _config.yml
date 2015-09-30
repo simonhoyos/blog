@@ -9,8 +9,11 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: :title
 
 sass:
     sass_dir: css
     style: compressed
+
+gems:
+  - jekyll-redirect-from

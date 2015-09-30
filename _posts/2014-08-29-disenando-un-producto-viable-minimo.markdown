@@ -3,6 +3,9 @@ layout: post
 title:  "Diseñando un Producto Viable Mínimo"
 date:   2014-08-29 17:40:58
 author: Germán Escobar
+thumbnail: /images/bg-images/startup-photos-reduced.jpg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2014/08/29/disenando-un-producto-viable-minimo/"
 ---
 
 En los últimos días hemos estado trabajando sin descanso en **Challenges**, una aplicación para administrar los retos de programación que los alumnos de **Make it Real** tendrán que completar durante las 12 semanas del Bootcamp. En este post vamos a utilizar **Challenges** como ejemplo para explicar el proceso de diseño de un [producto viable mínimo (PVM)](http://es.wikipedia.org/wiki/Producto_viable_m%C3%ADnimo).

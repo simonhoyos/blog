@@ -3,6 +3,9 @@ layout: post
 title:  "Modales de Bootstrap en Ruby on Rails"
 date:   2015-09-13 15:29:58
 author: Germán Escobar
+thumbnail: /images/bg-images/modals-ruby-on-rails.png
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2015/09/13/modales-bootstrap-ruby-on-rails/"
 ---
 
 Un requerimiento muy frecuente en las aplicaciones Web que usan [Bootstrap](http://getbootstrap.com/) es que los formularios de crear y editar se abran en [ventanas modales](http://getbootstrap.com/javascript/#modals), y no en otra página, como se muestra en la siguiente animación:

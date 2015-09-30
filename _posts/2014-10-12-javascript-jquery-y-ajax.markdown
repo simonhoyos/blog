@@ -3,6 +3,9 @@ layout: post
 title:  "JavaScript, jQuery y Ajax"
 date:   2014-10-12 17:40:58
 author: Germán Escobar
+thumbnail: /images/bg-images/jquery.jpeg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2014/10/12/javascript-jquery-y-ajax/"
 ---
 
 A mediados de los 90’s, la mayoría de sitios Web consistían de páginas estáticas sin ninguna interactividad. Algunos sitios ya generaban páginas dinámicas en el servidor, pero toda acción del usuario requería refrescar la página completamente para ver los cambios. Se necesitaba un lenguaje de programación que corriera en el navegador.

@@ -3,6 +3,9 @@ layout: post
 title:  "HTTP y HTML"
 date:   2014-10-05 17:40:58
 author: Germán Escobar
+thumbnail: /images/bg-images/http.jpg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2014/10/05/http-y-html/"
 ---
 
 ¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder estas preguntas. Pero antes un poco de historia.

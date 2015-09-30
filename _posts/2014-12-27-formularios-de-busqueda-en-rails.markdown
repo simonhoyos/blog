@@ -3,6 +3,9 @@ layout: post
 title:  "Formularios de Búsqueda en Rails"
 date:   2014-12-27 17:40:58
 author: Germán Escobar
+thumbnail: /images/bg-images/modals-ruby-on-rails.png
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2014/12/27/formularios-de-busqueda-en-rails/"
 ---
 
 En Ruby on Rails, los formularios generalmente se usan para crear o editar modelos. Sin embargo, un caso de uso muy frecuente es el de buscar o filtrar información usando un formulario. Por ejemplo, imaginemos una aplicación que tiene una lista de gastos que se puede filtrar por los siguientes criterios:

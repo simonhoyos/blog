@@ -3,6 +3,9 @@ layout: post
 title:  "Conceptos básicos de programación"
 date:   2014-10-02 17:40:58
 author: Germán Escobar
+thumbnail: /images/bg-images/traffic-car-vehicle-black.jpg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+redirect_from: "/2014/10/02/conceptos-basicos-de-programacion/"
 ---
 
 Todos los lenguajes de programación comparten algunos elementos básicos que funcionan y se usan de forma diferente en cada lenguaje, pero que cumplen el mismo objetivo. Esos elementos son:
