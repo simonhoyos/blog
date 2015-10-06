@@ -7,11 +7,13 @@ thumbnail: /images/bg-images/modules.jpg
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Los módulos de Ruby cumplen una doble función: evitan colisiones de nombres y nos permiten reutilizar código. En este post te explicamos qué son, cómo se definen y cómo se utilizan.
+Los módulos en Ruby cumplen una doble función: evitan colisiones de nombres y nos ayudan a reutilizar código. En este post te explicamos qué son, cómo se definen y cómo se utilizan.
 
-Un módulo es un contenedor que agrupa clases o métodos y se define con la palabra clave `module`:
+Un módulo es un contenedor que agrupa constantes, clases y métodos. Los módulos se definen utilizando la palabra clave `module`:
 
 <pre><code class="overflow ruby">module MyModule
+  MAX_CONNECTIONS = 5
+
   def method_one
   end
 
@@ -25,9 +27,9 @@ Un módulo es un contenedor que agrupa clases o métodos y se define con la pala
   end
 end</code></pre>
 
-En este ejemplo hemos definiendo un módulo llamado `MyModule` que contiene los métodos `method_one` y `method_two`, y las clases `ThingOne` y `ThingTwo`.
+En este ejemplo hemos definiendo un módulo llamado `MyModule` que contiene una constante `MAX_CONNECTIONS`, los métodos `method_one` y `method_two`, y las clases `ThingOne` y `ThingTwo`.
 
-En realidad, no es común que se mezclen clases y métodos en un mismo módulo. La razón es que cuando un módulo contiene clases se utiliza para un fin diferente a cuando contiene métodos.
+Vamos a empezar explicando cómo los módulos nos ayudan a evitar colisiones de nombres y después hablaremos de las diferentes formas en que nos permiten reutilizar código.
 
 ## Los módulos evitan colisiones de nombres
 
@@ -103,7 +105,7 @@ max = Perro.new
 max.dance # "I'm dancing"
 </code></pre>
 
-El módulo `Dancer` está definiendo un método llamado `dance`. Ese módulo lo estamos incluyendo en las clases `Human` y `Dog` que "reciben" el método `dance`. De nuevo, es una buena forma de reutilizar código.
+El módulo `Dancer` está definiendo un método llamado `dance`. Las clases `Human` y `Dog` incluyen el módulo `Dancer` y por lo tanto "reciben" el método `dance`. De nuevo, es una buena forma de reutilizar código.
 
 Los módulos pueden llamar los métodos de la clase que los incluye. Sin embargo, es importante documentar estos requerimientos dentro del módulo.
 
@@ -173,6 +175,27 @@ end</code></pre>
 
 Si revisas las clases <a href="https://github.com/rails/rails/blob/v4.2.4/activejob/lib/active_job/base.rb">ActiveJob::Base</a> y <a href="https://github.com/rails/rails/blob/v4.2.4/activerecord/lib/active_record/base.rb">ActiveRecord::Base</a> de Ruby on Rails te darás cuenta que siguen el mismo patrón.
 
+Los módulos nos permiten definir constantes que necesitamos en nuestra aplicación:
+
+<pre><code class="overflow ruby">module HttpHeaders
+  CONTENT_TYPE = "Content-Type"
+  AUTHORIZATION = "X-Token"
+  ...
+end</code></pre>
+
+La forma de acceder a las constantes es muy parecido a la forma que se hace con las clases: separando los módulos y la constante con `::`. En el ejemplo anterior tendríamos que escribir `HttpHeaders::AUTHORIZATION` para acceder a la constante `AUTHORIZATION`.
+
+Sin embargo, si incluyes el módulo dentro de una clase, ya no es necesario especificar el módulo para acceder a la constante:
+
+<pre><code class="overflow ruby">class WebServer
+  include HttpHeaders
+
+  def authenticate
+    auth_header = headers[AUTHORIZATION] # no es necesario especificar el módulo
+    ...
+  end
+end</code></pre>
+
 Por último, los módulos son ideales para incluir los métodos utilitarios de tu aplicación, esos métodos que no parecen encajar en ninguna clase:
 
 <pre><code class="overflow ruby">module Utilities
@@ -206,7 +229,7 @@ end
 class Human &lt; Dancer # extiende Dancer
 end
 
-class Dog &lt; Dancer # entiende Dancer
+class Dog &lt; Dancer # extiende Dancer
 end</code></pre>
 
 El resultado es el mismo: `Human` y `Dog` "reciben" el método `dance` y se pueden utilizar igual que lo hicimos en un ejemplo anterior:
@@ -223,11 +246,11 @@ Por ejemplo, supongamos que necesitamos definir la relación entre un `Bus` y un
 
 En nuestro ejemplo de los humanos y perros bailadores, la pregunta es ¿`Human` **es un** `Dancer`? La respuesta es **no**. Ser un "bailador" es más una cualidad de los humanos (o de los perros), y por lo tanto es mejor utilizar un módulo.
 
-Hay ocasiones en que no tenemos opción sino utilizar un módulo. **Ruby no permite múltiple herencia**, es decir, una clase no puede extender varias clases a la vez, y si una clase ya extiende otra[^2] a veces la única opción es crear un módulo e incluirlo así la relación sea de herencia. 
+Hay ocasiones en que no tenemos opción sino utilizar un módulo. **Ruby no permite múltiple herencia**, es decir, una clase no puede extender varias clases a la vez, y si una clase ya extiende otra[^2] a veces la única opción es crear un módulo e incluirlo así la relación sea de herencia.
 
 ---
 
-Los módulos son una herramienta muy particular de Ruby, especialmente porque cumplen la doble función de evitar colisiones de nombres y reutilizar código[^3].
+Los módulos son una herramienta muy particular de Ruby, especialmente porque cumplen la triple función de definir constantes, evitar colisiones de nombres y reutilizar código[^3].
 
 La mayoría de lenguajes Orientados a Objetos tienen algún mecanismo para evitar colisiones entre Clases. En Java se utilizan <a href="https://en.wikipedia.org/wiki/Java_package" target="_blank">paquetes</a>, en JavaScript se emula con <a href="http://stackoverflow.com/questions/1841916/how-to-avoid-global-variables-in-javascript" target="_blank">closures</a>, en C++ <a href="https://msdn.microsoft.com/en-us/library/5cb46ksf.aspx" target="_blank">namespaces</a>, etc. 
 
