@@ -250,7 +250,7 @@ Hay ocasiones en que no tenemos opción sino utilizar un módulo. **Ruby no perm
 
 ---
 
-Los módulos son una herramienta muy particular de Ruby, especialmente porque cumplen la triple función de definir constantes, evitar colisiones de nombres y reutilizar código[^3].
+Los módulos son una herramienta muy particular de Ruby, especialmente porque cumplen la doble función de evitar colisiones de nombres y reutilizar código[^3].
 
 La mayoría de lenguajes Orientados a Objetos tienen algún mecanismo para evitar colisiones entre Clases. En Java se utilizan <a href="https://en.wikipedia.org/wiki/Java_package" target="_blank">paquetes</a>, en JavaScript se emula con <a href="http://stackoverflow.com/questions/1841916/how-to-avoid-global-variables-in-javascript" target="_blank">closures</a>, en C++ <a href="https://msdn.microsoft.com/en-us/library/5cb46ksf.aspx" target="_blank">namespaces</a>, etc. 
 
