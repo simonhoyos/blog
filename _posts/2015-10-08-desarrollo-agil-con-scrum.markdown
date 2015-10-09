@@ -123,7 +123,7 @@ Igual, es bueno conocer Scrum. Muchas empresas lo implementan de forma exitosa (
 
 ### Notas
 
-[^1]: No todo el mundo creía lo mismo. Ya existían varios proponentes de alguna forma de desarrollo ágil, pero la mayoría de proyectos se
+[^1]: No todo el mundo creía lo mismo. Ya existían varios proponentes de alguna forma de desarrollo ágil, pero la mayoría de proyectos seguían el modelo en cascada.
 
 [^2]: Se reescribe el código para hacerlo más legible.
 
