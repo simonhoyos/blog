@@ -58,7 +58,7 @@ También es posible anidar módulos:
   end
 end</code></pre>
 
-Dentro del módulo `System` estamos definiendo otro módulo llamado `Currency`, que a su vez define una clase llamada `Dollar`. En este caso, la forma de referirnos a la clase `Dollar` sería `Contabilidad::Moneda::Dolar`.
+Dentro del módulo `System` estamos definiendo otro módulo llamado `Currency`, que a su vez define una clase llamada `Dollar`. En este caso, la forma de referirnos a la clase `Dollar` sería `System::Currency::Dollar`.
 
 ### ¿Qué pasa si hay una colisión de nombres?
 
