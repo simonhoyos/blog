@@ -19,7 +19,7 @@ El electromagnetismo es la unión de dos fenómenos que se creían independiente
 
 <img src="/images/electromagnet.gif" alt="Electroimán" class="photo">
 
-<p class="photo-description">En electroimán es un tipo de imán que se activa con una corriente eléctrica.</p>
+<p class="photo-description">El electroimán es un tipo de imán que se activa con una corriente eléctrica.</p>
 
 Una de las primeras aplicaciones del electromagnetismo fue el telégrafo, inventado por <a href="https://es.wikipedia.org/wiki/Samuel_Morse" target="_blank">Samuel F. B. Morse</a> en 1836, que permitía enviar señales a larga distancia. Cuando se oprime un interruptor en uno de los extremos, se genera una corriente eléctrica a través de un cable que activa un electroimán al otro extremo[^1].
 
@@ -53,11 +53,11 @@ Las primeras compuertas lógicas se fabricaron a partir de <a href="https://es.w
 
 Los transistores (al igual que los tubos de vacío y electroimanes previamente) se cablean de tal forma en que es posible ejecutar algunas operaciones básicas: AND, OR, XOR, etc. Con eso se construyen circuitos más complejos, y con esos circuitos se construyen dispositivos electrónicos. 
 
-Uno de esos dispositivos es la **memoria** del computador, que no es más que un arreglo de compuertas lógicas cableadas de tal forma que nos permiten almacenar información (no confundas la memoria con el disco duro, la memoria guarda la información de forma temporal, lo que se conoce como memoria RAM). Para que te des una idea, para construir una memoria de 64Kb (64,000 bytes o 512,000 bits) se necesitan aproximadamente un par de millones de transistores. Para una memoria de 1GB (un smarphone moderno) se necesitan aproximadamente mil millones.
+Uno de esos dispositivos es la **memoria** del computador, que no es más que un arreglo de compuertas lógicas cableadas de tal forma que nos permiten almacenar información (no confundas la memoria con el disco duro, la memoria guarda la información de forma temporal, lo que se conoce como memoria RAM). Para que te des una idea, para construir una memoria de 64Kb (64,000 bytes o 512,000 bits) se necesitan aproximadamente un par de millones de transistores. Para una memoria de 1GB (un smartphone moderno) se necesitan aproximadamente mil millones.
 
 Otro dispositivo que se construye cableando compuertas lógicas es el **procesador**, que nos permite realizar operaciones básicas como guardar un valor en alguna posición del la **memoria**, saltar a otra posición de memoria, hacer un AND o un OR entre posiciones de memoria, sumar los valores de dos posiciones de memoria, entre otras. Las operaciones exactas las define el fabricante del procesador y a cada una le asigna un **código binario** (p.e. 10011). Un procesador moderno se construye a partir de algunos billones de transistores.
 
-Pero un computador no está hecho solo de un procesador y una memoria. A un computador se le puede conectar un teclado, disco duro, tarjeta de red, micrófono, parlantes, impresora, etc. Lo interesantes es que el procesador trata todos estos dispositivos por igual, es decir, el procesador envía y recibe información del dispositivo como si fuera una memoria. Es responsabilidad del software (del que vamos a hablar en un momento) enviar la información correcta e interpretar la información que recibe del dispositivo.
+Pero un computador no está hecho solo de un procesador y una memoria. A un computador se le puede conectar un teclado, disco duro, tarjeta de red, micrófono, parlantes, impresora, etc. Lo interesante es que el procesador trata todos estos dispositivos por igual, es decir, el procesador envía y recibe información del dispositivo como si fuera una memoria. Es responsabilidad del software (del que vamos a hablar en un momento) enviar la información correcta e interpretar la información que recibe del dispositivo.
 
 Es por eso que a la memoria y a cualquier otro dispositivo que se pueda conectar con un computador se le conoce como un **dispositivo de E/S (Entrada/Salida)**.
 
@@ -105,9 +105,9 @@ Pero para poder escribir archivos de texto con código (programas), primero fue 
 
 ## Representando texto
 
-Para representar texto se necesitaba desarrollar un sistema en donde cada caracter (letra, signo de puntuación y dígito) correspondiera a un código único, como el código Morse.
+Para representar texto se necesitaba desarrollar un sistema en donde cada carácter (letra, signo de puntuación y dígito) correspondiera a un código único, como el código Morse.
 
-El primer problema era definir un número de bits para representar cada caracter.
+El primer problema era definir un número de bits para representar cada carácter.
 
 Desafortunadamente al principio solo se tuvo en cuenta el idioma Inglés, que no tiene acentos, y se decidió que con 7 bits era suficiente. 7 bits nos permite representar 128 caracteres. Se desarrolló un estándar llamado <a href="https://es.wikipedia.org/wiki/ASCII" target="_blank">ASCII</a> (American Standard Code for Information Interchange), y es quizá uno de los estándares más importantes en la historia de la computación.
 
@@ -116,7 +116,7 @@ Algunos caracteres del estándar ASCII son los siguientes:
 <table class="table">
   <thead>
     <tr>
-      <th class="text-center">Caracter ASCII</th>
+      <th class="text-center">Carácter ASCII</th>
       <th class="text-center">Binario</th>
       <th class="text-center">Decimal</th>
       <th class="text-center">Hexadecimal</th>
@@ -150,13 +150,13 @@ Algunos caracteres del estándar ASCII son los siguientes:
   </tbody>
 </table>
 
-En <a href="http://www.ascii-code.com/" target="_blank">este enlace</a> puedes encontrar la tabla completa. En un momento te darás cuenta por qué incluí el código hexadecimal[^4] para cada caracter.
+En <a href="http://www.ascii-code.com/" target="_blank">este enlace</a> puedes encontrar la tabla completa. En un momento te darás cuenta por qué incluí el código hexadecimal[^4] para cada carácter.
 
 Aunque ASCII solo necesitaba 7 bits, la mayoría de computadores almacenan la información en bytes (grupos de 8 bits). Eso permitió que se definieran una multitud de extensiones a ASCII, unas bien diseñadas, otras no tanto.
 
 La consecuencia es que hoy la mayor�a de programadores han experimentado en alg�n momento problemas con la codificaci�n debido a esta fragmentaci�n.
 
-En 1988 un grupo de compañías se reunieron y desarrollaron una alternativa a ASCII llamada <a href="https://es.wikipedia.org/wiki/Unicode" target="_blank">Unicode</a>, que permite representar texto en la mayoría de sistemas escritos, incluyendo <a href="https://es.wikipedia.org/wiki/Idioma_klingon" target="_blank">Klingon</a> y los caracteres <a href="https://es.wikipedia.org/wiki/Emoji" target="_blank">Emoji</a>. Cada caracter en Unicode tiene un código llamado code point y actualmente hay más de 120,000 caracteres codificados (con espacio para extenderse a más de un millón). Un code point se escribe en formato hexadecimal con el prefijo `U+`. Por ejemplo, el code point para el caracter A es `U+0041` (recuerda que en ASCII es 41), de modo que Unicode es compatible con ASCII.
+En 1988 un grupo de compañías se reunieron y desarrollaron una alternativa a ASCII llamada <a href="https://es.wikipedia.org/wiki/Unicode" target="_blank">Unicode</a>, que permite representar texto en la mayoría de sistemas escritos, incluyendo <a href="https://es.wikipedia.org/wiki/Idioma_klingon" target="_blank">Klingon</a> y los caracteres <a href="https://es.wikipedia.org/wiki/Emoji" target="_blank">Emoji</a>. Cada carácter en Unicode tiene un código llamado code point y actualmente hay más de 120,000 caracteres codificados (con espacio para extenderse a más de un millón). Un code point se escribe en formato hexadecimal con el prefijo `U+`. Por ejemplo, el code point para el carácter A es `U+0041` (recuerda que en ASCII es 41), de modo que Unicode es compatible con ASCII.
 
 Lo interesante de Unicode es que puede ser implementado en diferentes <a href="https://es.wikipedia.org/wiki/Codificaci%C3%B3n_de_caracteres" target="_blank">codificaciones de caracteres</a>, siendo <a href="" target="_blank">UTF-8</a> el más popular actualmente, que usa un byte para los caracteres ASCII, y hasta 4 bytes para los demás (es de longitud variable).
 
@@ -164,7 +164,7 @@ Lo interesante de Unicode es que puede ser implementado en diferentes <a href="h
 
 Cuando un procesador se enciende o se reinicia, empieza a ejecutar código de máquina en una dirección particular de la memoria, generalmente en la primera posición 0000h (la h es de hexadecimal)[^5].
 
-Un sistema operativo no es más que un programa que nos facilita la vida desde el punto de vista de usuarios y programadores. La memoria, por ejemplo, no es más que información secuencial en forma binaria. Pero el sistema operativo se encarga de manejar esa información y de exponerla como un sistema de archivos. Esa es la razón por la cuál hoy no manipulas la memoria directamente, manipulas carpetas y archivos.
+**Un sistema operativo no es más que un programa que nos facilita la vida desde el punto de vista de usuarios y programadores**. La memoria, por ejemplo, no es más que información secuencial en forma binaria. Pero el sistema operativo se encarga de manejar esa información y de exponerla como un sistema de archivos. Esa es la razón por la cuál hoy no manipulas la memoria directamente, manipulas carpetas y archivos.
 
 La segunda tarea del sistema operativo es dividir las aplicaciones en procesos y decidir cuándo un proceso tiene "permiso" de utilizar el procesador. A cada proceso también le asigna cierta memoria.
 
@@ -206,11 +206,11 @@ Aunque la sintaxis (las reglas del lenguaje) varía entre estos lenguajes, la re
 
 ## ¿Por qué es tan difícil (aprender a) programar?
 
-Definitivamente hoy es más fácil (aprender a) programar que hacer 30 años. Hoy es posible encontrar respuesta a la mayoría de problemas de programación en Internet. El problema son las abstracciones y todas las posibilidades que existen.
+Definitivamente hoy es más fácil (aprender a) programar que hace 30 años. Hoy es posible encontrar respuesta a la mayoría de problemas de programación en Internet. El problema son las abstracciones y todas las posibilidades que existen.
 
-Cuando escribes una aplicación Web, por ejemplo, no tienes que reinventar el sistema operativo o definir cómo se va a comunicar el navegador con el servidor. Es como manejar un automóvil, no necesitas conocer cómo funciona el sistema de inyección hidráulica o el árbol de levas; lo único que necesitas es aprender cómo funcionan los pedales, la transmisión, el volante, etc. Algo muy parecido pasa con la programación.
+Cuando escribes una aplicación Web, por ejemplo, no tienes que reinventar el sistema operativo o definir cómo se va a comunicar el navegador con el servidor. Es como manejar un automóvil, no necesitas conocer cómo funciona el sistema de inyección hidráulica o el árbol de levas; lo único que necesitas saber es cómo funcionan los pedales, la transmisión, el volante, etc. Algo muy parecido pasa con la programación.
 
-Cuando escribes y ejecutas un programa (en cualquier lenguaje), varias capas de abstracción se involucran en el proceso: las librerías que utilizaste en tu programa, el interpretador (si es un lenguaje interpretado), el sistema operativo, entre otros. 
+Cuando escribes y ejecutas un programa (en cualquier lenguaje), varias capas de abstracción estan involucradas en el proceso: las librerías que utilizaste en tu programa, el interpretador (si es un lenguaje interpretado), el sistema operativo, entre otros. 
 
 Muchas cosas pueden salir mal. Quizá una de las librerías que utilizaste tiene un problema en el sistema operativo en el que estás ejecutando el programa, o cuando escribiste tu programa esperabas que un archivo estuviese en una ruta determinada pero ese archivo lo cambiaron en la nueva versión.
 
@@ -218,7 +218,7 @@ La programación es caótica, muy caótica. Pensándolo bien, es increíble que 
 
 Cualquier persona puede escribir un programa o una librería, y quizá muchos otros lo utilicen sin ninguna garantía. Eso genera un desarrollo increíblemente ágil y exponencial, pero caótico. Es diferente a los automóviles, que es una industria fuertemente regulada.
 
-Pero, para terminar, la analogía con el automóvil es buena. Un automovil lo puedes utilizar para transportarte de un sitio a otro, o simplemente por diversión. Lo mismo ocurre con la programación. Y al igual que con la conducción, para programar lo único que necesitas es practicar.
+Pero, para terminar, la analogía con el automóvil es buena. Un automóvil lo puedes utilizar para transportarte de un sitio a otro, o simplemente por diversión. Lo mismo ocurre con la programación. Y al igual que con la conducción, para programar lo único que necesitas es practicar.
 
 ---
 
