@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/09/15/que-es-la-recursion/"
 ---
 
-Uno de los conceptos más poderosos de la programación es la **recursión**. Es un concepto simple pero confuso al mismo tiempo porque no es la forma en que estamos acostumbrados a pensar.
+Uno de los conceptos más poderosos de la programación es la **recursión**. Es un concepto simple pero confuso al mismo tiempo porque no es la forma en que estamos acostumbrados a pensar.<!--more-->
 
 La película <a href="http://www.imdb.com/title/tt1375666/" target="_blank">Inception</a> muestra un ejemplo de recursión cuando un grupo de espías corporativos intentan plantar una idea en un sujeto con una tecnología de sueño compartido. A medida que el grupo ingresa a diferentes niveles de sueño de forma recursiva (un sueño dentro de otro sueño) experimentas la confusión que puede generar la recursión.
 

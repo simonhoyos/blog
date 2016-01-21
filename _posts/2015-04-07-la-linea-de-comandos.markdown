@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/04/07/la-linea-de-comandos/"
 ---
 
-También llamada "consola" o "terminal", **la línea de comandos** es una de las herramientas más importantes de todo programador. ¿Qué es? ¿Para qué sirve? ¿Por qué los programadores la usamos tanto? Esas son las preguntas que vamos a intentar responder en este post.
+También llamada "consola" o "terminal", **la línea de comandos** es una de las herramientas más importantes de todo programador. ¿Qué es? ¿Para qué sirve? ¿Por qué los programadores la usamos tanto? Esas son las preguntas que vamos a intentar responder en este post.<!--more-->
 
 <img src="/images/cli.jpg" alt="Screenshots" class="photo">
 

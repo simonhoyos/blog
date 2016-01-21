@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/03/10/html-css/"
 ---
 
-Para hacer páginas Web necesitas aprender dos lenguajes: **HTML** y **CSS**. Estos son los lenguajes que los navegadores (Firefox, Chrome, Internet Explorer) entienden e interpretan para mostrarte lo que ves cuando abres alguna página.
+Para hacer páginas Web necesitas aprender dos lenguajes: **HTML** y **CSS**. Estos son los lenguajes que los navegadores (Firefox, Chrome, Internet Explorer) entienden e interpretan para mostrarte lo que ves cuando abres alguna página.<!--more-->
 
 **HTML** se usa para definir **la estructura** de la página (títulos, párrafos, tablas, listas, vínculos, formularios, imágenes, etc.) y **CSS** se usa para **aplicarle el estilo** (color de fondo, márgenes entre los elementos, tamaño de las fuentes, bordes, etc.).
 

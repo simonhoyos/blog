@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/07/27/tiempo-y-dedicacion/"
 ---
 
-¿Cuánto tiempo necesitas invertir para poder hacer tus propias aplicaciones Web y/o conseguir un empleo como programador(a) Junior?
+¿Cuánto tiempo necesitas invertir para poder hacer tus propias aplicaciones Web y/o conseguir un empleo como programador(a) Junior?<!--more-->
 
 Las cifras varían ampliamente entre persona y persona, pero queremos arriesgarnos a darte algunas cifras para que te des una idea.
 

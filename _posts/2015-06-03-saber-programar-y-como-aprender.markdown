@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/06/03/saber-programar-y-como-aprender/"
 ---
 
-Estamos acostumbrados a dividir el mundo en dos: los buenos de los malos, los ricos de los pobres, los que saben programar de los que no. Pero la realidad es que esos conceptos son muy relativos. Es posible que mi hermano, que es abogado, crea que sé programar porque hice una página Web en <a href="http://www.wix.com/" target="_blank">WiX</a>, pero seguramente <a href="http://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Torvald</a> (creador del sistema operativo Linux) no esté de acuerdo. La pregunta es entonces ¿qué significa saber programar?
+Estamos acostumbrados a dividir el mundo en dos: los buenos de los malos, los ricos de los pobres, los que saben programar de los que no. Pero la realidad es que esos conceptos son muy relativos.<!--more--> Es posible que mi hermano, que es abogado, crea que sé programar porque hice una página Web en <a href="http://www.wix.com/" target="_blank">WiX</a>, pero seguramente <a href="http://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Torvald</a> (creador del sistema operativo Linux) no esté de acuerdo. La pregunta es entonces ¿qué significa saber programar?
 
 Definitivamente no es un título. Muchas personas se gradúan de carreras relacionadas con construcción de software y no vuelven a escribir una sola línea de código en sus vidas. Tampoco es hacer un curso intensivo de 3 meses. Hay algo más, algo que nadie nos está contando.
 

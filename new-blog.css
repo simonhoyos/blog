@@ -366,7 +366,6 @@
   color: #ff3300;
   text-align: center;
   border-right: solid 1px #dddddd;
-  border-left: solid 1px #dddddd;
 }
 @media only screen and (max-width: 650px)  {
   .new-blog .interna-content-post .post-info .share-post {
@@ -404,4 +403,8 @@
 }
 .new-blog .interna-content-post .post-info .share {
   margin-right: 10px;
+}
+.new-blog .interna-post-title .author.top {
+  color: #fff;
+  display: block;
 }

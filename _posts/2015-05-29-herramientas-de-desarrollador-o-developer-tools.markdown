@@ -9,7 +9,7 @@ redirect_from: "/2015/05/29/herramientas-de-desarrollador-o-developer-tools/"
 ---
 
 
-Las herramientas de desarrollador, o en inglés *developer tools*, son un conjunto de herramientas integradas en el navegador, diseñadas para facilitar el desarrollo de aplicaciones web. La mayoría de navegadores cuentan con un kit de herramientas de desarrollador, sin embargo en este artículo vamos a hablar de [Chrome Developer Tools](https://developer.chrome.com/devtools) ya que es el conjunto de herramientas más completo y más popular.
+Las herramientas de desarrollador, o en inglés *developer tools*, son un conjunto de herramientas integradas en el navegador, diseñadas para facilitar el desarrollo de aplicaciones web. <!--more-->La mayoría de navegadores cuentan con un kit de herramientas de desarrollador, sin embargo en este artículo vamos a hablar de [Chrome Developer Tools](https://developer.chrome.com/devtools) ya que es el conjunto de herramientas más completo y más popular.
 
 Si usas otro navegador no te preocupes, la mayoría de funcionalidades son muy parecidas y vas a poder encontrar el homólogo en el navegador que estés usando.
 

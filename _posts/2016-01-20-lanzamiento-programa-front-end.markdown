@@ -7,7 +7,7 @@ thumbnail: /images/bg-images/front-end.png
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-En Make it Real estamos muy emocionados de presentarte nuestro nuevo programa: <a href="http://www.makeitreal.camp/front_end_web_developer">Desarrollador Web Front End con AngularJS</a>.
+En Make it Real estamos muy emocionados de presentarte nuestro nuevo programa: <a href="http://www.makeitreal.camp/front_end_web_developer">Desarrollador Web Front End con AngularJS</a>.<!--more-->
 
 El desarrollo Front End es el área de la programación con más demanda y que más rápido está evolucionando en este momento. Para nosotros ha sido todo un reto diseñar este programa pero estamos muy contentos con el resultado y con las constantes mejoras que estamos implementando.
 

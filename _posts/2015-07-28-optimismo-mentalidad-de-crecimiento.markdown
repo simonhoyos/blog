@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/07/27/optimismo-mentalidad-de-crecimiento/"
 ---
 
-Aprender a programar es difícil. **La mayoría de la programación no requiere ser bueno en matemáticas, ni tener un cerebro especial; requiere mucha práctica**. Aprender un nuevo lenguaje de programación es parecido a aprender un nuevo instrumento, o un nuevo idioma. Existen diferentes niveles de destreza. Pero así como no es necesario estudiar literatura para aprender un idioma, ni música para aprender un instrumento, no es necesario estudiar ingeniería de sistemas o ciencias de la computación para aprender a programar.
+Aprender a programar es difícil. **La mayoría de la programación no requiere ser bueno en matemáticas, ni tener un cerebro especial; requiere mucha práctica**. Aprender un nuevo lenguaje de programación es parecido a aprender un nuevo instrumento, o un nuevo idioma. <!--more-->Existen diferentes niveles de destreza. Pero así como no es necesario estudiar literatura para aprender un idioma, ni música para aprender un instrumento, no es necesario estudiar ingeniería de sistemas o ciencias de la computación para aprender a programar.
 
 **Recuerda que la mayor barrera para aprender a programar es emocional, no intelectual**.  Pero ¿Cómo manejar la frustración? ¿Cómo mantener la motivación?
 

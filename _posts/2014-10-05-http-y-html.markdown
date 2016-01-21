@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2014/10/05/http-y-html/"
 ---
 
-¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder estas preguntas. Pero antes un poco de historia.
+¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder estas preguntas. Pero antes un poco de historia.<!--more-->
 
 
 Aunque Internet fue desarrollado a finales de los 60's y principios de los 70's, no fue sino hasta 1989 que <a href="http://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners-Lee</a> propuso el proyecto World Wide Web (WWW) trabajando para <a href="http://en.wikipedia.org/wiki/CERN" target="_blank">CERN</a>, que era en su momento el nodo de Internet más grande en Europa.

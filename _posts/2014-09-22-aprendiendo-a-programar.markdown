@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2014/09/22/aprendiendo-a-programar/"
 ---
 
-Aprender a programar es difícil. **La mayoría de la programación no requiere ser bueno en matemáticas, ni tener un cerebro especial; requiere mucha práctica**. Aprender un nuevo lenguaje de programación es parecido a aprender un nuevo instrumento, o un nuevo idioma. Existen diferentes niveles de destreza. Pero así como no es necesario estudiar literatura para aprender un idioma, ni música para aprender un instrumento, no es necesario estudiar ingeniería de sistemas o ciencias de la computación para aprender a programar.
+Aprender a programar es difícil. **La mayoría de la programación no requiere ser bueno en matemáticas, ni tener un cerebro especial; requiere mucha práctica**. Aprender un nuevo lenguaje de programación es parecido a aprender un nuevo instrumento, o un nuevo idioma.<!--more--> Existen diferentes niveles de destreza. Pero así como no es necesario estudiar literatura para aprender un idioma, ni música para aprender un instrumento, no es necesario estudiar ingeniería de sistemas o ciencias de la computación para aprender a programar.
 
 <blockquote>“To learn and to grow, we must consciously tune into the opportunities that are around us, as well as the barriers that may be unnecessarily holding us back”<br><br>
 

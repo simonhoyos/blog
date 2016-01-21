@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/09/17/que-es-un-api/"
 ---
 
-Un **API** (Application Programming Interface) **es la interfaz que un software utiliza para interactuar con otro software**. Empecemos con una analogía. Observa la siguiente lavadora:
+Un **API** (Application Programming Interface) **es la interfaz que un software utiliza para interactuar con otro software**. Empecemos con una analogía. Observa la siguiente lavadora:<!--more-->
 
 <img src="/images/washing-machine.png" alt="Lavadora" class="photo">
 

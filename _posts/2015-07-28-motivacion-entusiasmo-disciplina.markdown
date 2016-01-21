@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/07/27/motivacion-entusiasmo-disciplina/"
 ---
 
-Es muy probable que en este momento estés motivado y lleno de entusiasmo por aprender a programar. ¡Eso es genial! Pero, aunque la motivación y el entusiasmo son importantes, desafortunadamente no son suficientes.
+Es muy probable que en este momento estés motivado y lleno de entusiasmo por aprender a programar. ¡Eso es genial! Pero, aunque la motivación y el entusiasmo son importantes, desafortunadamente no son suficientes.<!--more-->
 
 Es gracias a la motivación y el entusiasmo que decides aprender a programar, pero **es la disciplina y la determinación lo que no te dejará rendir cuando el código no te funcione y no entiendas por qué**.
 

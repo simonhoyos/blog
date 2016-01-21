@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/03/22/introduccion-ruby-on-rails/"
 ---
 
-**Ruby on Rails** es un framework para crear aplicaciones Web, escrito en el lenguaje de programación **Ruby**, y diseñado para que el desarrollo de aplicaciones Web sea fácil y divertido.
+**Ruby on Rails** es un framework para crear aplicaciones Web, escrito en el lenguaje de programación **Ruby**, y diseñado para que el desarrollo de aplicaciones Web sea fácil y divertido.<!--more-->
 
 Asumiendo que ya tienes **Ruby** instalado, crear un nuevo proyecto en **Rails** es tan fácil como ejecutar los siguientes comandos en la consola:
 
