@@ -11,7 +11,7 @@ En Make it Real estamos muy emocionados de presentarte nuestro nuevo programa: <
 
 El desarrollo Front End es el área de la programación con más demanda y que más rápido está evolucionando en este momento. Para nosotros ha sido todo un reto diseñar este programa pero estamos muy contentos con el resultado y con las constantes mejoras que estamos implementando.
 
-Es un programa muy práctico, basado en la filosofía de aprender haciendo; **es la únión de lo mejor de la tecnología con lo mejor de la interacción humana**. Eso le permite al estudiante recibir retroalimentación inmediata de su progreso y al mismo tiempo recibir el apoyo de una persona que conoce sus fortalezas y debilidades para maximizar su aprendizaje.
+Es un programa muy práctico, basado en la filosofía de aprender haciendo; **es la únión de lo mejor de la tecnología con lo mejor de la interacción humana**. Eso le permite al estudiante recibir retroalimentación inmediata de su progreso y el apoyo de una persona que conoce sus fortalezas y debilidades para maximizar su aprendizaje.
 
 El programa está compuesto de 6 módulos más uno de preparación. Los módulos son:
 
