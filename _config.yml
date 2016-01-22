@@ -3,7 +3,7 @@ title: El Blog de Make it Real
 email: german.escobar@makeitreal.camp
 description: "Especialízate en Desarrollo Web. Avanza tu carrera con un programa estructurado y personalizado"
 baseurl: ""
-url: "http://blog.makeitreal.camp/"
+url: "http://blog.makeitreal.camp"
 twitter_username: makeitrealcamp
 github_username:  jekyll
 excerpt_separator: <!--more-->
