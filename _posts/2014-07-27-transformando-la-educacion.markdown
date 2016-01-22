@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2014/07/27/transformando-la-educacion/"
 ---
 
-El sistema educativo actual es muy efectivo generando trabajadores reemplazables, obedientes y productivos, pero ineficiente y anticuado para las necesidades del mundo actual. En **Make it Real** queremos ser el inicio del cambio.
+El sistema educativo actual es muy efectivo generando trabajadores reemplazables, obedientes y productivos, pero ineficiente y anticuado para las necesidades del mundo actual. En **Make it Real** queremos ser el inicio del cambio.<!--more-->
 
 Desde que tenía 13 años sabía lo que quería hacer por el resto de mi vida: emprender y programar. Pero mi única opción cuando salí del colegio era entrar a la universidad. Aún recuerdo esos años oscuros que amenazaron mi interés por la programación con complicados procesos de ingeniería de software que hoy ya nadie utiliza y que reducen la programación a pegar ladrillos con cemento.
 

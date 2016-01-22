@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/07/27/una-nueva-mentalidad/"
 ---
 
-Estamos atravesando por un momento muy interesante en la historia de la humanidad. A través de la programación estamos creando y transformando industrias que han cambiado la forma en que compramos, viajamos, nos comunicamos, creamos, y consumimos contenido. No existe una sola industria que no haya sido o no esté siendo transformada por la programación. Es una revolución que hasta ahora comienza con oportunidades enormes para los que aprendan a programar.
+Estamos atravesando por un momento muy interesante en la historia de la humanidad. A través de la programación estamos creando y transformando industrias que han cambiado la forma en que compramos, viajamos, nos comunicamos, creamos, y consumimos contenido. <!--more-->No existe una sola industria que no haya sido o no esté siendo transformada por la programación. Es una revolución que hasta ahora comienza con oportunidades enormes para los que aprendan a programar.
 
 Hoy la información cuesta muy poco y está al alcance de una gran parte de la población. El verdadero reto es aprender a buscar, seleccionar y usar esa información para resolver problemas.
 

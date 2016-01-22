@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2014/10/18/git-y-github/"
 ---
 
-Git es un **sistema de control de versiones distribuido**, diseñado y desarrollado inicialmente por <a href="http://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Torvalds</a> en el 2005 cuando <a href="http://en.wikipedia.org/wiki/BitKeeper" target="_blank">BitKeeper</a>, el sistema de control de versiones que utilizaban para el desarrollo de Linux, cambiara su licencia y no permitiera su uso libre. En este post vamos a explicar qué es **Git** y cómo se relaciona con **<a href="http://github.com/" target="_blank">Github</a>**.
+Git es un **sistema de control de versiones distribuido**, diseñado y desarrollado inicialmente por <a href="http://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Torvalds</a> en el 2005 cuando <a href="http://en.wikipedia.org/wiki/BitKeeper" target="_blank">BitKeeper</a>, el sistema de control de versiones que utilizaban para el desarrollo de Linux, cambiara su licencia y no permitiera su uso libre.<!--more--> En este post vamos a explicar qué es **Git** y cómo se relaciona con **<a href="http://github.com/" target="_blank">Github</a>**.
 
 **Git**, y en general un sistema de control de versiones, tiene dos objetivos principales:
 

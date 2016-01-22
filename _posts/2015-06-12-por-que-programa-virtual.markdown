@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/06/12/por-que-programa-virtual/"
 ---
 
-**Make it Real** empezó en el 2014 con Bootcamps presenciales, de 12 semanas tiempo completo. El modelo estuvo fuertemente inspirado en iniciativas similares en Estados Unidos como [Dev Bootcamp](http://devbootcamp.com/) y [Hack Reactor](http://www.hackreactor.com/) que cuestan entre $10,000 y $20,000 dólares.
+**Make it Real** empezó en el 2014 con Bootcamps presenciales, de 12 semanas tiempo completo. El modelo estuvo fuertemente inspirado en iniciativas similares en Estados Unidos como [Dev Bootcamp](http://devbootcamp.com/) y [Hack Reactor](http://www.hackreactor.com/) que cuestan entre $10,000 y $20,000 dólares.<!--more-->
 
 **¿Por qué nos cambiamos a un modelo virtual?** Es importante aclarar que aún no hemos descartado volver a ofrecer un Bootcamp presencial, pero creemos que es importante enfocarnos en hacer una cosa bien a la vez. Aprendimos mucho con el Bootcamp presencial y estamos aplicando todo ese conocimiento en el virtual. Nuestro objetivo sigue siendo el mismo: que aprendas a crear tus propias aplicaciones Web, ya sea para encontrar un mejor empleo como Desarrollador(a) Web Junior, o para que crees productos digitales e inicies tu propia startup.
 

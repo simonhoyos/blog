@@ -7,7 +7,7 @@ thumbnail: /images/bg-images/modules.jpg
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Los módulos en Ruby cumplen una doble función: evitan colisiones de nombres y nos ayudan a reutilizar código. En este post te explicamos qué son, cómo se definen y cómo se utilizan.
+Los módulos en Ruby cumplen una doble función: evitan colisiones de nombres y nos ayudan a reutilizar código. En este post te explicamos qué son, cómo se definen y cómo se utilizan.<!--more-->
 
 Un módulo es un contenedor que agrupa constantes, clases y métodos. Los módulos se definen utilizando la palabra clave `module`:
 

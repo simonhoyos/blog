@@ -7,7 +7,7 @@ thumbnail: /images/bg-images/athletics-scrum.jpg
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Scrum es una metodología de desarrollo ágil que ayuda a equipos pequeños a construir productos complejos de software. En este post te explicamos de dónde surge, conceptos, ventajas y desventajas.
+Scrum es una metodología de desarrollo ágil que ayuda a equipos pequeños a construir productos complejos de software. En este post te explicamos de dónde surge, conceptos, ventajas y desventajas.<!--more-->
 
 Antes de intentar explicar Scrum, empecemos por la metodología que se utilizaba para desarrollar software en los años 70’s, 80’s y parte de los 90’s. 
 

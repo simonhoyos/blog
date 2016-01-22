@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/02/17/una-breve-historia-de-internet/"
 ---
 
-A principios de los años 60’s, en Estados Unidos, varias universidades tenían computadores de tiempo compartido: enormes máquinas, con una fracción de la capacidad de tu teléfono móvil actual, que se accedían a través de terminales sin pantalla, permitiendo a varios compartir los recursos del computador de forma simultánea.
+A principios de los años 60’s, en Estados Unidos, varias universidades tenían computadores de tiempo compartido: enormes máquinas, con una fracción de la capacidad de tu teléfono móvil actual, que se accedían a través de terminales sin pantalla, permitiendo a varios compartir los recursos del computador de forma simultánea.<!--more-->
 
 Muchos creían que los computadores habían llegado a una cúspide evolutiva y no había mucho por desarrollar en ese campo. Así que la atención se centró en pensar cómo podrían comunicarse estos computadores de forma remota. Las aplicaciones serían infinitas: chat, juegos, transferencia de archivos, publicación de documentos, etc.
 

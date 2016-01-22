@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2015/09/21/que-es-un-stack-overflow-desbordamiento-de-pila/"
 ---
 
-Sí, el sitio más popular de preguntas y respuestas de programación es, por mucho, <a href="http://stackoverflow.com/" target="_blank">StackOverflow</a>. Pero ¿qué es realmente un stack overflow (en español desbordamiento de pila)? En este post te lo explicamos en detalle.
+Sí, el sitio más popular de preguntas y respuestas de programación es, por mucho, <a href="http://stackoverflow.com/" target="_blank">StackOverflow</a>. Pero ¿qué es realmente un stack overflow (en español desbordamiento de pila)? En este post te lo explicamos en detalle.<!--more-->
 
 Todo lenguaje de programación tiene algún mecanismo para definir procedimientos, subrutinas, funciones o métodos, que son diferentes nombres que se refieren a lo mismo: secuencias de instrucciones empaquetadas en una unidad que se pueden llamar desde otras partes del programa (de ahora en adelante las llamaremos subrutinas).
 

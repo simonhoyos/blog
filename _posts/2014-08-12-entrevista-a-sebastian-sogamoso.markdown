@@ -8,7 +8,7 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 redirect_from: "/2014/08/12/entrevista-a-sebastian-sogamoso/"
 ---
 
-Tuvimos la oportunidad de hacerle algunas preguntas a Sebastián Sogamoso para que nos contara un poco sobre su experiencia como desarrollador trabajando remotamente para una empresa en Estados Unidos:
+Tuvimos la oportunidad de hacerle algunas preguntas a Sebastián Sogamoso para que nos contara un poco sobre su experiencia como desarrollador trabajando remotamente para una empresa en Estados Unidos:<!--more-->
 
 <img src="/images/sebastian-sogamoso.jpg" alt="Sebastián Sogamoso" class="img-circle photo">
 

@@ -8,7 +8,7 @@ gravatar: http://s.gravatar.com/avatar/fd6b127ea49aa9a59198eaa23bb6165c?s=80.jpg
 redirect_from: "/2015/09/15/niveles-make-it-real/"
 ---
 
-Conoce el sistema de niveles y puntos con el que Make it Real cuenta, para poder ver los avances de nuestros alumnos y a la vez hacer más divertido el aprendizaje en nuestra plataforma. 
+Conoce el sistema de niveles y puntos con el que Make it Real cuenta, para poder ver los avances de nuestros alumnos y a la vez hacer más divertido el aprendizaje en nuestra plataforma. <!--more-->
 
 A medida que vas resolviendo retos, te vamos otorgando puntos; esos puntos son necesarios para que subas de nivel. A los niveles, los llamamos  “teclados“  y funcionan como el color de los cinturones en karate. Inicias en teclado blanco (son nueve colores) y terminas como los expertos,con un teclado negro. 
 

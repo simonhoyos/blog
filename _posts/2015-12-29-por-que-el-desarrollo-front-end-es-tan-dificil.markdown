@@ -7,7 +7,7 @@ thumbnail: /images/bg-images/creative-apple-desk-office.jpg
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Solía ser mucho más fácil. Antes, el desarrollador Web escribía tanto el front-end como el back-end. Hoy el desarrollador front-end debe ser un experto en JavaScript. Debe conocer conceptos de arquitectura de software, patrones de diseño, API’s, debe adaptarse rápidamente a las diferentes librerías y a los bruscos cambios que están ocurriendo. ¿Por qué se volvió tan difícil? ¿Cómo nos metimos en este enredo?  
+Solía ser mucho más fácil. Antes, el desarrollador Web escribía tanto el front-end como el back-end. Hoy el desarrollador front-end debe ser un experto en JavaScript. <!--more-->Debe conocer conceptos de arquitectura de software, patrones de diseño, API’s, debe adaptarse rápidamente a las diferentes librerías y a los bruscos cambios que están ocurriendo. ¿Por qué se volvió tan difícil? ¿Cómo nos metimos en este enredo?  
 
 Piensa por un momento en el desarrollador Web de hace 10 o 12 años, el que escribía HTML, CSS y PHP. Sabía algo de JavaScript, pero era algo mínimo, quizá lo utilizaba para validar un formulario o configurar un plugin de jQuery, pero nada más difícil que eso.
 
