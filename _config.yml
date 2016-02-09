@@ -5,7 +5,7 @@ description: "Especialízate en Desarrollo Web. Avanza tu carrera con un program
 baseurl: ""
 url: "http://blog.makeitreal.camp"
 twitter_username: makeitrealcamp
-github_username:  jekyll
+github_username: makeitrealcamp
 excerpt_separator: <!--more-->
 
 # Build settings
@@ -13,8 +13,7 @@ markdown: kramdown
 permalink: :title
 
 sass:
-    sass_dir: css
-    style: compressed
-
+  style: compressed
+  
 gems:
   - jekyll-redirect-from
