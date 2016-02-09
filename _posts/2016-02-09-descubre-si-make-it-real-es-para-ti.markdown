@@ -67,7 +67,7 @@ Cada tema del programa (p.e. HTML and CSS, Git and Github, JavaScript, AngularJS
 
 ## En vez de un certificado
 
-El problema con los certificados es muy parecido al de las calificaciones. Corrompe el aprendizaje. Es una motivación extrínseca que promueve a los estudiantes a hacer el menor esfuerzo para obtener un trozo de cartón.
+El problema con los certificados es muy parecido al de las calificaciones. Corrompe el aprendizaje. Es una motivación extrínseca que promueve a los estudiantes a hacer el menor esfuerzo para obtenerlo.
 
 Creemos que el esfuerzo importa. Es por eso que hemos creado una página de perfil para cada estudiante que muestre su progreso y sus logros más importantes.
 
@@ -83,7 +83,7 @@ Los estudiantes también siguen recibiendo soporte de sus mentores y de otros es
 
 ## Conclusión
 
-Nuestro objetivo es que todos los estudiantes que terminen el programa tengan la posibilidad de encontrar un empleo. Eso lo hemos logrado hasta ahora y creemos que tenemos un programa sólido que te va a preparar con las habilidades que realmente necesitas para triunfar.
+Nuestro objetivo es que todos los estudiantes que terminen el programa tengan la posibilidad de encontrar un empleo. Eso lo hemos logrado hasta ahora y tenemos un programa sólido que te va a preparar con las habilidades que realmente necesitas para triunfar.
 
 Pero si tu objetivo es que te expliquen paso a paso cómo programar y no estás dispuesto(a) a trabajar y a investigar, este no es el programa para ti. Uno simplemente no aprende de esa forma[^1].
 
