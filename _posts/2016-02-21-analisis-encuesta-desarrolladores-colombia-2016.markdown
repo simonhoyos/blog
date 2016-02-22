@@ -25,7 +25,7 @@ Las empresas extranjeras pagan **55%** más que las empresas colombianas.
 
 El lenguaje de programación mejor pago es por mucho **Ruby ($71M)**, seguido por Objective-C/Swift ($54.6M). Los que menos pagan son PHP ($30M) y HTML/CSS ($24M).
 
-Tener un título técnico **no paga**. Una persona con título universitario gana **14%** más que una persona sin título, pero **56%** más que una persona con un título técnico!
+Tener un título técnico **no paga**. Una persona con título universitario gana **14%** más que una persona sin título, pero **56%** más que una persona con un título técnico! Sí, las personas sin título ganan más que las que tienen un título técnico.
 
 Tener maestría paga. Las personas con un pregrado ganan solo **5%** más que las que son bachilleres, pero las personas con una maestría ganan un **64%** más que las que tienen pregrado.
 
@@ -79,11 +79,11 @@ Bien, la mayoría dedica más de 50% a desarrollo.
 
 <div id="work-5" style="height: 170px; width: 100%; margin-top: 40px; margin-bottom: 20px"></div>
 
-Qué lastima. Pero seamos sinceros, el emprendimiento es difícil y muy riesgoso.
+Qué lastima el bajo porcentaje de fundadores. Pero seamos sinceros, el emprendimiento es difícil y muy riesgoso.
 
 <div id="work-6" style="height: 250px; width: 100%; margin-top: 40px; margin-bottom: 20px"></div>
 
-Ok, me siento viejo. Esperaba más gente con más de 15 años de experiencia. ¿Dónde están?
+Esperaba más gente con más de 15 años de experiencia. ¿Dónde están?
 
 <div id="work-7" style="height: 350px; width: 100%; margin-top: 40px; margin-bottom: 20px"></div>
 
@@ -104,7 +104,7 @@ Casi el 60% de los que respondieron sienten que su salario es injusto.
 
 ## Análisis
 
-Bien, entremos en la parte más emocionante del post. Vamos a comparar algunas variables con el ingreso anual.
+Bien, entremos en la parte más emocionante del post. Vamos a comparar algunas variables con el salario anual.
 
 La distribución de ingresos está muy sesgada y por lo tanto decidimos utilizar **la mediana** (línea roja) en vez del promedio. Las cajas verdes nos permiten entender qué tan esparcida está la información y representan el rango en donde se encuentra el 50% de los datos.
 
