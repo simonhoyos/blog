@@ -7,11 +7,11 @@ thumbnail: /images/bg-images/colombia-jardin.jpg
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-La comunidad de ColombiaDev ha publicado <a href="https://github.com/colombia-dev/data/tree/master/salaries/2016" target="_blank">los datos de su encuesta de desarrolladores Colombianos</a> realizada a principios del 2016. 
+La comunidad de ColombiaDev ha publicado <a href="https://github.com/colombia-dev/data/tree/master/salaries/2016" target="_blank">los datos de la encuesta a desarrolladores Colombianos</a> realizada a principios del 2016. Este es nuestro analisis **no oficial**.<!--more-->
 
-Este es nuestro analisis **no oficial** e interpretación de los resultados. Si encuentras algún error o alguna forma en que podamos mejorar la presentación de los datos, no dudes en avisarnos para corregirlo.
+Si encuentras algún error o alguna forma en que podamos mejorar la presentación de los datos, no dudes en avisarnos para corregirlo.
 
-<a href="https://github.com/colombia-dev/data/tree/master/salaries/2016" target="_blank">1297 personas respondieron la encuesta</a>. Sin embargo, no podemos asumir que la encuesta representa a la población en general porque fue voluntaria y su difusión fue, en su mayoría, por redes sociales, que tiene un alcance limitado.
+**1297** personas respondieron la encuesta. Sin embargo, no podemos asumir que la encuesta representa a la población en general porque fue voluntaria y su difusión fue, en su mayoría, por redes sociales, que tiene un alcance limitado.
 
 Algunos salarios están en dólares así que, para efectos de este análisis, los convertimos a pesos con una TRM de $3000 pesos. También excluímos 212 observaciones del análisis de ingresos que parecen ser errores en la información--nuestra teoría es que muchos pensaron que debían reportar sus ingresos mensuales, no anuales.
 
