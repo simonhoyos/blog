@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Análisis encuesta desarrolladores colombianos 2016"
+title:  "Análisis encuesta desarrolladores en Colombia 2016"
 date:   2016-02-21 17:40:58
 author: Germán Escobar
 thumbnail: /images/bg-images/colombia-jardin.jpg
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-La comunidad de ColombiaDev ha publicado <a href="https://github.com/colombia-dev/data/tree/master/salaries/2016" target="_blank">los datos de la encuesta a desarrolladores Colombianos</a> realizada a principios del 2016. Este es nuestro analisis **no oficial**.<!--more-->
+La comunidad de ColombiaDev ha publicado <a href="https://github.com/colombia-dev/data/tree/master/salaries/2016" target="_blank">los datos de la encuesta a desarrolladores en Colombia</a> realizada a principios del 2016. Este es nuestro analisis **no oficial**.<!--more-->
 
 Si encuentras algún error o alguna forma en que podamos mejorar la presentación de los datos, no dudes en avisarnos para corregirlo.
 
@@ -19,7 +19,7 @@ Este post está dividido en tres partes. Primero, vamos a resumir los hallazgos 
 
 ## Hallazgos interesantes
 
-El salario medio de los desarrolladores colombianos es de **39 millones al año**, es decir, **$3,250,000 al mes**. Sin embargo, los que reciben salario en dólares ganan **4 veces más** que los que reciben salarios en pesos!
+El salario medio de los desarrolladores en Colombia es de **39 millones al año**, es decir, **$3,250,000 al mes**. Sin embargo, los que reciben salario en dólares ganan **4 veces más** que los que reciben salarios en pesos!
 
 Las empresas extranjeras pagan **55%** más que las empresas colombianas.
 
@@ -116,7 +116,7 @@ Se evidencia una marcada diferencia entre Bogotá y Medellín con respecto a las
 
 <div id="experience" style="height: 300px; width: 100%; margin-top: 40px; margin-bottom: 20px"></div>
 
-Las personas con menos de un año de experiencia ganan en promedio $18M al año, la mayoría debe ser recién egresada.
+Las personas con menos de un año de experiencia ganan en promedio $18M al año (aprox 40% menos que los estudiantes que terminan Make it Real).
 
 <div id="company-type" style="height: 300px; width: 100%; margin-top: 40px; margin-bottom: 20px"></div>
 
@@ -144,7 +144,7 @@ Los peores lenguajes para trabajar son HTML/CSS y PHP. Me descepcionó Scala. Ru
 
 <div id="currency" style="height: 300px; width: 100%; margin-top: 40px; margin-bottom: 20px"></div>
 
-Recuerda que estoy utilizando una TRM de $3000, así que la diferencia puede ser mayor (la TRM está llegando a $3500 para la fecha en que estoy escribiendo esto). Me queda la pregunta si los que reciben en dólares viven acá o en EEUU. Pero igual, la diferencia es simplemente asombrosa.
+Recuerda que estoy utilizando una TRM de $3000, así que la diferencia puede ser mayor (la TRM está llegando a $3500 para la fecha en que estoy escribiendo esto). La diferencia es simplemente asombrosa.
 
 
 ## Sugerencias para la próxima encuesta
@@ -157,8 +157,6 @@ De nuevo, felicitaciones y gracias a la comunidad de ColombiaDev por realizar es
 4. En la pregunta de experiencia, simplificar las primeras opciones por: "menos de 2 años" y "2 - 5 años".
 5. La encuesta excluye a los desempleados.
 6. Una pregunta interesante es qué porcentaje de los empleados trabajan de forma remota.
-7. Al preguntar por la empresa extranjera, aclarar si está ubicada en Colombia o no.
-8. La encuesta excluye a los que viven fuera de Colombia con la pregunta "En qué ciudad de Colombia vive". Sería bueno incluirlos.
 
 ---
 
