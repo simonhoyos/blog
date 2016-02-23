@@ -25,7 +25,7 @@ Las empresas extranjeras pagan **55%** más que las empresas colombianas.
 
 El lenguaje de programación mejor pago es por mucho **Ruby ($71M)**, seguido por Objective-C/Swift ($54.6M). Los que menos pagan son PHP ($30M) y HTML/CSS ($24M).
 
-Tener un título técnico **no paga**. Una persona con título universitario gana **14%** más que una persona sin título, pero **56%** más que una persona con un título técnico! Sí, las personas sin título ganan más que las que tienen un título técnico.
+Una persona con título universitario gana **14%** más que una persona sin título y **56%** más que una persona con un título técnico! En otras palabras, tener un título técnico **no paga**, es mejor no tener ningún título.
 
 Tener maestría paga. Las personas con un pregrado ganan solo **5%** más que las que son bachilleres, pero las personas con una maestría ganan un **64%** más que las que tienen pregrado.
 
@@ -33,7 +33,7 @@ Saber inglés paga, especialmente los que tienen nivel avanzado que ganan **45%*
 
 Esto son los hallazgos que encontramos más interesantes en los resultados. En general, corresponden a nuestra experiencia en la industria.
 
-Sigue leyendo para más información y otros hallazgos que no mencionamos en esta sección.
+Sigue leyendo para conocer los detalles de estos hallazgos y otros que no mencionamos en esta sección.
 
 ## Información Demográfica
 
@@ -79,7 +79,7 @@ Bien, la mayoría dedica más de 50% a desarrollo.
 
 <div id="work-5" style="height: 170px; width: 100%; margin-top: 40px; margin-bottom: 20px"></div>
 
-Qué lastima el bajo porcentaje de fundadores. Pero seamos sinceros, el emprendimiento es difícil y muy riesgoso.
+Nada mal ese porcentaje de fundadores!
 
 <div id="work-6" style="height: 250px; width: 100%; margin-top: 40px; margin-bottom: 20px"></div>
 
@@ -157,6 +157,10 @@ De nuevo, felicitaciones y gracias a la comunidad de ColombiaDev por realizar es
 4. En la pregunta de experiencia, simplificar las primeras opciones por: "menos de 2 años" y "2 - 5 años".
 5. La encuesta excluye a los desempleados.
 6. Una pregunta interesante es qué porcentaje de los empleados trabajan de forma remota.
+
+---
+
+<a href="http://www.makeitreal.camp/" target="_blank">Make it Real</a> ofrece programas para entrenar desarrolladores Web en nuevas tecnologías, ya sea para que encuentren un mejor empleo o construyan sus propios productos digitales. Conoce nuestros programas haciendo <a href="http://www.makeitreal.camp/" target="_blank">click acá</a>.
 
 ---
 
