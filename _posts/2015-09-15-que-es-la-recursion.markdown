@@ -31,7 +31,7 @@ Veamos otro ejemplo. Imprimamos los números del `1` al `10` de forma recursiva:
 
 <pre><code class="overflow javascript">function printNumber(x) {
   console.log(x); // imprime el número
-  if (x < 10) { printNumber(x++); }
+  if (x < 10) { printNumber(x + 1); }
 }
 printNumber(1); // inicia la recursión</code></pre>
 
