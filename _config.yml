@@ -1,5 +1,5 @@
 # Site settings
-title: El Blog de Make it Real 
+title: El Blog de Make it Real
 email: german.escobar@makeitreal.camp
 description: "Especialízate en Desarrollo Web. Avanza tu carrera con un programa estructurado y personalizado"
 baseurl: ""
@@ -10,10 +10,10 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
-permalink: :title
+permalink: ':title/'
 
 sass:
   style: compressed
-  
+
 gems:
   - jekyll-redirect-from
