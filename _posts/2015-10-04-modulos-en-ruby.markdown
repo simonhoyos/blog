@@ -68,7 +68,8 @@ Por ejemplo, supongamos que queremos incluir un método `palindrome?` dentro de 
 
 <pre><code class="overflow ruby">class String
   def palindrome?
-    self == self.reverse
+    letters = self.downcase.scan(/\w/)
+    letters == letters.reverse
   end
 end
 
@@ -252,7 +253,7 @@ Hay ocasiones en que no tenemos opción sino utilizar un módulo. **Ruby no perm
 
 Los módulos son una herramienta muy particular de Ruby, especialmente porque cumplen la doble función de evitar colisiones de nombres y reutilizar código[^3].
 
-La mayoría de lenguajes Orientados a Objetos tienen algún mecanismo para evitar colisiones entre Clases. En Java se utilizan <a href="https://en.wikipedia.org/wiki/Java_package" target="_blank">paquetes</a>, en JavaScript se emula con <a href="http://stackoverflow.com/questions/1841916/how-to-avoid-global-variables-in-javascript" target="_blank">closures</a>, en C++ <a href="https://msdn.microsoft.com/en-us/library/5cb46ksf.aspx" target="_blank">namespaces</a>, etc. 
+La mayoría de lenguajes Orientados a Objetos tienen algún mecanismo para evitar colisiones entre Clases. En Java se utilizan <a href="https://en.wikipedia.org/wiki/Java_package" target="_blank">paquetes</a>, en JavaScript se emula con <a href="http://stackoverflow.com/questions/1841916/how-to-avoid-global-variables-in-javascript" target="_blank">closures</a>, en C++ <a href="https://msdn.microsoft.com/en-us/library/5cb46ksf.aspx" target="_blank">namespaces</a>, etc.
 
 A los módulos como mecanismo de reutilización de código también se les llama <a href="https://en.wikipedia.org/wiki/Mixin" target="_blank">Mixins</a> en otros lenguajes. Otros, como Java, C++ y JavaScript, no incluyen esa funcionalidad, aunque generalmente existen formas de emularla.
 
