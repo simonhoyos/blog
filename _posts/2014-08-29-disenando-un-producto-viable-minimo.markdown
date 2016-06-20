@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Diseñando un Producto Viable Mínimo"
+title:  "Diseñando un Producto Mínimo Viable"
 date:   2014-08-29 17:40:58
 author: Germán Escobar
 thumbnail: /images/bg-images/startup-photos-reduced.jpg
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2014/08/29/disenando-un-producto-viable-minimo/"
+permalink: "/disenando-un-producto-viable-minimo/"
 ---
 
-En los últimos días hemos estado trabajando sin descanso en **Challenges**, una aplicación para administrar los retos de programación que los alumnos de **Make it Real** tendrán que completar durante las 12 semanas del Bootcamp.<!--more--> En este post vamos a utilizar **Challenges** como ejemplo para explicar el proceso de diseño de un [producto viable mínimo (PVM)](http://es.wikipedia.org/wiki/Producto_viable_m%C3%ADnimo).
+En los últimos días hemos estado trabajando sin descanso en **Challenges**, una aplicación para administrar los retos de programación que los alumnos de **Make it Real** tendrán que completar durante las 12 semanas del Bootcamp.<!--more--> En este post vamos a utilizar **Challenges** como ejemplo para explicar el proceso de diseño de un producto mínimo viable (MVP por sus siglas en inglés).
 
 ![Challenges](/images/challenges.png)
 
@@ -18,7 +19,7 @@ En los últimos días hemos estado trabajando sin descanso en **Challenges**, un
 
 Podríamos durar meses haciendo una especificación detallada de todas las funcionalidades que queremos implementar antes de escribir nuestra primera línea de código; es un error que cometen muchas empresas cuando están diseñando sus aplicaciones.
 
-Una mejor estrategia es concentrarnos únicamente en la **esencia de la aplicación**, en aquellas funcionalidades críticas sin las que no existiría aplicación, en el producto viable mínimo. Después podemos agregar más funcionalidades y mejorar la implementación actual. Lo importante es entender que **una aplicación Web es un sistema en constante evolución que nunca va a estar terminado**.
+Una mejor estrategia es concentrarnos únicamente en la **esencia de la aplicación**, en aquellas funcionalidades críticas sin las que no existiría aplicación, en el producto mínimo viable. Después podemos agregar más funcionalidades y mejorar la implementación actual. Lo importante es entender que **una aplicación Web es un sistema en constante evolución que nunca va a estar terminado**.
 
 Pero eso no quiere decir que debamos empezar a escribir nuestro código inmediatamente. Necesitamos al menos identificar quiénes van a utilizar nuestro producto (actores), qué puede hacer cada actor en nuestra aplicación (casos de uso), qué información necesitamos almacenar (diagrama de base de datos), y cómo se va a ver nuestra aplicación (wireframes).
 
@@ -30,7 +31,7 @@ Para **Challenges** identificamos dos actores: alumnos y administradores. La sig
 
 *Sí, existen herramientas para hacer estos diagramas, pero a veces lo único que se tiene a la mano es una servilleta y un bolígrafo.*
 
-Estos ocho casos de uso son los más importantes. Podríamos agregar más si quisiéramos pero con estos ocho podemos crear un producto viable mínimo. Los casos de uso más críticos son: **crear reto** y **solucionar reto**. Fueron los primeros que implementamos y en los que más nos enfocamos!
+Estos ocho casos de uso son los más importantes. Podríamos agregar más si quisiéramos pero con estos ocho podemos crear un producto mínimo viable. Los casos de uso más críticos son: **crear reto** y **solucionar reto**. Fueron los primeros que implementamos y en los que más nos enfocamos!
 
 Hay varias estrategias para detallar los casos de uso. Lo mínimo es una descripción de los pasos que debe seguir el usuario para completar la acción, los datos que debe ingresar, y/o la información que va a recibir/visualizar.
 
@@ -40,7 +41,7 @@ Los wireframes son un boceto de la interfaz gráfica de nuestra aplicación y no
 
 ![Wireframes](/images/makeitchallenges-wireframes.jpg)
 
-Lo más importante es no enfocarse en los detalles, solo en la funcionalidad. Por eso es preferible hacer cada pantalla de máximo 5cm x 5cm. 
+Lo más importante es no enfocarse en los detalles, solo en la funcionalidad. Por eso es preferible hacer cada pantalla de máximo 5cm x 5cm.
 
 ## La base de datos
 
@@ -50,7 +51,7 @@ A partir de los casos de uso y wireframes nos damos una idea de la información 
 
 Cada caja representa una tabla y sus columnas. Las líneas representan relaciones entre las tablas. En este caso, los **retos** y los **usuarios** están relacionados a través de las **soluciones**. También es necesario definir el tipo de datos de cada columna y una descripción más detallada de ser necesario.
 
-¡Eso es todo! La implementación del PVM nos tomó aproximadamente 12 horas. La mayor parte de ese tiempo fue ajustando el editor embebido y encontrando la mejor forma de validar los retos ;) Desde entonces hemos estado trabajando en mejorar el diseño, la experiencia, y subiendo los retos al sistema. Pero en un futuro post publicaremos un video de cómo implementar este PVM.
+¡Eso es todo! La implementación del MVP nos tomó aproximadamente 12 horas. La mayor parte de ese tiempo fue ajustando el editor embebido y encontrando la mejor forma de validar los retos ;) Desde entonces hemos estado trabajando en mejorar el diseño, la experiencia, y subiendo los retos al sistema. Pero en un futuro post publicaremos un video de cómo implementar este MVP.
 
 ***
 
