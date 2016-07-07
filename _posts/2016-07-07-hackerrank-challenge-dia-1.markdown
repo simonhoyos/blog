@@ -7,7 +7,7 @@ thumbnail: /images/bg-images/hackerrank.jpg
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-En esta sería de posts voy a documentar mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.
+En esta serie de posts voy a documentar mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.
 
 La mayor parte de mi vida como programador he estado enfocado en arquitectura de software y esta es una excelente oportunidad para mejorar en la resolución de problemas de programación específicos. <a href="https://www.hackerrank.com" target="_blank">HackerRank</a> está dividio por temas y he decidido empezar por matemáticas, que es un tema que me interesa y en el que sé que puedo mejorar bastante.
 
@@ -43,3 +43,5 @@ end</code></pre>
 Lo único es que el camino hacia esta solución fue más complicado de lo que lo hace parecer este post!
 
 Mi nuevo ranking en <a href="https://www.hackerrank.com" target="_blank">HackerRank</a> después de terminar este ejercicio es **9,945**!
+
+Te invito a hacer este reto conmigo. Puedes definir tu propio objetivo. Por ejemplo, si estás en el ranking 50,000, intenta llegar a 10,000. Si ya estás entre los primeros 1,000, intenta llegar a 100. Y así.
