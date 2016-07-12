@@ -9,6 +9,8 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 
 En esta serie de posts voy a documentar mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.
 
+**Julio 11 de 2016**: Me di cuenta que el ranking es por tema, así que este reto solo aplica para el área de matemáticas de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>. Disculpas por la confusión!
+
 La mayor parte de mi vida como programador he estado enfocado en arquitectura de software y esta es una excelente oportunidad para mejorar en la resolución de problemas de programación específicos. <a href="https://www.hackerrank.com" target="_blank">HackerRank</a> está dividio por temas y he decidido empezar por matemáticas, que es un tema que me interesa y en el que sé que puedo mejorar bastante.
 
 Voy a intentar escribir un post al día describiendo el ejercicio en el que trabaje ese día, pero no es promesa.
