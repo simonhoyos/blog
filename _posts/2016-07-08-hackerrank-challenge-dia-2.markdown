@@ -47,12 +47,12 @@ Decidí intentar hacerlo recursivamente y al principio no me funcionó, así que
 def choose(n, k)
   if @memo["#{n} #{k}"]
     @memo["#{n} #{k}"]
-  elsif r == 0 || n == r
+  elsif k == 0 || n == k
     1
-  elsif r == 1
+  elsif k == 1
     n
   else
-    @memo["#{n} #{r}"] = choose(n-1, r-1) + choose(n-1, r)
+    @memo["#{n} #{k}"] = choose(n-1, k-1) + choose(n-1, k)
   end
 end
 
