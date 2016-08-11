@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Consigues empleo o te devolvemos tu dinero"
+date:   2016-08-10 01:52:58
+author: Germán Escobar
+thumbnail: /images/bg-images/job-guarantee-3.jpeg
+gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+---
+
+Estamos muy emocionados en anunciar que, desde hoy, todos los estudiantes actuales y nuevos de Make it Real que completen el programa de <a href="http://www.makeitreal.camp/full-stack-online?utm_source=blog&utm_medium=post&utm_content=job-guarantee&utm_campaign=full-stack-online" target="_blank">Full Stack en Ruby on Rails</a> tendrán un empleo garantizado dentro de los 6 meses después de terminar el programa o les devolveremos el 100% de su dinero.
+
+Hasta ahora esto lo hemos logrado, todos nuestos estudantes que han terminado el programa de Full Stack y que nos han expresado su intención de encontrar un empleo lo han conseguido. Con este anuncio lo estamos formalizando.
+
+Sin embargo, queremos ser muy sinceros y aclarar que nuestro programa no es fácil. Se requiere mucha dedicación y perseverancia para terminarlo. Sabemos lo que se necesita para conseguir un empleo como desarrollador Web y nuestro programa lo refleja. Garantizarles trabajo a nuestros estudiantes es una forma de asegurarles que valoramos su esfuerzo y que son la razón que nos hace mejorar cada día.
+
+Aunque este anuncio aplica únicamente para personas elegigles de trabajar en Colombia que completen nuestro programa <a href="http://www.makeitreal.camp/full-stack-online?utm_source=blog&utm_medium=post&utm_content=job-guarantee&utm_campaign=full-stack-online" target="_blank">Full Stack en Ruby on Rails</a>, esperamos anunciar lo mismo para nuestro programa de <a href="http://www.makeitreal.camp/front-end-online?utm_source=blog&utm_medium=post&utm_content=job-guarantee&utm_campaign=full-stack-online" target="_blank">Front End</a> y para otros países en poco tiempo.
