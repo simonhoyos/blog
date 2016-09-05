@@ -34,7 +34,7 @@ Después de pasar por Make It Real he tenido la fortuna de trabajar en diversos 
 <img src="/images/fincluimos-finalists.jpg" alt="Finalistas Reto Fincluimos 2016" class="photo">
 <p class="photo-description">Finalistas <a href="http://www.fincluimos.com" target="_blank">Reto Fincluimos 2016</a> con <a href="http://www.harvestdata.co/" target="_blank">Harvest Data</a></p>
 
-<img src="/images/angel-hack-winners.jpg" alt="Ganadores Angel Hack Bogota 2016" class="photo">
+<img src="/images/angel-hack-winners.JPG" alt="Ganadores Angel Hack Bogota 2016" class="photo">
 <p class="photo-description">Ganadores <a href="http://angelhack.com/" target="_blank">Angel Hack Bogota 2016</a> con <a href="http://www.slashbox.co/" target="_blank">Slashbox</a></p>
 
 ## Actitud de Aprendizaje
