@@ -48,9 +48,9 @@ La vista parcial con el modal y el formulario se encuentra en el archivo `_form.
           &lt;%= f.submit class: &quot;btn btn-primary btn-lg btn-block&quot; %&gt;
         &lt;/div&gt;
       &lt;% end %&gt;
-    &lt;/div&gt;&lt;!-- /.modal-content --&gt;
-  &lt;/div&gt;&lt;!-- /.modal-dialog --&gt;
-&lt;/div&gt;&lt;!-- /.modal --&gt;</code></pre>
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
 
 En el controlador inicializamos la variable `@product`:
 
@@ -102,7 +102,7 @@ Lo interesante de esta estrategia es que la página nunca se refresca y el códi
 
 ---
 
-Aunque actualmente existe una moda por frameworks como Angular, Ember, etc., la realidad es que la mayoría de aplicaciones no necesitan ese nivel de complejidad. Es increíble lo que se puede lograr usando Rails "puro" y vistas de JavaScript. 
+Aunque actualmente existe una moda por frameworks como Angular, Ember, etc., la realidad es que la mayoría de aplicaciones no necesitan ese nivel de complejidad. Es increíble lo que se puede lograr usando Rails "puro" y vistas de JavaScript.
 
 Las ventanas modales son solo una muestra de lo que es posible, pero cualquier tipo de interacción se puede mejorar con vistas de JavaScript. Lo importante es no exagerar. Si ves que tu aplicación tiene muchas interacciones que necesitan llamados AJAX y muchas vistas de JavaScript, es mejor utilizar un framework front-end como Angular, Ember, React, etc.
 
