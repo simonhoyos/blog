@@ -7,7 +7,7 @@ thumbnail: /images/bg-images/deliberate-practice.jpeg
 gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Conoce cómo aplicamos los últimos hallazgos científicos en Make it Real para acelerar el proceso de aprendizaje y que tengas éxito en cualquiera de nuestros programas.<!--more-->
+Conoce cómo en Make it Real aplicamos los últimos hallazgos científicos para acelerar el proceso de aprendizaje y que tengas éxito en cualquiera de nuestros programas.<!--more-->
 
 ¿Qué diferencia a las personas que aprenden más rápido de las demás? Es una pregunta interesante porque nuestro objetivo en Make it Real es ayudar a más personas a convertirse en desarrolladores Web en el menor tiempo posible.
 
@@ -15,7 +15,7 @@ Conoce cómo aplicamos los últimos hallazgos científicos en Make it Real para 
 
 Quizá la conclusión más importante del libro es que lo que diferencia a los mejores de cualquier disciplina es el tiempo y la forma en que practican, no un talento innato como muchos creen. El libro desmitifica casos como el de <a href="https://es.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart" target="_blank">Mozart</a>, <a href="https://es.wikipedia.org/wiki/Michael_Phelps" target="_blank">Michael Phelps</a> y <a href="https://es.wikipedia.org/wiki/Michael_Jordan" target="_blank">Michael Jordan</a>, entre otros, y muestra que todos ellos practicaron muchas más horas de lo que la gente cree, y que lo hicieron de la forma correcta.
 
-Sin embargo, Anderson aclara que en algunas disciplinas la edad a la que se inicia y las características físicas son muy importantes, aunque no suficientes. **La práctica adecuada mantenida por un largo periodo de tiempo es lo único que conduce al perfeccionamiento de cualquier disciplina**.
+Sin embargo, Ericsson aclara que en algunas disciplinas la edad a la que se inicia y las características físicas son muy importantes, aunque no suficientes. **La práctica adecuada mantenida por un largo periodo de tiempo es lo único que conduce al perfeccionamiento de cualquier disciplina**.
 
 ## Práctica deliberada
 
@@ -64,4 +64,4 @@ Los estudiantes que tienen éxito en nuestros programas son personas con las sig
 
 Sabemos que nuestros programas tienen los elementos necesarios para que te conviertas en desarrollador Web y cada día trabajamos para mejorarlos. Muchos ya lo han logrado.
 
-<a href="http://www.makeitreal.camp/#programs">Conoce nuestros programas online y presenciales, y aprende con los mejores</a>!
+Nuestro objetivo es guiarte en esas ~1000 primeras horas de práctica deliberada para que puedas encontrar un empleo y sigas aprendiendo. <a href="http://www.makeitreal.camp/#programs">Conoce nuestros programas online y presenciales, y aprende con los mejores</a>!
