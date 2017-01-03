@@ -9,11 +9,9 @@ gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=
 
 Conoce cómo en Make it Real aplicamos los últimos hallazgos científicos para acelerar el proceso de aprendizaje y que tengas éxito en cualquiera de nuestros programas.<!--more-->
 
-¿Qué diferencia a las personas que aprenden más rápido de las demás? Es una pregunta interesante porque nuestro objetivo en Make it Real es ayudar a más personas a convertirse en desarrolladores Web en el menor tiempo posible.
+¿Qué diferencia a las personas que logran un desempeño excepcional en alguna disciplina? <a href="https://en.wikipedia.org/wiki/K._Anders_Ericsson" target="_blank">Anders Ericsson</a> ha estudiado esta pregunta por más de 30 años y sus hallazgos están resumidos en su nuevo libro <a href="https://www.amazon.com/Peak-Secrets-New-Science-Expertise-ebook/dp/B011H56MKS" target="_blank">Peak: secretos de la nueva ciencia de la experticia</a>.
 
-<a href="https://en.wikipedia.org/wiki/K._Anders_Ericsson" target="_blank">Anders Ericsson</a> ha estudiado esta pregunta por más de 30 años y sus hallazgos están resumidos en su nuevo libro <a href="https://www.amazon.com/Peak-Secrets-New-Science-Expertise-ebook/dp/B011H56MKS" target="_blank">Peak: secretos de la nueva ciencia de la experticia</a>.
-
-Quizá la conclusión más importante del libro es que **lo que diferencia a los mejores de cualquier disciplina es el tiempo y la forma en que practican, no un talento innato como muchos creen**. El libro desmitifica casos como el de <a href="https://es.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart" target="_blank">Mozart</a> y <a href="https://es.wikipedia.org/wiki/Michael_Jordan" target="_blank">Michael Jordan</a>, entre otros, y muestra que todos ellos practicaron muchas más horas de lo que la gente cree, y que lo hicieron de la forma correcta.
+Quizá la conclusión más importante del libro es que **lo que diferencia a los mejores de cualquier disciplina es el tiempo y la forma en que practican, no un talento innato como muchos creen**. El libro desmitifica casos como el de <a href="https://es.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart" target="_blank">Mozart</a> y <a href="https://es.wikipedia.org/wiki/Michael_Jordan" target="_blank">Michael Jordan</a>, y demuestra que ellos practicaron muchas más horas de lo que la gente cree, y que lo hicieron de la forma correcta.
 
 Sin embargo, Ericsson aclara que, en algunas disciplinas, la edad a la que se inicia y las características físicas son importantes, aunque no suficientes. **La práctica adecuada mantenida por un largo periodo de tiempo es lo único que conduce al perfeccionamiento de cualquier disciplina**.
 
