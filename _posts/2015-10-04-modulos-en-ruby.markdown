@@ -78,7 +78,7 @@ end
 
 Ten mucho cuidado al **abrir módulos o clases** como lo acabamos de hacer en este ejemplo, podrías dañar alguna funcionalidad importante de alguna librería o del mismo lenguaje.
 
-Ruby on Rails aprovecha el **monkey patching** para extender las clases estándar de Ruby. Por ejemplo, en <a href="">este archivo</a>, Rails extiende la clase `String` con métodos como `pluralize`, `singularize` y `humanize`.
+Ruby on Rails aprovecha el **monkey patching** para extender las clases estándar de Ruby. Por ejemplo, en <a href="https://github.com/rails/rails/blob/master/activesupport/lib/active_support/core_ext/string/inflections.rb">este archivo</a>, Rails extiende la clase `String` con métodos como `pluralize`, `singularize` y `humanize`.
 
 ## Los módulos nos permiten reutilizar código
 
