@@ -7,17 +7,17 @@ thumbnail: /images/bg-images/hot-air-balloon-valley-sky-99551.jpg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Muchos afirmarían que aprender a programar es relativamente fácil. Sin embargo, después de ver a cientos de personas intentarlo, es claro que es un proceso muy frustrante para la mayoría. <!--more--> ¿Qué hace que la programación sea tan difícil de aprender para algunas personas y tan fácil para otras?
+Muchos dirían que aprender a programar es relativamente fácil. Sin embargo, después de ver a cientos de personas intentarlo, es claro que es un proceso muy frustrante para la mayoría. <!--more--> ¿Qué hace que la programación sea tan difícil de aprender para algunas personas y tan fácil para otras?
 
 Antes de responder esta pregunta, te voy a pedir el favor de ordenar los siguientes números de menor a mayor:
 
 <pre><code>8, 10 y 5</code></pre>
 
-Ahora imagina que te pido escribir una serie de pasos que cualquier persona pueda seguir para ordenar _cualquier_ grupo de números de menor a mayor.  
+Fácil ¿verdad? Ahora imagina que te pido escribir una serie de pasos que cualquier persona pueda seguir para ordenar _cualquier_ grupo de números de menor a mayor.  
 
-Acá es donde se empieza a complicar el tema porque ahora necesitas pensar de forma **abstracta**. Ya no estamos hablando de los números 5, 8 y 10, estamos hablando de cualquier grupo de números, no sabes cuáles ni cuántos!
+En este punto es que se empieza a complicar porque ahora necesitas pensar de forma **abstracta**. Ya no estamos hablando de los números 5, 8 y 10, estamos hablando de cualquier grupo de números, no sabes cuáles ni cuántos!
 
-De eso se trata la programación. Tomar un problema concreto (ordenar una lista de números) y crear una solución que se pueda generalizar (a cualquier lista de números). Pero esa no es la forma natural en la que pensamos, y de hecho es una de las razones por las que a muchas personas no les gustan las matemáticas.
+De eso se trata la programación. Tomar un problema concreto (ordenar una lista de números) y crear una solución que se pueda generalizar (a cualquier lista de números). Pero esa no es la forma natural en la que pensamos, y de hecho es una de las razones por las que a muchas personas no les gustan las matemáticas!
 
 Una posible forma de ordenar una lista de números es la siguiente:
 
@@ -26,6 +26,7 @@ Una posible forma de ordenar una lista de números es la siguiente:
   <li>Táchalo</li>
   <li>Escríbelo debajo.</li>
   <li>Repite el proceso hasta que todos los números de la lista original estén tachados.</li>
+  <li>Al final tendrás la lista ordenada debajo de los números tachados.</li>
 </ol>
 
 A esto se le conoce como un **algoritmo**: un proceso repetible para solucionar un problema específico.
