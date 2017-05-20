@@ -43,7 +43,7 @@ En <a href="https://makeitreal.camp" target="_blank">Make it Real</a> seguimos a
 
 ## No es para todo el mundo
 
-En <a href="https://makeitreal.camp" target="_blank">Make it Real</a> estamos transformando la educación. Pero eso también requiere un cambio de mentalidad de cada persona.
+En <a href="https://makeitreal.camp" target="_blank">Make it Real</a> estamos transformando la educación. Pero eso requiere también un cambio de mentalidad en cada persona.
 
 Desafortunadamente nuestro sistema educativo nos ha acostumbrado a ir a clase a que nos enseñen (ahora a ver videos) y nos digan exactamente qué hacer.
 
