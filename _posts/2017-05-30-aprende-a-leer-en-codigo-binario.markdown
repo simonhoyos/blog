@@ -86,7 +86,7 @@ Si reemplazamos cada uno de los números en decimal por su respectivo caracter e
 <pre><code class="overflow">77 97 107 101 32 105 116 32 82 101 97 108
 M  a  k   e      i   t      R  e   a  l</code></pre>
 
-¡Eso es todo! Si quieres practica intenta descifrar qué dice el siguiente código binario:
+¡Eso es todo! Si quieres practicar intenta descifrar qué dice el siguiente código binario:
 
 <pre><code>01001000011011110110110001100001001000000100110101110101011011100110010001101111</code></pre>
 
@@ -111,7 +111,7 @@ Toma el número en binario, por ejemplo `00100000`, y escribe los siguientes nú
 
 Empieza por el 1 a la derecha y vas duplicando siempre el último número.
 
-Suma los números de la fila de abajo cuyo dígito en binario sea 1. En este caso el único 1 está sobre 32 así que la respuesta es **32**.
+Suma los números de **la fila de abajo** cuyo dígito encima sea 1. En este caso el único 1 está sobre 32 así que la respuesta es **32**.
 
 Veamos otro ejemplo.
 
