@@ -5,6 +5,8 @@
 
 $tertiary-color: #384d56;
 
+strong { font-weight: 600; }
+
 .blog {
   .main-nav {
     background-color: #303030;
@@ -74,7 +76,7 @@ $tertiary-color: #384d56;
     }
   }
   h2 {
-    font-family: $font-family-condensed;
+    font-size: 28px;
     margin-top: 40px;
     margin-bottom: 28px;
   }
@@ -484,11 +486,22 @@ code.overflow {
   margin-bottom: 25px;
 }
 .new-blog .interna-content-post h2 {
+  color: #3B3B32;
   font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 18px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #B3B3A6;
+}
+
+.new-blog .interna-content-post h3 {
+  color: #3B3B32;
+  font-size: 24px;
   font-weight: 600;
-  margin-top: 40px;
+  margin-top: 35px;
   margin-bottom: 20px;
 }
+
 .new-blog .interna-content-post ul, .new-blog .interna-content-post ol {
   margin-bottom: 25px;
 }
