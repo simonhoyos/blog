@@ -4,7 +4,7 @@ title:  "Programación Orientada por Objetos en Ruby"
 date:   2015-02-23 17:40:58
 author: Germán Escobar
 thumbnail: /images/bg-images/object-oriented-programming.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/02/23/programacion-orientada-por-objetos-ruby/"
 ---
 
@@ -171,7 +171,7 @@ Los métodos pueden ser `públicos`, `privados`, o `protegidos`, y se definen de
     # acá van los métodos privados
 end</code></pre>
 
-Los métodos **públicos** pueden ser accedidos desde cualquier parte de la aplicación. Los métodos **privados** y **protegidos** pueden ser accedidos desde la misma clase o desde alguna de sus subclases (la diferencia exacta es sutil y no muy relevante para nuestra discusión). Las subclases son el tema de la siguiente sección. 
+Los métodos **públicos** pueden ser accedidos desde cualquier parte de la aplicación. Los métodos **privados** y **protegidos** pueden ser accedidos desde la misma clase o desde alguna de sus subclases (la diferencia exacta es sutil y no muy relevante para nuestra discusión). Las subclases son el tema de la siguiente sección.
 
 ## Herencia
 
@@ -215,7 +215,7 @@ Es posible que una clase sea clase padre y subclase a la vez como se muestra en 
 
 ### Sobrescribiendo métodos
 
-¿Qué pasa si una clase define un método con el mismo nombre (y los mismos argumentos) de un método en la clase padre? A esto se le llama sobrescritura de métodos y es una práctica muy común para cambiar el comportamiento de la clase padre. 
+¿Qué pasa si una clase define un método con el mismo nombre (y los mismos argumentos) de un método en la clase padre? A esto se le llama sobrescritura de métodos y es una práctica muy común para cambiar el comportamiento de la clase padre.
 
 Supongamos que estamos implementando una aplicación que calcula el salario de los empleados de una empresa. A todos los empleados se les calcula el salario de la misma forma, exceptuando a los directores, que reciben un bono adicional:
 
@@ -244,7 +244,7 @@ En este ejemplo `Manager` está sobrescribiendo `net_salary` para agregar el bon
     base_salary
   end
 
-  protected 
+  protected
     def base_salary
       salary - (salary * 0.12)
     end
