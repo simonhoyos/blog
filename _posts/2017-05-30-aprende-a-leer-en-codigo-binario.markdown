@@ -7,7 +7,7 @@ thumbnail: /images/bg-images/the-matrix.jpg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-En dos años (2019) The Matrix cumplirá 20 años y aún sigue siendo de una de mis películas favoritas.
+En dos años (2019) The Matrix cumplirá 20 años y aún sigue siendo de una de mis películas favoritas.<!--more-->
 
 En la escena final, el protagonista, Neo, aprende a "ver" el código, lo que le permite derrotar con facilidad a los **agentes**, programas del mundo digital cuidadosamente disfrazados de humanos.
 
