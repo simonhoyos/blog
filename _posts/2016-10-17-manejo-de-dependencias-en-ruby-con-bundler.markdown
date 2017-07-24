@@ -74,7 +74,7 @@ Esto es muy útil cuando necesitas funcionalidad que aún no está en la última
 
 Una vez que tienes las gemas definidas en el <code>Gemfile</code>, puedes instalarlas en tu máquina local con el siguiente comando:
 
-<pre class="language-none"><code>$ bundle install</code></pre>
+<pre><code class="language-none">$ bundle install</code></pre>
 
 Este comando crea un archivo <code>Gemfile.lock</code> con las versiones de las gemas que se van a utilizar en el proyecto. Es buena práctica agregar este archivo al sistema de control de versiones. Recuerda volver a ejecutar este comando cada vez que hagas cambios al archivo <code>Gemfile</code>.
 

@@ -25,17 +25,17 @@ Los comandos principales de <a href="https://rvm.io/" target="_blank">RVM</a> so
 
 * <code>rvm list</code>: lista todas las versiones de Ruby instaladas en tu máquina.
 * <code>rvm install [version_de_ruby]</code>: instala una nueva versión de Ruby. Por ejemplo:
-  <pre class="bash"><code>$ rvm install 2.3.1</code></pre>
+  <pre><code class="language-none">$ rvm install 2.3.1</code></pre>
 * <code>rvm use [version_de_ruby]</code>: utiliza la versión que especifiques de Ruby. Por ejemplo:
-  <pre class="bash"><code>$ rvm use 2.3.1</code></pre>
+  <pre><code class="language-none">$ rvm use 2.3.1</code></pre>
 
 Para definir la versión por defecto que se carga cuando abres la línea de comandos ejecuta <code>rvm use --default [version_de_ruby]</code>. Por ejemplo, para usar y definir por defecto la versión <code>2.3.1</code> utiliza el siguiente comando:
 
-<pre class="bash"><code>$ rvm use --default 2.3.1</code></pre>
+<pre><code class="language-none">$ rvm use --default 2.3.1</code></pre>
 
 Veamos algunos de estos comandos en acción. Empecemos por <code>rvm list</code> que lista las versiones que están instaladas en nuestro sistema:
 
-<pre class="bash"><code>$ rvm list
+<pre><code class="language-none">$ rvm list
 
    ruby-2.2.0 [ x86_64 ]
    ruby-2.2.1 [ x86_64 ]
@@ -75,16 +75,16 @@ Los comandos principales de <a href="https://github.com/rbenv/rbenv" target="_bl
 * <code>rbenv versions</code>: lista las versiones de Ruby instaladas en tu máquina.
 * <code>rbenv version</code>: muestra la versión de Ruby activa (la que se está usando actualmente).
 * <code>rbenv shell [version]</code>: utiliza la versión que especifiques de Ruby. Por ejemplo:
-  <pre class="bash"><code>$ rbenv shell 2.3.1</code></pre>
+  <pre><code>$ rbenv shell 2.3.1</code></pre>
 * <code>rbenv global [version]</code>: define la versión por defecto. Por ejemplo:
-    <pre class="bash"><code>$ rbenv global 2.3.1</code></pre>
+    <pre><code>$ rbenv global 2.3.1</code></pre>
 * <code>rbenv rehash</code>: este comando se debe ejecutar cuando se instala una nueva versión de Ruby o alguna gema que incluya nuevos comandos para la consola.
 
 **Nota**: Puedes encontrar todos los comandos con ejemplos en <a href="https://github.com/rbenv/rbenv#command-reference" target="_blank">este enlace</a>.
 
 Para instalar una nueva versión de Ruby \-después de haber instalado el plugin <code>ruby-build</code>\- utiliza el comando <code>rbenv install [version_de_ruby]</code>. Por ejemplo:
 
-<pre class="bash"><code>$ rbenv install 2.2.0</code></pre>
+<pre><code>$ rbenv install 2.2.0</code></pre>
 
 La ventaja de <a href="https://github.com/rbenv/rbenv" target="_blank">rbenv</a> es que es más liviano que <a href="https://rvm.io/" target="_blank">RVM</a> y que utiliza una forma diferente de manejar las versiones que, muchos argumentan, es mejor (aunque seguramente debatible).
 
@@ -94,9 +94,9 @@ Una buena práctica es crear un archivo llamado <code>.ruby-version</code> en la
 
 Aunque el archivo solo contiene la versión que se debe usar y podrías crearlo manualmente, tanto <a href="https://rvm.io/" target="_blank">RVM</a> como <a href="https://github.com/rbenv/rbenv" target="_blank">rbenv</a> tienen comandos que lo crean por ti:
 
-<pre class="bash"><code>$ rvm --ruby-version use 2.3.1</code></pre>
+<pre><code>$ rvm --ruby-version use 2.3.1</code></pre>
 
-<pre class="bash"><code>$ rbenv local 2.3.1</code></pre>
+<pre><code>$ rbenv local 2.3.1</code></pre>
 
 Puedes agregar este archivo a Git y de esa forma todos los integrantes de tu equipo van a utilizar la misma versión en sus ambientes de desarrollo local (si están utilizando algún manejador de versiones).
 
@@ -106,21 +106,21 @@ Una funcionalidad que incluye <a href="https://rvm.io/" target="_blank">RVM</a>,
 
 Las gemas son las librerías de Ruby. Una gema se instala con el comando <code>gem install [nombre_de_la_gema]</code>. Por ejemplo:
 
-<pre class="bash"><code>$ gem install rails</code></pre>
+<pre><code>$ gem install rails</code></pre>
 
 Ese comando instalaría la versión más reciente de Rails, si queremos otra versión lo podemos hacer con la opción <code>-v</code>. Por ejemplo:
 
-<pre class="bash"><code>$ gem install rails -v 4.2.7</code></pre>
+<pre><code>$ gem install rails -v 4.2.7</code></pre>
 
 Una buena práctica es aislar las gemas de tu proyecto para que no se generen conflictos con otras versiones de las mismas gemas. Para eso <a href="https://rvm.io/" target="_blank">RVM</a> nos permite crear **gemsets**. Los comandos que necesitas conocer son:
 
 * <code>rvm gemset list</code>: lista los gemsets para cada una de las versiones de Ruby que tengamos instaladas.
 * <code>rvm gemset create [nombre_del_gemset]</code>: crea un gemset con el nombre que definamos. Por ejemplo, el siguiente comando crea un gemset llamado <code>rails4</code>:
-  <pre class="bash"><code>$ rvm gemset create rails4</code></pre>
+  <pre><code>$ rvm gemset create rails4</code></pre>
 * <code>rvm gemset use [nombre_del_gemset]</code>: utiliza un gemset. Por ejemplo:
-  <pre class="bash"><code>$ rvm gemset use rails4</code></pre>
+  <pre><code>$ rvm gemset use rails4</code></pre>
 * <code>rvm gemset delete [nombre_del_gemset]</code>: elimina un gemset. Por ejemplo:
-  <pre class="bash"><code>$ rvm gemset delete rails4</code></pre>
+  <pre><code>$ rvm gemset delete rails4</code></pre>
 
 Muchos argumentan, y estoy de acuerdo, en que <a href="http://bundler.io/" target="_blank">Bundler</a> es una mejor forma de aislar (y manejar) las gemas de nuestros proyectos y que ya no son necesarios los gemsets. De hecho Rails viene con <a href="http://bundler.io/" target="_blank">Bundler</a> incluido. Sin embargo, es bueno que sepas que los **gemsets** existen.
 
