@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "¿Qué es un stack overflow (no el sitio)?"
-date:   2015-09-21 15:29:58
+date:   2015-09-21 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/stackoverflow.png
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/stackoverflow.png
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/09/21/que-es-un-stack-overflow-desbordamiento-de-pila/"
 ---
 
-Sí, el sitio más popular de preguntas y respuestas de programación es, por mucho, <a href="http://stackoverflow.com/" target="_blank">StackOverflow</a>. Pero ¿qué es realmente un stack overflow (en español desbordamiento de pila)? En este post te lo explicamos en detalle.<!--more-->
+Sí, el sitio más popular de preguntas y respuestas de programación es, por mucho, <a href="http://stackoverflow.com/" target="_blank">StackOverflow</a>. Pero ¿qué es realmente un stack overflow (en español desbordamiento de pila)? En este post te lo explicamos en detalle.<!-- more -->
 
 Todo lenguaje de programación tiene algún mecanismo para definir procedimientos, subrutinas, funciones o métodos, que son diferentes nombres que se refieren a lo mismo: secuencias de instrucciones empaquetadas en una unidad que se pueden llamar desde otras partes del programa (de ahora en adelante las llamaremos subrutinas).
 
@@ -16,7 +16,7 @@ Una subrutina puede llamar a su vez a otra subrutina que a su vez puede llamar o
 
 La forma más fácil de generar un stack overflow en un lenguaje de programación es crear una subrutina que se llama a sí misma como en el siguiente ejemplo en Ruby:
 
-<pre><code class="overflow ruby">def hola
+<pre><code class="language-ruby">def hola
   hola
 end
 
@@ -26,7 +26,7 @@ Si ejecutamos ese código eventualmente aparece un error que dice: `stack level 
 
 Pero ¿por qué ocurre un stack overflow? Cada vez que se llama una subrutina se almacena en memoria una referencia a la subrutina que la llamó[^1], los argumentos que recibió la subrutina y cualquier variable local que se cree en esa subrutina. A la ubicación donde se almacena esta información se le conoce como el **call stack**, el **execution stack** o simplemente el **stack**.
 
-<img src="/images/book-stack.png" alt="Pila de libros" class="photo">
+<img src="/assets/images/book-stack.png" alt="Pila de libros" class="photo">
 
 <p class="photo-description">El <strong>stack</strong> funciona como una pila de libros. Cada uno de estos libros representa una subrutina.</p>
 
@@ -44,7 +44,7 @@ Otro concepto relacionado a la pila de ejecución (el **stack**) es el stack tra
 
 Cuando ocurre un error en nuestra aplicación, generalmente en la consola aparece el problema en la primera línea y una gran lista como la siguiente:
 
-<pre><code class="overflow nohighlight" style="color: white;">$ ruby myprogram.rb
+<pre><code class="language-none">$ ruby myprogram.rb
 no implicit conversion of nil into String
 /Users/germanescobar/.rvm/gems/ruby-2.1.5/gems/signature-0.1.8/lib/signature.rb:173:in `hexdigest'
 /Users/germanescobar/.rvm/gems/ruby-2.1.5/gems/signature-0.1.8/lib/signature.rb:173:in `signature'

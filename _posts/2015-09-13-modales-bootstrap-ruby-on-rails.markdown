@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "Modales de Bootstrap en Ruby on Rails"
-date:   2015-09-13 15:29:58
+date:   2015-09-13 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/modals-ruby-on-rails.png
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/modals-ruby-on-rails.png
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/09/13/modales-bootstrap-ruby-on-rails/"
 ---
 
-Un requerimiento muy frecuente en las aplicaciones Web que usan [Bootstrap](http://getbootstrap.com/) es que los formularios de crear y editar se abran en [ventanas modales](http://getbootstrap.com/javascript/#modals), y no en otra página, como se muestra en la siguiente animación:<!--more-->
+Un requerimiento muy frecuente en las aplicaciones Web que usan [Bootstrap](http://getbootstrap.com/) es que los formularios de crear y editar se abran en [ventanas modales](http://getbootstrap.com/javascript/#modals), y no en otra página, como se muestra en la siguiente animación:<!-- more -->
 
-<img src="/images/products-modals.gif" alt="Products" class="photo">
+<img src="/assets/images/products-modals.gif" alt="Products" class="photo">
 
 <p class="photo-description">Los formularios de crear y editar usando vistas de JavaScript. Una ventaja es que las vistas se renderizan en el servidor lo que nos permite hacer uso de los helpers de Rails.</p>
 
@@ -21,13 +21,13 @@ El truco está en utilizar vistas de JavaScript. Así como generamos vistas de H
 
 Las vistas de JavaScript son archivos con código JavaScript que tienen la extensión `.js`, por ejemplo `new.js.erb` que, en este caso, abre el modal con el formulario:
 
-<pre><code class="overflow erb">$('<%= j render "form", title: "Publicar Producto" %>').modal();</code></pre>
+<pre><code class="language-erb">$('<%= j render "form", title: "Publicar Producto" %>').modal();</code></pre>
 
 Dentro de esta vista, estamos incluyendo una vista parcial que es la que contiene el modal y el formulario. El prefijo `j` sirve para escapar el código HTML y que sea una cadena de JavaScript válida.
 
 La vista parcial con el modal y el formulario se encuentra en el archivo `_form.html.erb` dentro de la misma carpeta:
 
-<pre><code class="overflow erb">&lt;div id=&quot;product-modal&quot; class=&quot;modal fade&quot;&gt;
+<pre><code class="language-erb">&lt;div id=&quot;product-modal&quot; class=&quot;modal fade&quot;&gt;
   &lt;div class=&quot;modal-dialog&quot;&gt;
     &lt;div class=&quot;modal-content&quot;&gt;
       &lt;div class=&quot;modal-header&quot;&gt;
@@ -54,31 +54,31 @@ La vista parcial con el modal y el formulario se encuentra en el archivo `_form.
 
 En el controlador inicializamos la variable `@product`:
 
-<pre><code class="overflow ruby">def new
+<pre><code class="language-ruby">def new
   @product = Product.new
 end</code></pre>
 
 Por último, al enlace que abre el modal en la lista de productos debemos agregarle `remote: true` para indicarle a Rails que haga un llamado AJAX en vez de una petición normal:
 
-<pre><code class="overflow erb">&lt;%= link_to &quot;Nuevo Producto&quot;, new_product_path, remote: true, class: &quot;btn btn-primary&quot; %&gt;</code></pre>
+<pre><code class="language-erb">&lt;%= link_to &quot;Nuevo Producto&quot;, new_product_path, remote: true, class: &quot;btn btn-primary&quot; %&gt;</code></pre>
 
 ## Enviar el formulario con AJAX
 
 Si revisas el código de `_form.html.erb` (arriba) te vas a dar cuenta que la definición del formulario incluye `remote: true`:
 
-<pre><code class="overflow erb">&lt;%= form_for @product, remote: true do |f| %&gt;
+<pre><code class="language-erb">&lt;%= form_for @product, remote: true do |f| %&gt;
    ...
  &lt;% end %&gt;</code></pre>
 
 De nuevo, `remote: true` le indica a Rails que haga un llamado AJAX en vez de una petición normal. En el controlador, el método `create` crea el producto en la Base de Datos:
 
-<pre><code class="overflow ruby">def create
+<pre><code class="language-ruby">def create
   @product = Product.create(product_params)
 end</code></pre>
 
 Para cerrar el modal o mostrar los errores usamos una vista JavaScript llamada `create.js.erb`:
 
-<pre><code class="overflow erb">&lt;% if @product.errors.empty? %&gt;
+<pre><code class="language-erb">&lt;% if @product.errors.empty? %&gt;
   // add the row to the table, show alert and hide modal
   $(&#39;table tbody&#39;).append(&#39; &lt;%= j render &quot;row&quot;, product: @product %&gt;&#39;);
   $(&#39;.alert-success&#39;).html(&quot;El producto ha sido creado con &#233;xito&quot;).show();
@@ -90,7 +90,7 @@ Para cerrar el modal o mostrar los errores usamos una vista JavaScript llamada `
 
 Esta vista verifica que el producto no tenga errores, agrega la fila a la tabla, muestra el mensaje de alerta y oculta el modal. Para mostrar la fila utiliza una vista parcial que se encuentra en `row.html.erb`:
 
-<pre><code class="overflow erb">&lt;tr id=&quot;&lt;%= product.id %&gt;&quot;&gt;
+<pre><code class="language-erb">&lt;tr id=&quot;&lt;%= product.id %&gt;&quot;&gt;
   &lt;td&gt;&lt;%= product.name %&gt;&lt;/td&gt;
   &lt;td&gt;&lt;%= number_to_currency(product.price, precision: 2) %&gt;&lt;/td&gt;
   &lt;td&gt;

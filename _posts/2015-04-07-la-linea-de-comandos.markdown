@@ -1,33 +1,33 @@
 ---
 layout: post
 title:  "La línea de comandos"
-date:   2015-04-07 17:40:58
+date:   2015-04-07 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/matrix.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/matrix.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/04/07/la-linea-de-comandos/"
 ---
 
-También llamada "consola" o "terminal", **la línea de comandos** es una de las herramientas más importantes de todo programador. ¿Qué es? ¿Para qué sirve? ¿Por qué los programadores la usamos tanto? Esas son las preguntas que vamos a intentar responder en este post.<!--more-->
+También llamada "consola" o "terminal", **la línea de comandos** es una de las herramientas más importantes de todo programador. ¿Qué es? ¿Para qué sirve? ¿Por qué los programadores la usamos tanto? Esas son las preguntas que vamos a intentar responder en este post.<!-- more -->
 
-<img src="/images/cli.jpg" alt="Screenshots" class="photo">
+<img src="/assets/images/cli.jpg" alt="Screenshots" class="photo">
 
 <p class="photo-description">La línea de comandos. Los colores y la apariencia pueden variar según el sistema operativo y la personalización.</p>
 
-En pocas palabras, **la línea de comandos** es un aplicación que nos permite escribir y ejecutar comandos sobre el sistema operativo sin necesidad de usar el mouse. (A los comandos también se les llama **aplicaciones de la línea de comandos**). 
+En pocas palabras, **la línea de comandos** es un aplicación que nos permite escribir y ejecutar comandos sobre el sistema operativo sin necesidad de usar el mouse. (A los comandos también se les llama **aplicaciones de la línea de comandos**).
 
 Algunos ejemplos de comandos que nos permiten navegar y manipular archivos y carpetas del sistema operativo son:
 
 * `cd`: cambia la carpeta en donde estamos ubicados.
-  <pre><code class="bash">$ cd /Users/germanescobar/</code></pre>
+  <pre><code class="language-none">$ cd /Users/germanescobar/</code></pre>
 * `mkdir`: crea una carpeta.
-  <pre><code class="bash">$ mkdir mi-super-carpeta</code></pre>
+  <pre><code class="language-none">$ mkdir mi-super-carpeta</code></pre>
 * `ls` (`dir` en Windows creo): lista las carpetas y los archivos.
-  <pre><code class="bash">$ ls</code></pre>
+  <pre><code class="language-none">$ ls</code></pre>
 * `mv`: mueve una carpeta o archivo a otra ubicación.
-  <pre><code class="bash">$ mv archivo.txt /otra/ruta.txt</code></pre>
+  <pre><code class="language-none">$ mv archivo.txt /otra/ruta.txt</code></pre>
 * `rm` (`del` en Windows creo): elimina una carpeta o archivo.
-  <pre><code class="bash">$ rm archivo.txt</code></pre>
+  <pre><code class="language-none">$ rm archivo.txt</code></pre>
 
 Además de los comandos que trae por defecto el sistema operativo, también es posible crear nuestros propios comandos, e instalar y usar comandos de terceros.
 
@@ -39,18 +39,18 @@ Todos los comandos se componen de:
 * **Opciones** que modifican el comportamiento del comando. Son opcionales.
 * **Argumentos** sobre los que actúa el comando. También opcionales.
 
-<img src="/images/cli-anatomy.jpg" alt="Screenshots" class="photo">
+<img src="/assets/images/cli-anatomy.jpg" alt="Screenshots" class="photo">
 
 <p class="photo-description">Anatomía del comando <code>ls</code> que lista las carpetas y archivos (en este caso de la carpeta <code>/usr/local</code>). La opción <code>-a</code> muestra los archivos ocultos y <code>-l</code> muestra los detalles de cada carpeta/archivo.</p>
 
 El comando `ls`, sin opciones ni argumentos, lista los contenidos de la carpeta en la que estamos ubicados como se muestra a continuación:
 
-<pre><code class="bash">$ ls
+<pre><code class="language-none">$ ls
 archivo1.txt archivo2.txt archivo3.txt</code></pre>
 
 Si al comando `ls` le pasamos las opciones `-a` y `-l` podemos ver los archivos ocultos y los detalles de cada archivo. Además, le podemos pasar cualquier carpeta como argumento:
 
-<pre><code class="bash">$ ls -al /Users/germanescobar/mi-otra-carpeta
+<pre><code class="language-none">$ ls -al /Users/germanescobar/mi-otra-carpeta
 drwxr-xr-x    4 germanescobar  staff   136 Apr  5 17:40 .
 drwxr-xr-x+ 165 germanescobar  staff  5610 Apr  5 17:40 ..
 -rw-r--r--    1 germanescobar  staff     0 Apr  5 17:40 .archivo-oculto
@@ -66,7 +66,7 @@ Para ver las opciones y los argumentos que soporta un comando incluido en el sis
 
 Por ejemplo, supongamos que queremos saber cuántos archivos de la carpeta actual fueron modificados en Abril 5. Podemos usar la siguiente secuencia de comandos (en Linux/Mac):
 
-<pre><code class="bash">$ ls -l | grep "Apr  5" | wc -l</code></pre>
+<pre><code class="language-none">$ ls -l | grep "Apr  5" | wc -l</code></pre>
 
 Acepto que este comando es un poco críptico pero podemos desglosarlo en partes:
 
@@ -78,7 +78,7 @@ El caracter `|` (pipe) es el que nos permite **componer** los comandos. La salid
 
 <strong>2\. Es posible automatizar tareas repetitivas.</strong>
 
-Otra razón por la que los programadores usamos **la línea de comandos** es la posibilidad de crear **scripts**, archivos de texto con secuencias de comandos para automatizar tareas repetitivas. 
+Otra razón por la que los programadores usamos **la línea de comandos** es la posibilidad de crear **scripts**, archivos de texto con secuencias de comandos para automatizar tareas repetitivas.
 
 Por ejemplo, podemos guardar la secuencia de comandos del punto anterior en un archivo llamado `contar-archivos.sh`:
 
@@ -87,7 +87,7 @@ ls -al | grep $1 | wc -l</code></pre>
 
 La primera línea nos dice que este es un **script**. En la segunda línea hemos cambiado la fecha por la variable `$1`, que se refiere al primer argumento recibido. Podemos ejectuar el **script** de la siguiente forma:
 
-<pre><code class="bash">$ ./contar-archivos.sh "Apr  5"</code></pre>
+<pre><code class="language-none">$ ./contar-archivos.sh "Apr  5"</code></pre>
 
 <strong>3\. Somos más productivos.</strong>
 

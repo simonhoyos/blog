@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Programación Orientada por Objetos en Ruby"
-date:   2015-02-23 17:40:58
+date:   2015-02-23 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/object-oriented-programming.jpg
+image: /assets/images/bg-images/object-oriented-programming.jpg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/02/23/programacion-orientada-por-objetos-ruby/"
 ---
 
-La Programación Orientada por Objetos, también conocida por las siglas **OOP (Object Oriented Programming)**, surgió a principios de los años 80’s como respuesta a la dificultad que estaban experimentando los programadores manteniendo aplicaciones de tamaño y complejidad considerables.<!--more--> Cualquier cambio desencadenaba una reacción en cadena de errores ocasionados por las dependencias que existían en la aplicación. Hasta ese entonces se usaba un paradigma llamado <a href="http://es.wikipedia.org/wiki/Programaci%C3%B3n_por_procedimientos" target="_blank">Programación Procedimental</a>.
+La Programación Orientada por Objetos, también conocida por las siglas **OOP (Object Oriented Programming)**, surgió a principios de los años 80’s como respuesta a la dificultad que estaban experimentando los programadores manteniendo aplicaciones de tamaño y complejidad considerables.<!-- more --> Cualquier cambio desencadenaba una reacción en cadena de errores ocasionados por las dependencias que existían en la aplicación. Hasta ese entonces se usaba un paradigma llamado <a href="http://es.wikipedia.org/wiki/Programaci%C3%B3n_por_procedimientos" target="_blank">Programación Procedimental</a>.
 
 <blockquote>Las aplicaciones evolucionan. Los requerimientos y la tecnología cambian. Pero una aplicación bien diseñada es fácil de mantener y actualizar en el tiempo.</blockquote>
 
@@ -17,7 +17,7 @@ La <a href="http://es.wikipedia.org/wiki/Programaci%C3%B3n_por_procedimientos" t
 Es importante entender que la Programación Orientada por Objetos no reemplaza la Programación Procedimental, la extiende para hacer el código más mantenible y reutilizable. En la OOP se siguen usando ciclos, condicionales, y procedimientos (métodos). Tus actividades del día a día, por ejemplo, ocurren de forma secuencial (tomas decisiones y realizas actividades, algunas de ellas repetitivas). Eso es procedimental. Pero, al mismo tiempo, el mundo está compuesto de objetos que hacen parte activa o pasiva de esas actividades (humanos, carros, edificios, etc.). Podemos decir, entonces, que **nuestra realidad es procedimental y orientada a objetos al mismo tiempo.**
 
 <br>
-<img src="/images/proc-vs-oo.png" alt="Screenshots" class="photo">
+<img src="/assets/images/proc-vs-oo.png" alt="Screenshots" class="photo">
 
 <p class="photo-description">La Programación Procedimental se encarga de la secuencia de eventos, la Programación Orientada por Objetos de la organización y visibilidad del código.</p>
 
@@ -33,7 +33,7 @@ Las clases y los objetos son los conceptos más importantes de la Programación 
 
 Veamos cómo definir una clase y crear objetos en Ruby:
 
-<pre><code class="overflow ruby">class Humano
+<pre><code class="language-ruby">class Humano
 end
 
 juan = Humano.new
@@ -44,7 +44,7 @@ En este ejemplo, hemos definido una clase llamada `Humano` y creamos tres objeto
 
 Ahora modifiquemos la clase **Humano** para definir algunos atributos (nombre, edad y género), y un comportamiento (saludar):
 
-<pre><code class="overflow ruby">class Humano
+<pre><code class="language-ruby">class Humano
   attr_accessor :name, :age, :genre
 
   def greet
@@ -58,7 +58,7 @@ La clase define un comportamiento, `greet` (saludar), que no es más que una fun
 
 Para leer y escribir los atributos de un objeto, o llamar sus métodos, se usa la notación `objeto.atributo` u `objeto.método` como se muestra en el siguiente ejemplo:
 
-<pre><code class="overflow ruby">juan = Humano.new
+<pre><code class="language-ruby">juan = Humano.new
 juan.name = "Juan Perez"
 juan.age = 12
 juan.genre = "M"
@@ -73,7 +73,7 @@ puts juan.greet # imprime Hola, me llamo Juan Perez</code></pre>
 
 Al ejecutar la línea `Humano.new`, Ruby busca un método llamado `initialize` que, si existe, se invoca automáticamente. A este método se le llama **el constructor**.
 
-<pre><code class="overflow ruby">class Humano
+<pre><code class="language-ruby">class Humano
   attr_accessor :name, :age, :genre
 
   def initialize
@@ -85,7 +85,7 @@ En este ejemplo, cada vez que invoquemos `Humano.new`, se imprimirá la cadena �
 
 El método `initialize` puede recibir argumentos, que nos pueden servir para inicializar los atributos del objeto.
 
-<pre><code class="overflow ruby">class Humano
+<pre><code class="language-ruby">class Humano
   attr_accessor :name, :age, :genre
 
   def initialize(name, age, genre)
@@ -97,25 +97,25 @@ end</code></pre>
 
 El constructor ahora recibe tres argumentos que se utilizan para inicializar los atributos del objeto:
 
-<pre><code class="overflow ruby">juan = Humano.new("Juan Perez", 12, "M")</code></pre>
+<pre><code class="language-ruby">juan = Humano.new("Juan Perez", 12, "M")</code></pre>
 
 ## En Ruby (casi) todo es un objeto
 
 Por ejemplo, la clase `String` de la que se crean las cadenas (strings), tienen comportamiento (métodos) que podemos llamar con la notación `objeto.método`:
 
-<pre><code class="overflow ruby">puts "hola".capitalize # HOLA
+<pre><code class="language-ruby">puts "hola".capitalize # HOLA
 puts "hola".reverse # aloh</code></pre>
 
 En este caso, la clase `String` define los métodos `capitalize` y `reverse`. Puedes encontrar todos los métodos que se pueden llamar sobre las cadenas (strings) en la <a href="http://ruby-doc.org/core-2.2.0/String.html" target="_blank">documentación de Ruby</a>.
 
 Los enteros también tienen comportamiento:
 
-<pre><code class="overflow ruby">puts 2.even? # true
+<pre><code class="language-ruby">puts 2.even? # true
 puts 1.next # 2</code></pre>
 
 Todos los objetos tienen un método llamado `class` que nos devuelve la clase de la cuál fue creada el objeto:
 
-<pre><code class="overflow ruby">puts juan.class # Humano
+<pre><code class="language-ruby">puts juan.class # Humano
 puts "hola".class # String
 puts 1.class # Fixnum</code></pre>
 
@@ -125,7 +125,7 @@ Uno de los mayores problemas de la Programación Procedimental (el paradigma pre
 
 **La Programación Orientada por Objetos no soluciona el problema automáticamente, pero nos da herramientas para solucionarlo.** Veamos un ejemplo:
 
-<pre><code class="overflow ruby">class CustomerStore
+<pre><code class="language-ruby">class CustomerStore
   def initialize
     @customers = {} # los clientes se van a almacenar en un hash
     @next_id = 1 # un consecutivo para asignarle a cada cliente
@@ -161,7 +161,7 @@ En este momento la clase está almacenando los clientes en un hash, pero es posi
 
 Los métodos pueden ser `públicos`, `privados`, o `protegidos`, y se definen de la siguiente forma:
 
-<pre><code class="overflow ruby">class MyClass
+<pre><code class="language-ruby">class MyClass
   # acá van los métodos públicos
 
   protected
@@ -181,7 +181,7 @@ Supongamos que estamos diseñando un sistema que permite a las empresas llevar u
 
 La solución es crear una **clase padre** llamada `Transaction` y tres **clases** (subclases) llamadas `Invoice`, `Income`, y `Expense` que heredan de `Transaction`. La herencia se define usando la notación `<`:
 
-<pre><code class="overflow ruby">class Transaction
+<pre><code class="language-ruby">class Transaction
   attr_accessor :user, :date, :concept, :amount
 end
 
@@ -199,7 +199,7 @@ end</code></pre>
 
 Los atributos y métodos definidos en la clase padre se acceden de la misma forma en que se acceden los atributos y métodos definidos en la clase que hereda:
 
-<pre><code class="overflow ruby">invoice = Invoice.new
+<pre><code class="language-ruby">invoice = Invoice.new
 invoice.user = "German Escobar" # definido en la clase padre
 invoice.amount = 12000 # definido en la clase padre
 invoice.number = 1
@@ -209,7 +209,7 @@ puts invoice.number</code></pre>
 
 Es posible que una clase sea clase padre y subclase a la vez como se muestra en el siguiente diagrama:
 
-<img src="/images/class-diagram.png" alt="Screenshots" class="photo">
+<img src="/assets/images/class-diagram.png" alt="Screenshots" class="photo">
 
 **Nota**: En Ruby una subclase solo puede tener una clase padre.
 
@@ -219,7 +219,7 @@ Es posible que una clase sea clase padre y subclase a la vez como se muestra en 
 
 Supongamos que estamos implementando una aplicación que calcula el salario de los empleados de una empresa. A todos los empleados se les calcula el salario de la misma forma, exceptuando a los directores, que reciben un bono adicional:
 
-<pre><code class="overflow ruby">class Employee
+<pre><code class="language-ruby">class Employee
   attr_accessor :name, :salary
 
   def net_salary
@@ -237,7 +237,7 @@ end</code></pre>
 
 En este ejemplo `Manager` está sobrescribiendo `net_salary` para agregar el bono. Sin embargo, estamos duplicando código (el cálculo del salario base). Usaremos las herramientas que nos brinda OOP para mejorarlo:
 
-<pre><code class="overflow ruby">class Employee
+<pre><code class="language-ruby">class Employee
   attr_accessor :name, :salary
 
   def net_salary
@@ -264,7 +264,7 @@ end</code></pre>
 
 Supongamos que necesitamos escribir una función que dibuje figuras en la pantalla. La función debe recibir una figura y unas coordenadas, y dibujar la figura en esas coordenadas. Una posible solución sería la siguiente:
 
-<pre><code class="overflow ruby">def draw_figure(figure, x, y)
+<pre><code class="language-ruby">def draw_figure(figure, x, y)
   set_coordinates(x, y)
   if figure == "circle"
     # draw a circle
@@ -277,7 +277,7 @@ end</code></pre>
 
 Este código tiene dos problemas. El primero es que no está teniendo en cuenta el tamaño de la figura. El segundo, más grave, es que para dibujar una figura diferente tenemos que modificar la función. Usemos OOP para solucionar esos problemas:
 
-<pre><code class="overflow ruby">def draw_figure(figure, x, y)
+<pre><code class="language-ruby">def draw_figure(figure, x, y)
   set_coordinates(x, y)
   figure.draw
 end
@@ -310,7 +310,7 @@ En Ruby, los módulos cumplen una doble función. Se usan para evitar colisiones
 
 Los mixins son ideales para aquellas situaciones en que es necesario incluir (o mezclar) métodos en diferentes clases que no comparten nada en común. Por ejemplo, imagina que quisieramos almacenar los atributos de diferentes objetos en archivos (en algún formato como JSON o XML). Podemos crear un módulo (llamémoslo `Persistable`) que podemos mezclar en cualquier clase:
 
-<pre><code class="overflow ruby">module Persistable
+<pre><code class="language-ruby">module Persistable
   def store(path)
     ...
   end
@@ -322,7 +322,7 @@ end</code></pre>
 
 Para mezclar el módulo dentro de una clase usamos la palabra clave `include`:
 
-<pre><code class="overflow ruby">class User
+<pre><code class="language-ruby">class User
   include Persistable
   attr_accessor :id, :name, :email
   ...
@@ -336,7 +336,7 @@ end</code></pre>
 
 Ahora `User` y `Post` incluyen dos métodos adicionales `store` y `load` que los podemos usar de la siguiente forma:
 
-<pre><code class="overflow ruby">user = User.new
+<pre><code class="language-ruby">user = User.new
 user.load('/users/user-1.xml')
 
 user.name = "Juan Perez"

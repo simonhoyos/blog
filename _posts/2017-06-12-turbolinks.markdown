@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Turbolinks"
-date:   2017-06-12 01:52:58
+date:   2017-06-12 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/turbolinks.jpeg
+image: /assets/images/bg-images/turbolinks.jpeg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-En este post vamos a ver qué es **Turbolinks** y lo que debes tener en cuenta para sacar el mayor provecho de esta increíble herramienta sin frustrate en el proceso.<!--more-->
+En este post vamos a ver qué es **Turbolinks** y lo que debes tener en cuenta para sacar el mayor provecho de esta increíble herramienta sin frustrate en el proceso.<!-- more -->
 
 ## ¿Qué es Turbolinks?
 
@@ -60,7 +60,7 @@ La forma de evitar eso es con un poco de cuidado y organización, evitando al m�
 
 Por ejemplo, un patrón que sigo en mis aplicaciones es el siguiente. En el archivo **CoffeeScript** creo una clase con el código que necesito para la vista:
 
-<pre><code class="overflow coffeescript">class EntriesView
+<pre><code class="language-coffeescript">class EntriesView
   constructor: (options) ->
     # acá enlazo los eventos
 
@@ -69,7 +69,7 @@ window.EntriesView = EntriesView
 
 Y en la vista, al final, creo el objeto y le paso la información necesaria por el argumento del constructor:
 
-<pre><code class="overflow html">&lt;script&gt;
+<pre><code class="language-html">&lt;script&gt;
   new EntriesView({});
 &lt;/script&gt;</code></pre>
 
@@ -88,7 +88,6 @@ Tu código JavaScript puede modificar la página cuando carga, y **esa página m
 Luego, cuando se obtiene nuevamente del caché, el código JavaScript vuelve a correr y **vuelve a modificar la página**. Eso puede ser lo que buscas o no, pero igual es algo que debes tener en cuenta.
 
 Siempre que escribas **JavaScript** (o **CoffeeScript**) piensa que esa página pudo haber sido recuperada del caché.
-
 
 ## Conclusión
 

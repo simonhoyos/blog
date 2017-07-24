@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "Entrevista a Sebastián Sogamoso"
-date:   2014-08-12 17:40:58
+date:   2014-08-12 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/night-skyline-usa-manhattan.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/night-skyline-usa-manhattan.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2014/08/12/entrevista-a-sebastian-sogamoso/"
 ---
 
-Tuvimos la oportunidad de hacerle algunas preguntas a Sebastián Sogamoso para que nos contara un poco sobre su experiencia como desarrollador trabajando remotamente para una empresa en Estados Unidos:<!--more-->
+Tuvimos la oportunidad de hacerle algunas preguntas a Sebastián Sogamoso para que nos contara un poco sobre su experiencia como desarrollador trabajando remotamente para una empresa en Estados Unidos:<!-- more -->
 
-<img src="/images/sebastian-sogamoso.jpg" alt="Sebastián Sogamoso" class="img-circle photo">
+<img src="/assets/images/sebastian-sogamoso.jpg" alt="Sebastián Sogamoso" class="img-circle photo">
 
 ### ¿Cuéntanos un poco quién eres y a qué te dedicas?
 

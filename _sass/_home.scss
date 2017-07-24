@@ -1,0 +1,103 @@
+.home-page {
+  margin-top: 60px;
+
+  .post {
+    border: solid 1px #ddd;
+    background: white;
+    margin-bottom: 40px;
+
+    .post-image {
+      background-size: cover;
+      background-position: center center;
+      height: 170px;
+
+      @include media-breakpoint-up(md) { height: 215px; }
+    }
+
+    .post-content {
+      position: relative;
+      padding: 20px 15px;
+      height: 120px;
+      overflow: hidden;
+
+      @include media-breakpoint-up(sm) { height: 160px; }
+
+      .post-title {
+        color: #ff3300;
+        font-weight: 600;
+        line-height: 1.3;
+        margin-bottom: 18px;
+      }
+
+      .post-body { font-size: 0.9em; }
+
+      .diffuse {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 20px;
+        background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      }
+    }
+
+    .post-footer {
+      display: flex;
+      align-items: center;
+      padding: 15px 15px 20px;
+
+      img {
+        margin-right: 10px;
+        width: 40px;
+        border-radius: 50%;
+      }
+
+      .author { font-size: 0.85em; }
+
+      time {
+        display: block;
+        color: #999999;
+        font-size: 0.80em;
+      }
+    }
+  }
+
+  .main-post {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+
+    @include media-breakpoint-up(md) { flex-direction: row; }
+
+    .post-image {
+      @include media-breakpoint-up(md) {
+        width: 50%;
+        height: initial;
+      }
+    }
+
+    .main-post-wrapper {
+      @include media-breakpoint-up(md) { width: 50%; }
+    }
+
+    .post-content {
+      padding: 10px 20px;
+      height: initial;
+
+      @include media-breakpoint-up(md) { padding: 20px 25px; }
+
+      .post-title {
+        font-size: 1.3em;
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 15px 0 25px;
+      }
+
+      .post-body { font-size: 0.9em; }
+    }
+
+    .post-footer { padding: 0 25px 20px; }
+  }
+}

@@ -1,17 +1,17 @@
 ---
 layout: post
 title:  "Módulos en Ruby"
-date:   2015-10-04 15:29:58
+date:   2015-10-04 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/modules.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/modules.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Los módulos en Ruby cumplen una doble función: evitan colisiones de nombres y nos ayudan a reutilizar código. En este post te explicamos qué son, cómo se definen y cómo se utilizan.<!--more-->
+Los módulos en Ruby cumplen una doble función: evitan colisiones de nombres y nos ayudan a reutilizar código. En este post te explicamos qué son, cómo se definen y cómo se utilizan.<!-- more -->
 
 Un módulo es un contenedor que agrupa constantes, clases y métodos. Los módulos se definen utilizando la palabra clave `module`:
 
-<pre><code class="overflow ruby">module MyModule
+<pre><code class="language-ruby">module MyModule
   MAX_CONNECTIONS = 5
 
   def method_one
@@ -35,7 +35,7 @@ Vamos a empezar explicando cómo los módulos nos ayudan a evitar colisiones de 
 
 Los módulos nos permiten definir clases con el mismo nombre pero que se encuentren en módulos diferentes. Al crear un módulo, estás creando un espacio de nombramiento (namespace) que minimiza la probabilidad de encontrar dos clases que se llamen igual (el módulo se vuelve parte del nombre de la clase). Por ejemplo:
 
-<pre><code class="overflow ruby">module ActiveRecord
+<pre><code class="language-ruby">module ActiveRecord
   class Base
   end
 end
@@ -51,7 +51,7 @@ Para referirse a una clase dentro de un módulo se debe especificar tanto el nom
 
 También es posible anidar módulos:
 
-<pre><code class="overflow ruby">module System
+<pre><code class="language-ruby">module System
   module Currency
     class Dollar
     end
@@ -66,7 +66,7 @@ En Ruby, si dos módulos se llaman igual, su contenido se mezcla en uno solo (lo
 
 Por ejemplo, supongamos que queremos incluir un método `palindrome?` dentro de la clase `String` que devuelva si una cadena es un palíndrome[^1]:
 
-<pre><code class="overflow ruby">class String
+<pre><code class="language-ruby">class String
   def palindrome?
     letters = self.downcase.scan(/\w/)
     letters == letters.reverse
@@ -84,7 +84,7 @@ Ruby on Rails aprovecha el **monkey patching** para extender las clases estánda
 
 La segunda función de los módulos es definir métodos que se pueden incluir en otras clases. Por ejemplo:
 
-<pre><code class="overflow ruby">module Dancer
+<pre><code class="language-ruby">module Dancer
   def dance
     puts "I'm dancing"
   end
@@ -110,7 +110,7 @@ El módulo `Dancer` está definiendo un método llamado `dance`. Las clases `Hum
 
 Los módulos pueden llamar los métodos de la clase que los incluye. Sin embargo, es importante documentar estos requerimientos dentro del módulo.
 
-<pre><code class="overflow ruby"># To use this module, the class must provide a method +favorite_music+
+<pre><code class="language-ruby"># To use this module, the class must provide a method +favorite_music+
 module Dancer
   def dance
     puts "I'm dancing #{favorite_music}"
@@ -133,7 +133,7 @@ Como te puedes dar cuenta, el método `dance` ahora utiliza el método `favorite
 
 También es posible definir variables de instancia dentro de un módulo. Esas variables van a quedar almacenadas en las instancias de las clases que incluyan el módulo:
 
-<pre><code class="overflow ruby">module Dancer
+<pre><code class="language-ruby">module Dancer
   def dance
     @dancing = true # definimos la variable de instancia
   end
@@ -161,7 +161,7 @@ En este caso los métodos `dance` y `stop_dance` están definiendo una variable 
 
 Cuando una clase tiene muchos métodos, una buena práctica es agruparlos en módulos:
 
-<pre><code class="overflow ruby">module Needs
+<pre><code class="language-ruby">module Needs
   # métodos relacionados con necesidades humanas
 end
 
@@ -178,7 +178,7 @@ Si revisas las clases <a href="https://github.com/rails/rails/blob/v4.2.4/active
 
 Los módulos nos permiten definir constantes que necesitamos en nuestra aplicación:
 
-<pre><code class="overflow ruby">module HttpHeaders
+<pre><code class="language-ruby">module HttpHeaders
   CONTENT_TYPE = "Content-Type"
   AUTHORIZATION = "X-Token"
   ...
@@ -188,7 +188,7 @@ La forma de acceder a las constantes es muy parecido a la forma que se hace con 
 
 Sin embargo, si incluyes el módulo dentro de una clase, ya no es necesario especificar el módulo para acceder a la constante:
 
-<pre><code class="overflow ruby">class WebServer
+<pre><code class="language-ruby">class WebServer
   include HttpHeaders
 
   def authenticate
@@ -199,7 +199,7 @@ end</code></pre>
 
 Por último, los módulos son ideales para incluir los métodos utilitarios de tu aplicación, esos métodos que no parecen encajar en ninguna clase:
 
-<pre><code class="overflow ruby">module Utilities
+<pre><code class="language-ruby">module Utilities
   def self.utility_one
     ...
   end
@@ -221,7 +221,7 @@ Los módulos, al igual que la herencia, nos permiten reutilizar código. En vez 
 
 Es posible hacer lo mismo con herencia. En vez de definir un módulo, vamos a definir una clase `Dancer` con un método `dance`:
 
-<pre><code class="overflow ruby">class Dancer
+<pre><code class="language-ruby">class Dancer
   def dance
     puts "Estoy bailando"
   end
@@ -235,7 +235,7 @@ end</code></pre>
 
 El resultado es el mismo: `Human` y `Dog` "reciben" el método `dance` y se pueden utilizar igual que lo hicimos en un ejemplo anterior:
 
-<pre><code class="overflow ruby">pedro = Human.new
+<pre><code class="language-ruby">pedro = Human.new
 pedro.dance # "I'm dancing"
 
 max = Perro.new

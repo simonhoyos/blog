@@ -1,18 +1,18 @@
 ---
 layout: post
 title:  "Introducción a Ruby on Rails"
-date:   2015-03-22 17:40:58
+date:   2015-03-22 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/ruby-on-rails.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/ruby-on-rails.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/03/22/introduccion-ruby-on-rails/"
 ---
 
-**Ruby on Rails** es un framework para crear aplicaciones Web, escrito en el lenguaje de programación **Ruby**, y diseñado para que el desarrollo de aplicaciones Web sea fácil y divertido.<!--more-->
+**Ruby on Rails** es un framework para crear aplicaciones Web, escrito en el lenguaje de programación **Ruby**, y diseñado para que el desarrollo de aplicaciones Web sea fácil y divertido.<!-- more -->
 
 Asumiendo que ya tienes **Ruby** instalado, crear un nuevo proyecto en **Rails** es tan fácil como ejecutar los siguientes comandos en la consola:
 
-<pre><code class="bash">$ gem install rails
+<pre><code class="language-none">$ gem install rails
 $ rails new mi_app
 $ cd mi_app
 $ rails server</code></pre>
@@ -29,22 +29,22 @@ Los 5 componentes más importantes del framework son los siguientes:
 
 ## El enrutador
 
-El objetivo de todos los frameworks de desarrollo Web, incluido **Rails**, es el de **mapear (o relacionar) URL’s** (p.e. `http://localhost:3000/productos`) **al código que va a procesar esas peticiones**. 
+El objetivo de todos los frameworks de desarrollo Web, incluido **Rails**, es el de **mapear (o relacionar) URL’s** (p.e. `http://localhost:3000/productos`) **al código que va a procesar esas peticiones**.
 
 
 Por ejemplo, supongamos que queremos crear una ruta para que cuando un usuario ingrese a `http://localhost:3000/productos` desde su navegador (p.e. Chrome, Firefox, Internet Explorer, etc.), vea la lista de productos que existen en ese momento en la base de datos. En **Rails**, las rutas se definen en el archivo `config/routes.rb` como se muestra en el siguiente ejemplo:
 
-<pre><code class="overflow bash">Rails.application.routes.draw do
+<pre><code class="language-ruby">Rails.application.routes.draw do
   get 'products', to: 'products#index'
 end</code></pre>
 
-La segunda línea le dice a **Rails** que las peticiones que lleguen a `/products` van a ser procesadas por el método `index` de la clase `ProductsController`. 
+La segunda línea le dice a **Rails** que las peticiones que lleguen a `/products` van a ser procesadas por el método `index` de la clase `ProductsController`.
 
 <div class="well">A los métodos que procesan las peticiones se les llaman <strong>acciones</strong>, y a las clases que contienen esos métodos se les llaman <strong>controladores</strong>. Los <strong>controladores</strong> se encuentran en la carpeta <code>app/controllers</code>).</div>
 
 Generalmente las **acciones** interactuan con la base de datos y renderizan una vista, pero para este ejemplo simplemente vamos a devolver `<h1>Hola Mundo</h1>`:
 
-<pre><code class="overflow ruby">class ProductsController < ApplicationController
+<pre><code class="language-ruby">class ProductsController < ApplicationController
   def index
     render html: "&lt;h1&gt;Hola Mundo&lt;/h1&gt;".html_safe
   end
@@ -55,15 +55,15 @@ end</code></pre>
 
 Escribir todo el **HTML** directamente en las **acciones** sería bastante engorroso. Las **vistas** son archivos que se encuentran en la carpeta `app/views` y se usan para generar la respuesta que se va a devolver desde las **acciones**. Lo interesante es que en las **vistas** podemos meter (embeber es la palabra correcta) código **Ruby** como en el siguiente ejemplo que imprime `<p>Hola Mundo</p>` 3 veces:
 
-<pre><code class="overflow erb">&lt;% 3.times do %&gt;
+<pre><code class="language-erb">&lt;% 3.times do %&gt;
   &lt;p&gt;Hola Mundo&lt;/p&gt;
 &lt;% end %&gt;</code></pre>
 
-Fíjate que el código **Ruby** se debe embeber en las etiquetas `<%` y `%>`. 
+Fíjate que el código **Ruby** se debe embeber en las etiquetas `<%` y `%>`.
 
 En los **controladores**, las **acciones** usan el método `render` para renderizar una vista como se muestra en el siguiente ejemplo:
 
-<pre><code class="overflow ruby">class ProductsController < ApplicationController
+<pre><code class="language-ruby">class ProductsController < ApplicationController
   def index
     render 'products/index'
   end
@@ -77,7 +77,7 @@ La regla es no llamar <code>render</code> explícitamente a menos de que necesit
 
 Las **acciones** pueden pasar información a las vistas a través de variables de instancia (variables que empiezan con `@`) como en se muestra el siguiente ejemplo que mostraría `<h1>Hola Mundo</h1>` en el navegador:
 
-<pre><code class="overflow ruby">class ProductsController < ApplicationController
+<pre><code class="language-ruby">class ProductsController < ApplicationController
   def index
     @greeting = "Hola Mundo"
   end
@@ -85,9 +85,9 @@ end</code></pre>
 
 (Fíjate que no llamamos `render` explicitamente, así que la **vista** debe estar ubicada en `app/views/products/index.html.erb`). El contenido de esa vista es el siguiente:
 
-<pre><code class="overflow html">&lt;h1&gt;&lt;%= @greeting %&gt;&lt;/h1&gt;</code></pre>
+<pre><code class="language-html">&lt;h1&gt;&lt;%= @greeting %&gt;&lt;/h1&gt;</code></pre>
 
-**Nota:** En este caso usamos `<%=` porque queremos imprimir el valor de la variable `@greeting` en la pantalla. 
+**Nota:** En este caso usamos `<%=` porque queremos imprimir el valor de la variable `@greeting` en la pantalla.
 
 ## ActiveRecord
 
@@ -95,14 +95,14 @@ end</code></pre>
 
 El concepto más importante de **ActiveRecord** es el **modelo**. Un **modelo** es una clase de **Ruby** que extiende `ActiveRecord::Base` como se muestra en el siguiente ejemplo:
 
-<pre><code class="overflow ruby">class Product < ActiveRecord::Base
+<pre><code class="language-ruby">class Product < ActiveRecord::Base
 end</code></pre>
 
 Un **modelo** representa, generalmente, una tabla de la Base de Datos. **Por convención, el nombre de la tabla es el mismo nombre del modelo pero sin capitalizar y en plural** (`products` en este caso). Fíjate que en el **modelo** no definimos las columnas de la tabla explicitamente, **ActiveRecord** las toma de la tabla directamente (por convención).
 
 Las **acciones** en los **controladores** usan los modelos para acceder a la información de la base de datos como se muestra en el siguiente ejemplo:
 
-<pre><code class="overflow ruby">class ProductsController < ApplicationController
+<pre><code class="language-ruby">class ProductsController < ApplicationController
   def index
     @products = Product.all
   end
@@ -110,7 +110,7 @@ end</code></pre>
 
 Y en la vista podemos mostrar los productos en una tabla **HTML**:
 
-<pre><code class="overflow html">&lt;table&gt;
+<pre><code class="language-html">&lt;table&gt;
   &lt;% @products.each do |product| %&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;%= product.name %&gt;&lt;/td&gt;
@@ -122,7 +122,7 @@ Y en la vista podemos mostrar los productos en una tabla **HTML**:
 
 Otra forma de interactuar con la base de datos, a través de los modelos, es con la consola de **Rails** que se accede con el comando `rails console`:
 
-<pre><code class="overflow bash">$ rails console
+<pre><code class="language-none">$ rails console
 > Product.all
 # muestra todos los productos
 
@@ -135,7 +135,7 @@ Otra forma de interactuar con la base de datos, a través de los modelos, es con
 
 > p1.destroy # eliminemos el registro de la base de datos</code></pre>
 
-Fácil ¿no? 
+Fácil ¿no?
 
 Sin embargo, el verdadero poder de **ActiveRecord** está en las validaciones y las asociaciones, aunque, por espacio, ese será el tema de otro post.
 
@@ -145,12 +145,12 @@ Las migraciones nos permiten hacer cambios sobre la estructura de la base de dat
 
 Las migraciones son archivos que se encuentran en la carpeta `db/migrate` y contienen instrucciones con cambios a la base de datos (creación de tablas, adición o modificación de columnas, etc.). Veamos un ejemplo de una migración:
 
-<pre><code class="overflow ruby">class CreateProducts < ActiveRecord::Migration
+<pre><code class="language-ruby">class CreateProducts < ActiveRecord::Migration
   def change
     create_table :products do |t|
       t.string :name
       t.text :description
- 
+
       t.timestamps null: false
     end
   end
@@ -164,13 +164,13 @@ Las migraciones se pueden crear manualmente, pero es mejor crearlas con el gener
 
 Que generaría la siguiente migración:
 
-<pre><code class="overflow ruby">class AddPriceToProducts < ActiveRecord::Migration
+<pre><code class="language-ruby">class AddPriceToProducts < ActiveRecord::Migration
   def change
     add_column :products, :price, :decimal
   end
 end</code></pre>
 
-**Nota:** Al generar una migración, solo estás creando un archivo con instrucciones para modificar la base de datos. Para ejecutar esos cambios en la base de datos debes correr el comando: 
+**Nota:** Al generar una migración, solo estás creando un archivo con instrucciones para modificar la base de datos. Para ejecutar esos cambios en la base de datos debes correr el comando:
 
 <pre><code class="overflow bash">$ rake db:migrate</code></pre>
 
@@ -195,7 +195,7 @@ El tercer comando genera, entre otras cosas:
 * Un modelo llamado `Product`.
 * Una migración para crear la tabla `products` con tres columnas: `name`, `description`, y `price`.
 
-El cuarto comando genera, entre otras cosas: 
+El cuarto comando genera, entre otras cosas:
 
 * Un controlador llamado `ProductsController`.
 * Una carpeta `products` dentro de `app/views`.

@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "HTML y CSS"
-date:   2015-03-10 17:40:58
+date:   2015-03-10 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/html5-css3.png
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/html5-css3.png
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/03/10/html-css/"
 ---
 
-Para hacer páginas Web necesitas aprender dos lenguajes: **HTML** y **CSS**. Estos son los lenguajes que los navegadores (Firefox, Chrome, Internet Explorer) entienden e interpretan para mostrarte lo que ves cuando abres alguna página.<!--more-->
+Para hacer páginas Web necesitas aprender dos lenguajes: **HTML** y **CSS**. Estos son los lenguajes que los navegadores (Firefox, Chrome, Internet Explorer) entienden e interpretan para mostrarte lo que ves cuando abres alguna página.<!-- more -->
 
 **HTML** se usa para definir **la estructura** de la página (títulos, párrafos, tablas, listas, vínculos, formularios, imágenes, etc.) y **CSS** se usa para **aplicarle el estilo** (color de fondo, márgenes entre los elementos, tamaño de las fuentes, bordes, etc.).
 
@@ -20,7 +20,7 @@ Para hacer páginas Web necesitas aprender dos lenguajes: **HTML** y **CSS**. Es
 
 **Algunas etiquetas necesitan una etiqueta de cierre** porque pueden contener texto y otras etiquetas. La etiqueta de cierre lleva un slash (/) antes de la palabra clave. Por ejemplo, la etiqueta `<p>` se utiliza para definir un párrafo y necesita una etiqueta de cierre `</p>` cuando termina el párrafo:
 
-<pre><code class="overflow html">&lt;p&gt;
+<pre><code class="language-html">&lt;p&gt;
   Este es un p&#225;rrafo &lt;em&gt;importante&lt;/em&gt;.
 &lt;/p&gt;</code></pre>
 
@@ -30,7 +30,7 @@ En este ejemplo hemos definido un párrafo que contiene texto y una etiqueta `<e
 
 Una página Web (documento HTML) tiene dos grandes secciones: el encabezado (`<head>`) y el cuerpo (`<body>`) como se muestra en el siguiente ejemplo:
 
-<pre><code class="overflow html">&lt;!DOCTYPE html&gt;
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
     ...
@@ -53,7 +53,7 @@ Generalmente, el código <strong>HTML</strong> (Hyper Text Markup Language) viaj
 
 Con **CSS (Cascading Style Sheets)** le podemos dar formato a los elementos **HTML**. Por ejemplo, la siguiente regla cambia el color de la fuente de los párrafos a azul:
 
-<pre><code class="overflow css">p {
+<pre><code class="language-css">p {
   color: blue;
 }</code></pre>
 
@@ -62,9 +62,9 @@ Una regla en **CSS** está compuesta de un selector y un bloque con una o más d
 Las reglas CSS se pueden ubicar en varios lugares:
 
 * En el atributo `style` de cualquier etiqueta (en este caso no es necesario el selector).
-	<pre><code class="overflow html">&lt;p style=&quot;color:blue;&quot;&gt;Hola Mundo&lt;/p&gt;</code></pre>
+	<pre><code class="language-html">&lt;p style=&quot;color:blue;&quot;&gt;Hola Mundo&lt;/p&gt;</code></pre>
 * En la etiqueta `<style>`, dentro de la sección `<head>` del documento HTML.
-	<pre><code class="overflow html">&lt;!DOCTYPE html&gt;
+	<pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
       &lt;style&gt;
@@ -76,7 +76,7 @@ Las reglas CSS se pueden ubicar en varios lugares:
     ...
 &lt;/html&gt;</code></pre>
 * En otro archivo que se referencia en el `<head>` del documento HTML.
-	<pre><code class="overflow html">&lt;!DOCTYPE html&gt;
+	<pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
       &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
@@ -92,25 +92,25 @@ En una regla **CSS**, el selector es el que nos permite especificar a qué eleme
 
 Los selectores se pueden especificar por varios criterios, los más importantes son: **por el nombre de la etiqueta, la clase de la etiqueta, o el id de la etiqueta**. Por ejemplo, mira el siguiente código HTML:
 
-<pre><code class="overflow html">&lt;p&gt;La introducci&#243;n es que ... &lt;/p&gt;
+<pre><code class="language-html">&lt;p&gt;La introducci&#243;n es que ... &lt;/p&gt;
 &lt;p id=&quot;content&quot;&gt;El contenido es que ... &lt;/p&gt;
 &lt;p class=&quot;conclusion&quot;&gt;La conclusi&#243;n es que ... &lt;/p&gt;</code></pre>
 
 ¿Cómo podemos cambiarle el color de la fuente al párrafo marcado con la clase "conclusion"? La respuesta es usando **la clase como selector**:
 
-<pre><code class="overflow css">.conclusion {
+<pre><code class="language-css">.conclusion {
   color: blue;
 }</code></pre>
 
 ¿Cómo podemos cambiarle el color de la fuente al párrafo marcado con el id "content"? La respuesta es usando el **id como selector**:
 
-<pre><code class="overflow css">#content {
+<pre><code class="language-css">#content {
   color: blue;
 }</code></pre>
 
 ¿Cómo podemos cambiarle el tamaño de la letra a todos los párrafos? La respuesta es usando **el nombre de la etiqueta como selector**:
 
-<pre><code class="overflow css">p {
+<pre><code class="language-css">p {
   color: blue;
 }</code></pre>
 
@@ -120,7 +120,7 @@ Como te puedes dar cuenta de estos ejemplos, las clases se seleccionan usando el
 
 Los selectores se pueden encadenar. Por ejemplo, la siguiente regla le cambia el color de la fuente a todos los elementos `span` que estén dentro de un párrafo y tengan la clase `info`.
 
-<pre><code class="overflow css">p span.info {
+<pre><code class="language-css">p span.info {
   color: blue;
 }</code></pre>
 

@@ -1,19 +1,22 @@
 ---
 layout: post
 title:  "HTTP y HTML"
-date:   2014-10-05 17:40:58
+date:   2014-10-05 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/http.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/http.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2014/10/05/http-y-html/"
 ---
 
-¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder estas preguntas. Pero antes un poco de historia.<!--more-->
+¿Qué es HTTP? ¿Qué es HTML? ¿Qué relación tienen? En este post vamos a intentar responder estas preguntas. Pero antes un poco de historia.<!-- more -->
 
 
 Aunque Internet fue desarrollado a finales de los 60's y principios de los 70's, no fue sino hasta 1989 que <a href="http://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners-Lee</a> propuso el proyecto World Wide Web (WWW) trabajando para <a href="http://en.wikipedia.org/wiki/CERN" target="_blank">CERN</a>, que era en su momento el nodo de Internet más grande en Europa.
 
-<blockquote>“Solo tuve que tomar la idea del HyperText y conectarla con TCP y DNS, y ta-da! Surgió el World Wide Web …" -- Tim Berners Lee</blockquote>
+<blockquote>
+  <p>“Solo tuve que tomar la idea del HyperText y conectarla con TCP y DNS, y ta-da! Surgió el World Wide Web …"</p>
+  <div class="quote-author">-- Tim Berners Lee</div>
+</blockquote>
 
 En ese momento empezó el desarrollo de **HTML (Hyper Text Markup Language)** para definir la estructura de documentos con vínculos a otros documentos, y **HTTP (Hyper Text Transfer Protocolo)** como el protocolo por el que se transmitiría HTML.
 
@@ -54,16 +57,16 @@ Una vez que la conexión con el servidor está abierta, el navegador envía un m
 
 Veamos un ejemplo de un mensaje de petición HTTP (asumiendo que ya tenemos una conexión abierta al servidor de Google):
 
-<pre><code class="http">GET /doc.html HTTP/1.1
+<pre><code class="language-none">GET /doc.html HTTP/1.1
 Host: www.google.com</code></pre>
 
-En la primera línea del mensaje estamos solicitando el recurso `/doc.html`. La segunda línea es un encabezado. Este mensaje no lleva cuerpo. 
+En la primera línea del mensaje estamos solicitando el recurso `/doc.html`. La segunda línea es un encabezado. Este mensaje no lleva cuerpo.
 
 ## Recibir el mensaje de respuesta HTTP
 
 Después de que el navegador ha enviado una petición, el servidor retorna una respuesta de regreso. Por ejemplo, la respuesta de la petición anterior es la siguiente:
 
-<pre><code class="http">HTTP/1.1 404 Not Found
+<pre><code class="language-none">HTTP/1.1 404 Not Found
 Content-Type: text/html; charset=UTF-8
 X-Content-Type-Options: nosniff
 Date: Sun, 05 Oct 2014 17:49:34 GMT
@@ -98,7 +101,7 @@ El navegador interpreta la respuesta, identifica que en el cuerpo del mensaje vi
 
 **HTML** es un lenguaje que nos permite definir la estructura de un documento que los navegadores interpretan y muestran en la pantalla. Por ejemplo:
 
-<pre><code class="html">&lt;!DOCTYPE html&gt;
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
 	&lt;title&gt;Este t&#237;tulo va en la pestaña del navegador&lt;/title&gt;

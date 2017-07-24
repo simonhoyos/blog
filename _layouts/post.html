@@ -1,95 +1,47 @@
 ---
-layout: blog
+layout: default
 ---
-<div class="interna-post">
 
-  <div class="interna-post-title">
-    <div class="btn-back">
-      <a class="fade" href="/">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="33" height="33" viewBox="0 0 33 33"><image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAMAAABgOjJdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAk1BMVEUAAAD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/MwD/mo3/p5z/9fT/////blj/v7j/jH3/1tH/4N3/6+n/fWv/s6oAAADSuMW2AAAAI3RSTlMANoC23fAJa9rbbE/hUAeZDr4GvTd9td7x8prCw1Ft3IE4AaacctgAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAA/klEQVQ4y42UWRaCMAxFo0VERRAncB4iqAi6/91pUGxDi/K+St4lJ02bAki12sLqYMcS7RYYZHcdlOr17SowcJHLHTLf81GX70lgFKBJwagExhM0azL+ED7WyX8DQ6xXUa7t/iBc2nQXf6n/Ihw9fJJLB2Cq+XFyVr6mMOP25Xp+SQnMYK766Y38LFZCAkIlfU7+9c6ShhB9/yc7j7GiBXyXVMDDsF8lR0YlpHoOpY6CyU+cCCt7ISZhtYhqPwqG90PrKTGsp4ZzSTN2Lg3O9v/9+H/HAJa1wLK866saYO01npcGM0flanO70WZ/u1P83Vab/fL9iDCyxP5wlNEnXGp0lq7i52UAAAAASUVORK5CYII=" width="33" height="33"/></svg>
-      </a>
-    </div>
-    <div class="overlay"></div>
-    {% if page.thumbnail %}
-      <div class="interna-post-image" style="background-image: url({{ page.thumbnail }})"></div>
-    {% else %}
-      <div class="interna-post-image" style="background-image: url(/images/no-thumbnail.png)"></div>
-    {% endif %}
-    <header>
-      <h1>{{ page.title }}</h1>
-      <time>{{ page.date | date: "%b %-d, %Y" }} </time>
-    </header>
-  </div><!--/.interna-post-title -->
+<div class="post-page">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-lg-10 col-xl-9">
+        <a href="/">&larr; Volver a la lista de posts</a>
 
+        <div class="post">
+          <div class="post-image" style="background-image: url({% if page.image %}{{ page.image }}{% else %}/images/no-image.png{% endif %})"></div>
+          <div class="row justify-content-md-center">
+            <div class="col-md-10">
+              <div class="post-content">
+                <div class="post-details">
+                  <div class="post-author">
+                    <img class="img-responsive" src="{% if page.gravatar %}{{ page.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
+                    <span>{{ page.author }}</span>
+                  </div>
+                  <time class="post-date">{{ page.date | date: "%b %-d, %Y" }}</time>
+                </div>
+                <h1>{{ page.title }}</h1>
+                <div class="post-body">{{ content }}</div>
 
-
-
-
-  <div class="container interna-content-post">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="top-share">
-          {% include share-page.html %}
-        </div>
-        {{ content }}
-        <div class="col-md-12">
-          <div class="row">
-            <footer class="post-info">
-            <div class="col-xs-4 col-sm-4 col-md-4">
-              <div class="post-author">
-                {% if page.gravatar %}
-                  <img class="img-responsive" src="{{ page.gravatar }}"/>
-                      {% else %}
-                  <img class="img-responsive" src="/images/no-gravatar.png"/>
-                {% endif %}
-                {% if page.author %}<span class="author">{{ page.author }}</span>{% endif %} 
+                <div class="share-post">
+                  <span class="text">Compartir en:</span>
+                  <div class="social-networks">
+                    <a class="btn-share btn-share-twitter" target="_blank" href="http://twitter.com/share?text={{ page.title }}&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}&via=makeitrealcamp" rel="nofollow" title="Compartir en Twitter">Twitter</a>
+                    <a class="btn-share btn-share-fb" target="_blank" href="http://www.facebook.com/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}&p[title]={{ page.title }}" rel="nofollow" title="Compartir en Facebook">Facebook</a>
+                    <a class="btn-share btn-share-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}&title={{ page.title }}&summary={{ post.excerpt }}&source={{ site.url }}{{ page.url }}" rel="nofollow" title="Compartir en LinkedIn">LinkedIn</a>
+                  </div>
+                </div>
               </div>
             </div>
-
-            <div class="col-xs-5 col-sm-5 col-md-5">
-              {% include share-page.html %}
-            </div>
-            
-            <div class="col-xs-3 col-sm-3 col-md-3">
-              <div class="all-posts">
-                <a href="/blog">Ver todos los posts</a>
-              </div>
-            </div>
-            </footer>
           </div>
         </div>
       </div>
     </div>
-    
-  
 
-    <div class="row footer">
-      <div class="col-md-8 col-md-offset-2">
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'makeitreal'; // required: replace example with your forum shortname
-
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <div class="row justify-content-md-center">
+      <div class="col-sm-8">
+        {% include disqus.html %}
       </div>
     </div>
   </div>
-
 </div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1450478321902925";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>

@@ -1,13 +1,15 @@
 ---
 layout: post
 title:  "¿Qué es concurrencia?"
-date:   2017-07-12 01:52:58
+date:   2017-07-12 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/concurrency.jpeg
+image: /assets/images/bg-images/concurrency.jpeg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-En este post vamos a hablar de **concurrencia**, que es la habilidad que tiene un computador de realizar varias tareas a la vez.<!--more-->
+En este post vamos ver qué es concurrencia, cuáles son los dos modelos más populares que existen actualmente y cómo la concurrencia afecta el código que escribes.<!-- more -->
+
+**Concurrencia** es la habilidad que tiene un computador de realizar varias tareas a la vez.
 
 Gracias a la **concurrencia** es que puedes ver un video en YouTube mientas subes un archivo a Dropbox y hablas con tus amigos en Facebook, todo a la vez.
 
@@ -23,7 +25,7 @@ La mayor parte del tiempo los computadores no están ejecutando código, están 
 
 Por ejemplo, imagina que debemos escribir un programa que cuente cuántos links tienen tres páginas Web. Una posible solución sería la siguiente:
 
-<pre><code class="overflow ruby">contar_links("http://sitio1.com/")
+<pre><code class="overflow language-ruby">contar_links("http://sitio1.com/")
 contar_links("http://sitio2.com/")
 contar_links("http://sitio3.com/")</code></pre>
 
@@ -37,7 +39,7 @@ La forma en que la mayoría de lenguajes de programación permiten escribir cód
 
 En vez de intentar definir exactamente qué es un **hilo**, veamos un ejemplo. La sintaxis para crear **hilos** varía dependiendo del lenguaje, en Ruby se crean con `Thread.new`:
 
-<pre><code class="overflow ruby">t1 = Thread.new {
+<pre><code class="overflow language-ruby">t1 = Thread.new {
   contar_links("http://sitio1.com/")
 }
 t2 = Thread.new {
@@ -58,7 +60,7 @@ Aunque los **hilos** se ejecutan de forma concurrente, **no podemos decir que se
 
 La siguiente imagen muestra la diferencia entre ejecución secuencial, concurrente y paralela:
 
-<img src="/images/concurrency.png" alt="Concurrencia" class="photo">
+<img src="/assets/images/concurrency.png" alt="Concurrencia" class="photo">
 
 Aunque los dos diagramas de la derecha son concurrentes, **los hilos sólo se ejecutan en paralelo cuando tienes dos o más procesadores**.
 
@@ -82,7 +84,7 @@ La ventaja del modelo basado en eventos es que el **hilo principal sólo ejecuta
 
 La siguiente imagen ilustra cómo funciona la concurrencia basada en eventos:
 
-<img src="/images/async-io.png" alt="Concurrencia basada en eventos" class="photo">
+<img src="/assets/images/async-io.png" alt="Concurrencia basada en eventos" class="photo">
 
 Cada vez que hacemos operaciones de **I/O**, el **hilo principal** delega la operación a un **hilo** de apoyo. Veamos un ejemplo en <a href="https://nodejs.org/en/" target="_blank">Node.js</a> en el que estamos leyendo el contenido de un archivo:
 

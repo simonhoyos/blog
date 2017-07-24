@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="home-page">
+  <div class="container">
+    {% for post in site.posts limit:1 %}
+      <div class="post main-post">
+        <div class="post-image" style="background-image: url({{ post.image }});"></div>
+        <div class="main-post-wrapper">
+          <div class="post-content">
+            <header class="post-title">
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </header>
+            <div class="post-body">{{ post.excerpt }}</div>
+          </div>
+          {% if post.author %}
+          <footer class="post-footer">
+            <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
+            <div>
+              <span class="author">{{ post.author }}</span>
+              <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+            </div>
+          </footer>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+
+    <div class="row">
+      {% for post in site.posts offset:1 %}
+        <div class="col-sm-6 col-lg-4 align-items-stretch">
+          <div class="post">
+            <div class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %})"></div>
+            <div class="post-content">
+              <header class="post-title">
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </header>
+              <div class="post-body">{{ post.excerpt }}</div>
+              <div class="diffuse"></div>
+            </div>
+            <footer class="post-footer">
+              {% if post.author %}
+              <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
+              <div>
+                <span class="author">{{ post.author }}</span>
+                <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+              </div>
+              {% endif %}
+            </footer>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

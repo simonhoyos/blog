@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "HackerRank Challenge - Día 2"
-date:   2016-07-08 01:52:58
+date:   2016-07-08 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/city-night.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/city-night.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
 En esta serie de posts estoy documentando mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.
@@ -21,7 +21,7 @@ El ejercicio se llama <a href="https://www.hackerrank.com/challenges/ncr-table" 
 
 Que bonita simetría ¿no? Lo primero que se me ocurrió fue calcular cada combinación en un ciclo de `0` hasta `k` adaptando el código del ejericio anterior:
 
-<pre><code class="overflow ruby">def fact(i)
+<pre><code class="language-ruby">def fact(i)
   i == 0 ? 1 : (1..i).inject(:*)
 end
 
@@ -42,7 +42,7 @@ El problema es que cuando `n` es muy grande se genera timeout y la prueba falla.
 
 Decidí intentar hacerlo recursivamente y al principio no me funcionó, así que utilicé una técnica llamada <a href="https://en.wikipedia.org/wiki/Memoization" target="_blank">memoization</a> que almacena los resultados anteriores para no tener que volverlos a calcular. El resultado fue el siguiente:
 
-<pre><code class="overflow ruby">@memo = {} # acá vamos a ir almacenando cada coeficiente que calculemos
+<pre><code class="language-ruby">@memo = {} # acá vamos a ir almacenando cada coeficiente que calculemos
 
 def choose(n, k)
   if @memo["#{n} #{k}"]

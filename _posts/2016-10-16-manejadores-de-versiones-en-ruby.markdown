@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Manejadores de versiones para Ruby"
-date:   2016-10-16 01:52:58
+date:   2016-10-16 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/ruby-version-management.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/ruby-version-management.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Un manejador de versiones para Ruby te permite instalar varias versiones de Ruby en tu máquina y cambiar entre versiones fácilmente.<!--more-->
+Un manejador de versiones para Ruby te permite instalar varias versiones de Ruby en tu máquina y cambiar entre versiones fácilmente.<!-- more -->
 
 Pero ¿para qué quisiéramos tener instaladas varias versiones de Ruby?
 
@@ -48,12 +48,12 @@ Veamos algunos de estos comandos en acción. Empecemos por <code>rvm list</code>
 
 En este caso tenemos 4 versiones de Ruby instaladas. La que estamos usando actualmente se identifica por el prefijo <code>=></code>, en este caso la <code>2.3.1</code>, y la que se utiliza por defecto se identifica por el prefijo <code>*</code>, en este caso la <code>2.3.0</code>. Podemos verificar que la versión que estamos usando es efectivamente la <code>2.3.1</code>:
 
-<pre><code class="bash">$ ruby -v
+<pre><code class="language-none">$ ruby -v
 ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin15]</code></pre>
 
 Cambiemos ahora a la versión <code>2.2.1</code>:
 
-<pre><code class="bash">$ rvm use 2.2.1
+<pre><code class="language-none">$ rvm use 2.2.1
 Using /Users/germanescobar/.rvm/gems/ruby-2.2.1
 
 $ ruby -v

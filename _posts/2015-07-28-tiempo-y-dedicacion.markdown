@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Tiempo y dedicación"
-date:   2015-07-27 15:30:58
+date:   2015-07-27 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/fashion-wristwatch-time-watch.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/fashion-wristwatch-time-watch.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/07/27/tiempo-y-dedicacion/"
 ---
 
-¿Cuánto tiempo necesitas invertir para poder hacer tus propias aplicaciones Web y/o conseguir un empleo como programador(a) Junior?<!--more-->
+¿Cuánto tiempo necesitas invertir para poder hacer tus propias aplicaciones Web y/o conseguir un empleo como programador(a) Junior?<!-- more -->
 
 Las cifras varían ampliamente entre persona y persona, pero queremos arriesgarnos a darte algunas cifras para que te des una idea.
 

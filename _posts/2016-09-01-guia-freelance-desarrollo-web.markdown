@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Guía para trabajar como freelance en desarrollo Web"
-date:   2016-09-01 01:52:58
+date:   2016-09-01 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/freelancing.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/freelancing.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
 Un freelancer es una persona que ofrece sus servicios profesionales a empresas de forma independiente. Es una alternativa a un empleo con salario fijo que ofrece varias ventajas como flexibilidad horaria, capacidad de cobrar más por tu trabajo y no tener un jefe. Pero también presenta retos como encontrar clientes y cobrarles.

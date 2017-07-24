@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Formularios de Búsqueda en Rails"
-date:   2014-12-27 17:40:58
+date:   2014-12-27 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/modals-ruby-on-rails.png
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/modals-ruby-on-rails.png
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2014/12/27/formularios-de-busqueda-en-rails/"
 ---
 
-En Ruby on Rails, los formularios generalmente se usan para crear o editar modelos. Sin embargo, un caso de uso muy frecuente es el de buscar o filtrar información usando un formulario. Por ejemplo, imaginemos una aplicación que tiene una lista de gastos que se puede filtrar por los siguientes criterios:<!--more-->
+En Ruby on Rails, los formularios generalmente se usan para crear o editar modelos. Sin embargo, un caso de uso muy frecuente es el de buscar o filtrar información usando un formulario. Por ejemplo, imaginemos una aplicación que tiene una lista de gastos que se puede filtrar por los siguientes criterios:<!-- more -->
 
 * El concepto del gasto.
 * La categoría a la que pertenece el gasto.
@@ -23,7 +23,7 @@ También es importante tener en cuenta que, **en vez de un llamado `POST`, quere
 
 Teniendo en cuenta los dos puntos anteriores, el markup del formulario sería el siguiente:
 
-<pre><code class="overflow erb">&lt;%= form_tag expenses_path, method: :get do %&gt;
+<pre><code class="language-erb">&lt;%= form_tag expenses_path, method: :get do %&gt;
   &lt;div class=&quot;form-group&quot;&gt;
     &lt;%= text_field_tag :concept, params[:concept], class: &quot;form-control&quot;, placeholder: &quot;Concepto&quot; %&gt;
   &lt;/div&gt;
@@ -35,13 +35,13 @@ Teniendo en cuenta los dos puntos anteriores, el markup del formulario sería el
 
 La primera línea (el `form_tag`) genera el siguiente HTML:
 
-<pre><code class="html">&lt;form action=&quot;/expenses&quot; method=&quot;get&quot;&gt;
+<pre><code class="language-html">&lt;form action=&quot;/expenses&quot; method=&quot;get&quot;&gt;
   ...
 &lt;/form&gt;</code></pre>
 
 Fíjate que estamos enviando el formulario a la misma acción que utilizamos para listar los gastos (`/expenses`). Veamos la implementación de esa acción en el controlador:
 
-<pre><code class="overflow ruby">class ExpensesController &lt; ApplicationController
+<pre><code class="language-ruby">class ExpensesController &lt; ApplicationController
   def index
     @expenses = Expense.order("date DESC")
     if params[:concept].present?

@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Una nueva mentalidad"
-date:   2015-07-27 15:29:58
+date:   2015-07-27 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/sunset-summer-golden-hour-paul-filitchkin.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/sunset-summer-golden-hour-paul-filitchkin.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/07/27/una-nueva-mentalidad/"
 ---
 
-Estamos atravesando por un momento muy interesante en la historia de la humanidad. A través de la programación estamos creando y transformando industrias que han cambiado la forma en que compramos, viajamos, nos comunicamos, creamos, y consumimos contenido. <!--more-->No existe una sola industria que no haya sido o no esté siendo transformada por la programación. Es una revolución que hasta ahora comienza con oportunidades enormes para los que aprendan a programar.
+Estamos atravesando por un momento muy interesante en la historia de la humanidad. A través de la programación estamos creando y transformando industrias que han cambiado la forma en que compramos, viajamos, nos comunicamos, creamos, y consumimos contenido. <!-- more -->No existe una sola industria que no haya sido o no esté siendo transformada por la programación. Es una revolución que hasta ahora comienza con oportunidades enormes para los que aprendan a programar.
 
 Hoy la información cuesta muy poco y está al alcance de una gran parte de la población. El verdadero reto es aprender a buscar, seleccionar y usar esa información para resolver problemas.
 

@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Descubre si Make it Real es para ti"
-date:   2016-02-09 17:40:58
+date:   2016-02-09 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/laptop-sublime.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/laptop-sublime.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
 En Make it Real buscamos entrenar a los desarrolladores Web que nosotros mismos quisiéramos contratar. Personas con autodisciplina que sean capaces de resolver problemas complejos y se adapten rápidamente a nuevas tecnologías y escenarios. En este post vamos a discutir algunas características de nuestro programa para que descubras si Make it Real es para ti.
@@ -19,13 +19,13 @@ La mayor dificultad a la que se enfrentan las personas que están aprendiendo es
 
 Esa es la razón por la hemos creado retos y proyectos cuidadosamente diseñados para que los estudiantes aprendan mientras los resuelven.
 
-<img src="/images/mir-challenge.png" alt="Reto" class="photo border">
+<img src="/assets/images/mir-challenge.png" alt="Reto" class="photo border">
 
 <p class="photo-description">Reto de JavaScript sobre expresiones regulares. Algunos retos tienen un editor embebido, pero la mayoría requiere un repositorio de Github.</p>
 
 Pero los retos y proyectos no son suficientes. También es necesario un buen sistema de retroalimentación. Esa es la razón por la que decidimos evaluar los retos de forma automática-- que fue todo un reto para nosotros—y crear una página de discusión después de cada reto que muestra nuestra  solución, alternativas, mejores prácticas, y le permite a los estudiantes participar a través de comentarios.
 
-<img src="/images/mir-discussion.png" alt="Discusión" class="photo border">
+<img src="/assets/images/mir-discussion.png" alt="Discusión" class="photo border">
 
 <p class="photo-description">La página de discusión de uno de los retos sobre CSS.</p>
 
@@ -35,7 +35,7 @@ Existen dos problemas con las calificaciones: crean una motivación extrínseca 
 
 Es por eso que integramos gamification, que es una técnica que aplica elementos de juegos—como puntos e insignias--al sistema de aprendizaje. Al principio creíamos que gamification tenía los mismos problemas que las calificaciones, pero es una buena forma de medir el progreso con el mensaje correcto: que uno siempre puede mejorar.
 
-<img src="/images/mir-evaluation.png" alt="Evaluación de un reto" class="photo">
+<img src="/assets/images/mir-evaluation.png" alt="Evaluación de un reto" class="photo">
 
 Hemos creado nueve niveles de habilidad e insignias para cada tema, pero sabemos que aún lo podemos hacer mejor. Estamos trabajando en esto. El objetivo es que el estudiante conozca en todo momento su progreso y que pueda profundizar en los temas que más le interesen.
 
@@ -47,7 +47,7 @@ Los retos auto evaluados nos permiten mantener los costos bajos, pero los estudi
 
 Tampoco es posible auto evaluar todo. Es por eso que hemos diseñado proyectos, problemas más complejos o aplicaciones completas, que son evaluados manualmente por el mentor con retroalimentación personalizada.
 
-<img src="/images/mir-project.png" alt="Proyecto" class="photo">
+<img src="/assets/images/mir-project.png" alt="Proyecto" class="photo border">
 
 <p class="photo-description">Un proyecto de Bootstrap que sin duda sería muy difícil de evaluar correctamente de forma automática.</p>
 
@@ -61,7 +61,7 @@ El segundo propósito es reforzar y explicar los conceptos más avanzados y comp
 
 Cada tema del programa (p.e. HTML and CSS, Git and Github, JavaScript, AngularJS, etc.) tiene la siguiente estructura:
 
-<img src="/images/mir-subject-structure.jpg" alt="Estructura de un tema" class="photo">
+<img src="/assets/images/mir-subject-structure.jpg" alt="Estructura de un tema" class="photo">
 
 <p class="photo-description">La estructura típica de un tema.</p>
 
@@ -71,7 +71,7 @@ El problema con los certificados es muy parecido al de las calificaciones. Corro
 
 Creemos que el esfuerzo importa. Es por eso que hemos creado una página de perfil para cada estudiante que muestre su progreso y sus logros más importantes.
 
-<img src="/images/mir-profile.png" alt="Perfil del estudiante" class="photo border">
+<img src="/assets/images/mir-profile.png" alt="Perfil del estudiante" class="photo border">
 
 <p class="photo-description">La página de perfil actúa como un certificado que el estudiante puede mostrar a empleadores potenciales. Sus habilidades y portafolio son su nueva hoja de vida.</p>
 

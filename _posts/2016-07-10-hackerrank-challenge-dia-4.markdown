@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "HackerRank Challenge - Día 4"
-date:   2016-07-10 01:52:58
+date:   2016-07-10 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/landscape-toy-car.jpeg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/landscape-toy-car.jpeg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
 En esta serie de posts estoy documentando mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.
@@ -21,7 +21,7 @@ La clave de este ejercicio era entender la forma en que debíamos probar los nú
 
 El código que pasó la prueba es el siguiente:
 
-<pre><code class="overflow ruby">def test(digits, n)
+<pre><code class="language-ruby">def test(digits, n)
   num = "9#{'0' * (digits - 1)}".to_i
   max = ("1" * (digits - 1)).to_i(2)
   i = 0

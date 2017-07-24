@@ -1,19 +1,19 @@
 ---
 layout: post
 title:  "Desarrollo ágil con Scrum"
-date:   2015-10-08 15:29:58
+date:   2015-10-08 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/athletics-scrum.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/athletics-scrum.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Scrum es una metodología de desarrollo ágil que ayuda a equipos pequeños a construir productos complejos de software. En este post te explicamos de dónde surge, conceptos, ventajas y desventajas.<!--more-->
+Scrum es una metodología de desarrollo ágil que ayuda a equipos pequeños a construir productos complejos de software. En este post te explicamos de dónde surge, conceptos, ventajas y desventajas.<!-- more -->
 
-Antes de intentar explicar Scrum, empecemos por la metodología que se utilizaba para desarrollar software en los años 70’s, 80’s y parte de los 90’s. 
+Antes de intentar explicar Scrum, empecemos por la metodología que se utilizaba para desarrollar software en los años 70’s, 80’s y parte de los 90’s.
 
 En ese entonces se creía que desarrollar software era como construir un puente o un edificio[^1]. Que era posible definir desde un principio todos los requerimientos de la aplicación y hacer una especificación detallada de lo que se quería construir. Escribir el código era el equivalente a pegar ladrillos con cemento. A esto se le conoce como el <a href="https://es.wikipedia.org/wiki/Desarrollo_en_cascada" target="_blank">modelo en cascada</a>.
 
-<img src="/images/waterfall.png" alt="Modelo en cascada" class="photo">
+<img src="/assets/images/waterfall.png" alt="Modelo en cascada" class="photo">
 
 <p class="photo-description">El modelo en cascada.</p>
 
@@ -23,7 +23,7 @@ A finales de los 90’s empezaron a surgir alternativas como	Lean Software Devel
 
 En vez de definir un proceso lineal como el modelo en cascada, las metodologías ágiles utilizan un proceso iterativo. En cada iteración se revisan los requerimientos, se establecen las tareas que se van a realizar en esa iteración, se ejecutan esas tareas, se escriben pruebas, se hace refactorización del código[^2] y se entrega parte del producto.
 
-<img src="/images/agile.png" alt="Modelo ágil" class="photo">
+<img src="/assets/images/agile.png" alt="Modelo ágil" class="photo">
 
 <p class="photo-description">El modelo ágil se basa en iteraciones.</p>
 
@@ -55,7 +55,7 @@ El Scrum master es el encargado de garantizar que la metodología se siga de la 
 
 ### Team Member
 
-Los miembros del equipo son los que definen las estimaciones y deciden qué herramientas y tecnologías utilizar para ejecutar el trabajo (completar las historias de usuario). 
+Los miembros del equipo son los que definen las estimaciones y deciden qué herramientas y tecnologías utilizar para ejecutar el trabajo (completar las historias de usuario).
 
 ---
 
@@ -107,7 +107,7 @@ Tengo que aceptar que nunca he utilizado Scrum. Me parece muy complicado con sus
 
 Si vamos a la escencia del desarrollo ágil, lo más importante de un proyecto es definir lo que se debe hacer, cuándo se va a hacer (priorizar) y quién lo va a hacer. Pero obligar determinadas reuniones y definir ciclos de desarrollo tan estrictos se puede volver contraproducente para el avance del proyecto. Quizá en algunos casos funcione, especialmente cuando se tienen clientes externos en donde se debe hacer un mayor seguimiento[^4].
 
-En Make it Real utilizamos un tablero de <a href="http://trello.com" target="_blank">Trello</a>, que es una herramienta gratuita que nos permite definir listas con tarjetas. Es parecido al tablero de tareas de Scrum pero la idea es de una metodología muy simple llamada <a href="https://es.wikipedia.org/wiki/Kanban_(desarrollo)" target="_blank">Kanban</a>. En <a href="http://trello.com" target="_blank">Trello</a> tenemos 4 listas: Backlog (realmente es la lista de los deseos), To do (las tareas a completar), Doing (tareas en progreso) y Done (tareas finalizadas). Y nos apoyamos de los <a href="" target="_blank">issues de Github</a> para reportar errores. 
+En Make it Real utilizamos un tablero de <a href="http://trello.com" target="_blank">Trello</a>, que es una herramienta gratuita que nos permite definir listas con tarjetas. Es parecido al tablero de tareas de Scrum pero la idea es de una metodología muy simple llamada <a href="https://es.wikipedia.org/wiki/Kanban_(desarrollo)" target="_blank">Kanban</a>. En <a href="http://trello.com" target="_blank">Trello</a> tenemos 4 listas: Backlog (realmente es la lista de los deseos), To do (las tareas a completar), Doing (tareas en progreso) y Done (tareas finalizadas). Y nos apoyamos de los <a href="" target="_blank">issues de Github</a> para reportar errores.
 
 Cada vez que terminamos una nueva funcionalidad o solucionamos un error en Make it Real, lo desplegamos a producción. Es un proceso ágil pero simple al mismo tiempo.
 

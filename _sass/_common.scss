@@ -1,0 +1,48 @@
+html {
+  font-size: 14px;
+
+  @include media-breakpoint-up(md) { font-size: 16px; }
+}
+
+a:focus, a:hover { text-decoration: none; }
+
+nav.main {
+  background: #333;
+  height: 60px;
+
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 140px;
+
+      @include media-breakpoint-up(md) { width: 160px;  }
+    }
+  }
+}
+
+.btn-cta {
+  background: $primary-color;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 5px 12px;
+  border: 1px solid darken($primary-color, 5%);
+  border-radius: 3px;
+
+  &:hover {
+    color: white;
+    background: darken($primary-color, 5%);
+  }
+}
+
+.fade {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+
+  &:hover { opacity: 0.8; }
+}

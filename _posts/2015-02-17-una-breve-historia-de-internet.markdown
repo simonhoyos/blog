@@ -1,20 +1,20 @@
 ---
 layout: post
 title:  "Una muy breve historia de Internet"
-date:   2015-02-17 17:40:58
+date:   2015-02-17 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/mainframe3.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/mainframe3.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/02/17/una-breve-historia-de-internet/"
 ---
 
-A principios de los años 60’s, en Estados Unidos, varias universidades tenían computadores de tiempo compartido: enormes máquinas, con una fracción de la capacidad de tu teléfono móvil actual, que se accedían a través de terminales sin pantalla, permitiendo a varios compartir los recursos del computador de forma simultánea.<!--more-->
+A principios de los años 60’s, en Estados Unidos, varias universidades tenían computadores de tiempo compartido: enormes máquinas, con una fracción de la capacidad de tu teléfono móvil actual, que se accedían a través de terminales sin pantalla, permitiendo a varios compartir los recursos del computador de forma simultánea.<!-- more -->
 
 Muchos creían que los computadores habían llegado a una cúspide evolutiva y no había mucho por desarrollar en ese campo. Así que la atención se centró en pensar cómo podrían comunicarse estos computadores de forma remota. Las aplicaciones serían infinitas: chat, juegos, transferencia de archivos, publicación de documentos, etc.
 
 La idea fue desarrollada paralelamente por Paul Baran en Estados Unidos y Donald Davies en Inglaterra. Consistía de **una red parecida a la telefónica** pero con dos cambios importantes. El primero era construir la red a partir de muchos nodos interconectados entre sí (la red telefónica es centralizada o descentralizada con unos cuantos nodos principales).
 
-<img src="/images/topologies.jpg" alt="Screenshots" class="photo">
+<img src="/assets/images/topologies.jpg" alt="Screenshots" class="photo">
 
 <p class="photo-description">La nueva red tendría la topología distribuída. Imagen tomada de http://www2.cffn.ca/usha/part-iii-article-by-pramod-dhakal/129-the-law-of-rule-centralized-decentralized-and-distributed-systems</p>
 
@@ -28,7 +28,7 @@ Dos años después, en 1967, se inició un proyecto en una pequeña agencia del 
 
 El proyecto consistía en crear una red que conectara a varias universidades a través de líneas telefónicas. Sin embargo, a ninguna universidad le interesaba asignar recursos de su computador para ejecutar las tareas que requería la red (implementación de algoritmos de enrutamiento, detección de errores, reensamblado de paquetes, etc.) La solución fue crear e instalar una máquina adicional en cada universidad entre el computador y la línea telefónica que se encargaría de las tareas propias de la red. **A esta máquina se le dio el nombre de IMP (Interface Message Processor) y es lo que hoy en día conocemos como routers (enrutadores)**.
 
-<img src="/images/imp.jpg" alt="Screenshots" class="photo">
+<img src="/assets/images/imp.jpg" alt="Screenshots" class="photo">
 
 <p class="photo-description">Un IMP. Equivalente al router que usas en tu hogar para conectarte a Internet. Imágen tomada de http://galleryhip.com/interface-message-processor.html</p>
 
@@ -44,17 +44,17 @@ Algunas personas empezaron a pensar cómo implementar una red de packet-switchin
 
 La solución, propuesta en Mayo de 1974, fue usar routers que conectaran las diferentes redes que existían en el momento. El router entendería los paquetes de las dos redes a las que estaba conectada. Pero el principal problema del esquema era que el router necesitaría recibir el mensaje completo de una red antes de redireccionarlo a la otra; tampoco había una forma estándar de identificar los hosts dentro de cada red. Se divisó una solución que se convirtió en lo que hoy conocemos como los protocolos TCP/IP.
 
-<strong>El objetivo era que las redes sirvieran de transporte para otros paquetes "estándar" que todos entendieran. Los llamaron datagramas para mayor claridad y es lo que hoy conocemos como el protocolo <a href="http://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="_blank">TCP (Transmission Control Protocol)</a></strong>. 
+<strong>El objetivo era que las redes sirvieran de transporte para otros paquetes "estándar" que todos entendieran. Los llamaron datagramas para mayor claridad y es lo que hoy conocemos como el protocolo <a href="http://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="_blank">TCP (Transmission Control Protocol)</a></strong>.
 
 La forma en que hoy funciona el transporte de carga nos sirve como analogía. Los datagramas TCP son equivalentes a los contenedores, que pueden ser transportados por diferentes medios (tierra, aire, o mar), sin importar su contenido. TCP también se encargaría de establecer la conexión, y garantizar la confiabilidad de la comunicación.
 
-<img src="/images/container-ship.jpg" alt="Screenshots" class="photo">
+<img src="/assets/images/container-ship.jpg" alt="Screenshots" class="photo">
 
 <p class="photo-description">Los datagramas TCP son equivalentes a los contenedores de carga, no importa por qué red están siendo transportados, ni la mercancia que contengan. Imagen tomada de http://www.shippingherald.com/NEWS/Containers/tabid/72/currentpage/2/Default.aspx</p>
 
 Los datagramas TCP se encapsulan en otro paquete con encabezados que definen hacia dónde se dirige el mensaje. Esto se definió en el <a href="http://en.wikipedia.org/wiki/Internet_Protocol" target="_blank"><strong>IP (Internet Protocol)</strong></a> y es por eso que se les llama **direcciones IP**.
 
-<img src="/images/tcp-ip.gif" alt="Screenshots" class="photo">
+<img src="/assets/images/tcp-ip.gif" alt="Screenshots" class="photo">
 
 <p class="photo-description">Las capas TCP/IP. Paquetes viajando dentro de otros paquetes de la misma forma en que las cajas con mercancia viajan dentro de otras cajas. Imagen tomada de http://www.technologyuk.net/the_internet/internet/tcp_ip_stack.shtml</p>
 

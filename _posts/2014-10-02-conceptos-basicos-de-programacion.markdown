@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Conceptos básicos de programación"
-date:   2014-10-02 17:40:58
+date:   2014-10-02 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/traffic-car-vehicle-black.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/traffic-car-vehicle-black.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2014/10/02/conceptos-basicos-de-programacion/"
 ---
 
-Todos los lenguajes de programación comparten algunos elementos básicos que funcionan y se usan de forma diferente en cada lenguaje, pero que cumplen el mismo objetivo. Esos elementos son:<!--more-->
+Todos los lenguajes de programación comparten algunos elementos básicos que funcionan y se usan de forma diferente en cada lenguaje, pero que cumplen el mismo objetivo. Esos elementos son:<!-- more -->
 
 * Tipos de datos
 * Variables
@@ -25,14 +25,14 @@ Algunos lenguajes de programación tienen más tipos de datos que otros, pero, e
 
 **En JavaScript:**
 
-<pre><code class="javascript">“Hola Mundo”
+<pre><code class="language-javascript">“Hola Mundo”
 34
 23.45
 false</code></pre>
 
 **En Ruby:**
 
-<pre><code class="ruby">“Hola Mundo”
+<pre><code class="language-ruby">“Hola Mundo”
 34
 23.45
 false</code></pre>
@@ -43,11 +43,11 @@ Las variables nos permiten almacenar información temporalmente. Por ejemplo, po
 
 **En JavaScript:**
 
-<pre><code class="javascript">var miPrimeraVariable = “Hola Mundo”</code></pre>
+<pre><code class="language-javascript">var miPrimeraVariable = “Hola Mundo”</code></pre>
 
 **En Ruby:**
 
-<pre><code class="ruby">mi_primera_variable = “Hola Mundo”</code></pre>
+<pre><code class="language-ruby">mi_primera_variable = “Hola Mundo”</code></pre>
 
 Acá se empiezan a notar algunas diferencias entre los lenguajes. En <strong>JavaScript</strong>, una variable se define empezando con la palabra <code>var</code> (es posible omitirla pero eso se considera una mala práctica). En **Ruby** se empieza con el nombre de la variable.
 
@@ -59,7 +59,7 @@ Un elemento muy importante en todo lenguaje de programación es cómo tomar una 
 
 **En JavaScript:**
 
-<pre><code class="javascript">var puntos = 20;
+<pre><code class="language-javascript">var puntos = 20;
 if (puntos > 15) {
   console.log("Felicitaciones, tienes más de 15 puntos!");
 } else {
@@ -68,7 +68,7 @@ if (puntos > 15) {
 
 **En Ruby:**
 
-<pre><code class="ruby">puntos = 5
+<pre><code class="language-ruby">puntos = 5
 if puntos > 15
   puts "Felicitaciones, tienes más de 15 puntos!"
 else
@@ -85,13 +85,13 @@ Por ejemplo, cuando queremos imprimir los números de 0 hasta 9.
 
 **En JavaScript:**
 
-<pre><code class="javascript">for (var i = 0; i <  10; i++) {
+<pre><code class="language-javascript">for (var i = 0; i <  10; i++) {
   console.log(i);
 }</code></pre>
 
 **En Ruby:**
 
-<pre><code class="ruby">9.times do |i|
+<pre><code class="language-ruby">9.times do |i|
   puts i
 end</code></pre>
 
@@ -103,19 +103,19 @@ Los arreglos son los más conocidos, nos permiten almacenar varios datos *en una
 
 **En Javascript:**
 
-<pre><code class="javascript">var arreglo = [1, 2, 3, 4, 5]
+<pre><code class="language-javascript">var arreglo = [1, 2, 3, 4, 5]
 console.log(arreglo[2]); // 3 - el primer elemento está en la posición 0</code></pre>
 
 **En Ruby:**
 
-<pre><code class="ruby">arreglo = [1, 2, 3, 4, 5]
+<pre><code class="language-ruby">arreglo = [1, 2, 3, 4, 5]
 puts arreglo[2] # 3 - el primer elemento está en la posición 0</code></pre>
 
 A veces se necesita guardar información más estructurada. Por ejemplo, los datos de una persona.
 
 **En JavaScript:**
 
-<pre><code class="javascript">var german = {
+<pre><code class="language-javascript">var german = {
   name: “German Escobar”,
   gender: ‘male’,
   age: 32
@@ -125,7 +125,7 @@ console.log(german.gender); // male</code></pre>
 
 **En Ruby:**
 
-<pre><code class="ruby">class Person
+<pre><code class="language-ruby">class Person
   attr_accessor :name, :gender, :age
 end
 
@@ -142,7 +142,7 @@ Las funciones, también llamadas procedimientos o métodos, encapsulan algunas i
 
 **En JavaScript:**
 
-<pre><code class="javascript">function rockear(lenguaje) {
+<pre><code class="language-javascript">function rockear(lenguaje) {
   console.log(lenguaje + " rocks!");
 }
 
@@ -150,7 +150,7 @@ rockear("JavaScript");</code></pre>
 
 **En Ruby:**
 
-<pre><code class="ruby">def rockear(lenguaje)
+<pre><code class="language-ruby">def rockear(lenguaje)
   puts lenguaje + " rocks!"
 end
 

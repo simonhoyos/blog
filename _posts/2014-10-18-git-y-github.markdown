@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Git y Github"
-date:   2014-10-18 17:40:58
+date:   2014-10-18 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/github-logo.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/github-logo.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2014/10/18/git-y-github/"
 ---
 
-Git es un **sistema de control de versiones distribuido**, diseñado y desarrollado inicialmente por <a href="http://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Torvalds</a> en el 2005 cuando <a href="http://en.wikipedia.org/wiki/BitKeeper" target="_blank">BitKeeper</a>, el sistema de control de versiones que utilizaban para el desarrollo de Linux, cambiara su licencia y no permitiera su uso libre.<!--more--> En este post vamos a explicar qué es **Git** y cómo se relaciona con **<a href="http://github.com/" target="_blank">Github</a>**.
+Git es un **sistema de control de versiones distribuido**, diseñado y desarrollado inicialmente por <a href="http://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Torvalds</a> en el 2005 cuando <a href="http://en.wikipedia.org/wiki/BitKeeper" target="_blank">BitKeeper</a>, el sistema de control de versiones que utilizaban para el desarrollo de Linux, cambiara su licencia y no permitiera su uso libre.<!-- more --> En este post vamos a explicar qué es **Git** y cómo se relaciona con **<a href="http://github.com/" target="_blank">Github</a>**.
 
 **Git**, y en general un sistema de control de versiones, tiene dos objetivos principales:
 
@@ -26,7 +26,7 @@ Para guardar el historial de cambios podríamos crear una nueva carpeta en nuest
 
 Después de que <a href="http://git-scm.com/book/en/Getting-Started-Installing-Git" target="_blank">has instalado Git</a>, puedes abrir una consola y ejecutar el comando `git` sin parámetros. Verás el uso general del comando y algunos de los subcomandos más utilizados:
 
-<pre><code class="bash">germanescobar ~$ git
+<pre><code class="language-none">germanescobar ~$ git
 usage: git [--version] [--help] [-C &lt;path&gt;] [-c name=value]
            [--exec-path[=&lt;path&gt;]] [--html-path] [--man-path] [--info-path]
            [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
@@ -48,16 +48,16 @@ to read about a specific subcommand or concept.</code></pre>
 El flujo más simple de trabajo con **Git** es el siguiente:
 
 **1\.** Inicializa el repositorio (esto va a crear una carpeta oculta `.git` dentro del proyecto):
-<pre><code class="bash">$ git init</code></pre>
-**2\.** Trabaja en el código: crea, modifica y elimina archivos. 
+<pre><code class="language-none">$ git init</code></pre>
+**2\.** Trabaja en el código: crea, modifica y elimina archivos.
 
 **3\.** Selecciona los cambios que vas a incluir en el siguiente commit:
-<pre><code class="bash">$ git add index.html
+<pre><code class="language-none">$ git add index.html
 $ git add style.css</code></pre>
 Puedes incluir todos los cambios con el siguiente comando:
-<pre><code class="bash">$ git add -A</code></pre>
+<pre><code class="language-none">$ git add -A</code></pre>
 **4\.** Haz commit:
-<pre><code class="bash">$ git commit -m "El mensaje del commit"</code></pre>
+<pre><code class="language-none">$ git commit -m "El mensaje del commit"</code></pre>
 **5\.** Repite los pasos 2, 3, y 4.
 
 <div class="well">
@@ -76,7 +76,7 @@ Puedes incluir todos los cambios con el siguiente comando:
 
 Los pasos que describimos anteriormente almacenan el historial del código localmente en la carpeta oculta `.git` dentro de la raiz de tu proyecto (repositorio local). **Si pierdes tu computador, pierdes tu código y su historial**.
 
-Podrías hacerle backup, o sincronizarlo en Dropbox (o algún servicio similar), pero si quieres que varias personas trabajen sobre el mismo proyecto, eso no va a funcionar. 
+Podrías hacerle backup, o sincronizarlo en Dropbox (o algún servicio similar), pero si quieres que varias personas trabajen sobre el mismo proyecto, eso no va a funcionar.
 
 <a href="http://github.com/" target="_blank">Github</a> nos brinda la posibilidad de crear un repositorio remoto (una réplica de nuestro repositorio local) en el que varios desarrolladores pueden colaborar, con herramientas que facilitan esa colaboración. <a href="http://github.com/" target="_blank">Github</a> es gratis para proyectos Open Source, pero si quieres tener repositorios privados, debes pagar una mensualidad (los planes empiezan en 7 dólares al mes).
 
@@ -86,11 +86,11 @@ Recuerda que al hacer commit en tu repositorio local, esos cambios no se ven ref
 
 Por ejemplo, para actualizar tu repositorio local con los cambios que han hecho otros desarrolladores en el repositorio remoto puedes ejecutar el siguiente comando:
 
-<pre><code class="bash">$ git pull</code></pre>
+<pre><code class="language-none">$ git pull</code></pre>
 
 Por otro lado, para subir los commits locales que aún no existen en el repositorio remoto puedes ejecutar un comando similar al siguiente (los parámetros pueden variar según el repositorio y la rama que quieras subir):
 
-<pre><code class="bash">$ git push origin master</code></pre>
+<pre><code class="language-none">$ git push origin master</code></pre>
 
 ## Flujos de trabajo
 

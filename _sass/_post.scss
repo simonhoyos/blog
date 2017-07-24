@@ -1,0 +1,144 @@
+.post-page {
+  margin-top: 20px;
+  margin-bottom: 80px;
+
+  .post {
+    background: white;
+    line-height: 1.6;
+    margin: 20px 0 40px;
+    border: 1px solid #ddd;
+
+    @include media-breakpoint-up(xl) { font-size: 1.1em; }
+
+    .post-image {
+      background-size: cover;
+      background-position: center center;
+      height: 200px;
+
+      @include media-breakpoint-up(md) { height: 400px; }
+    }
+
+    .post-content {
+      padding: 0 15px 30px;
+
+      @include media-breakpoint-up(md) { padding: 0 0 40px; }
+    }
+
+    h1 {
+      color: #3B3B32;
+      font-size: 1.6em;
+      font-weight: 600;
+      line-height: 1.2em;
+      margin: 40px 0 30px;
+
+      @include media-breakpoint-up(md) { font-size: 1.8em; }
+    }
+
+    .post-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #999;
+      font-size: 0.9em;
+      margin-top: 30px;
+
+      img {
+        margin-right: 10px;
+        width: 35px;
+        border-radius: 50%;
+      }
+
+      .post-author {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .post-body {
+      strong { font-weight: 600; };
+      h2, h3 { color: #3B3B32; }
+
+      h2 {
+        font-size: 1.5em;
+        margin-top: 50px;
+        margin-bottom: 24px;
+        padding-bottom: 13px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      h3 {
+        font-size: 1.3em;
+        font-weight: 600;
+        margin-top: 35px;
+        margin-bottom: 20px;
+      }
+
+      p { margin-bottom: 1.4rem; }
+
+      blockquote {
+        color: #999;
+        padding: 0 30px;
+        margin: 35px 0;
+
+        .quote-author {
+          color: #666;
+          font-size: 0.9em;
+          text-align: right;
+          margin-top: -5px;
+        }
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+
+        &.photo.border { border: 1px solid #ccc; }
+      }
+
+      .photo-description {
+        color: #999;
+        font-size: 0.85em;
+        text-align: center;
+      }
+
+      pre, hr { margin: 28px 0; }
+
+      .footnotes { font-size: 0.9em; }
+
+      .well {
+        background: #F0F4F5;
+        font-size: 0.9em;
+        padding: 20px;
+        margin: 24px 0;
+        border: 1px solid #E1E4E6;
+        border-radius: 5px;
+
+        h2:first-child, h3:first-child { margin-top: 0; }
+      }
+    }
+
+    .share-post {
+      text-align: center;
+      margin: 40px 0 0;
+
+      .text {
+        display: inline-block;
+        font-size: 0.75em;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      .btn-share {
+        color: white;
+        font-size: 0.7em;
+        font-weight: 600;
+        padding: 3px 7px;
+        margin-right: 5px;
+        border-radius: 3px;
+      }
+      .btn-share-fb { background: #3b5998; }
+      .btn-share-twitter { background: #00aced; }
+      .btn-share-linkedin { background: #007bb6; }
+    }
+  }
+}

@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "¿Qué hace diferente a Make it Real?"
-date:   2017-05-20 01:52:58
+date:   2017-05-20 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/the-path.jpg
+image: /assets/images/bg-images/the-path.jpg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Cualquier persona puede aprender a programar por su cuenta. ¿Por qué pagar por un programa como el de <a href="https://makeitreal.camp" target="_blank">Make it Real</a> y qué lo hace diferente de cualquier otro programa?<!--more-->
+Cualquier persona puede aprender a programar por su cuenta. ¿Por qué pagar por un programa como el de <a href="https://makeitreal.camp" target="_blank">Make it Real</a> y qué lo hace diferente de cualquier otro programa?<!-- more -->
 
 Hace unos días hicimos un Hangout con varios estudiantes que se han graduado de <a href="https://makeitreal.camp" target="_blank">Make it Real</a> y que hoy en día tienen un empleo como desarrolladores Web. El video completo lo puedes encontrar en <a href="https://www.youtube.com/watch?v=9egJqvsPBAo" target="_blank">este enlace</a>.
 
