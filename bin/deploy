@@ -1,0 +1,31 @@
+#!/bin/bash
+set -e
+
+if [ $0 != "./bin/deploy" ] ; then
+  echo "ERROR: Please run this command from the root of the project"
+  exit 1
+fi
+
+if [ -z "$1" ] ; then
+  echo "ERROR: You must supply a commit message"
+  exit 1
+fi
+
+GIT_REPO=git@github.com:makeitrealcamp/makeitrealcamp.github.io.git
+TMP_GIT_CLONE=/tmp/makeitreal-blog
+
+echo "Cloning repo ... "
+git clone GIT_REPO TMP_GIT_CLONE
+
+echo "Building site ..."
+bundle exec jekyll build --destination TMP_GIT_CLONE
+
+echo "Publishing ..."
+git add .
+git commit -m $1
+git push origin master
+
+echo "Cleaning ..."
+rm -rf $TMP_GIT_CLONE
+
+echo "Done!"
