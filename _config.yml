@@ -30,8 +30,9 @@ google_analytics: UA-18132057-9
 # Build settings
 markdown: kramdown
 permalink: ':title/'
-plugins_dir:
+plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
