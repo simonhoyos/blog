@@ -1,35 +1,35 @@
 ---
 layout: post
 title:  "¿Qué es código?"
-date:   2016-01-11 17:40:58
+date:   2016-01-11 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/code.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/code.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Semáforos, automóviles, aviones, aeropuertos, satélites, el sistema financiero, gran parte de nuestras vidas depende del código que varias generaciones de programadores han escrito. <!--more-->Pero ¿qué es código? ¿quién lo ejecuta y cómo? En este post vamos a hacer un recorrido histórico para entender cómo es que la electricidad se convierte en código y cómo surgieron los lenguajes de programación.
+Semáforos, automóviles, aviones, aeropuertos, satélites, el sistema financiero, gran parte de nuestras vidas depende del código que varias generaciones de programadores han escrito. <!-- more -->Pero ¿qué es código? ¿quién lo ejecuta y cómo? En este post vamos a hacer un recorrido histórico para entender cómo es que la electricidad se convierte en código y cómo surgieron los lenguajes de programación.
 
 Empecemos.
 
 Código son una "serie de instrucciones" que son ejecutadas automáticamente por un computador, por un procesador para ser más exactos. Pero, para realmente entender qué es código debemos primero entender de dónde surgen y cómo funcionan los computadores.
 
-Los computadores existen porque en el siglo diecinueve descubrimos un fenómeno que ha cambiado nuestras vidas completamente: **el electromagnetismo**. 
+Los computadores existen porque en el siglo diecinueve descubrimos un fenómeno que ha cambiado nuestras vidas completamente: **el electromagnetismo**.
 
 El electromagnetismo es la unión de dos fenómenos que se creían independientes: la electricidad y el magnetismo. Lo interesante del electromagnetismo es que nos permite mover componentes mecánicos utilizando electricidad. Un electroíman no es más que un cable enrollado en una barra metálica; cuando se pasa corriente sobre el cable, la barra se convierte en un imán. Puede que eso no parezca muy emocionante al principio, pero es la base de los ventiladores, licuadoras, lavadoras, timbres, y en general, todo lo que necesita un motor eléctrico para funcionar.
 
-<img src="/images/electromagnet.gif" alt="Electroimán" class="photo">
+<img src="/assets/images/electromagnet.gif" alt="Electroimán" class="photo">
 
 <p class="photo-description">El electroimán es un tipo de imán que se activa con una corriente eléctrica.</p>
 
 Una de las primeras aplicaciones del electromagnetismo fue el telégrafo, inventado por <a href="https://es.wikipedia.org/wiki/Samuel_Morse" target="_blank">Samuel F. B. Morse</a> en 1836, que permitía enviar señales a larga distancia. Cuando se oprime un interruptor en uno de los extremos, se genera una corriente eléctrica a través de un cable que activa un electroimán al otro extremo[^1].
 
-<img src="/images/telegraph.jpg" alt="Telégrafo" class="photo">
+<img src="/assets/images/telegraph.jpg" alt="Telégrafo" class="photo">
 
 <p class="photo-description">Un telégrafo.</p>
 
 Pero enviar una señal no es suficiente para establecer una comunicación, se necesita también poder representar un mensaje. Y para eso Samuel Morse inventó lo que se conoce hoy como el código Morse.
 
-<img src="/images/morse-code.jpg" alt="Código Morse" class="photo">
+<img src="/assets/images/morse-code.jpg" alt="Código Morse" class="photo">
 
 <p class="photo-description">El código Morse. No sobra aprenderse el código de ayuda SOS.</p>
 
@@ -39,19 +39,19 @@ Paralelamente al descubrimiento y aplicación del electromagnetismo se estaba de
 
 El <a href="https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole" target="_blank">algebra booleana</a> es lo que nos permite hacer operaciones lógicas (Y, O, negación, etc.). Y **con algunos trucos con operaciones lógicas es posible hacer operaciones aritméticas y almacenar información**, que es realmente lo único que sabe hacer un computador[^2].
 
-Eventualmente el electromagnetismo y el algebra booleana se encontraron en lo que hoy conocemos como <a href="https://es.wikipedia.org/wiki/Puerta_l%C3%B3gica" target="_blank">compuertas lógicas</a>, que es un dispositivo físico que implementa alguna función del algebra booleana (p.e. Y, O, o negación). 
+Eventualmente el electromagnetismo y el algebra booleana se encontraron en lo que hoy conocemos como <a href="https://es.wikipedia.org/wiki/Puerta_l%C3%B3gica" target="_blank">compuertas lógicas</a>, que es un dispositivo físico que implementa alguna función del algebra booleana (p.e. Y, O, o negación).
 
-<img src="/images/logic-gate.png" alt="Compuerta lógica" class="photo">
+<img src="/assets/images/logic-gate.png" alt="Compuerta lógica" class="photo">
 
 <p class="photo-description">Diagrama de una compuerta lógica.</p>
 
 Las primeras compuertas lógicas se fabricaron a partir de <a href="https://es.wikipedia.org/wiki/Electroim%C3%A1n" target="_blank">electroimanes</a>, pero después fueron reemplazados por <a href="https://es.wikipedia.org/wiki/V%C3%A1lvula_termoi%C3%B3nica" target="_blank">tubos de vacío</a> porque los electroimanes son muy ruidosos. El problema de los tubos de vacío es que ocupan mucho espacio y a mitad de los años 50's se empezaron a reemplazar con <a href="https://es.wikipedia.org/wiki/Transistor" target="_blank">transistores</a>.
 
-<img src="/images/transistor.jpg" alt="Transistor" class="photo">
+<img src="/assets/images/transistor.jpg" alt="Transistor" class="photo">
 
 <p class="photo-description">Un transistor. Tu computador tiene varios billones (miles de millones) de estos en forma diminuta (generalmente empaquetados en un chip).</p>
 
-Los transistores (al igual que los tubos de vacío y electroimanes previamente) se cablean de tal forma en que es posible ejecutar algunas operaciones básicas: AND, OR, XOR, etc. Con eso se construyen circuitos más complejos, y con esos circuitos se construyen dispositivos electrónicos. 
+Los transistores (al igual que los tubos de vacío y electroimanes previamente) se cablean de tal forma en que es posible ejecutar algunas operaciones básicas: AND, OR, XOR, etc. Con eso se construyen circuitos más complejos, y con esos circuitos se construyen dispositivos electrónicos.
 
 Uno de esos dispositivos es la **memoria** del computador, que no es más que un arreglo de compuertas lógicas cableadas de tal forma que nos permiten almacenar información (no confundas la memoria con el disco duro, la memoria guarda la información de forma temporal, lo que se conoce como memoria RAM). Para que te des una idea, para construir una memoria de 64Kb (64,000 bytes o 512,000 bits) se necesitan aproximadamente un par de millones de transistores. Para una memoria de 1GB (un smartphone moderno) se necesitan aproximadamente mil millones.
 
@@ -69,7 +69,7 @@ En la memoria podemos cargar alguna combinación de operaciones del procesador (
 
 El Altair 8800 fue el primer computador de escritorio. Tenía un dispositivo de **entrada** (los interruptores) y uno de **salida** (los bombillos).
 
-<img src="/images/altair8800.jpg" alt="Altair" class="photo">
+<img src="/assets/images/altair8800.jpg" alt="Altair" class="photo">
 
 <p class="photo-description">Altair 8800. Uno de los primeros computadores de escritorio.</p>
 
@@ -79,11 +79,11 @@ A las instrucciones en forma binaria (1's y 0's) se les llama **código de máqu
 
 <div class="well">La realidad es que los procesadores utilizan rangos de voltajes para diferenciar entre los dos estados (1 y 0).</div>
 
-Programar en ese entonces consistía de tres pasos: 
+Programar en ese entonces consistía de tres pasos:
 
-1. El programa se escribía en papel utilizando las operaciones del procesador (p.e. Move, Store, Add, etc.). 
+1. El programa se escribía en papel utilizando las operaciones del procesador (p.e. Move, Store, Add, etc.).
 2. Las operaciones se traducían a código binario (utilizando el manual del procesador) y se introducían utilizando los interruptores.
-3. Se ejecutaba el programa. 
+3. Se ejecutaba el programa.
 
 Un programa solo funcionaba para un tipo de procesador específico porque las operaciones (con sus respectivos código) eran diferentes entre los tipos de procesadores (así fueran del mismo fabricante).
 
@@ -97,7 +97,7 @@ Con la llegada de los teclados ya no era necesario ingresar el **código de máq
 
 De esa forma se inventó el primer lenguaje de programación, que era simplemente una representación uno a uno de las operaciones que podía hacer el procesador. Se le llamó **lenguaje ensamblador** (assembly language) y al programa que lo convertía a código de máquina se le llamó el **ensamblador** (assembler).
 
-<img src="/images/assembler.gif" alt="Lenguaje ensamblador" class="photo">
+<img src="/assets/images/assembler.gif" alt="Lenguaje ensamblador" class="photo">
 
 <p class="photo-description">Lenguaje ensamblador. <a href="http://csecitsurepasses.weebly.com/distinguish-between-low-level-and-highlevel-programming-languages.html" target="_blank">Crédito</a>.</p>
 
@@ -186,7 +186,7 @@ Algunos lenguajes de alto nivel necesitan un **compilador** para convertir los p
 
 Otros lenguajes usan **interpretadorers**, programas que van traduciendo el **código fuente** a **código de máquina** a medida que se van ejecutando. Estos lenguajes son más lentos que los lenguajes compilados, pero evitan la compilación cada vez que se hace un cambio en el **código fuente**. La mayoría de lenguajes interpretados también pueden ser compilados cuando se necesita mayor rendimiento, aunque no es muy común que se haga.
 
-Entre los primeros lenguajes de alto nivel se encuentran <a href="https://es.wikipedia.org/wiki/Fortran" target="_blank">FORTRAN</a>, <a href="https://es.wikipedia.org/wiki/COBOL" target="_blank">COBOL</a>, <a href="https://es.wikipedia.org/wiki/ALGOL" target="_blank">ALGOL</a> y <a href="https://es.wikipedia.org/wiki/Pascal_(lenguaje_de_programaci%C3%B3n)" target="_blank">Pascal</a>. Existen muchos más pero estos fueron muy populares en su momento. Y después está <a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)" target="_blank">C</a>, que es quizá el lenguaje más popular de todos los tiempos. 
+Entre los primeros lenguajes de alto nivel se encuentran <a href="https://es.wikipedia.org/wiki/Fortran" target="_blank">FORTRAN</a>, <a href="https://es.wikipedia.org/wiki/COBOL" target="_blank">COBOL</a>, <a href="https://es.wikipedia.org/wiki/ALGOL" target="_blank">ALGOL</a> y <a href="https://es.wikipedia.org/wiki/Pascal_(lenguaje_de_programaci%C3%B3n)" target="_blank">Pascal</a>. Existen muchos más pero estos fueron muy populares en su momento. Y después está <a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)" target="_blank">C</a>, que es quizá el lenguaje más popular de todos los tiempos.
 
 <a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)" target="_blank">C</a> fue inventado entre 1969 y 1973 por <a href="https://es.wikipedia.org/wiki/Dennis_Ritchie" target="_blank">Dennis Ritchie</a> en <a href="https://en.wikipedia.org/wiki/Bell_Labs" target="_blank">Bell Labs</a> para crear el sistema operativo <a href="https://es.wikipedia.org/wiki/Unix" target="_blank">UNIX</a>, que fue uno de los primeros sistemas operativos portables entre diferentes procesadores (la mayoría de sistemas operativos se escribían para un tipo de procesador específico). <a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)" target="_blank">C</a> es catalogado como un lenguaje de ensamblador de alto nivel porque varias de sus instrucciones imitan algunos grupos de operaciones del procesador y es posible manipular la memoria directamente.
 
@@ -194,7 +194,7 @@ Para un programador que ha iniciado su carrera en los últimos 15 años, C es pr
 
 ## La explosión de los lenguajes de programación
 
-Cuando empecé a programar a finales de los 90’s el lenguaje de moda era Java. La razón es que los programas escritos en Java podían correr en diferentes plataformas y sistemas operativos sin necesidad de tener que compilar individualmente para cada una, como se debía hacer con cualquier otro lenguaje. 
+Cuando empecé a programar a finales de los 90’s el lenguaje de moda era Java. La razón es que los programas escritos en Java podían correr en diferentes plataformas y sistemas operativos sin necesidad de tener que compilar individualmente para cada una, como se debía hacer con cualquier otro lenguaje.
 
 Para construir aplicaciones Web, PHP era muy popular en ese momento (y lo sigue siendo). Java se fortaleció en el mundo corporativo y sigue siendo muy popular.
 
@@ -210,7 +210,7 @@ Definitivamente hoy es más fácil (aprender a) programar que hace 30 años. Hoy
 
 Cuando escribes una aplicación Web, por ejemplo, no tienes que reinventar el sistema operativo o definir cómo se va a comunicar el navegador con el servidor. Es como manejar un automóvil, no necesitas conocer cómo funciona el sistema de inyección hidráulica o el árbol de levas; lo único que necesitas saber es cómo funcionan los pedales, la transmisión, el volante, etc. Algo muy parecido pasa con la programación.
 
-Cuando escribes y ejecutas un programa (en cualquier lenguaje), varias capas de abstracción estan involucradas en el proceso: las librerías que utilizaste en tu programa, el interpretador (si es un lenguaje interpretado), el sistema operativo, entre otros. 
+Cuando escribes y ejecutas un programa (en cualquier lenguaje), varias capas de abstracción estan involucradas en el proceso: las librerías que utilizaste en tu programa, el interpretador (si es un lenguaje interpretado), el sistema operativo, entre otros.
 
 Muchas cosas pueden salir mal. Quizá una de las librerías que utilizaste tiene un problema en el sistema operativo en el que estás ejecutando el programa, o cuando escribiste tu programa esperabas que un archivo estuviese en una ruta determinada pero ese archivo lo cambiaron en la nueva versión.
 

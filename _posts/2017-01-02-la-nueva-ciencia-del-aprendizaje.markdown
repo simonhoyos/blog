@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "La nueva ciencia del aprendizaje"
-date:   2017-01-01 01:52:58
+date:   2017-01-01 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/deliberate-practice.jpeg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/deliberate-practice.jpeg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Conoce cómo en Make it Real aplicamos los últimos hallazgos científicos para acelerar el proceso de aprendizaje y que tengas éxito en cualquiera de nuestros programas.<!--more-->
+Conoce cómo en Make it Real aplicamos los últimos hallazgos científicos para acelerar el proceso de aprendizaje y que tengas éxito en cualquiera de nuestros programas.<!-- more -->
 
 ¿Qué diferencia a las personas que logran un desempeño excepcional en alguna disciplina? <a href="https://en.wikipedia.org/wiki/K._Anders_Ericsson" target="_blank">Anders Ericsson</a> ha estudiado esta pregunta por más de 30 años y sus hallazgos están resumidos en su nuevo libro <a href="https://www.amazon.com/Peak-Secrets-New-Science-Expertise-ebook/dp/B011H56MKS" target="_blank">Peak: secretos de la nueva ciencia de la experticia</a>.
 
@@ -33,7 +33,7 @@ En Make it Real hemos diseñado una metodología de aprendizaje basada en los ha
 
 El núcleo de nuestro programa son los retos y proyectos. Los retos son auto evaluados por nuestra plataforma de aprendizaje para brindarle a cada estudiante retroalimentación inmediata. Los retos generan esa tensión e incomodidad propia de la práctica deliberada, pero te va a permitir acelerar el aprendizaje. Además, después de cada reto existe una página de discusión con nuestra solución oficial, alternativas, conceptos y mejores prácticas que brindan una mayor retroalmentación.
 
-<img src="/images/mir-challenge.png" alt="Reto" class="photo border">
+<img src="/assets/images/mir-challenge.png" alt="Reto" class="photo border">
 
 <p class="photo-description">Reto de JavaScript sobre expresiones regulares.</p>
 
@@ -43,7 +43,7 @@ Al final del programa hacemos entrevistas de prueba a los estudiantes y les revi
 
 En vez de crear contenido aleatorio, nuestros programas definen unos planes específicos de aprendizaje para que cada estudiante logre sus metas. El sistema de gamification le ayuda a los mentores y al estudiante a monitorear el progreso, que es un factor fundamental de la práctica deliberada.
 
-<img src="/images/mir-evaluation.png" alt="Evaluación de un reto" class="photo">
+<img src="/assets/images/mir-evaluation.png" alt="Evaluación de un reto" class="photo">
 
 Sin embargo, creemos que los más valioso del programa son los mentores, que están disponibles para solucionar las dudas de los estudiantes, guiarlos en su aprendizaje, hacer pair programming en sus proyectos, etc. Es la personalización completa del aprendizaje.
 

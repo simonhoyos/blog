@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "HackerRank Challenge - Día 1"
-date:   2016-07-07 01:52:58
+date:   2016-07-07 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/hackerrank.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/hackerrank.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
 En esta serie de posts voy a documentar mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.
@@ -29,7 +29,7 @@ Si llevamos esa frase a nuestro ejemplo, es el número de modos en los que se pu
 
 La fórmula del coeficiente binomial es `(n k) = n!/(n-k)!*k!` (el `!` significa factorial). Aplicado a nuestro caso el numerador sería `(N + M - 1)!` y el denominador simplificado sería `(M-1)!*N!`. Convirtamos eso a código Ruby:
 
-<pre><code class="overflow ruby">def permutations(zeros, ones)
+<pre><code class="language-ruby">def permutations(zeros, ones)
   numerator = fact(zeros + ones - 1)
   denominator = fact(ones - 1) * fact(zeros)
   numerator / denominator
@@ -37,7 +37,7 @@ end</code></pre>
 
 También creé una función `fact` para sacar el factorial:
 
-<pre><code class="overflow ruby">def fact(i)
+<pre><code class="language-ruby">def fact(i)
   return 1 if i == 0
   (1..i).inject(:*)
 end</code></pre>

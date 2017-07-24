@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Aprende Desarrollo Web gratis"
-date:   2015-12-14 15:29:58
+date:   2015-12-14 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/aprende-desarrollo-web-bg.png
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/aprende-desarrollo-web-bg.png
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-¿Quieres iniciar en el mundo del desarrollo Web y no sabes por dónde empezar? Conoce <a href="http://aprendedesarrolloweb.com/?utm_source=blog&utm_medium=web&utm_campaign=Make%20it%20Real" target="_blank">Aprende Desarrollo Web</a>, un curso completamente gratis dirigido a personas sin experiencia en el que aprenderás a crear y publicar sitios interactivos en Internet con HTML, CSS y JavaScript.<!--more-->
+¿Quieres iniciar en el mundo del desarrollo Web y no sabes por dónde empezar? Conoce <a href="http://aprendedesarrolloweb.com/?utm_source=blog&utm_medium=web&utm_campaign=Make%20it%20Real" target="_blank">Aprende Desarrollo Web</a>, un curso completamente gratis dirigido a personas sin experiencia en el que aprenderás a crear y publicar sitios interactivos en Internet con HTML, CSS y JavaScript.<!-- more -->
 
 Para ingresar solo tienes que hacer clic en <a href="http://aprendedesarrolloweb.com/?utm_source=blog&utm_medium=web&utm_campaign=Make%20it%20Real">este enlace</a>.
 

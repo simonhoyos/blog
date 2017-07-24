@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "¿Qué es recursión?"
-date:   2015-09-15 15:29:58
+date:   2015-09-15 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/recursion.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/recursion.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2015/09/15/que-es-la-recursion/"
 ---
 
-Uno de los conceptos más poderosos de la programación es la **recursión**. Es un concepto simple pero confuso al mismo tiempo porque no es la forma en que estamos acostumbrados a pensar.<!--more-->
+Uno de los conceptos más poderosos de la programación es la **recursión**. Es un concepto simple pero confuso al mismo tiempo porque no es la forma en que estamos acostumbrados a pensar.<!-- more -->
 
 La película <a href="http://www.imdb.com/title/tt1375666/" target="_blank">Inception</a> muestra un ejemplo de recursión cuando un grupo de espías corporativos intentan plantar una idea en un sujeto con una tecnología de sueño compartido. A medida que el grupo ingresa a diferentes niveles de sueño de forma recursiva (un sueño dentro de otro sueño) experimentas la confusión que puede generar la recursión.
 
@@ -16,20 +16,20 @@ En la programación, la recursión es una herramienta que nos permite solucionar
 
 El truco es que en todos los lenguajes de programación una función se puede llamar a sí misma como en el siguiente ejemplo de JavaScript:
 
-<pre><code class="overflow javascript">function hola() {
+<pre><code class="language-javascript">function hola() {
   hola();
 }
 hola();</code></pre>
 
 ¿Qué problema tiene este código? Que nunca terminaría. La función `hola` se llama a si misma una y otra vez. Podríamos hacer lo mismo con un ciclo (iterando):
 
-<pre><code class="overflow javascript">while (true) {}</code></pre>
+<pre><code class="language-javascript">while (true) {}</code></pre>
 
 En realidad un lenguaje no necesita ciclos (iteraciones), con recursión sería suficiente. El problema, como decíamos antes, es que es más fácil pensar en iteraciones[^1].
 
 Veamos otro ejemplo. Imprimamos los números del `1` al `10` de forma recursiva:
 
-<pre><code class="overflow javascript">function printNumber(x) {
+<pre><code class="language-javascript">function printNumber(x) {
   console.log(x); // imprime el número
   if (x < 10) { printNumber(x + 1); }
 }
@@ -39,7 +39,7 @@ La última línea llama `printNumber` pasándole como parámetro el número `1` 
 
 El ejemplo anterior sería mucho más fácil con un ciclo normal:
 
-<pre><code class="overflow javascript">for (var i=1; i <= 10; i++) {
+<pre><code class="language-javascript">for (var i=1; i <= 10; i++) {
   console.log(x);
 }</code></pre>
 
@@ -47,11 +47,11 @@ El ejemplo anterior sería mucho más fácil con un ciclo normal:
 
 El factorial de un número es la multiplicación de los números (positivos) menores o iguales a ese número. Por ejemplo, el factorial de 5 es 120:
 
-<pre><code class="overflow shell">5! = 5 * 4 * 3 * 2 * 1 = 120</code></pre>
+<pre><code class="language-none">5! = 5 * 4 * 3 * 2 * 1 = 120</code></pre>
 
 Intentemos solucionarlo con iteraciones normales:
 
-<pre><code class="overflow javascript">var num = 5;
+<pre><code class="language-javascript">var num = 5;
 var fact = 1;
 for (var i=1; i <= num; i++) {
   fact *= i;
@@ -60,7 +60,7 @@ console.log(fact)</code></pre>
 
 Ahora con recursión:
 
-<pre><code class="overflow javascript">function factorial(n) {
+<pre><code class="language-javascript">function factorial(n) {
   if (n === 0) {  return 1; }
   return n * factorial(n - 1);
 }

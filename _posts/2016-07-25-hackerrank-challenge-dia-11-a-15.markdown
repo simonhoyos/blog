@@ -1,17 +1,17 @@
 ---
 layout: post
 title:  "HackerRank Challenge - Día 16 ¡Lo logré!"
-date:   2016-07-25 01:52:58
+date:   2016-07-25 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/landscape-mountains-nature-man.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/landscape-mountains-nature-man.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
 En esta serie de posts estoy documentando mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.
 
 **Nota:** Si aún no lo has hecho, te recomiendo leer el <a href="/hackerrank-challenge-dia-1/">día 1</a> primero.
 
-<img src="/images/hackerrank-932.jpg" alt="Lo logré" class="photo border">
+<img src="/assets/images/hackerrank-932.jpg" alt="Lo logré" class="photo border">
 
 <p class="photo-description">¡Lo logré! Entre los mil mejores del área de matemáticas.</p>
 

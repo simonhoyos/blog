@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "HackerRank Challenge - Día 7 a 10"
-date:   2016-07-18 01:52:58
+date:   2016-07-18 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/city-sunny-people-street.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/city-sunny-people-street.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
 En esta serie de posts estoy documentando mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.

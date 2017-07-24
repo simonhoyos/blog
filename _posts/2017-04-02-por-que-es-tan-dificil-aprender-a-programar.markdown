@@ -1,17 +1,17 @@
 ---
 layout: post
 title:  "¿Por qué es tan difícil aprender a programar?"
-date:   2017-04-02 01:52:58
+date:   2017-04-02 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/hot-air-balloon-valley-sky-99551.jpg
+image: /assets/images/bg-images/hot-air-balloon-valley-sky-99551.jpg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Muchos dirían que aprender a programar es relativamente fácil. Sin embargo, después de ver a cientos de personas intentarlo, es claro que es un proceso muy frustrante para la mayoría. <!--more--> ¿Qué hace que la programación sea tan difícil de aprender para algunas personas y tan fácil para otras?
+Muchos dirían que aprender a programar es relativamente fácil. Sin embargo, después de ver a cientos de personas intentarlo, es claro que es un proceso muy frustrante para la mayoría. <!-- more --> ¿Qué hace que la programación sea tan difícil de aprender para algunas personas y tan fácil para otras?
 
 Antes de responder esta pregunta, te voy a pedir el favor de ordenar los siguientes números de menor a mayor:
 
-<pre><code>8, 10 y 5</code></pre>
+<pre><code class="language-none">8, 10 y 5</code></pre>
 
 Fácil ¿verdad? Ahora imagina que te pido escribir una serie de pasos que cualquier persona pueda seguir para ordenar _cualquier_ grupo de números de menor a mayor.  
 
@@ -53,11 +53,11 @@ Un algoritmo es mucho más que una ecuación. Por ejemplo, sería extraño habla
 
 ## Cualquier persona puede aprender a programar
 
-Desarrollar este pensamiento abstracto es lo más difícil de la programación. Sin embargo, he visto a muchas personas desarrollarlo desde cero. No sólo eso, muchas de esas personas ahora tienen un empleo como programadores! 
+Desarrollar este pensamiento abstracto es lo más difícil de la programación. Sin embargo, he visto a muchas personas desarrollarlo desde cero. No sólo eso, muchas de esas personas ahora tienen un empleo como programadores!
 
 Es sólo que las personas que no están acostumbradas a esta forma de pensamiento abstracto les toma más tiempo que las personas que lo tienen más desarrollado.
 
-Si quieres aprender a programar desde cero debes tener la actitud correcta. La motivación es importante, pero la motivación se agota fácilmente. 
+Si quieres aprender a programar desde cero debes tener la actitud correcta. La motivación es importante, pero la motivación se agota fácilmente.
 
 Necesitas desarrollar una disciplina mientras adquieres el gusto por la programación. Debes saber que vas a necesitas cientos de horas de aprendizaje para lograr hacer las cosas más básicas. Y debes saber que habrán momentos de mucha frustración.
 

@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "HackerRank Challenge - Día 5"
-date:   2016-07-11 01:52:58
+date:   2016-07-11 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/nature-sky-sunset-man.jpeg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/nature-sky-sunset-man.jpeg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
 En esta serie de posts estoy documentando mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.
@@ -23,7 +23,7 @@ Lo que nos piden en el ejercicio es generalizar este acertijo y decidir si es so
 
 Este ejericio estuvo por encima de mis capacidades matemáticas. Pensé hacerlo recursivo al principio, pero no encontre una forma. Finalmente decidí ver la discusión y noté que hablaban del GCD (Greatest Common Divisor) y un módulo. Y de pura suerte di con la solución:
 
-<pre><code class="overflow ruby">a, b, c = gets.chomp.split(" ").map(&:to_i)
+<pre><code class="language-ruby">a, b, c = gets.chomp.split(" ").map(&:to_i)
 max = [a, b].max
 if max < c
   puts "NO"

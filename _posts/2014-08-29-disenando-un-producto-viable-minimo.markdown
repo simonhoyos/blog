@@ -1,17 +1,17 @@
 ---
 layout: post
 title:  "Diseñando un Producto Mínimo Viable"
-date:   2014-08-29 17:40:58
+date:   2014-08-29 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/startup-photos-reduced.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/startup-photos-reduced.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2014/08/29/disenando-un-producto-viable-minimo/"
 permalink: "/disenando-un-producto-viable-minimo/"
 ---
 
-En los últimos días hemos estado trabajando sin descanso en **Challenges**, una aplicación para administrar los retos de programación que los alumnos de **Make it Real** tendrán que completar durante las 12 semanas del Bootcamp.<!--more--> En este post vamos a utilizar **Challenges** como ejemplo para explicar el proceso de diseño de un producto mínimo viable (MVP por sus siglas en inglés).
+En los últimos días hemos estado trabajando sin descanso en **Challenges**, una aplicación para administrar los retos de programación que los alumnos de **Make it Real** tendrán que completar durante las 12 semanas del Bootcamp.<!-- more --> En este post vamos a utilizar **Challenges** como ejemplo para explicar el proceso de diseño de un producto mínimo viable (MVP por sus siglas en inglés).
 
-![Challenges](/images/challenges.png)
+![Challenges](/assets/images/challenges.png)
 
 **Challenges** es una aplicación que se puede volver tan compleja como queramos (leaderboards, badges, tagging, integración a Github, manejo de archivos, y peer reviews, son solo algunas de las ideas que se me ocurren ahora) ¿Por dónde empezar?
 
@@ -27,7 +27,7 @@ Pero eso no quiere decir que debamos empezar a escribir nuestro código inmediat
 
 Para **Challenges** identificamos dos actores: alumnos y administradores. La siguiente imagen muestra el diagrama de casos de uso:
 
-![Actores y Casos de Uso](/images/makeitchallenges-use-cases.jpg)
+![Actores y Casos de Uso](/assets/images/makeitchallenges-use-cases.jpg)
 
 *Sí, existen herramientas para hacer estos diagramas, pero a veces lo único que se tiene a la mano es una servilleta y un bolígrafo.*
 
@@ -39,7 +39,7 @@ Hay varias estrategias para detallar los casos de uso. Lo mínimo es una descrip
 
 Los wireframes son un boceto de la interfaz gráfica de nuestra aplicación y nos dan una idea de los diferentes elementos que necesitamos diseñar.
 
-![Wireframes](/images/makeitchallenges-wireframes.jpg)
+![Wireframes](/assets//images/makeitchallenges-wireframes.jpg)
 
 Lo más importante es no enfocarse en los detalles, solo en la funcionalidad. Por eso es preferible hacer cada pantalla de máximo 5cm x 5cm.
 
@@ -47,7 +47,7 @@ Lo más importante es no enfocarse en los detalles, solo en la funcionalidad. Po
 
 A partir de los casos de uso y wireframes nos damos una idea de la información que necesitamos almacenar. En nuestro caso son los **usuarios**, los **retos**, y las **soluciones**. La siguiente figura muestra el diagrama de base de datos.
 
-![Diagrama de Base de Datos](/images/makeitchallenges-database.jpg)
+![Diagrama de Base de Datos](/assets//images/makeitchallenges-database.jpg)
 
 Cada caja representa una tabla y sus columnas. Las líneas representan relaciones entre las tablas. En este caso, los **retos** y los **usuarios** están relacionados a través de las **soluciones**. También es necesario definir el tipo de datos de cada columna y una descripción más detallada de ser necesario.
 

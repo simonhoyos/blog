@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Análisis encuesta desarrolladores en Colombia 2016"
-date:   2016-02-21 17:40:58
+date:   2016-02-21 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/colombia-jardin.jpg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/colombia-jardin.jpg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-La comunidad de ColombiaDev ha publicado <a href="https://github.com/colombia-dev/data/tree/master/salaries/2016" target="_blank">los datos de la encuesta a desarrolladores en Colombia</a> realizada a principios del 2016. Este es nuestro analisis **no oficial**.<!--more-->
+La comunidad de ColombiaDev ha publicado <a href="https://github.com/colombia-dev/data/tree/master/salaries/2016" target="_blank">los datos de la encuesta a desarrolladores en Colombia</a> realizada a principios del 2016. Este es nuestro analisis **no oficial**.<!-- more -->
 
 Si encuentras algún error o alguna forma en que podamos mejorar la presentación de los datos, no dudes en avisarnos para corregirlo.
 

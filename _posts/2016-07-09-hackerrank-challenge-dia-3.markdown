@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "HackerRank Challenge - Día 3"
-date:   2016-07-09 01:52:58
+date:   2016-07-09 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/landscape-mountains.jpeg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/landscape-mountains.jpeg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
 En esta serie de posts estoy documentando mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.
@@ -25,7 +25,7 @@ Los puntos representan las posiciones de la matriz y las líneas las diferentes 
 
 Mi primer intento fue hacerlo recursivo. Como solo existen dos posibles caminos (abajo o derecha), podemos hacer lo siguiente:
 
-<pre><code class="overflow ruby">@paths = 0
+<pre><code class="language-ruby">@paths = 0
 def search(rows, cols, y, x)
   if x == cols - 1 && y == rows - 1
     @paths += 1
@@ -41,7 +41,7 @@ Esta solución funcionó al principio pero con los casos de prueba real era muy 
 
 En la discusión del ejercicio encontré que esta es una permutación de `M - 1` movimientos hacia abajo y `N - 1` hacia la derecha, y que la fórmula es `(M + N - 2)! / (M - 1)! * (N - 1)!`. El problema es que el factorial con números muy grandes se vuelve lento. Este punto fue el más demorado y mi código final fue el siguiente:
 
-<pre><code class="overflow ruby">def extended_gcd(a, b)
+<pre><code class="language-ruby">def extended_gcd(a, b)
   last_remainder, remainder = a.abs, b.abs
   x, last_x, y, last_y = 0, 1, 1, 0
   while remainder != 0

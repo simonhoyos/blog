@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "2 años después de Make It Real"
-date:   2016-09-04 22:10:00
+date:   2016-09-04 12:00:00 -0500
 author: Sebastian Zapata Mardini
-thumbnail: /images/bg-images/two-years-after-make-it-real.jpg
+image: /assets/images/bg-images/two-years-after-make-it-real.jpg
 gravatar: https://s.gravatar.com/avatar/cf822fcc399ecdc04f3f3155bc264563?s=80
 ---
 
-Esta historia comienza hace ya casi dos años, cuando cursaba octavo semestre de Ingeniería Electrónica en la Universidad de Antioquia, para ese entonces estaba un poco insatisfecho y decepcionado de lo que había recogido hasta ese momento en la Universidad, me costaba mucho hacerme a la idea de que todo el esfuerzo que había invertido en obtener ese conocimiento y llegar a ese punto, aun no me permitiera tener la capacidad de ejecución y el poder para materializar objetivos que yo buscaba.
+Esta historia comienza hace ya casi dos años, cuando cursaba octavo semestre de Ingeniería Electrónica en la Universidad de Antioquia, para ese entonces estaba un poco insatisfecho y decepcionado de lo que había recogido hasta ese momento en la Universidad <!-- more -->, me costaba mucho hacerme a la idea de que todo el esfuerzo que había invertido en obtener ese conocimiento y llegar a ese punto, aun no me permitiera tener la capacidad de ejecución y el poder para materializar objetivos que yo buscaba.
 
-<img src="/images/make-it-real-first-team.jpg" alt="Modelo en cascada" class="photo">
+<img src="/assets/images/make-it-real-first-team.jpg" alt="Modelo en cascada" class="photo">
 <p class="photo-description">Estudiantes Make It Real - Versión #1.</p>
 
 Sorpresivamente encontré Make It Real, una propuesta de educación innovadora, disruptiva, desafiante e intensa, que me llevaría a tomar un par de decisiones complejas como detener temporalmente mis estudios y abandonar mi trabajo de ese entonces, enfocando el 100% de mis energías para convertirme en programador. Después de analizar mucho los pro y los contra, contar con el apoyo de varias personas con las que hoy en día me siento profundamente agradecido, decidí tomar el riesgo y hoy dos años después quiero contarles sobre los tres aprendizajes y resultados más importantes después de vivir este proceso en primera persona.
@@ -28,13 +28,13 @@ Por naturaleza todos somos excelentes soñadores, podemos fabricar ideas casi qu
 
 Después de pasar por Make It Real he tenido la fortuna de trabajar en diversos proyectos, participar en diferentes competencias como la hackathon de Make It Real, <a href="http://www.fincluimos.com" target="_blank">Reto Fincluimos 2016</a> y <a href="http://storify.com/Zentrifugalabs/angel-hack-bogota-un-espacio-donde-todos-pueden-ha/embed?border=false" target="_blank">AngelHack Bogotá 2016</a> en donde hemos sido finalistas y en el mejor de los casos ganadores, puedo decir que todo se resumen en capacidad para materializar los objetivos, hoy en día todos los que hemos vivido esta experiencia contamos con super poderes, en muy poco tiempo podemos construir un <a href="http://blog.makeitreal.camp/disenando-un-producto-viable-minimo/" target="_blank">MVP</a>, llevarlo a unos cuantos usuarios iniciales, ver que tal va en el mercado, ajustarlo para ponerlo a punto según la retroalimentación que recibamos y lograr que realmente solucione el problema o necesidad que estamos buscando.
 
-<img src="/images/make-it-real-hackathon.jpg" alt="Ganadores Make It Real - Hackathon #1" class="photo">
+<img src="/assets/images/make-it-real-hackathon.jpg" alt="Ganadores Make It Real - Hackathon #1" class="photo">
 <p class="photo-description">Ganadores Make It Real - Hackathon #1.</p>
 
-<img src="/images/fincluimos-finalists.jpg" alt="Finalistas Reto Fincluimos 2016" class="photo">
+<img src="/assets/images/fincluimos-finalists.jpg" alt="Finalistas Reto Fincluimos 2016" class="photo">
 <p class="photo-description">Finalistas <a href="http://www.fincluimos.com" target="_blank">Reto Fincluimos 2016</a> con <a href="http://www.harvestdata.co/" target="_blank">Harvest Data</a></p>
 
-<img src="/images/angel-hack-winners.JPG" alt="Ganadores Angel Hack Bogota 2016" class="photo">
+<img src="/assets/images/angel-hack-winners.JPG" alt="Ganadores Angel Hack Bogota 2016" class="photo">
 <p class="photo-description">Ganadores <a href="http://angelhack.com/" target="_blank">Angel Hack Bogota 2016</a> con <a href="http://www.slashbox.co/" target="_blank">Slashbox</a></p>
 
 ## Actitud de Aprendizaje

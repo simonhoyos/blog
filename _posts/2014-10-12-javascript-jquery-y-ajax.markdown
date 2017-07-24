@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "JavaScript, jQuery y Ajax"
-date:   2014-10-12 17:40:58
+date:   2014-10-12 12:00:00 -0500
 author: Germán Escobar
-thumbnail: /images/bg-images/jquery.jpeg
-gravatar: http://www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
+image: /assets/images/bg-images/jquery.jpeg
+gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 redirect_from: "/2014/10/12/javascript-jquery-y-ajax/"
 ---
 
-A mediados de los 90’s, la mayoría de sitios Web consistían de páginas estáticas sin ninguna interactividad. Algunos sitios ya generaban páginas dinámicas en el servidor, pero toda acción del usuario requería refrescar la página completamente para ver los cambios. Se necesitaba un lenguaje de programación que corriera en el navegador.<!--more-->
+A mediados de los 90’s, la mayoría de sitios Web consistían de páginas estáticas sin ninguna interactividad. Algunos sitios ya generaban páginas dinámicas en el servidor, pero toda acción del usuario requería refrescar la página completamente para ver los cambios. Se necesitaba un lenguaje de programación que corriera en el navegador.<!-- more -->
 
 ## JavaScript
 
@@ -32,7 +32,7 @@ Veamos un ejemplo que cambia el color de un `div` al hacer click:
 
 <div class="square" style="height: 100px; width: 100px; background: blue; margin: 0 auto 20px;"></div>
 
-<pre><code class="javascript">jQuery('.square').click(function() {
+<pre><code class="language-javascript">jQuery('.square').click(function() {
   jQuery(this).css('background', 'yellow');
 });</code></pre>
 
@@ -40,7 +40,7 @@ En este ejemplo estamos escuchando el evento `click` sobre el `div` con clase `s
 
 Podemos simplificar un poco más el ejemplo reemplazando la palabra `jQuery` por `$`, que ahorra algunos caracteres y es la forma más conocida:
 
-<pre><code class="javascript">$('.square').click(function() {
+<pre><code class="language-javascript">$('.square').click(function() {
   $(this).css('background', 'yellow');
 });</code></pre>
 
@@ -54,7 +54,7 @@ Para entender Ajax, es importante primero entender <a href="/2014/10/05/http-y-h
 
 La forma de utilizar Ajax en los navegadores es engorrosa y no la voy a mostrar acá. En cambio, jQuery ofrece una interfaz mucho más sencilla y unificada para todos los navegadores:
 
-<pre><code class="javascript">$.get('/url_to_fetch', function(data) {
+<pre><code class="language-javascript">$.get('/url_to_fetch', function(data) {
   // do something with data
 });</code></pre>
 
@@ -67,7 +67,7 @@ En este ejemplo estamos haciendo una petición HTTP a la ruta `/url_to_fetch`. L
 
 <p>Por ejemplo, podríamos representar un vuelo en <a href="http://en.wikipedia.org/wiki/XML" target="_blank">XML</a>:</p>
 
-<pre><code class="xml">&lt;flight&gt;
+<pre><code class="language-xml">&lt;flight&gt;
     &lt;airline&gt;Oceanic&lt;/airline&gt;
     &lt;number&gt;815&lt;/number&gt;
     &lt;departure&gt;
@@ -82,7 +82,7 @@ En este ejemplo estamos haciendo una petición HTTP a la ruta `/url_to_fetch`. L
 
 <p>O en <a href="http://www.json.org/" target="_blank">JSON</a>:</p>
 
-<pre><code class="javascrip">{
+<pre><code class="language-javascript">{
   "airline": “Oceanic”,
   "number": 815,
   "departure": {
