@@ -7,7 +7,7 @@ image: /assets/images/bg-images/hackerrank.jpg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-En esta serie de posts voy a documentar mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.
+En esta serie de posts voy a documentar mi experiencia intentando entrar entre los mil mejores programadores de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>, un sitio para practicar ejercicios de programación.<!-- more -->
 
 **Julio 11 de 2016**: Me di cuenta que el ranking es por tema, así que este reto solo aplica para el área de matemáticas de <a href="https://www.hackerrank.com" target="_blank">HackerRank</a>. Disculpas por la confusión!
 

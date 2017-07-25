@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: El Blog de Make it Real
 email: german.escobar@makeitreal.camp
-description: Especialízate en Desarrollo Web. Avanza tu carrera con un programa estructurado y personalizado
+description: Un espacio para compartir conocimiento en programación y emprendimiento.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.makeitreal.camp" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: makeitrealcamp

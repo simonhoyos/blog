@@ -29,7 +29,7 @@ layout: default
 
     <div class="row">
       {% for post in site.posts offset:1 %}
-        <div class="col-sm-6 col-lg-4 align-items-stretch">
+        <div class="col-md-6 col-lg-4 align-items-stretch">
           <div class="post">
             <div class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %})"></div>
             <div class="post-content">

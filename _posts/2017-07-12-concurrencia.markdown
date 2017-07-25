@@ -7,7 +7,7 @@ image: /assets/images/bg-images/concurrency.jpeg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-En este post vamos ver qué es concurrencia, cuáles son los dos modelos más populares que existen actualmente y cómo la concurrencia afecta el código que escribes.<!-- more -->
+Un freelancer es una persona que ofrece sus servicios profesionales a empresas de forma independiente. Es una alternativa a un empleo con salario fijo que ofrece varias ventajas como flexibilidad horaria, capacidad de cobrar más por tu trabajo y no tener un jefe. Pero también presenta retos como encontrar clientes y cobrarles.<!-- more -->
 
 **Concurrencia** es la habilidad que tiene un computador de realizar varias tareas a la vez.
 

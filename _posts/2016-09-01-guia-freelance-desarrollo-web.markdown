@@ -7,7 +7,7 @@ image: /assets/images/bg-images/freelancing.jpg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Un freelancer es una persona que ofrece sus servicios profesionales a empresas de forma independiente. Es una alternativa a un empleo con salario fijo que ofrece varias ventajas como flexibilidad horaria, capacidad de cobrar más por tu trabajo y no tener un jefe. Pero también presenta retos como encontrar clientes y cobrarles.
+Un freelancer es una persona que ofrece sus servicios profesionales a empresas de forma independiente. Es una alternativa a un empleo con salario fijo que ofrece varias ventajas como flexibilidad horaria, capacidad de cobrar más por tu trabajo y no tener un jefe. Pero también presenta retos como encontrar clientes y cobrarles.<!-- more -->
 
 Varios ex-alumnos de Make it Real trabajan como freelancers y he recopilado las experiencias de ellos. Considera este post como una guía de lo que debes tener en cuenta para ser un freelance exitoso. No vamos a hablar sobre cómo conseguir clientes (ese es un tema para otro post), voy a asumir que tienes un cliente potencial que te ha solicitado una aplicación y quieres saber cuánto cobrarle y qué debes tener en cuenta para que el resultado sea exitoso.
 

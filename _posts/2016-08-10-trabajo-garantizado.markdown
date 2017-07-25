@@ -7,7 +7,7 @@ image: /assets/images/bg-images/job-guarantee-3.jpeg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 
-Estamos muy emocionados en anunciar que, desde hoy, todos los estudiantes actuales y nuevos de Make it Real que completen el programa de <a href="http://www.makeitreal.camp/full-stack-online?utm_source=blog&utm_medium=post&utm_content=job-guarantee&utm_campaign=full-stack-online" target="_blank">Full Stack en Ruby on Rails</a> tendrán un empleo garantizado en los 6 primeros meses después de terminar el programa o les devolveremos el 100% de su dinero.
+Estamos muy emocionados en anunciar que, desde hoy, todos los estudiantes actuales y nuevos de Make it Real que completen el programa de <a href="http://www.makeitreal.camp/full-stack-online?utm_source=blog&utm_medium=post&utm_content=job-guarantee&utm_campaign=full-stack-online" target="_blank">Full Stack en Ruby on Rails</a> tendrán un empleo garantizado en los 6 primeros meses después de terminar el programa o les devolveremos el 100% de su dinero.<!-- more -->
 
 Hasta ahora esto lo hemos logrado, todos nuestos estudiantes que han terminado el programa de Full Stack y que nos han expresado su intención de encontrar un empleo lo han conseguido. Con este anuncio lo estamos formalizando.
 
