@@ -9,9 +9,9 @@ gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 
 En este post hablaremos sobre media queries, una característica de CSS3 que nos permite crear sitios y aplicaciones Web que se adaptan a diferentes tipos de pantallas.<!-- more -->
 
-A través de **media queries** podemos definir reglas CSS que se activan cuando ciertas condiciones se cumplen, por ejemplo cuando el ancho de la pantalla sea mayor a cierto tamaño.
+A través de **media queries** podemos definir **reglas CSS** (estilos) que se activan cuando ciertas condiciones se cumplen, por ejemplo cuando el ancho de la pantalla sea mayor a cierto tamaño.
 
-Un **media query** se define utilizando la palabra clave `@media` como se muestra a continuación:
+Un **media query** se declara utilizando la palabra clave `@media` seguido de una expresión entre paréntesis y un bloque de **reglas CSS** como se muestra a continuación:
 
 ```css
 @media (min-width: 992px) {
@@ -19,7 +19,7 @@ Un **media query** se define utilizando la palabra clave `@media` como se muestr
 }
 ```
 
-Los **media queries** tienen reglas CSS que se activan cuando se cumple la expresión que está entre paréntesis. En este caso la expresión es `min-width: 992px`, es decir, las reglas CSS que se encuentran dentro de este **media query** se activan sólo cuando la pantalla tiene un ancho igual o superior a 992 pixeles.
+Las **reglas CSS** se activan únicamente cuando se cumple la expresión que está entre paréntesis. En este caso la expresión es `min-width: 992px`, es decir, cuando la pantalla tiene un ancho igual o superior a 992 pixeles.
 
 Además de `min-width` también existe `max-width` para definir el ancho máximo de la pantalla para el que aplica el **media query**.
 
@@ -31,7 +31,7 @@ Por ejemplo, si queremos que el color de fondo sea rojo cuando el ancho de la pa
 }
 ```
 
-Puedes ver y jugar con este ejemplo en Codepen ingresando a <a href="https://codepen.io/germanescobar/pen/qXEgJj?editors=0100" target="_blank">este enlace</a>. Cambia el ancho del área donde se muestra el resultado para ver en qué punto cambia el color de fondo.
+Ingresa a <a href="https://codepen.io/germanescobar/pen/qXEgJj?editors=0100" target="_blank">este enlace</a> para ver y jugar con este ejemplo. Cambia el ancho del área donde se muestra el resultado para ver en qué punto cambia el color de fondo.
 
 ## Puntos de quiebre (breakpoints)
 
@@ -45,11 +45,15 @@ En vez de utilizar los valores que se nos ocurran para los anchos de diferentes 
 * De `992px` a `1199px` son pantallas de escritorio normales.
 * `1200px` o más son pantallas grandes como televisores.
 
+Sin embargo, cuando hablamos de **puntos de quiebre** nos referimos a un ancho específico, por ejemplo `768px`, que es el momento en el que cambia la pantalla de teléfono móvil a tableta.
+
 Estos valores son sólo una referencia. El ancho de la mayoría de pantallas de escritorio hoy en día, por ejemplo, es de más de `1200px`.
+
+A continuación veremos cómo utilizar estos puntos de quiebre para crear aplicaciones que se adaptan a diferentes pantallas.
 
 ## Mobile first
 
-¿Dónde ubicamos y organizamos los **media quieries** en nuestros archivos CSS? Lo que se recomienda es utilizar una estrategia llamada **mobile first** en donde primero se definen las reglas dirigidas a teléfonos móviles y con **media queries** ajustamos el contenido para pantallas más anchas.
+¿Dónde ubicamos y cómo organizamos los **media quieries** en nuestros archivos CSS? Lo que se recomienda es utilizar una estrategia llamada **mobile first** en donde primero se definen las reglas dirigidas a teléfonos móviles y con **media queries** ajustamos el contenido para pantallas más anchas.
 
 Veamos un ejemplo. Imagina que queremos ir incrementando el tamaño de la letra de acuerdo al ancho de la pantalla:
 
@@ -94,6 +98,8 @@ Al final el tamaño de la letra que se va a utilizar es `16px`.
 Ten mucho cuidado con el orden. Si por ejemplo, movieramos el valor por defecto al final, después de todos los otros **media queries**, la letra siempre quedaría de `14px`. ¿Puedes explicar por qué?
 
 ---
+
+Aunque existen otras formas en que se pueden describir las pantallas como el alto y la orientación de la pantalla, las opciones que vimos en este post (`min-width` y `max-width`) se utilizan el 99% de las veces.
 
 Si quieres ver ejemplos de responsive design te recomiendo estos dos sitios:
 
