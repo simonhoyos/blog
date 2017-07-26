@@ -99,9 +99,11 @@ Ten mucho cuidado con el orden. Si por ejemplo, movieramos el valor por defecto 
 
 ---
 
-Aunque existen otras formas en que se pueden describir las pantallas como el alto y la orientación de la pantalla, las opciones que vimos en este post (`min-width` y `max-width`) se utilizan el 99% de las veces.
+Espero que esta introducción te haya ayudado a entender qué son y cómo funcionan los **media queries**. Aunque existen otras características que puedes utilizar para describir las pantallas (como el alto y la orientación), las opciones que vimos en este post (`min-width` y `max-width`) son las más comunes y un excelente punto de partida.
 
-Si quieres ver ejemplos de responsive design te recomiendo estos dos sitios:
+Los **media queries** son el componente fundamental de **responsive design**, pero para que una página sea completamente adaptable debes verificar también que las imágenes, videos, tablas, etc. se vean bien en todos los dispositivos.
+
+Por último, si quieres ver ejemplos de responsive design te recomiendo estos dos sitios:
 
 * [https://mediaqueri.es/](https://mediaqueri.es/)
 * [https://responsivedesign.is/examples/](https://responsivedesign.is/examples/)
