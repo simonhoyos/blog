@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Responsive design: media queries"
-date:   2017-07-26 12:00:00 -0500
+date:   2017-07-26 06:00:00 -0500
 author: Germán Escobar
 image: /assets/images/bg-images/responsive-design.jpg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
