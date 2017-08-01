@@ -18,7 +18,7 @@ echo "Cloning repo ... "
 git clone $GIT_REPO $TMP_GIT_CLONE
 
 echo "Building site ..."
-bundle exec jekyll build --destination $TMP_GIT_CLONE
+JEKYLL_ENV=production bundle exec jekyll build --destination $TMP_GIT_CLONE
 
 echo "Publishing ..."
 cd $TMP_GIT_CLONE
