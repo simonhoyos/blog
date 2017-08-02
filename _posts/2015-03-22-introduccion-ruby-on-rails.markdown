@@ -135,8 +135,6 @@ Otra forma de interactuar con la base de datos, a través de los modelos, es con
 
 > p1.destroy # eliminemos el registro de la base de datos</code></pre>
 
-Fácil ¿no?
-
 Sin embargo, el verdadero poder de **ActiveRecord** está en las validaciones y las asociaciones, aunque, por espacio, ese será el tema de otro post.
 
 ## Migraciones
@@ -160,7 +158,7 @@ Esta migración está creando la tabla productos con dos columnas: `name` y `des
 
 Las migraciones se pueden crear manualmente, pero es mejor crearlas con el generador que viene integrado en la aplicación de consola de **Rails** (el tema de la siguiente sección):
 
-<pre><code class="overflow bash">$ rails generate migration AddPriceToProducts price:decimal</code></pre>
+<pre><code class="language-none">$ rails generate migration AddPriceToProducts price:decimal</code></pre>
 
 Que generaría la siguiente migración:
 
@@ -172,11 +170,11 @@ end</code></pre>
 
 **Nota:** Al generar una migración, solo estás creando un archivo con instrucciones para modificar la base de datos. Para ejecutar esos cambios en la base de datos debes correr el comando:
 
-<pre><code class="overflow bash">$ rake db:migrate</code></pre>
+<pre><code class="language-none">$ rake db:migrate</code></pre>
 
 Para ver el estado de las migraciones en un proyecto, usa el comando:
 
-<pre><code class="overflow bash">$ rake db:migrate:status</code></pre>
+<pre><code class="language-none">$ rake db:migrate:status</code></pre>
 
 ## Aplicación de Consola
 
@@ -184,7 +182,7 @@ Una de las razones por las que **Rails** es tan popular es que trae una poderosa
 
 Por ejemplo, podemos crear la estructura básica de una aplicación con los siguientes comandos:
 
-<pre><code class="overflow bash">$ rails new mi_app
+<pre><code class="language-none">$ rails new mi_app
 $ cd mi_app
 $ rails g model Product name description price:decimal
 $ rails g controller Products
