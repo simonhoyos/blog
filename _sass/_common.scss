@@ -3,6 +3,7 @@ a:focus, a:hover { text-decoration: none; }
 nav.main {
   background: #333;
   height: 60px;
+  padding: 12px;
 
   .main-content {
     display: flex;
@@ -12,7 +13,7 @@ nav.main {
     img {
       width: 140px;
 
-      @include media-breakpoint-up(md) { width: 160px;  }
+      @include media-breakpoint-up(md) { width: 150px;  }
     }
   }
 }
