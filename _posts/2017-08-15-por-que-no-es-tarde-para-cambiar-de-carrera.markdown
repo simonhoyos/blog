@@ -7,7 +7,7 @@ image: /assets/images/bg-images/never-too-late.jpg
 gravatar: /assets/images/people/simon-hoyos.jpeg
 ---
 
-Siempre me ha gustado considerarme un emprendedor, Siempre he creído que emprender es tener una idea de negocio y sacar esta idea adelante. Hoy precisamente me dio la curiosidad y quise aprender más, no de lo que significa ser emprendedor, sino de saber más de los origenes de esta palabra, tan común hoy en día.<!-- more -->
+Siempre me ha gustado considerarme un emprendedor. Siempre he creído que emprender es tener una idea de negocio y sacar esta idea adelante. Hoy precisamente me dio la curiosidad y quise aprender más, no de lo que significa ser emprendedor, sino de saber más de los origenes de esta palabra, tan común hoy en día.<!-- more -->
 
 Al buscar emprendimiento en Google el primer resultado que obtuve fue la definición de esta palabra, que fue la siguiente: "Inicio de una actividad que exige esfuerzo o trabajo, o tiene cierta importancia o envergadura."
 
