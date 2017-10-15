@@ -11,7 +11,7 @@ La programación es uno de los trabajos con mejores salarios de la actualidad y 
 
 La programación es mucho más que escribir código. La programación es un proceso creativo, mentalmente desafiante, que genera gran satisfacción personal.
 
-Empezar con una pantalla en blanco y en algunas horas poder construir algo que antes no existía, algo que puede funcionar sin nuestra intervención, es simplemente fascinante, y la sensación cuando otros empiezan a utilizar eso que hemos construído es simplemente indescriptible.
+Empezar con una pantalla en blanco y en algunas horas poder construir algo que antes no existía, algo que puede funcionar sin nuestra intervención, es fascinante, y la sensación cuando otros empiezan a utilizar eso que hemos construído es simplemente indescriptible.
 
 Los programadores tenemos la fortuna de aprender nuevas cosas todos los días. Y no sólo de programación, sino de otras industrias. Si estamos haciendo una aplicación financiera, por ejemplo, aprendemos también de finanzas. Si es una aplicación para músicos, aprendemos también de música (a menos de que sea una aplicación que les ayuda a los músicos a llevar sus finanzas 😂).
 
