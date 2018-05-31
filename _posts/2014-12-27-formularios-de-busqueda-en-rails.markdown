@@ -15,7 +15,7 @@ En Ruby on Rails, los formularios generalmente se usan para crear o editar model
 
 La siguiente imagen muestra la lista de gastos y el formulario de búsqueda que queremos implementar.
 
-![Mis Finanzas](/images/mis-finanzas.png)
+![Mis Finanzas](/assets/images/mis-finanzas.png)
 
 Cuando creamos un formulario para crear o editar un modelo, generalmente utilizamos el tag `form_for`. Sin embargo, <strong>existe otro tag llamado `form_tag` que se utiliza para crear formularios con otros fines diferentes al CRUD</strong> y es el que vamos a utilizar para nuestro formulario de búsqueda.
 
