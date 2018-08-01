@@ -31,7 +31,7 @@ Si cuentas los **bytes** te darás cuenta hay doce. Doce! El mismo número de le
 
 Cada uno de esos **bytes** representa un número en nuestro sistema decimal entre 0 a 255.
 
-Por ejemplo, el primer **byte**, `01100001`, es el número decimal **77**.
+Por ejemplo, el primer **byte**, `01001101`, es el número decimal **77**.
 
 La forma más rápida de convertir un **número binario** a un número decimal es con un <a href="http://www.binaryhexconverter.com/binary-to-decimal-converter" target="_blank">convertidor online</a>. Sin embargo, si quieres saber cómo se hace manualmente espera al final del post, no es difícil.
 
