@@ -31,4 +31,4 @@ Además de asisitir a los encuentros, **prepara charlas y proponlas** a los orga
 
 Existen muchas formas de demostrar credibilidad en desarrollo Web, pero un certificado definitivamente no es una de ellas.
 
-En <a href="https://makeitreal.camp/" target="_blank">Make it Real</a> te ofrecemos programas prácticos para que aceleres tu aprendizaje en desarrollo Web. Nuestro programa <a href="https://makeitreal.camp/full-stack-online" target="_blank">Full Stack Web Development</a> incluso te garantiza empleo cuando lo terminas, algo mucho más valioso y tangible que un certificado.
+En <a href="https://makeitreal.camp/" target="_blank">Make it Real</a> te ofrecemos programas prácticos para que aceleres tu aprendizaje en desarrollo Web. Nuestro programa <a href="https://makeitreal.camp/full-stack-online" target="_blank">Full Stack Web Development</a> incluso tiene una garantía de empleo, que es algo mucho más valioso y tangible que un certificado.
