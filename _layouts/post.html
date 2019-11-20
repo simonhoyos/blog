@@ -31,6 +31,8 @@ layout: default
                     <a class="btn-share btn-share-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}&title={{ page.title }}&summary={{ post.excerpt }}&source={{ site.url }}{{ page.url }}" rel="nofollow" title="Compartir en LinkedIn">LinkedIn</a>
                   </div>
                 </div>
+
+                {% include magnet.html %}
               </div>
             </div>
           </div>
