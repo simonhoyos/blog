@@ -3,7 +3,7 @@ layout: post
 title:  "¿Es valioso un certificado en desarrollo Web?"
 date:   2018-01-15 02:00:00 -0500
 author: Germán Escobar
-image: https://s3.amazonaws.com/makeitreal/blog/images/chess.jpeg
+image: /assets/images/bg-images/chess.jpeg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 

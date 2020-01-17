@@ -3,7 +3,7 @@ layout: post
 title:  "Manejadores de paquetes en Node.js"
 date:   2017-12-28 02:00:00 -0500
 author: Germán Escobar
-image: https://s3.amazonaws.com/makeitreal/blog/images/boxes.jpeg
+image: /assets/images/bg-images/boxes.jpeg
 gravatar: //www.gravatar.com/avatar/12270acfe9b6842e1a5b6e594382f149.jpg?s=80
 ---
 

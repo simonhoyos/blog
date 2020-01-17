@@ -4,10 +4,8 @@
 
 {% if page.image %}
   <meta property="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
-{% else %}
-  {% if site.image %}
-    <meta property="og:image" content="{{ site.image | prepend: site.baseurl | prepend: site.url }}">
-  {% endif %}
+{% elsif site.image %}
+  <meta property="og:image" content="{{ site.image | prepend: site.baseurl | prepend: site.url }}">
 {% endif %}
 
 {% if page.description %}
