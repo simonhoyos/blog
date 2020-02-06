@@ -1,6 +1,11 @@
 .home-page {
   margin-top: 60px;
 
+  .posts {
+
+    @include media-breakpoint-up(sm) { margin-bottom: 40px; }
+  }
+
   .post {
     border: solid 1px #ddd;
     background: white;

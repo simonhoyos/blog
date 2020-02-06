@@ -4,69 +4,102 @@ layout: default
 
 <div class="home-page">
   <div class="container">
-    {% for post in paginator.posts limit:1 %}
-      <div class="post main-post">
-        <div class="post-image" style="background-image: url({{ post.image }});"></div>
-        <div class="main-post-wrapper">
-          <div class="post-content">
-            <header class="post-title">
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </header>
-            <div class="post-body">{{ post.excerpt }}</div>
-          </div>
-          {% if post.author %}
-          <footer class="post-footer">
-            <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
-            <div>
-              <span class="author">{{ post.author }}</span>
-              <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-            </div>
-          </footer>
-          {% endif %}
-        </div>
-      </div>
-    {% endfor %}
-
-    <div class="row">
-      {% for post in paginator.posts offset:1 %}
-        <div class="col-md-6 col-lg-4 align-items-stretch">
-          <div class="post">
-            <div class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %})"></div>
+    <div class="search-results"></div>
+    <div class="posts">
+      {% for post in paginator.posts limit:1 %}
+        <div class="post main-post">
+          <div class="post-image" style="background-image: url({{ post.image }});"></div>
+          <div class="main-post-wrapper">
             <div class="post-content">
               <header class="post-title">
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </header>
               <div class="post-body">{{ post.excerpt }}</div>
-              <div class="diffuse"></div>
             </div>
+            {% if post.author %}
             <footer class="post-footer">
-              {% if post.author %}
               <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
               <div>
                 <span class="author">{{ post.author }}</span>
                 <time>{{ post.date | date: "%b %-d, %Y" }}</time>
               </div>
-              {% endif %}
             </footer>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
-    </div>
 
-    {% if paginator.total_pages > 1 %}
-    <div class="row">
-      <div class="col-6">
-        {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; Posteriores</a>
-        {% endif %}
+      <div class="row">
+        {% for post in paginator.posts offset:1 %}
+          <div class="col-md-6 col-lg-4 align-items-stretch">
+            <div class="post">
+              <div class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %})"></div>
+              <div class="post-content">
+                <header class="post-title">
+                  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </header>
+                <div class="post-body">{{ post.excerpt }}</div>
+                <div class="diffuse"></div>
+              </div>
+              <footer class="post-footer">
+                {% if post.author %}
+                <img class="img-responsive" src="{% if post.gravatar %}{{ post.gravatar }}{% else %}/images/no-gravatar.png{% endif %}"/>
+                <div>
+                  <span class="author">{{ post.author }}</span>
+                  <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+                </div>
+                {% endif %}
+              </footer>
+            </div>
+          </div>
+        {% endfor %}
       </div>
 
-      <div class="col-6 text-right pb-5">
-        {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Anteriores &rarr;</a>
-        {% endif %}
+      {% if paginator.total_pages > 1 %}
+      <div class="row">
+        <div class="col-6">
+          {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; Posteriores</a>
+          {% endif %}
+        </div>
+
+        <div class="col-6 text-right pb-5">
+          {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Anteriores &rarr;</a>
+          {% endif %}
+        </div>
       </div>
+      {% endif %}
     </div>
-    {% endif %}
   </div>
 </div>
+
+<script id="posts-template" type="text/x-handlebars">
+  {% raw %}
+  <div class="row">
+    {{#each posts }}
+      <div class="col-md-6 col-lg-4 align-items-stretch">
+        <div class="post">
+          <div class="post-image" style="background-image: url({{#if image }}{{ image }}{{ else }}/assets/images/no-image.png{{/if}})"></div>
+          <div class="post-content">
+            <header class="post-title">
+              <a href="{{ url }}" target="_blank">{{ this.title }}</a>
+            </header>
+            <div class="post-body">{{ this.excerpt }}</div>
+            <div class="diffuse"></div>
+          </div>
+          <footer class="post-footer">
+            {{#if author }}
+            <img class="img-responsive" src="{{#if gravatar }}{{ gravatar }}{{ else }}/images/no-gravatar.png{{/if}}"/>
+            <div>
+              <span class="author">{{ author }}</span>
+              <time>{{ date }}</time>
+            </div>
+            {{/if}}
+          </footer>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+  {% endraw %}
+</script>
