@@ -15,6 +15,7 @@ group :jekyll_plugins do
   gem "bootstrap", "~> 4.0.0.alpha6"
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-redirect-from", "~> 0.12.1"
+  gem 'jekyll-paginate-v2', '~> 2.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

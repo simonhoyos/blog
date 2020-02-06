@@ -4,7 +4,7 @@ layout: default
 
 <div class="home-page">
   <div class="container">
-    {% for post in site.posts limit:1 %}
+    {% for post in paginator.posts limit:1 %}
       <div class="post main-post">
         <div class="post-image" style="background-image: url({{ post.image }});"></div>
         <div class="main-post-wrapper">
@@ -28,7 +28,7 @@ layout: default
     {% endfor %}
 
     <div class="row">
-      {% for post in site.posts offset:1 %}
+      {% for post in paginator.posts offset:1 %}
         <div class="col-md-6 col-lg-4 align-items-stretch">
           <div class="post">
             <div class="post-image" style="background-image: url({% if post.image %}{{ post.image }}{% else %}/assets/images/no-image.png{% endif %})"></div>
@@ -52,5 +52,21 @@ layout: default
         </div>
       {% endfor %}
     </div>
+
+    {% if paginator.total_pages > 1 %}
+    <div class="row">
+      <div class="col-6">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr; Posteriores</a>
+        {% endif %}
+      </div>
+
+      <div class="col-6 text-right pb-5">
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Anteriores &rarr;</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
   </div>
 </div>
