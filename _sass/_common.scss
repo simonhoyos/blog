@@ -15,6 +15,50 @@ nav.main {
 
       @include media-breakpoint-up(md) { width: 150px;  }
     }
+
+    .search {
+      display: inline-block;
+      padding: 5px;
+
+      @include media-breakpoint-up(sm) { margin-right: 15px; }
+
+      .search-box {
+        background: transparent;
+        color: #999;
+        border: none;
+        box-shadow: none;
+        width: 0;
+        transition: width 1s;
+
+        &:focus { outline: none; }
+      }
+
+      &.open {
+        border-bottom: 2px solid #78716e;
+
+        .search-box {
+          width: 150px;
+
+          @include media-breakpoint-up(sm) { width: 210px;  }
+        }
+      }
+
+      .search-button {
+        cursor: pointer;
+
+        i {
+          color: #78716e;
+          font-size: 1.2rem;
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .btn-cta {
+      display: none;
+
+      @include media-breakpoint-up(md) { display: inline; }
+    }
   }
 }
 
@@ -45,4 +89,18 @@ nav.main {
   -webkit-transition: opacity .25s ease-in-out;
 
   &:hover { opacity: 0.8; }
+}
+
+.search-results .no-results {
+  font-size: 1.3rem;
+}
+
+footer.main {
+  position: fixed;
+  bottom: 0;
+  background: #333;
+  padding: 12px 0;
+  width: 100%;
+
+  @include media-breakpoint-up(md) { display: none; }
 }
