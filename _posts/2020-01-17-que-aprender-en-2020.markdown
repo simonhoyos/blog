@@ -48,7 +48,7 @@ Hay un recurso muy interesante llamado [How To GraphQL](https://www.howtographql
 
 Con la cantidad de información que estamos generando cada segundo en Internet, no es extraño que Machine Learning sea un área que está adquiriendo más importancia cada día.
 
-Recuerda que en Make it Real tenemos un [curso de 9 semanas en Data Science](https://makeitreal.camp/data-science-online?utm_source=blog&utm_medium=web&utm_campaign=inbound&utm_content=post) que, además de Machine Learning, incluye extracción y visualización de datos ;)
+Recuerda que en Make it Real tenemos un [curso de 135 horas de Data Science](https://makeitreal.camp/data-science-online?utm_source=blog&utm_medium=web&utm_campaign=inbound&utm_content=post) que, además de Machine Learning, incluye extracción y visualización de datos ;)
 
 ### Blockchain
 
