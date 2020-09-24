@@ -49,6 +49,6 @@ Estaremos en capacidad de utilizar nuestros datos para construir y entrenar dife
 
 ---
 
-Como lo ven tenemos diferentes opciones dependiendo de los intereses, la disponibilidad y la curiosidad que tengas, sin embargo no se necesita mucho más que un computador y motivación para empezar. Make It Real no es solo aprender un conjunto de tecnologías y abrir la puerta de la creatividad tecnológica en medio de toda una revolución global.
+Como pueden ver tenemos diferentes opciones de acuerdo de los intereses, la disponibilidad y la curiosidad de cada persona. Sin embargo, no se necesita mucho más que un computador y motivación para empezar. Make It Real no es solo aprender un conjunto de tecnologías y abrir la puerta de la creatividad tecnológica en medio de toda una revolución global.
 
 En Make It Real buscamos transformar la educación y para lograrlo debemos aprender a aprender. Requiere esfuerzo, dedicación y disciplina pero una vez lo logras en un mundo que cambia a una velocidad abrumadora, aprender algo nuevo no será un problema, sin darnos cuenta resultará siendo un hábito.
